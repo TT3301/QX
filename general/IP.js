@@ -40,7 +40,7 @@ function Area_check(para) {
 
 var body = $response.body;
 var obj = JSON.parse(body);
-var title = obj['country'] + '•' + City_ValidCheck(obj['regionName']) + '•' + City_ValidCheck(obj['city']);
+var title = obj['country'] + '•' + City_ValidCheck(obj['region']) + '•' + City_ValidCheck(obj['city']);
 var subtitle = obj['query'] + ' ' + ISP_ValidCheck(obj['org']);
 var ip = obj['query'];
 var description = '---------------------- ' + '\nIP: ' + obj['query'] + '\n---------------------- ' + '\n地区: ' + obj['country'] + '•' + City_ValidCheck(obj['regionName']) + '•' + City_ValidCheck(obj['city']) + '\n' + '\n供应商: ' + obj['isp'] + '\n' + obj['org'] + '\n' + '\n时区: ' + obj['timezone'];
