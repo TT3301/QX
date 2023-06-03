@@ -43,5 +43,5 @@ var obj = JSON.parse(body);
 var title = obj['country'] + '•' + City_ValidCheck(obj['regionName']) + '•' + City_ValidCheck(obj['city']);
 var subtitle = obj['query'] + ' ' + ISP_ValidCheck(obj['org']);
 var ip = obj['query'];
-var description = '---------------------- ' + '\nIP: ' + obj['query'] + '\n---------------------- ' + '\n' + '\nASN: ' + obj['as'] + '\n地区: ' + obj['country'] + '•' + City_ValidCheck(obj['regionName']) + '•' + City_ValidCheck(obj['city']) + '\n' + '\n供应商: ' + obj['isp'] + '\n' + obj['org'] + '\n' + '\n时区: ' + obj['timezone'];
+var description = '---------------------- ' + '\nIP: ' + obj['query'] + '\n---------------------- ' + '\n' + '\nASN: ' + obj['as'] + '\n'  + '\n地区: ' + obj['country'] + '•' + City_ValidCheck(obj['regionName']) + '•' + City_ValidCheck(obj['city']) + '\n' + '\n供应商: ' + obj['isp'] + '\n' + obj['org'] + '\n' + '\n时区: ' + obj['timezone'];
 $done({title, subtitle, ip, description});
