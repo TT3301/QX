@@ -1,0 +1,7 @@
+//屏蔽IOS升级
+host, ns.itunes.apple.com, reject
+host, appldnld.apple.com, reject
+host, mesu.apple.com, reject
+host, xp.apple.com, reject
+host, gdmf.apple.com, reject
+host, updates-http.cdn-apple.com, reject
