@@ -3,6 +3,10 @@
     "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "Airport",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Airport.png"
+        },
+        {
             "name": "GitHub",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/GitHub.png"
         },
