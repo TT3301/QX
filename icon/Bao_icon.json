@@ -3,10 +3,6 @@
     "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
         {
-            "name": "bing",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/bing.png"
-        },
-        {
             "name": "中国广电",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/10019.png"
         },
@@ -19,8 +15,8 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/ChatGPT.png"
         },
         {
-            "name": "CLASH猫咪",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
+            "name": "bing",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/bing.png"
         },
         {
             "name": "微博",
@@ -51,8 +47,8 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Loon_02.png"
         },
         {
-            "name": "Music",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Music.png"
+            "name": "CLASH猫咪",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
         },
         {
             "name": "NAVER",
@@ -61,6 +57,46 @@
         {
             "name": "NaverCoffee",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/NaverCoffee.png"
+        },
+        {
+            "name": "Paypal",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Paypal.png"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/TikTok.png"
+        },
+        {
+            "name": "Whatsapp",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Whatsapp.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Google.png"
+        },
+        {
+            "name": "Apple",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Apple.png"
+        },
+        {
+            "name": "Microsoft",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Microsoft.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Spotify.png"
+        },
+        {
+            "name": "Tubi",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Tubi.png"
+        },
+        {
+            "name": "Kakao",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Kakao.png"
+        },
+        {
+            "name": "Line",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Line.png"
         },
         {
             "name": "多拉A梦",
@@ -73,6 +109,10 @@
         {
             "name": "Telegram",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Telegram.png"
+        },
+        {
+            "name": "Music",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Music.png"
         },
         {
             "name": "B站",
@@ -117,6 +157,10 @@
         {
             "name": "美国",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/US.png"
+        },
+        {
+            "name": "IN",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/IN.png"
         },
     ]
 }
