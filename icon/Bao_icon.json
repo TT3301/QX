@@ -1,7 +1,11 @@
 {
     "name": "宝哥自用图标库",
-    "description": "收集互联网公开图标自用，版权属于原作者和商标持有人。",
+    "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
+        {
+            "name": "华住酒店",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/HuaZhu.png"
+        },
         {
             "name": "中国广电",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/10019.png"
