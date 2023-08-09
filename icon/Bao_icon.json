@@ -3,6 +3,10 @@
     "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "Translations",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Translations.png"
+        },
+        {
             "name": "Airport",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Airport.png"
         },
@@ -13,10 +17,6 @@
         {
             "name": "Cat",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Cat.png"
-        },
-        {
-            "name": "Translations",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Translations.png"
         },
         {
             "name": "Disney",
