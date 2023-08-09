@@ -1,0 +1,122 @@
+{
+    "name": "宝哥自用图标库",
+    "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
+    "icons": [
+        {
+            "name": "中国广电",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/10019.png"
+        },
+        {
+            "name": "B站",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Bili.png"
+        },
+        {
+            "name": "建行生活",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/CCB.png"
+        },
+        {
+            "name": " ChatGPT",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/ChatGPT.png"
+        },
+        {
+            "name": "CLASH猫咪",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
+        },
+        {
+            "name": "Discord",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Discord.png"
+        },
+        {
+            "name": "多拉A梦",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Doraemon.png"
+        },
+        {
+            "name": "无限",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Final.png"
+        },
+        {
+            "name": "Google Voice",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/GV.png"
+        },
+        {
+            "name": "Loon_01",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Loon_01.png"
+        },
+        {
+            "name": "Loon_02",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Loon_02.png"
+        },
+        {
+            "name": "Music",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Music.png"
+        },
+        {
+            "name": "NAVER",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/NAVER.png"
+        },
+        {
+            "name": "NaverCoffee",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/NaverCoffee.png"
+        },
+        {
+            "name": "吃豆人",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/PacMan.png"
+        },
+        {
+            "name": "Quantumult_X",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Quantumult_X.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Telegram.png"
+        },
+        {
+            "name": "微博",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Weibo.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/YouTube.png"
+        },
+        {
+            "name": "bing",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/bing.png"
+        },
+        {
+            "name": "chat",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/chat.png"
+        },
+        {
+            "name": "地球",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Global.png"
+        },
+        {
+            "name": "香港",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/HK.png"
+        },
+        {
+            "name": "日本",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/JP.png"
+        },
+        {
+            "name": "韩国",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/KR.png"
+        },
+        {
+            "name": "新加坡",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/SG.png"
+        },
+        {
+            "name": "台湾",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/TW.png"
+        },
+        {
+            "name": "英国",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/UK.PNG"
+        },
+        {
+            "name": "美国",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/US.png"
+        },
+    ]
+}
