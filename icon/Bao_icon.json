@@ -51,6 +51,10 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
         },
         {
+            "name": "Panda",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Panda.png"
+        },
+        {
             "name": "NAVER",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/NAVER.png"
         },
@@ -77,6 +81,10 @@
         {
             "name": "Apple",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Apple.png"
+        },
+        {
+            "name": "Apple_02",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Apple_02.png"
         },
         {
             "name": "Microsoft",
@@ -113,6 +121,10 @@
         {
             "name": "Music",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Music.png"
+        },
+        {
+            "name": "Netease",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Netease.png"
         },
         {
             "name": "B站",
@@ -157,6 +169,18 @@
         {
             "name": "美国",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/US.png"
+        },
+        {
+            "name": "澳门",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/MO.png"
+        },
+        {
+            "name": "中国",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/CN.png"
+        },
+        {
+            "name": "欧盟",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/UN.png"
         },
         {
             "name": "IN",
