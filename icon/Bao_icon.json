@@ -3,6 +3,14 @@
     "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "Disney",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Disney.png"
+        },
+        {
+            "name": "HBO_GO",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/HBO_GO.png"
+        },
+        {
             "name": "华住酒店",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/HuaZhu.png"
         },
@@ -79,8 +87,16 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Loon_02.png"
         },
         {
+            "name": "小恐龙",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Dinosaur.png"
+        },
+        {
             "name": "CLASH猫咪",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
+        },
+        {
+            "name": "老鼠",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Mouse.png"
         },
         {
             "name": "Panda",
