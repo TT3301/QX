@@ -3,12 +3,12 @@
     "description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
     "icons": [
         {
-            "name": "中国广电",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/10019.png"
+            "name": "bing",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/bing.png"
         },
         {
-            "name": "B站",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Bili.png"
+            "name": "中国广电",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/10019.png"
         },
         {
             "name": "建行生活",
@@ -23,20 +23,24 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Clash_Cat_2.png"
         },
         {
+            "name": "微博",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Weibo.png"
+        },
+        {
+            "name": "chat",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/chat.png"
+        },
+        {
             "name": "Discord",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Discord.png"
         },
         {
-            "name": "多拉A梦",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Doraemon.png"
-        },
-        {
-            "name": "无限",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Final.png"
-        },
-        {
             "name": "Google Voice",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/GV.png"
+        },
+        {
+            "name": "Quantumult_X",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Quantumult_X.png"
         },
         {
             "name": "Loon_01",
@@ -59,32 +63,28 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/NaverCoffee.png"
         },
         {
-            "name": "吃豆人",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/PacMan.png"
+            "name": "多拉A梦",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Doraemon.png"
         },
         {
-            "name": "Quantumult_X",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Quantumult_X.png"
+            "name": "吃豆人",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/PacMan.png"
         },
         {
             "name": "Telegram",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Telegram.png"
         },
         {
-            "name": "微博",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Weibo.png"
+            "name": "B站",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Bili.png"
         },
         {
             "name": "YouTube",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/YouTube.png"
         },
         {
-            "name": "bing",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/bing.png"
-        },
-        {
-            "name": "chat",
-            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/chat.png"
+            "name": "无限",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Final.png"
         },
         {
             "name": "地球",
