@@ -11,7 +11,7 @@
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Star_01.png"
         },
         {
-            "name": "Star_01",
+            "name": "Star_02",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Star_02.png"
         },
         {
@@ -25,6 +25,10 @@
         {
             "name": "GitHub",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/GitHub.png"
+        },
+        {
+            "name": "GitHub_02",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/GitHub_02.png"
         },
         {
             "name": "Cat",
