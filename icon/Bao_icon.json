@@ -1,6 +1,6 @@
 {
     "name": "宝哥自用图标库",
-    "description": "收集自互联网公开icon，版权属于原作者和商标持有人。",
+    "description": "收集互联网公开icon，版权属于原作者和商标持有人。",
     "icons": [
         {
             "name": "Translations",
@@ -9,6 +9,10 @@
         {
             "name": "Star_01",
             "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Star_01.png"
+        },
+        {
+            "name": "Star_01",
+            "url": "https://raw.githubusercontent.com/hiso3301/QX/main/icon/Star_02.png"
         },
         {
             "name": "info",
