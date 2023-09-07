@@ -1,6 +1,13 @@
 /*
 caml解锁免费听
 https://api.calm.com/(me|device|ios/receipt)
+
+-----------QX 配置-----------
+[rewrite_local]
+https://api.calm.com/(me|device|ios/receipt) url script-response-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/unlock_Calm.js
+
+[mitm]
+hostname = api.calm.com
 */
 
 
