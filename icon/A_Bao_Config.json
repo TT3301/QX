@@ -1,0 +1,322 @@
+{
+    "name": "宝哥自用图标库",
+    "description": "收集互联网公开icon，版权属于原作者和商标持有人。",
+    "icons": [
+        {
+            "name": "Translations",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Translations.png"
+        },
+        {
+            "name": "高德",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Gaode.png"
+        },
+        {
+            "name": "Star_01",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Star_01.png"
+        },
+        {
+            "name": "Star_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Star_02.png"
+        },
+        {
+            "name": "info",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/info.png"
+        },
+        {
+            "name": "Airport",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Airport.png"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GitHub.png"
+        },
+        {
+            "name": "GitHub_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GitHub_02.png"
+        },
+        {
+            "name": "GitHub_03",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GitHub_03.png"
+        },
+        {
+            "name": "Cat",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Cat.png"
+        },
+        {
+            "name": "Disney",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Disney.png"
+        },
+        {
+            "name": "HBO_GO",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/HBO_GO.png"
+        },
+        {
+            "name": "华住酒店",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/HuaZhu.png"
+        },
+        {
+            "name": "中国广电",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/10019.png"
+        },
+        {
+            "name": "建行生活",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/CCB.png"
+        },
+        {
+            "name": "bing",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/bing.png"
+        },
+        {
+            "name": "ChatGPT",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/ChatGPT.png"
+        },
+        {
+            "name": "微博",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Weibo.png"
+        },
+        {
+            "name": "Rocket",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Rocket.png"
+        },
+        {
+            "name": "Game",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Game.png"
+        },
+        {
+            "name": "Facebook_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Facebook_02.png"
+        },
+        {
+            "name": "True",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/True.png"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Twitter.png"
+        },
+        {
+            "name": "Hand",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Hand.png"
+        },
+        {
+            "name": "WeChat",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/WeChat.png"
+        },
+        {
+            "name": "chat",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/chat.png"
+        },
+        {
+            "name": "Discord",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Discord.png"
+        },
+        {
+            "name": "Google Voice",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GV.png"
+        },
+        {
+            "name": "Quantumult_X",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Quantumult_X.png"
+        },
+        {
+            "name": "Loon_01",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Loon_01.png"
+        },
+        {
+            "name": "Loon_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Loon_02.png"
+        },
+        {
+            "name": "小恐龙",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Dinosaur.png"
+        },
+        {
+            "name": "小恐龙2",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Dinosaur_02.png"
+        },
+        {
+            "name": "CLASH猫咪",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Clash_Cat_2.png"
+        },
+        {
+            "name": "老鼠",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Mouse.png"
+        },
+        {
+            "name": "Panda",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Panda.png"
+        },
+        {
+            "name": "NAVER",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/NAVER.png"
+        },
+        {
+            "name": "NaverCoffee",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/NaverCoffee.png"
+        },
+        {
+            "name": "Paypal",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Paypal.png"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/TikTok.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix.png"
+        },
+        {
+            "name": "Netflix02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_02.png"
+        },
+        {
+            "name": "Netflix03",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_03.png"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Instagram.png"
+        },
+        {
+            "name": "Whatsapp",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Whatsapp.png"
+        },
+        {
+            "name": "Whatsapp_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/WhatsApp.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Google.png"
+        },
+        {
+            "name": "Apple",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Apple.png"
+        },
+        {
+            "name": "Apple_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Apple_02.png"
+        },
+        {
+            "name": "Microsoft",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Microsoft.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Spotify.png"
+        },
+        {
+            "name": "Spotify3",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Spotify3.png"
+        },
+        {
+            "name": "Tubi",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Tubi.png"
+        },
+        {
+            "name": "Kakao",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Kakao.png"
+        },
+        {
+            "name": "Line",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Line.png"
+        },
+        {
+            "name": "多拉A梦",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Doraemon.png"
+        },
+        {
+            "name": "吃豆人",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/PacMan.png"
+        },
+        {
+            "name": "吃豆人2",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/PacMan_02.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Telegram.png"
+        },
+        {
+            "name": "Telegram_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Telegram_02.png"
+        },
+        {
+            "name": "Telegram_03",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Telegram_03.png"
+        },
+        {
+            "name": "Music",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Music.png"
+        },
+        {
+            "name": "Netease",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netease.png"
+        },
+        {
+            "name": "B站",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Bili.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/YouTube.png"
+        },
+        {
+            "name": "无限",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Final.png"
+        },
+        {
+            "name": "地球",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Global.png"
+        },
+        {
+            "name": "香港",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/HK.png"
+        },
+        {
+            "name": "日本",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/JP.png"
+        },
+        {
+            "name": "韩国",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/KR.png"
+        },
+        {
+            "name": "新加坡",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/SG.png"
+        },
+        {
+            "name": "台湾",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/TW.png"
+        },
+        {
+            "name": "英国",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/UK.png"
+        },
+        {
+            "name": "美国",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/US.png"
+        },
+        {
+            "name": "澳门",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/MO.png"
+        },
+        {
+            "name": "中国",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/CN.png"
+        },
+        {
+            "name": "欧盟",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/UN.png"
+        },
+        {
+            "name": "TR",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/TR.png"
+        },
+        {
+            "name": "IN",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/IN.png"
+        }
+    ]
+}
