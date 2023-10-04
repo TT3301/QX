@@ -1,6 +1,7 @@
-host-suffix,cloud.cupronickel.goog
+host,cloud.cupronickel.goog
+host,na.b.g-tun.com
+host-suffix,g-tun.com
 host-suffix,connectivitycheck.gstatic.com
-host-suffix,na.b.g-tun.com
 host-suffix,ocsp.pki.goog
 host,beryllium-pa.googleapis.com
 host,phosphor-pa.googleapis.com
