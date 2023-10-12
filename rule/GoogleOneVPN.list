@@ -1,5 +1,5 @@
 host,cloud.cupronickel.goog
-host-suffix,*.cloud.cupronickel.goog
+host-suffix,cloud.cupronickel.goog
 host,na.b.g-tun.com
 host-suffix,g-tun.com
 host-suffix,connectivitycheck.gstatic.com
