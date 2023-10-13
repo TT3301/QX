@@ -4,10 +4,10 @@
  * 定时任务：17 9 * * *
  * 脚本说明：自动申购茅台酒，兼容 Node.js 和手机 NE 环境执行。
  * 环境变量：export MT_TOKENS="MT-Device-ID,MT-Token"  // 设备ID,用户TOKEN  多账号用 @ 隔开
- * 环境变量：export MT_PROVINCE="广东省"  // 省份
- * 环境变量：export MT_CITY="广州市"  // 城市
- * 环境变量：export MT_DISTRICT="天河区|海珠区"  // 需要申购的区域，多个区域以 | 隔开，留空为随机申购全市所有门店
- * 环境变量：export MT_ITEM_BLACK="2478|10056"  // 申购商品ID黑名单，多个ID以 | 隔开，留空为随机申购所有商品
+ * 环境变量：export MT_PROVINCE="上海市"  // 省份
+ * 环境变量：export MT_CITY="上海市"  // 城市
+ * 环境变量：export MT_DISTRICT="长宁区|普陀区"  // 需要申购的区域，多个区域以 | 隔开，留空为随机申购全市所有门店
+ * 环境变量：export MT_ITEM_BLACK="10214|2478|10056"  // 申购商品ID黑名单，多个ID以 | 隔开，留空为随机申购所有商品
  * 环境变量：export MT_VERSION="1.4.9"  // APP版本号 非必填
  * 环境变量：export MT_USERAGENT="iOS;16.1.2;Apple;?unrecognized?"  // User-Agent 非必填
  * 环境变量：export MT_R="clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw=="  // 非必填
