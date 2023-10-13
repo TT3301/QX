@@ -11,7 +11,11 @@
  * 环境变量：export MT_VERSION="1.4.9"  // APP版本号 非必填
  * 环境变量：export MT_USERAGENT="iOS;16.1.2;Apple;?unrecognized?"  // User-Agent 非必填
  * 环境变量：export MT_R="clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw=="  // 非必填
-
+ 商品 ID 黑白名单：
+ 10213: 贵州茅台酒（癸卯兔年）
+ 10214: 贵州茅台酒（癸卯兔年）x2
+ 2478:  贵州茅台酒（珍品）
+ 10056: 53%vol 500ml 茅台1935
 --------------- BoxJS & 重写模块 --------------
 
 https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
@@ -80,10 +84,10 @@ const nowDate = parseInt((new Date().getTime() / 1000).toString());  // 当前�
 const zeroDate = (nowDate - (nowDate % 86400) - 3600 * 8) * 1000;  // 今日零点时间戳
 let productInfo = [], message = '', CookieArr = [], Cookie = '', DeviceID = '';
 
-let MT_PROVINCE = $.getdata('MT_PROVINCE') || '广东省';
-let MT_CITY = $.getdata('MT_CITY') || '广州市';
-let MT_DISTRICT = $.getdata('MT_DISTRICT') || '';
-let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
+let MT_PROVINCE = $.getdata('MT_PROVINCE') || '浙江省';
+let MT_CITY = $.getdata('MT_CITY') || '杭州市';
+let MT_DISTRICT = $.getdata('MT_DISTRICT') || '萧山区';
+let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '10214|2478|10056';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
 let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.1.2;Apple;?unrecognized?';
