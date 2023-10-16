@@ -3,7 +3,7 @@
  * 活动入口：建行生活APP -> 首页 -> 会员有礼 -> 签到
  * 脚本说明：连续签到领优惠券礼包（打车、外卖优惠券），配置重写手动签到一次即可获取签到数据，默认领取外卖券，可在 BoxJS 配置奖品。兼容 Node.js 环境，变量名称 JHSH_BODY、JHSH_GIFT，多账号分割符 "|"。
  * 仓库地址：https://github.com/FoKit/Scripts
- * 更新时间：2023-10-15
+ * 更新时间：2023-10-16
 /*
 --------------- BoxJS & 重写模块 --------------
 
@@ -283,10 +283,15 @@ async function getGift() {
 // 数据脱敏
 function hideSensitiveData(string, head_length = 2, foot_length = 2) {
   let star = '';
-  for (var i = 0; i < string.length - head_length - foot_length; i++) {
-    star += '*';
+  try {
+    for (var i = 0; i < string.length - head_length - foot_length; i++) {
+      star += '*';
+    }
+    return string.substring(0, head_length) + star + string.substring(string.length - foot_length);
+  } catch (e) {
+    console.log(e);
+    return string;
   }
-  return string.substring(0, head_length) + star + string.substring(string.length - foot_length);
 }
 
 
