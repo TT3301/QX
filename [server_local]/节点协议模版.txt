@@ -50,7 +50,7 @@ http=example.com:443, username=name, password=pwd, over + tls=true, tls-host=exa
 
 // trojan over + tls=true
 # trojan + ws + tls
-trojan=us.haohao.one:443, password=TT@haohao3301, obfs=wss, obfs-host=us.haohao.one, obfs-uri=/yyds, tls-verification=true, fast-open=false, udp-relay=true, tag=WARP•01  |  🇺🇸
+trojan=your.domain.com or ip:443, password=xxxxxxx, obfs=wss, obfs-host=your.domain.com, obfs-uri=/YYDS, tls-verification=true, fast-open=false, udp-relay=true, tag=WARP•01
 # trojan + tls-01
 trojan=example.com:443, password=pwd, over + tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=trojan + tls-01
 # trojan + tls-02
