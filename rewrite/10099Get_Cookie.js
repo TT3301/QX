@@ -1,3 +1,8 @@
+/*
+------------------------------------------------------------------------------------------
+搬动自作者库：https://github.com/wuhuhuuuu/study/tree/main/Scripts/ChinaBroadnet
+------------------------------------------------------------------------------------------
+*/
 const $ = new Env('wuhuhu.ChinaBroadnet')
 $.KEY_url = '@wuhuhu.ChinaBroadnet.url'
 $.KEY_access = '@wuhuhu.ChinaBroadnet.access'
