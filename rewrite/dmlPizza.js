@@ -18,16 +18,16 @@ Surge、QuantumultX、Loon、Shadowrocket:
 
 【QX】
 [rewrite_local]
-https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo url script-request-body https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
+^https:\/\/game\.dominos\.com\.cn\/gold\/game\/gameDone url script-request-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js
 [task_local]
-
+30 10 * * * https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js, tag=达乐美披萨
 [mitm]
-hostname = hostname =game.dominos.com.cn
+hostname =game.dominos.com.cn
 
 【loon】
 [Script]
-cron "30 10 * * *" script-path=dlm.js,timeout=300, tag=达乐美披萨
-http-request ^https:\/\/game\.dominos\.com\.cn\/gold\/game\/gameDone script-path=dlm.js,requires-body=true, timeout=10, tag=达乐美披萨获取token
+cron "30 10 * * *" script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js,timeout=300, tag=达乐美披萨
+http-request ^https:\/\/game\.dominos\.com\.cn\/gold\/game\/gameDone script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js,requires-body=true, timeout=10, tag=达乐美披萨获取token
 [MITM]
 hostname =game.dominos.com.cn
 
