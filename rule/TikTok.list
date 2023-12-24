@@ -16,4 +16,5 @@ HOST-KEYWORD,-tiktokcdn-com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok
 HOST-KEYWORD,tiktokv,TikTok
+HOST-KEYWORD,tiktokcdn-,TikTok
 USER-AGENT,TikTok*,TikTok
