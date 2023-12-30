@@ -79,16 +79,8 @@
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/bing.png"
         },
         {
-            "name": "bing02",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Bing_02.png"
-        },
-        {
             "name": "ChatGPT",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/ChatGPT.png"
-        },
-        {
-            "name": "ChatGPT02",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/ChatGPT_02.png"
         },
         {
             "name": "微博",
@@ -121,6 +113,10 @@
         {
             "name": "WeChat",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/WeChat.png"
+        },
+        {
+            "name": "WeChat_02",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/WeChat_02.png"
         },
         {
             "name": "chat",
@@ -301,10 +297,6 @@
         {
             "name": "韩国",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/KR.png"
-        },
-        {
-            "name": "新加坡02",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/SG_02.png"
         },
         {
             "name": "新加坡",
