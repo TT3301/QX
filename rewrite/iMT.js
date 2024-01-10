@@ -7,7 +7,7 @@
  * 环境变量：export MT_PROVINCE="上海市"  // 省份
  * 环境变量：export MT_CITY="上海市"  // 城市
  * 环境变量：export MT_DISTRICT="长宁区|普陀区"  // 需要申购的区域，多个区域以 | 隔开，留空为随机申购全市所有门店
- * 环境变量：export MT_ITEM_BLACK="10214|2478|10056"  // 申购商品ID黑名单，多个ID以 | 隔开，留空为随机申购所有商品
+ * 环境变量：export MT_ITEM_BLACK="10214|2478|10056|10942"  // 申购商品ID黑名单，多个ID以 | 隔开，留空为随机申购所有商品
  * 环境变量：export MT_VERSION="1.4.9"  // APP版本号 非必填
  * 环境变量：export MT_USERAGENT="iOS;16.1.2;Apple;?unrecognized?"  // User-Agent 非必填
  * 环境变量：export MT_R="clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw=="  // 非必填
@@ -16,6 +16,7 @@
  10214: 贵州茅台酒（癸卯兔年）x2
  2478:  贵州茅台酒（珍品）
  10056: 53%vol 500ml 茅台1935
+ 10942: 贵州茅台酒（甲辰龙年）x2
 --------------- BoxJS & 重写模块 --------------
 
 https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
