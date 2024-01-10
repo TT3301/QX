@@ -2,12 +2,13 @@
 @Name：达乐美披萨 优惠券抽奖
 @Author：Sliverkiss
 @Date：2023-10-18 08:43:44
+@脚本地址：https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
 
 脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
 只测试过loon和青龙，其它环境请自行尝试
 
 使用方法：
-【青龙：】
+青龙：
 1.登录后抓包 https://game.dominos.com.cn/gold/game/gameDone接口的body,填写到dlm_data,多账号用 @ 分割
 2.可选推送：将bark的key填写到bark_key，不填默认使用青龙自带的推送
 
