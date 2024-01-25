@@ -3,15 +3,16 @@
 @Author：Sliverkiss
 @Date：2023-10-18 08:43:44
 
-2023.11.21 更新活动接口，修复抽奖提示不匹配的问题
-2023.12.12 重构代码，添加活动时间展示,手机号码遮挡，修复只能查询100张奖券的问题
+2024.01.25 
+- 更新活动接口，修复抽奖提示不匹配的问题
+
 
 脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
 只测试过loon和青龙，其它环境请自行尝试
 
 使用方法：
 青龙：
-1.登录后抓包 https://game.dominos.com.cn/seafood/game/gameDone接口的body,填写到dlm_data,多账号用 @ 分割
+1.登录后抓包 https://game.dominos.com.cn/loong/game/gameDone接口的body,填写到dlm_data,多账号用 @ 分割
 2.可选推送：将bark的key填写到bark_key，不填默认使用青龙自带的推送
 
 Surge、QuantumultX、Loon、Shadowrocket: 
@@ -21,15 +22,15 @@ Surge、QuantumultX、Loon、Shadowrocket:
 
 【QX】
 [rewrite_local]
-^https:\/\/game\.dominos\.com\.cn\/seafood\/game\/gameDone url script-request-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js
+^https:\/\/game\.dominos\.com\.cn\/loong\/game\/gameDone url script-request-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js
 [task_local]
 30 10 * * * https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js, tag=达乐美披萨
 [mitm]
 hostname =game.dominos.com.cn
 
 [Script]
-cron "30 10 * * *" script-path=dlm.js,timeout=300, tag=达乐美披萨
-http-request ^https:\/\/game\.dominos\.com\.cn\/seafood\/game\/gameDone script-path=dlm.js,requires-body=true, timeout=10, tag=达乐美披萨获取token
+cron "30 10 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,timeout=300, tag=达乐美披萨
+http-request ^https:\/\/game\.dominos\.com\.cn\/loong\/game\/gameDone script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,requires-body=true, timeout=10, tag=达乐美披萨获取token
 [MITM]
 hostname =game.dominos.com.cn
 
@@ -48,8 +49,8 @@ hostname =game.dominos.com.cn
 // env.js 全局
 const $ = new Env("🍕达乐美披萨");
 const ckName = "dlm_data";
-$.host="seafood";//活动名称
-$.gameDate="2023.11.02-2024.01.21";//活动时间
+$.host="loong";//活动名称
+$.gameDate="2024.01.22-2024.02.29";
 //-------------------- 一般不动变量区域 -------------------------------------
 const SakuraUtils = creatUtils();
 const Notify = 1;//0为关闭通知,1为打开通知,默认为1
@@ -65,11 +66,11 @@ $.notifyMsg = [];
 $.barkKey = ($.isNode() ? process.env["bark_key"] : $.getdata("bark_key")) || '';
 //---------------------- 自定义变量区域 -----------------------------------
 const giftName = {
-    "001": '一等奖 免费大满贯牛肉海鲜手拍披萨券',
-    "002": '二等奖 半价大满贯牛肉海鲜手拍披萨券',
-    "003": '三等奖 免费美乐嫩汁鸡块券',
+    "001": '一等奖 免费海参鲍鱼大虾手拍披萨券',
+    "002": '二等奖 半价海参鲍鱼大虾手拍披萨券',
+    "003": '三等奖 免费滋牟牟考牛肉券',
     "004": '四等奖 免费任意口味一对烤翅券',
-    "005": "五等奖 免费当季特饮券券",
+    "005": "五等奖 免费招牌蛋挞券",
 }
 //脚本入口函数main()
 async function main() {
