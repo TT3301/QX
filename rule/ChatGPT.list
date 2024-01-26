@@ -8,5 +8,19 @@ host-keyword, sentry.io, reject
 host-suffix, claude.ai, proxy
 host-suffix, anthropic.com, proxy
 
-# 
+# Copilot
 host, copilot.microsoft.com, proxy
+HOST,api.msn.com,Copilot
+HOST,assets.msn.com,Copilot
+HOST,copilot.microsoft.com,Copilot
+HOST,gateway.bingviz.microsoft.net,Copilot
+HOST,gateway.bingviz.microsoftapp.net,Copilot
+HOST,in.appcenter.ms,Copilot
+HOST,location.microsoft.com,Copilot
+HOST,odc.officeapps.live.com,Copilot
+HOST,r.bing.com,Copilot
+HOST,self.events.data.microsoft.com,Copilot
+HOST,services.bingapis.com,Copilot
+HOST,www.bing.com,Copilot
+HOST-SUFFIX,api.microsoftapp.net,Copilot
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot
