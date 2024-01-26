@@ -9,18 +9,18 @@ host-suffix, claude.ai, proxy
 host-suffix, anthropic.com, proxy
 
 # Copilot
-host, copilot.microsoft.com, proxy
-HOST,api.msn.com,Copilot
-HOST,assets.msn.com,Copilot
-HOST,copilot.microsoft.com,Copilot
-HOST,gateway.bingviz.microsoft.net,Copilot
-HOST,gateway.bingviz.microsoftapp.net,Copilot
-HOST,in.appcenter.ms,Copilot
-HOST,location.microsoft.com,Copilot
-HOST,odc.officeapps.live.com,Copilot
-HOST,r.bing.com,Copilot
-HOST,self.events.data.microsoft.com,Copilot
-HOST,services.bingapis.com,Copilot
-HOST,www.bing.com,Copilot
-HOST-SUFFIX,api.microsoftapp.net,Copilot
-HOST-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot
+host, proxy.microsoft.com, proxy
+host, api.msn.com,proxy
+host, assets.msn.com,proxy
+host, proxy.microsoft.com,proxy
+host, gateway.bingviz.microsoft.net,proxy
+host, gateway.bingviz.microsoftapp.net,proxy
+host, in.appcenter.ms,proxy
+host, location.microsoft.com,proxy
+host, odc.officeapps.live.com,proxy
+host, r.bing.com,proxy
+host, self.events.data.microsoft.com,proxy
+host, services.bingapis.com,proxy
+host, www.bing.com,proxy
+host-suffix,api.microsoftapp.net,proxy
+host-suffix,bing-shopping.microsoft-falcon.io,proxy
