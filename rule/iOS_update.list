@@ -6,5 +6,5 @@ host, xp.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
 host, updates-http.cdn-apple.com, reject
-host,updates.cdn-apple.com, reject
-host,xp.apple.com, reject
+host, updates.cdn-apple.com, reject
+host, xp.apple.com, reject
