@@ -22,5 +22,6 @@ host, r.bing.com, proxy
 host, self.events.data.microsoft.com, proxy
 host, services.bingapis.com, proxy
 host, www.bing.com, proxy
+host-suffix, bing.com, proxy
 host-suffix,api.microsoftapp.net, proxy
 host-suffix,bing-shopping.microsoft-falcon.io, proxy
