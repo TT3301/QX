@@ -1,9 +1,9 @@
 //屏蔽IOS升级
-DOMAIN, ns.itunes.apple.com, REJECT
-DOMAIN, appldnld.apple.com, REJECT
-DOMAIN, mesu.apple.com, REJECT
-DOMAIN, xp.apple.com, REJECT
-DOMAIN, gdmf.apple.com, REJECT
-DOMAIN, updates-http.cdn-apple.com, REJECT
-DOMAIN, updates-http.cdn-apple.com, REJECT
-DOMAIN, updates.cdn-apple.com, REJECT
+DOMAIN, ns.itunes.apple.com
+DOMAIN, appldnld.apple.com
+DOMAIN, mesu.apple.com
+DOMAIN, xp.apple.com
+DOMAIN, gdmf.apple.com
+DOMAIN, updates-http.cdn-apple.com
+DOMAIN, updates-http.cdn-apple.com
+DOMAIN, updates.cdn-apple.com
