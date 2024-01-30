@@ -2,8 +2,7 @@
 #!desc=全部来自网上搜集的，纯自用！请与我联系删除
 #!icon=https://raw.githubusercontent.com/TT3301/QX/main/icon/iMaoTai.png
 #!homepage=https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf
-#!category=💎Local_Module
-
+#!category=🌐Remote_Module
 
 [URL Rewrite]
 # --------------------------------- 去广告•建设银行 --------------------------------- #
@@ -20,7 +19,6 @@
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
-
 # ----------------------- 去广告•交管12123 //gab.122.gov.cn ----------------------- #
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
 
