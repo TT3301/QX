@@ -1,6 +1,9 @@
+#!name=去广告&重写•自定义🈴集
+#!desc=全部来自网上搜集的，纯自用！请与我联系删除
+#!icon=https://raw.githubusercontent.com/TT3301/QX/main/icon/iMaoTai.png
+#!homepage=https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf
+#!category=💎Local_Module
 
-#!name=🈴去广告&脚本•自定义合集
-#!desc=自用•去广告•脚本•收集(全部来自网上搜集的，纯自用！请与我联系删除)  
 
 [URL Rewrite]
 # --------------------------------- 去广告•建设银行 --------------------------------- #
@@ -49,6 +52,7 @@ wechat110 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wec
 
 # ----------------------- JD历史价格显示在商品标题 //api.m.jd.com ----------------------- #
 jd_tb_price = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jd_tb_price.js, requires-body=true, max-size=-1, timeout=60
+
 
 [MITM]
 hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, ad.12306.cn, wallet.95516.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, wx.10099.com.cn, acs.m.taobao.com, api.m.jd.com
