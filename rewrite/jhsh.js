@@ -3,7 +3,10 @@
  * 活动入口：建行生活APP -> 首页 -> 会员有礼 -> 签到
  * 脚本说明：连续签到领优惠券礼包（打车、外卖优惠券），配置重写手动签到一次即可获取签到数据，默认领取外卖券，可在 BoxJS 配置奖品。兼容 Node.js 环境，变量名称 JHSH_BODY、JHSH_GIFT、JHSH_LOGIN_INFO，多账号分割符 "|"。
  * 仓库地址：https://github.com/FoKit/Scripts
+ * 更新时间：2023-10-31  修复多账号 Set-Cookie 参数的串号问题
  * 更新时间：2023-10-30  修复 Cokie 失效问题，增加骑行券类型参数，感谢 Sliverkiss、𝘠𝘶𝘩𝘦𝘯𝘨、苍井灰灰 大佬提供帮助。
+ * 更新时间：2024-01-30  修复 Stash 代理工具无法获取 mbc-user-agent 参数问题
+ * 更新时间：2024-01-31  增加借记卡用户自动断签功能，非建行信用卡用户连续签到 7 天优惠力度较低(满39元减10元)
 /*
 
 https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
@@ -71,6 +74,7 @@ let giftType = ($.isNode() ? process.env.JHSH_GIFT : $.getdata('JHSH_GIFT')) || 
 let bodyStr = ($.isNode() ? process.env.JHSH_BODY : $.getdata('JHSH_BODY')) || '';  // 签到所需的 body
 let autoLoginInfo = ($.isNode() ? process.env.JHSH_LOGIN_INFO : $.getdata('JHSH_LOGIN_INFO')) || '';  // 刷新 session 所需的数据
 let AppVersion = ($.isNode() ? process.env.JHSH_VERSION : $.getdata('JHSH_VERSION')) || '2.1.5.002';  // 最新版本号，获取失败时使用
+let skipDay = ($.isNode() ? process.env.JHSH_SKIPDAY : $.getdata('JHSH_SKIPDAY')) || '';  // 下个断签日 (适用于借记卡用户)
 let bodyArr = bodyStr ? bodyStr.split("|") : [];
 let bodyArr2 = autoLoginInfo ? autoLoginInfo.split("|") : [];
 $.is_debug = ($.isNode() ? process.env.IS_DEDUG : $.getdata('is_debug')) || 'false';
@@ -84,7 +88,24 @@ if (isGetCookie = typeof $request !== `undefined`) {
       $.msg($.name, '❌ 请先获取建行生活Cookie。');
       return;
     }
-    console.log(`共有[${bodyArr.length}]个建行生活账号\n`);
+    const date = new Date();
+    let day = date.getDay();
+    const weekMap = {
+      0: "星期天",
+      1: "星期一",
+      2: "星期二",
+      3: "星期三",
+      4: "星期四",
+      5: "星期五",
+      6: "星期六",
+    };
+    if (day == skipDay) {
+      let text = `今天是断签日[${weekMap[day]}], 跳过签到任务。`
+      console.log(text);
+      message += text;
+      return;
+    }
+    console.log(`\n共有[${bodyArr.length}]个建行生活账号\n`);
     await getLatestVersion();  // 获取版本信息
     for (let i = 0; i < bodyArr.length; i++) {
       if (bodyArr[i]) {
@@ -101,11 +122,11 @@ if (isGetCookie = typeof $request !== `undefined`) {
         $.ALBody = $.info2['Body'];
         console.log(`\n===== 账号[${$.info?.USR_TEL || $.index}]开始签到 =====\n`);
         if (!$.info?.MID || !$.DeviceId || !$.MBCUserAgent || !$.ALBody) {
-          message += `🎉 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 缺少MID参数，请重新获取Cookie。\n`;
+          message += `🎉 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 缺少参数，请重新获取Cookie。\n`;
           continue;
         }
         await autoLogin();  // 刷新 session
-        // if (!$.token) continue;
+        if (!$.token) continue;
         await main();  // 签到主函数
         if ($.giftList.length > 0) {
           for (let j = 0; j < $.giftList.length; j++) {
@@ -134,19 +155,19 @@ if (isGetCookie = typeof $request !== `undefined`) {
         await $.wait(1000 * 3);
       }
     }
-    if (message) {
-      message = message.replace(/\n+$/, '');
-      if ($.isNode()) {
-        await notify.sendNotify($.name, message);
-      } else {
-        $.msg($.name, '', message);
-      }
-    }
   })()
     .catch((e) => {
       $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
     })
-    .finally(() => {
+    .finally(async () => {
+      if (message) {
+        message = message.replace(/\n+$/, '');
+        if ($.isNode()) {
+          await notify.sendNotify($.name, message);
+        } else {
+          $.msg($.name, '', message);
+        }
+      }
       $.done();
     })
 }
@@ -156,27 +177,17 @@ if (isGetCookie = typeof $request !== `undefined`) {
 function GetCookie() {
   debug($request.headers);
   debug($request.body);
+  const headers = ObjectKeys2LowerCase($request.headers);  // 将 headers 的所有 key 转换为小写以兼容各个代理 App
   if (/A3341A038/.test($request.url)) {
     $.body = JSON.parse($request.body);
-    // if (bodyStr.indexOf('MID') == -1) {
-    //   bodyStr = '';
-    //   $.setdata(bodyStr, 'JHSH_BODY');
-    //   console.log(`用户数据缺失字段，已清空用户数据，请重新获取Cookie。`);
-    // }
-    if (bodyStr.indexOf($.body?.MEB_ID) == -1) {
-      $.body['MID'] = $request.headers['MID'] || $request.headers['Mid'] || $request.headers['mid'];
-      $.body = JSON.stringify($.body);
-      console.log(`开始新增用户数据 ${$.body}`);
-      bodyArr.push($.body);
-      $.setdata(bodyArr.join('|'), 'JHSH_BODY');
-    } else {
-      console.log('数据已存在，不再写入。');
-    }
+    $.body['MID'] = headers['mid'];
+    $.body = JSON.stringify($.body);
+    console.log(`开始新增用户数据 ${$.body}`);
+    $.setdata($.body, 'JHSH_BODY');
     $.msg($.name, ``, `🎉 建行生活签到数据获取成功。`);
   } else if (/autoLogin/.test($request.url)) {
-    $.DeviceId = $request.headers['DeviceId'] || $request.headers['Deviceid'] || $request.headers['deviceid'];
-    $.MBCUserAgent = $request.headers['MBC-User-Agent'] || $request.headers['Mbc-user-agent'] || $request.headers['mbc-user-agent'];
-
+    $.DeviceId = headers['deviceid'];
+    $.MBCUserAgent = headers['mbc-user-agent'];
     if ($.DeviceId && $.MBCUserAgent && $request.body) {
       autoLoginInfo = {
         "DeviceId": $.DeviceId,
@@ -185,6 +196,8 @@ function GetCookie() {
       }
       $.setdata(JSON.stringify(autoLoginInfo), 'JHSH_LOGIN_INFO');
       console.log(JSON.stringify(autoLoginInfo) + "写入成功");
+    } else {
+      console.log("❌ autoLogin 数据获取失败");
     }
   }
 }
@@ -200,6 +213,7 @@ async function autoLogin() {
       'DeviceId': $.DeviceId,
       'Accept': `application/json`,
       'MBC-User-Agent': $.MBCUserAgent,
+      'Cookie': ''
     },
     body: $.ALBody
   }
@@ -214,10 +228,18 @@ async function autoLogin() {
           // $.token = $.getdata('JHSH_TOKEN');
           console.log(`${result?.errMsg}`);
         } else {
-          // $.token = response.headers[`set-cookie`] || response.headers[`Set-cookie`] || response.headers[`Set-Cookie`];
+          const set_cookie = response.headers['set-cookie'] || response.headers['Set-cookie'] || response.headers['Set-Cookie'];
           // !$.isNode() ? $.setdata($.token, 'JHSH_TOKEN') : '';  // 数据持久化
-          console.log(`✅ 刷新 session 成功!`);
-          // debug($.token);
+          let new_cookie = $.toStr(set_cookie).match(/SESSION=([a-f0-9-]+);/);
+          if (new_cookie) {
+            $.token = new_cookie[0];
+            console.log(`✅ 刷新 session 成功!`);
+            debug(new_cookie);
+          } else {
+            message += `❌ 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 刷新 session 失败，请重新获取Cookie。\n`;
+            console.log(`⛔️ 刷新 session 失败`);
+            debug(set_cookie);
+          }
         }
       } catch (error) {
         $.log(error);
@@ -234,14 +256,13 @@ async function main() {
   let opt = {
     url: `https://yunbusiness.ccb.com/clp_coupon/txCtrl?txcode=A3341A115`,
     headers: {
-      "MID": $.info?.MID,
-      "Content-Type": "application/json;charset=utf-8",
+      "Mid": $.info?.MID,
+      "Content-Type": "application/json",
       "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/CloudMercWebView/UnionPay/1.0 CCBLoongPay",
       "Accept": "application/json,text/javascript,*/*",
-      "content-type": "application/json",
-      // "Cookie": $.token
+      "Cookie": $.token
     },
-    body: `{"ACT_ID":"${$.info.ACT_ID}","MEB_ID":"${$.info.MEB_ID}","USR_TEL":"${$.info.USR_TEL}","REGION_CODE":"${$.info.REGION_CODE}","chnlType":"${$.info.chnlType}","regionCode":"${$.info.regionCode}"}`
+    body: `{"ACT_ID":"${$.info.ACT_ID}","REGION_CODE":"${$.info.REGION_CODE}","chnlType":"${$.info.chnlType}","regionCode":"${$.info.regionCode}"}`
   }
   debug(opt)
   return new Promise(resolve => {
@@ -253,10 +274,17 @@ async function main() {
           data = JSON.parse(data);
           let text = '';
           if (data.errCode == 0) {
-            text = `🎉 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 签到成功`;
+            text = `🎉 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 签到成功`;
             console.log(text);
             message += text;
             if (data?.data?.IS_AWARD == 1) {
+              // 更新自动断签日
+              if (skipDay >= 0) {
+                // 当 day 等于 6 时，下一断签日修正为 0，否则 day + 1
+                day = day == 6 ? 0 : day + 1;
+                $.setdata(String(day), 'JHSH_SKIPDAY');
+                console.log(`♻️ 已更新断签配置：明天(${weekMap[day]})将会断签`);
+              }
               $.GIFT_BAG = data?.data?.GIFT_BAG;
               $.GIFT_BAG.forEach(item => {
                 let body = { "couponId": item.couponId, "nodeDay": item.nodeDay, "couponType": item.couponType, "dccpBscInfSn": item.dccpBscInfSn };
@@ -281,7 +309,7 @@ async function main() {
             }
           } else {
             console.log(JSON.stringify(data));
-            text = `❌ 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 签到失败，${data.errMsg}\n`;
+            text = `❌ 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 签到失败，${data.errMsg}\n`;
             console.log(text);
             message += text;
           }
@@ -312,9 +340,6 @@ async function getGift() {
   }
   debug(opt);
   return new Promise(resolve => {
-    debug(opt.url);
-    debug(opt.headers);
-    debug(opt.body);
     $.post(opt, async (err, resp, data) => {
       try {
         err && $.log(err);
@@ -375,6 +400,24 @@ async function getLatestVersion() {
 }
 
 
+/**
+ * 对象属性转小写
+ * @param {*} obj
+ * @returns
+ */
+function ObjectKeys2LowerCase(obj) {
+  const _lower = Object.fromEntries(Object.entries(obj).map(([k, v]) => [k.toLowerCase(), v]))
+  return new Proxy(_lower, {
+    get: function (target, propKey, receiver) {
+      return Reflect.get(target, propKey.toLowerCase(), receiver)
+    },
+    set: function (target, propKey, value, receiver) {
+      return Reflect.set(target, propKey.toLowerCase(), value, receiver)
+    }
+  })
+}
+
+
 // 数据脱敏
 function hideSensitiveData(string, head_length = 2, foot_length = 2) {
   let star = '';
@@ -391,13 +434,14 @@ function hideSensitiveData(string, head_length = 2, foot_length = 2) {
 
 
 // DEBUG
-function debug(content) {
-  let text = '\n-----debug-----\n';
+function debug(content, title = "debug") {
+  let start = `\n----- ${title} -----\n`;
+  let end = `\n----- ${$.time('HH:mm:ss')} -----\n`;
   if ($.is_debug === 'true') {
     if (typeof content == "string") {
-      console.log(text + content + text);
+      console.log(start + content + end);
     } else if (typeof content == "object") {
-      console.log(text + $.toStr(content) + text);
+      console.log(start + $.toStr(content) + end);
     }
   }
 }
