@@ -10,9 +10,6 @@
 ^https:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
 ^https:\/\/api\.douban\.com\b.*\/common_ads\? - reject
 
-# == 去广告•云闪付 ▶ wallet.95516.com
-^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
-
 # == 去广告•饿了么 ▶ elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
 ^https:\/\/elemecdn.com\/.+\/sitemap - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
@@ -46,12 +43,6 @@ jijianhuilv = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explore
 # == 跳过微信中转页面,解除被封链接 ▶ weixin110.qq.com, security.wechat.com
 wechat110 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js, requires-body=true, max-size=-1, timeout=60
 
-# == 去广告•12306 开屏广告 ▶ ad.12306.cn 
-12306.js = requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-
-# == JD历史价格显示在商品标题 ▶ api.m.jd.com
-jd_tb_price = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jd_tb_price.js, requires-body=true, max-size=-1, timeout=60
-
 
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, ad.12306.cn, wallet.95516.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, wx.10099.com.cn, acs.m.taobao.com, api.m.jd.com
+hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, wx.10099.com.cn, acs.m.taobao.com
