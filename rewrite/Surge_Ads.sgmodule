@@ -27,12 +27,6 @@
 ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 
 [Map Local]
-# == 去广告•12306 开屏广告 ▶ ad.12306.cn 
-12306.js = requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-
-# == JD历史价格显示在商品标题 ▶ api.m.jd.com
-jd_tb_price = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jd_tb_price.js, requires-body=true, max-size=-1, timeout=60
-
 # == 中国移动 ▶ client.app.coc.10086.cn
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
@@ -46,6 +40,13 @@ jd_tb_price = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.acti
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
+# == 去广告•12306 开屏广告 ▶ ad.12306.cn 
+12306.js = requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
+
+# == JD历史价格显示在商品标题 ▶ api.m.jd.com
+jd_tb_price = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jd_tb_price.js, requires-body=true, max-size=-1, timeout=60
+
+
 # == 解锁•极简汇率 ▶ xremit.xcurrency.com, explorer.tratao.com
 jijianhuilv = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js, requires-body=true, max-size=-1, timeout=60
 
