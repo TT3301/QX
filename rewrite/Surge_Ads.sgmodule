@@ -7,18 +7,9 @@
 [URL Rewrite]
 # == 去广告•建设银行
 ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png - reject
-^https:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
-^https:\/\/api\.douban\.com\b.*\/common_ads\? - reject
 
 # == 去广告•云闪付 ▶ wallet.95516.com
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
-
-# == 去广告•饿了么 ▶ elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
-^https:\/\/elemecdn.com\/.+\/sitemap - reject
-^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
-^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
-^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
-^https:\/\/www1.elecfans.com\/www\/delivery - reject
 
 # == 去广告•交管12123 ▶ gab.122.gov.cn 
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
@@ -50,4 +41,4 @@ jijianhuilv = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explore
 wechat110 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com
+hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com
