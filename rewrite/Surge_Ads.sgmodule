@@ -7,6 +7,20 @@
 [Rule]
 # == 去开屏•中国联通app
 DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
+# == 去广告•爱奇艺
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+# == 去广告•京东
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts),REJECT
+URL-REGEX,^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4},REJECT
+# == 去广告•优酷
+DOMAIN, iyes.youku.com,REJECT
+URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
+# == 去广告•交管12123
+URL-REGEX,^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$,REJECT
+# == 去广告•云闪付
+URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
+# == 去开屏•建行生活
+URL-REGEX,^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9),REJECT
 
 [URL Rewrite]
 # == 去广告•建设银行
