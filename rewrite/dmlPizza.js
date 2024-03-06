@@ -22,7 +22,7 @@ Surge、QuantumultX、Loon、Shadowrocket:
 
 【QX】
 [rewrite_local]
-^https:\/\/game\.dominos\.com\.cn\/loong\/game\/gameDone url script-request-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js
+^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone url script-request-body https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js
 [task_local]
 30 10 * * * https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dmlPizza.js, tag=达乐美披萨
 [mitm]
