@@ -3,6 +3,10 @@
     "description": "收集互联网公开icon，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "GoHome_01.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_01.png"
+        },
+        {
             "name": "Transformers",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Transformers.png"
         },
