@@ -1,5 +1,6 @@
 # SSID:TT-PacMan
 IP-CIDR, 192.168.7.0/24, no-resolve
+
 # SSID:Xiaomi_AX3000T
 IP-CIDR, 192.168.8.0/24, no-resolve
 
