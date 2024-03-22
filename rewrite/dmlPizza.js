@@ -1,4 +1,5 @@
 /**************************************
+https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
 @Name：达乐美披萨 优惠券抽奖
 @Author：Sliverkiss
 @Date：2023-10-18 08:43:44
