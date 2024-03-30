@@ -3,6 +3,26 @@
     "description": "收集互联网公开icon，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "new.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/new.png"
+        },
+        {
+            "name": "4k.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/4k.png"
+        },
+        {
+            "name": "android.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/android.png"
+        },
+        {
+            "name": "pikachu.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/pikachu.png"
+        },
+        {
+            "name": "pokeball.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/pokeball.png"
+        },
+        {
             "name": "GoHome_01.png",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_01.png"
         },
@@ -53,6 +73,10 @@
         {
             "name": "GitHub_03",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GitHub_03.png"
+        },
+        {
+            "name": "GitHub_04",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GitHub_04.png"
         },
         {
             "name": "Cat",
