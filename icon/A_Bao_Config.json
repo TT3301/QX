@@ -3,6 +3,10 @@
     "description": "收集互联网公开icon，版权属于原作者和商标持有人。",
     "icons": [
         {
+            "name": "Surge.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Surge.png"
+        },
+        {
             "name": "OpenWrt.png",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/OpenWrt.png"
         },
