@@ -2,6 +2,7 @@
 host, cdn.auth0.com, proxy
 host-suffix, ai.com, proxy
 host-suffix, openai.com, proxy
+host-suffix, chatgpt.com, proxy
 host-keyword, sentry.io, reject
 
 # Claude.ai
