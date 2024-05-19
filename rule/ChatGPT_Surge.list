@@ -6,8 +6,8 @@ DOMAIN-SUFFIX, chatgpt.com
 DOMAIN-KEYWORD,openai
 
 # Claude.ai
-DOMAIN-SUFFIX,claude.ai, proxy
-DOMAIN-SUFFIX,anthropic.com, proxy
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
 
 # Copilot
 DOMAIN,api.msn.com
