@@ -134,7 +134,10 @@
             "name": "bing",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/bing.png"
         },
-        
+        {
+            "name": "ChatGPT",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/ChatGPT.png"
+        },
         {
             "name": "ChatGPT02",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/ChatGPT_02.png"
@@ -244,6 +247,10 @@
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/TikTok.png"
         },
         {
+            "name": "Netflix01",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_01.png"
+        },
+        {
             "name": "Netflix03",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_03.png"
         },
@@ -293,7 +300,7 @@
         },
         {
             "name": "Line",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Line.png"
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Line_01.png"
         },
         {
             "name": "多拉A梦",
