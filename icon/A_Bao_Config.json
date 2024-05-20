@@ -39,6 +39,22 @@
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_01.png"
         },
         {
+            "name": "GoHome_02.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_02.png"
+        },
+        {
+            "name": "GoHome_03.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_03.png"
+        },
+        {
+            "name": "GoHome_04.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_04.png"
+        },
+        {
+            "name": "GoHome_05.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_05.png"
+        },
+        {
             "name": "Transformers",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Transformers.png"
         },
@@ -241,6 +257,14 @@
         {
             "name": "Netflix03",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_03.png"
+        },
+        {
+            "name": "Netflix04",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_04.png"
+        },
+        {
+            "name": "Netflix05",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Netflix_05.png"
         },
         {
             "name": "Instagram",
