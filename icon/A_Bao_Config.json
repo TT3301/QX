@@ -7,6 +7,18 @@
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Email.png"
         },
         {
+            "name": "Speedtest_01.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_01.png"
+        },
+        {
+            "name": "Speedtest_02.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_02.png"
+        },
+        {
+            "name": "Speedtest_03.png",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_03.png"
+        },
+        {
             "name": "Surge.png",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Surge.png"
         },
@@ -41,14 +53,6 @@
         {
             "name": "GoHome_02.png",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_02.png"
-        },
-        {
-            "name": "GoHome_04.png",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_04.png"
-        },
-        {
-            "name": "GoHome_05.png",
-            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/GoHome_05.png"
         },
         {
             "name": "Transformers",
@@ -145,6 +149,10 @@
         {
             "name": "Game",
             "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Game.png"
+        },
+        {
+            "name": "Facebook_01",
+            "url": "https://raw.githubusercontent.com/TT3301/QX/main/icon/Facebook_01.png"
         },
         {
             "name": "Facebook_02",
