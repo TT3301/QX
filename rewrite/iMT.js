@@ -91,7 +91,7 @@ let MT_DISTRICT = $.getdata('MT_DISTRICT') || '长宁区';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056|10214|10942|10923';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
-let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.1.2;Apple;?unrecognized?';
+let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;17.4;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
 
 if ($.isNode()) {
