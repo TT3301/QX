@@ -86,9 +86,9 @@ const zeroDate = (nowDate - (nowDate % 86400) - 3600 * 8) * 1000;  // 今日零�
 let productInfo = [], message = '', CookieArr = [], Cookie = '', DeviceID = '';
 
 let MT_PROVINCE = $.getdata('MT_PROVINCE') || '浙江省';
-let MT_CITY = $.getdata('MT_CITY') || '杭州市';
-let MT_DISTRICT = $.getdata('MT_DISTRICT') || '萧山区';
-let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '10214|2478|10056';
+let MT_CITY = $.getdata('MT_CITY') || '上海市';
+let MT_DISTRICT = $.getdata('MT_DISTRICT') || '长宁区';
+let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056|10214|10942|10923';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
 let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.1.2;Apple;?unrecognized?';
