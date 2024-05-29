@@ -1,9 +1,11 @@
 # ChatGPT
-DOMAIN,cdn.auth0.com
+DOMAIN, cdn.auth0.com
+DOMAIN, ab.chatgpt.com
+DOMAIN, chat.openai.com
 DOMAIN-SUFFIX, ai.com
 DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, chatgpt.com
-DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD, openai
 
 # Claude.ai
 DOMAIN-SUFFIX,claude.ai
