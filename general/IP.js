@@ -31,7 +31,7 @@ function ISP_ValidCheck(para) {
 
 function Area_check(para) {
   if(para=="中华民国"){
-  return "台湾"
+  return "台灣"
   } else
   {
   return para
