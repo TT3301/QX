@@ -1,18 +1,20 @@
 # NAME: DouYin
-
-HOST-SUFFIX,amemv.com,DouYin
-HOST-SUFFIX,ixigua.com,DouYin
-HOST-SUFFIX,ixiguavideo.com,DouYin
-HOST-SUFFIX,pstatp.com,DouYin
-HOST-SUFFIX,snssdk.com,DouYin
-HOST-SUFFIX,toutiao.com,DouYin
-HOST-KEYWORD, ecombdapi, DouYin
-HOST-KEYWORD, zjurl, DouYin
-HOST-KEYWORD, douyinstatic, DouYin
-HOST-KEYWORD, zijieapi, DouYin
-HOST-KEYWORD, douyin, DouYin
-HOST-KEYWORD, douyinvod, DouYin
-HOST-KEYWORD, zjcdn, DouYin
-HOST-KEYWORD, douyinpic, DouYin
-HOST-KEYWORD, toutiao, DouYin
-
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:36:21
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 11
+# TOTAL: 13
+DOMAIN,lf3-static.bytednsdoc.com
+DOMAIN,v5-dy-o-abtest.zjcdn.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
