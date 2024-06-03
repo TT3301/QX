@@ -1,1031 +1,5271 @@
-// ASN Information in China. (https://github.com/missuo/ASN-China) 
-// Last Updated: UTC 2024-06-01 16:04:34
-// Made by Vincent, All rights reserved. 
+#!name=🍟 Fries: 🌐 ASN China
+#!desc=按ASN分流中国大陆IP与域名直连
+#!author=VirgilClyne
+#!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-ASN
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
-IP-ASN,140731 // TOHU Public Internet
-IP-ASN,24429 // Zhejiang Taobao Network Co.,Ltd
-IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
-IP-ASN,4134 // China Telecom Backbone
-IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
-IP-ASN,4809 // China Telecom Next Generation Carrier Network
-IP-ASN,55967 // Beijing Baidu Netcom Science and Technology Co., Ltd.
-IP-ASN,4837 // China Unicom Backbone
-IP-ASN,139742 // Peddie Institute Co., Ltd
-IP-ASN,4808 // China Unicom Beijing Province Network
-IP-ASN,4847 // China Networks Inter-Exchange
-IP-ASN,10111 // Zeofast Network
-IP-ASN,209650 // Wu Zhiyuan
-IP-ASN,17621 // China Unicom Shanghai network
-IP-ASN,63631 // Guangdong Cloudbase Technology Co., Ltd.
+IP-ASN,4134 // 中国电信骨干网
+IP-ASN,4538 // 中国教育科研网络中心
+IP-ASN,4611 // 中国新华网
+IP-ASN,4789 // 中国北京清华大学教育网
+IP-ASN,4808 // 中国联通北京省网
+IP-ASN,4809 // 中国电信下一代承载网
+IP-ASN,4811 // 中国电信（集团）
+IP-ASN,4812 // 中国电信（集团）
+IP-ASN,4813 // 中国电信（集团）
+IP-ASN,4816 // 中国电信（集团）
+IP-ASN,4835 // 中国电信（集团）
+IP-ASN,4837 // 中国联通骨干网
 IP-ASN,4842 // Tianhai InfoTech
-IP-ASN,4538 // China Education and Research Network Center
-IP-ASN,9808 // China Mobile Communications Group Co., Ltd.
-IP-ASN,4812 // China Telecom (Group)
-IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
-IP-ASN,56048 // China Mobile Communicaitons Corporation
-IP-ASN,24400 // Shanghai Mobile Communications Co.,Ltd.
-IP-ASN,142111 // Zhejiang Aiyun Network Technology Co Ltd
-IP-ASN,139799 // Beijing Dajia Internet Information Technology Co., Ltd.
-IP-ASN,7497 // Computer Network Information Center of Chinese Academy of Sciences (CNIC-CAS)
-IP-ASN,58879 // Shanghai ruisu network technology co.,LTD
-IP-ASN,146834 // SiChuan XunYou Network Technologe Limit, co
-IP-ASN,134578 // UNION FU WAH DIGITAL TECHNOLOGY LIMITED
-IP-ASN,146788 // China Broadcasting Network Co., Ltd
-IP-ASN,9929 // China Netcom Backbone
-IP-ASN,56040 // China Mobile communications corporation
-IP-ASN,24413 // 263 Shanghai Communications Ltd.
-IP-ASN,23724 // IDC, China Telecommunications Corporation
-IP-ASN,137753 // Beijing Jingdong Shangke Information Technology Co. Ltd.
-IP-ASN,45090 // Shenzhen Tencent Computer Systems Company Limited
-IP-ASN,37963 // Hangzhou Alibaba Advertising Co.,Ltd.
-IP-ASN,152320 // Goalnow Network Technology Co Limited
-IP-ASN,55990 // Huawei Cloud Service data center
-IP-ASN,4811 // China Telecom (Group)
-IP-ASN,140633 // BILIBILI HK LIMITED
-IP-ASN,137718 // Beijing Volcano Engine Technology Co., Ltd.
-IP-ASN,24138 // China TieTong Telecommunications Corporation
-IP-ASN,137897 // PAN-LIAN TECHNOLOGY CO., LIMITED
-IP-ASN,9384 // MIKU NETWORK LIMITED
-IP-ASN,59045 // Guangzhou navigation information technology co., LTD
-IP-ASN,56046 // China Mobile communications corporation
-IP-ASN,44421 // Yifu Yu
-IP-ASN,24151 // China Internet Network Infomation Center
-IP-ASN,23911 // China Next Generation Internet Beijing IX
-IP-ASN,58466 // CHINANET Guangdong province network
-IP-ASN,38365 // Beijing Baidu Netcom Science and Technology Co., Ltd.
-IP-ASN,38283 // CHINANET SiChuan Telecom Internet Data Center
-IP-ASN,24490 // Trans-Eurasia Information Network (TEIN2) - SG
-IP-ASN,23848 // Shenzhen Ping An Communication Technology Co.,Ltd
-IP-ASN,136958 // China Unicom Guangdong IP network
-IP-ASN,10212 // China Enterprise ICT Solutions Limited
-IP-ASN,59019 // Beijing Kingsoft Cloud Internet Technology Co., Ltd
-IP-ASN,17623 // China Unicom Shenzen network
-IP-ASN,9809 // SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.
-IP-ASN,58461 // China Telecom HangZhou IDC
-IP-ASN,56041 // China Mobile communications corporation
-IP-ASN,55996 // CYPRESS TELECOM (CHINA) LIMITED
-IP-ASN,24489 // Trans-Eurasia Information Network (TEIN2) - North
-IP-ASN,24409 // China Internet Network Infomation Center
-IP-ASN,58593 // Shanghai Blue Cloud Technology Co.,Ltd
-IP-ASN,56006 // Shanghai Pudong Development Bank Co.,Ltd.
-IP-ASN,55992 // Beijing Qihu Technology Company Limited
-IP-ASN,45062 // NetEase Building No.16 Ke Yun Road,
-IP-ASN,24406 // China Internet Network Infomation Center
-IP-ASN,23650 // AS Number for CHINANET jiangsu province backbone
-IP-ASN,139138 // Gopay Information Technology Co.,Ltd
-IP-ASN,137735 // China Construction Bank
-IP-ASN,135357 // Shenzhen Katherine Heng Technology Information Co., Ltd.
-IP-ASN,134774 // CHINANET Guangdong province Shenzhen MAN network
-IP-ASN,133219 // NewMedia Express Pte Ltd
-IP-ASN,9814 // Beijing FibrLINK Networks Co.,Ltd.
-IP-ASN,63646 // Beijing Xiaoju Science and Technology Co., Ltd.
-IP-ASN,59078 // Yunify Technologies Inc.
-IP-ASN,58850 // Bloomberg Financial Information (Beijing) Co Ltd
-IP-ASN,58536 // CONAC (China Organizational Name Administration Center)
-IP-ASN,55966 // Post Savings Bank of China Tower A, No.3
-IP-ASN,45110 // Beijing Tian Wei Xin Tong technology corp. limited.
-IP-ASN,42962 // CoreLink Network
-IP-ASN,212793 // Xiwei Ye
-IP-ASN,17622 // China Unicom Guangzhou network
-IP-ASN,140726 // UNICOM AnHui province network
-IP-ASN,139888 // Tang Zhuo
-IP-ASN,138421 // China Unicom
-IP-ASN,137758 // Industrial and Commercial Bank of China Limited,ICBC
-IP-ASN,9394 // China TieTong Telecommunications Corporation
-IP-ASN,63648 // Beijing Xiaoju Science and Technology Co., Ltd.
-IP-ASN,58834 // Guangdong Cable Corporation Limited
-IP-ASN,58563 // CHINANET Hubei province network
-IP-ASN,58542 // China Telecom Yueyang
-IP-ASN,58519 // Cloud Computing Corporation
-IP-ASN,56282 // Beijing Internet Harbor Technology Co., Ltd
-IP-ASN,56013 // SAMSUNG SDS CHINA
-IP-ASN,56012 // LGNET China
-IP-ASN,55994 // Shanghai ruisu Network Technology Co.,Ltd
-IP-ASN,4816 // China Telecom (Group)
-IP-ASN,45079 // GDS CHANGAN SERVICES Ltd.
-IP-ASN,38375 // GSGH security LLC
-IP-ASN,38057 // Dell (China) Co.,Ltd
-IP-ASN,24444 // Shandong Mobile Communication Company Limited
-IP-ASN,24427 // Freecomm Corporation
-IP-ASN,23844 // Beijing Guanghuan Xinwang Digital
-IP-ASN,23771 // SXBCTV ,Internet Service Provider,
-IP-ASN,212237 // Changgong Zhang
-IP-ASN,17816 // China Unicom IP network China169 Guangdong province
-IP-ASN,17428 // 21Vianet.Co.,Ltd
-IP-ASN,139721 // HeFei
-IP-ASN,138950 // Jiangsu Wuxi International IDC network
-IP-ASN,137801 // AIPO Cloud (Guizhou) Technology Co., Ltd.
-IP-ASN,136173 // Quanzhou Yuntun Network Technology Co., Ltd.
-IP-ASN,133119 // China Unicom IP network
-IP-ASN,9818 // Internet Finance Laboratory
-IP-ASN,9812 // Oriental Cable Network Co., Ltd.
-IP-ASN,9308 // Abitcool(China) Inc.
-IP-ASN,7641 // China Broadcasting TV Net
-IP-ASN,63689 // Esun Technology(Shanghai) Co.,Ltd
-IP-ASN,63641 // Mega Vantage Information Consulting Co., Ltd.
-IP-ASN,63629 // Beijing Autohome imformation technology Co.,Ltd
-IP-ASN,63617 // McKinsey & Consulting Company Inc. Shanghai
-IP-ASN,63582 // Chinese Academy of Telecommunication Research
-IP-ASN,63561 // China Electronics Technology Cyber Security Co.,LTD
-IP-ASN,63548 // LENOVO (BEIJING) Co.ltd
-IP-ASN,59083 // Shanghai Kuanhui Tech. Co.,ltd
-IP-ASN,59074 // TAIKANG INSURANCE GROUP CO.,LTD.
-IP-ASN,59009 // QingDao WangXin Telcom Corp. Limited
-IP-ASN,58866 // China Financial Certification Authority
-IP-ASN,58811 // CONAC (China Organizational Name Administration Center)
-IP-ASN,58540 // China Telecom Zhuzhou
-IP-ASN,56019 // Beijing ShuJuJia Technology Co., Ltd.
-IP-ASN,56015 // China Sports Lottery Technology Development Co., Ltd
-IP-ASN,55960 // Beijing Guanghuan Xinwang Digital
-IP-ASN,55468 // China Radio International
-IP-ASN,38372 // Room 203, No.6, PingYuanBei Street, Foshan, GuangDong, China
-IP-ASN,38358 // 3 Fuxing Road, Beijing, China
-IP-ASN,38345 // Internet Domain Name System Beijing Engineering Resrarch Center Ltd.
-IP-ASN,37965 // Pacnet Business Solutions LTD
-IP-ASN,24430 // Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China
-IP-ASN,24424 // Beijing Gu Xiang Information Technology Co.,Ltd.
-IP-ASN,24139 // Huashu media&Network Limited
-IP-ASN,23853 // Shanghai Data Solution Co., Ltd.
-IP-ASN,209294 // Fan Zhang
-IP-ASN,18241 // State Power Information Net
-IP-ASN,17969 // ChongQing Broadcast & TV Transfer Network Co. Ltd
-IP-ASN,17964 // Beijing Dian-Xin-Tong Network Technologies Co., Ltd.
-IP-ASN,17962 // ShenZhen Topway Video Communication Co. Ltd
-IP-ASN,17781 // XINHUA NEWS AGENCY
-IP-ASN,17775 // shanghai science and technology network communication limited company
-IP-ASN,17429 // BEIJING GEHUA CATV NETWORK CO.LTD
-IP-ASN,141425 // China Mobile Group Guangdong communications corporation
-IP-ASN,139148 // China UnionPay Co., Ltd
-IP-ASN,138538 // VPSOR-GLOBAL
-IP-ASN,136237 // Shuangyu Communication Technology co.,Ltd.
-IP-ASN,136198 // CHINANET Guangdong province Yuexi MAN network
-IP-ASN,136195 // China Telecom Dehong
-IP-ASN,136180 // Beijing Tiantexin Tech. Co., Ltd.
-IP-ASN,135629 // Ningxia West Cloud Data Technology Co.Ltd.
-IP-ASN,135061 // China Unicom Guangdong IP network
-IP-ASN,134773 // CHINANET Guangdong province Guangzhou MAN network
-IP-ASN,134542 // China Unicom IP network
-IP-ASN,131574 // Beijing Haiyu Technology Co. Ltd..
-IP-ASN,131486 // Beijing Jingdong 360 Degree E-commerce Co., Ltd.
-IP-ASN,9939 // DYXNET of Shenzhen Communication Co., Ltd.
-IP-ASN,9811 // Development & Research Center of State Council Net.
-IP-ASN,9810 // Beijing Times Netstar Technology Co.,Ltd
-IP-ASN,9807 // Data Management Centre National Bureau of Statistics of China
-IP-ASN,9805 // SIEMENS LTD. CHINA
-IP-ASN,9389 // BEIJING SHENZHOU GREATWALL COMMUNICATION
-IP-ASN,9306 // RongHua Road No.11, Beijing Economy Technology Development Area, 100176
-IP-ASN,7653 // Morgan Stanley Management Service (Shanghai) Limited
-IP-ASN,7609 // Morgan Stanley Management Service (Shanghai) Limited
-IP-ASN,63701 // Jishi Media Co ., Ltd.
-IP-ASN,63673 // Shenzhen Ping An Communication Technology Co.,Ltd
-IP-ASN,63634 // China Payment & Clearing Network Co., Ltd.
-IP-ASN,63615 // GE (China) Co.,Ltd
-IP-ASN,63581 // GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.
-IP-ASN,63580 // China Novartis Institutes for Bio-Medical Research Co., Ltd.
-IP-ASN,59073 // Bank of China Limited
-IP-ASN,59068 // Shanghai Pudong Development Bank Co.,Ltd.
-IP-ASN,59067 // Microsoft Mobile Alliance Internet Services Co., Ltd
-IP-ASN,59049 // Wal-mart (China) Investment Co., Ltd.
-IP-ASN,59029 // People.Cn CO.,LTD
-IP-ASN,59012 // China Grain Reserves Group LTD.Company
-IP-ASN,58862 // Microsoft (China) Co., Ltd.
-IP-ASN,58854 // Kaopu Cloud
-IP-ASN,58541 // China Telecom Xiangtan
-IP-ASN,58448 // CONAC (China Organizational Name Administration Center)
-IP-ASN,56011 // UNICLOUD TECH CO.,LTD.
-IP-ASN,56002 // BEIJING MARINE COMMUNICATION AND NAVIGATION CO.
-IP-ASN,56000 // HERBALIFE(SHANGHAI)MANAGEMENT CO.,LTD.
-IP-ASN,55982 // Changhong IT information Products CO.,LTD.
-IP-ASN,55971 // Chinese Academy of Social Sciences
-IP-ASN,55958 // Intel China Ltd
-IP-ASN,55956 // Magna Automotive Technology and Service(Shanghai)Co.,Ltd
-IP-ASN,4835 // China Telecom (Group)
-IP-ASN,4611 // CNNIC member
-IP-ASN,45101 // 2-5/F,Tower 2 and 1-12/F,Tower 3,SZITIC Square
-IP-ASN,45086 // Shanghai Yovole Networks Inc.
-IP-ASN,45075 // China Central Television
-IP-ASN,45071 // No.8 Xing Guang 5th Street, Opto-Mechatronics Industrial Park
-IP-ASN,45061 // Shanghai Information Network Co.,Ltd.
-IP-ASN,38834 // NVIDIA-BANGALORE
-IP-ASN,38381 // west wing no.157,dongsi west street Dongcheng, Beijing, China
-IP-ASN,38380 // China South Locomotive And Rolling Stock Industry Company
-IP-ASN,38379 // No.9 Building, No.619 Longchang Road,Shanghai,China
-IP-ASN,38340 // 263 Shanghai Communications Ltd.
-IP-ASN,38238 // Societe Generale (China) Limited
-IP-ASN,38027 // Information Center, Ministry of Sci and Tech
-IP-ASN,37942 // 3rd Floor, Wenbo Building, No.A2 Gaoyuan Street,
-IP-ASN,24149 // Internet Domain Name System Beijing Engineering Resrarch Center Ltd.
-IP-ASN,24147 // BEIJING CBD TELECOM CO,.LTD
-IP-ASN,209306 // Jin Shaohai
-IP-ASN,205651 // Hao Qiao
-IP-ASN,18257 // ChangZhou Bitcomm Software Technology Co., Limited
-IP-ASN,18239 // NO.11 Xi San Huan Zhong Road,Beijing
-IP-ASN,18118 // CITIC Networks Management Co.,Ltd.
-IP-ASN,17799 // asn for Liaoning Provincial Net of CT
-IP-ASN,17739 // Shanghai Telecom Haplink Network Co., Ltd
-IP-ASN,17638 // ASN for TIANJIN Provincial Net of CT
-IP-ASN,17430 // 5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing
-IP-ASN,152711 // Suike Information Technology SiChuan Co., Ltd
-IP-ASN,151313 // Pacific Insurance Technology Co., Ltd
-IP-ASN,148981 // China Telecom
-IP-ASN,146822 // Shenzhenshi Zhongyun Shujujishu Youxiangongsi
-IP-ASN,146814 // Hong Kong University of Science and Technology, Dongchung Town,
-IP-ASN,146812 // Deutsche Bank (China) Co., Ltd. Shanghai Branch
-IP-ASN,140979 // China Unicom Shanghai FuTe IDC network
-IP-ASN,140895 // China Mobile Group AnHui communications corporation
-IP-ASN,140716 // UNICOM JiangSu WuXi IDC network
-IP-ASN,140292 // CHINATELECOM Jiangsu province Suzhou 5G network
-IP-ASN,140061 // Qinghai Telecom
-IP-ASN,139203 // Guizhou GuiAn IDC
-IP-ASN,139179 // China Pacific Insurance (Group) Co.,Ltd.
-IP-ASN,139178 // Rural Credit Banks Funds Clearing Center
-IP-ASN,139177 // New Oriental Education & Technology Group Ltd.
-IP-ASN,139154 // Big Data Center Of Shandong Province
-IP-ASN,139136 // ZHEJIANG PROVINCE NEW-TYPE INTERNET EXCHANGE POINT CO.,LTD.
-IP-ASN,139110 // Lenovo Mobile Communication Technology (Beijing) Ltd
-IP-ASN,139099 // Zhejiang Geely Holding Group
-IP-ASN,138545 // Zero Cirrus Cloud Computing (Shanghai) Co., Ltd.
-IP-ASN,137806 // WMGS Consulting (Shenzhen) Co.Ltd
-IP-ASN,137798 // 5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,
-IP-ASN,137787 // Beijing Jingdong Shangke Information Technology Co. Ltd.
-IP-ASN,137715 // GTJA Securities
-IP-ASN,137702 // Nanjing, Jiangsu Province, P.R.China.
-IP-ASN,137697 // CHINATELECOM JiangSu YangZhou IDC networkdescr: YangZhou , Jiangsu Province, P.R.China.
-IP-ASN,137691 // Heilongjiang Province, P.R.China.
-IP-ASN,134761 // CHINANET NINGXIA province ZHONGWEI IDC network
-IP-ASN,134760 // Shijiazhuang IDC network, CHINANET Hebei province
-IP-ASN,134756 // CHINANET Nanjing Jishan IDC network
-IP-ASN,134420 // Chongqing Telecom
-IP-ASN,134417 // Nanjing
-IP-ASN,133774 // China Telecom Fujian Fuzhou IDC
-IP-ASN,133194 // Connections Hub Technology (Shanghai) Ltd. Company
-IP-ASN,133111 // CERNET New Technology Co., Ltd
-IP-ASN,132525 // HeiLongJiang Mobile Communication Company Limited
-IP-ASN,131578 // Beijing Foreign Studies University
-IP-ASN,131558 // Wal-mart (China) Investment Co., Ltd.
-IP-ASN,131519 // Hisense
-IP-ASN,10206 // China Unicom Zhongwei Cloud
-IP-ASN,9803 // Beijing Jingxun Public Information Technology Co., Ltd
-IP-ASN,9802 // Abitcool(China) Inc.
-IP-ASN,9516 // Sakura Network LTD
-IP-ASN,9405 // Test platform Service Center
-IP-ASN,9392 // APT MOBILE SATCOM LIMITED
-IP-ASN,7721 // Qin Cloud Networks
-IP-ASN,7640 // China International Trust & Investment Corporation Management Information Center
+IP-ASN,4847 // CNIX（现北京电信省网）
+IP-ASN,4859 // 中华人民共和国国家信息中心
+IP-ASN,7497 // 计算机网络信息中心
 IP-ASN,7586 // Cloudfort IT
-IP-ASN,63838 // China Telecom Hengyang
-IP-ASN,63835 // China Telecom HuNan Changsha IDC
-IP-ASN,63727 // Huawei
-IP-ASN,63722 // Hodo Telecom Co,Ltd.
-IP-ASN,63718 // Hangzhou YouYun Technology Co., Ltd.
-IP-ASN,63695 // WeiYi Network Technology Co., Ltd
-IP-ASN,63612 // Shenzhen Qianhai bird cloud computing Co. Ltd.
-IP-ASN,63603 // GSS China
-IP-ASN,63593 // Guangdong HeyTap Technology Co., Ltd.
-IP-ASN,59065 // PayPal Network Information Services (Shanghai) Co., Ltd.
-IP-ASN,59043 // Guangzhou LanDong Information technology co., LTD
-IP-ASN,59037 // Zhejiang Ruili Information Technology Co., Ltd
-IP-ASN,59034 // BeiJing Wish Network Technology CO.,LTD.
-IP-ASN,58852 // Guizhou provincial radio and television information Network Inc
-IP-ASN,58777 // ChinaTelecom Cybersecurity Tech
-IP-ASN,58772 // CHINANET Fujian province Fuzhou IDC network
-IP-ASN,58571 // CHINANET Guizhou province network
-IP-ASN,58543 // China Telecom Guangdong IDC
-IP-ASN,58539 // China Telecom Changsha
-IP-ASN,56047 // China Mobile communications corporation
-IP-ASN,56044 // China Mobile communications corporation
-IP-ASN,56005 // Zhengzhou Fastidc Technology Co.,Ltd.
-IP-ASN,56003 // Beijing Century Union Network Technology Co.,LTD.
-IP-ASN,55973 // Universal Cinema Services Co., Ltd
-IP-ASN,4859 // The State Information Center of P.R.China
-IP-ASN,4789 // NAP1 at CERNET
-IP-ASN,45113 // Shanxi Datong Coal Group Communication Co., Ltd
-IP-ASN,45106 // JIANGSU BROADCASTING DATA NETWORK CORPORATION LIMITED
-IP-ASN,45084 // No.98 JianGuo Road,Chaoyang District,Beijing,China
-IP-ASN,45083 // Beijing haixunda Communication Co., Ltd
-IP-ASN,38564 // NVIDIA Asia Internet Gateway
-IP-ASN,38378 // Bosch (China) Investment Ltd.
-IP-ASN,38367 // 20/F.,Kuntai International Mansion,Buiding1 Yi No.12
-IP-ASN,38255 // China Education and Research Network (CERNET)
-IP-ASN,37970 // Floor 9,Hua Sheng Building No.1 Lane 519 Ao Men Road,Shanghai
-IP-ASN,37937 // China eGovNet Information Center
-IP-ASN,24547 // Hebei Mobile Communication Company Limited
-IP-ASN,24369 // CERNET2 IX at Northeast University
-IP-ASN,24361 // CERNET2 IX at Southeast University
-IP-ASN,24348 // CERNET2 IX at Tsinghua University
-IP-ASN,24143 // Qingdao Cable TV Network Center
-IP-ASN,24141 // Shanghai DMT Information Network cor.,LTD.
-IP-ASN,24137 // KuanggongLu, Pingdingshan, Henan, China
-IP-ASN,24134 // CNLink Networks Ltd.
-IP-ASN,23910 // China Next Generation Internet CERNET2
-IP-ASN,23852 // 17/FL, International Bank Center,
-IP-ASN,23851 // CHONGQING CNC BROADBAND NETWORKS CO.,LTD
-IP-ASN,23842 // Shenzhen Information and Network Center
+IP-ASN,7609 // 摩根士丹利管理服务（上海）有限公司
+IP-ASN,7640 // 中国国际信托投资公司管理信息中心
+IP-ASN,7641 // 中国广播电视网
+IP-ASN,7653 // 摩根士丹利管理服务（上海）有限公司
+# IP-ASN,7720 // Skywolf Technology LLC   【未广播中国大陆IP】
+# IP-ASN,7721 // Qin Cloud Networks       【未广播中国大陆IP】
+IP-ASN,9298 // 北京光环讯通数码科技有限公司
+IP-ASN,9306 // 中国国际电子商务中心
+IP-ASN,9308 // 北京毅云网络科技有限公司
+# IP-ASN,9384 // MIKU NETWORK LIMITED     【未广播中国大陆IP】
+IP-ASN,9389 // 北京神州长城通信
+IP-ASN,9391 // 广东省公路宽带网络服务中心
+IP-ASN,9392 // 亚太卫星宽带通信（深圳）有限公司
+IP-ASN,9394 // 中国铁通电讯公司
+IP-ASN,9395 // 北京国信比林电信科技有限公司
+IP-ASN,9401 // 中国国家图书馆
+IP-ASN,9405 // 中国清华大学测试平台服务中心
+IP-ASN,9406 // NSFC High Speed Testbed
+# IP-ASN,9516 // Sakura Network LTD       【未广播中国大陆IP】
+IP-ASN,9535 // INTERNET-SOLUTION -HK
+IP-ASN,9800 // 中国联通
+IP-ASN,9801 // 北京中关村信息技术有限公司
+IP-ASN,9802 // 北京毅云网络科技有限公司
+IP-ASN,9803 // 北京京讯公共信息技术有限公司
+IP-ASN,9805 // 西门子（中国）有限公司
+IP-ASN,9806 // 北京教育信息网
+IP-ASN,9807 // 中国国家统计局数据管理中心
+IP-ASN,9808 // 广东移动通信有限公司
+IP-ASN,9809 // 中国深圳市福田区雅柏公园
+IP-ASN,9810 // 北京时代网星科技有限公司
+IP-ASN,9811 // 国务院发展研究中心网
+IP-ASN,9812 // 东方有线网络有限公司
+IP-ASN,9814 // 北京光纤网络有限公司
+IP-ASN,9818 // 中国清华大学互联网金融实验室
+IP-ASN,9819 // 北京 Teletron 电信工程有限公司
+IP-ASN,9886 // MercyCloud Network
+IP-ASN,9929 // 中国联通工业互联网骨干网
+IP-ASN,9939 // 中国第一线(深圳)有限公司
+IP-ASN,10111 // Zeofast Network （现上海吉实信息技术有限公司）
+IP-ASN,10206 // 中国联通 中卫云
+IP-ASN,10212 // 中国企业通讯
+IP-ASN,17428 // 北京世纪互联宽带数据中心有限公司
+IP-ASN,17429 // 北京歌华有线电视网络有限公司
+IP-ASN,17430 // 北京西朗传媒文化有限公司
+IP-ASN,17442 // 中国互联网服务提供商
+# IP-ASN,17457 // 雅虎网络科技           【未广播中国大陆IP】
+IP-ASN,17490 // 3/F,Yi Qing Building,Hua Jing Xin Cheng,广州
+IP-ASN,17621 // 中国联通上海城网
+IP-ASN,17622 // 中国联通广州城网
+IP-ASN,17623 // 中国联通深圳城网
+IP-ASN,17633 // 中国电信山东省网
+IP-ASN,17638 // 中国电信天津省网
+IP-ASN,17739 // 上海电信恒联网络有限公司
+IP-ASN,17767 // 石家庄旭鼎科技有限公司
+IP-ASN,17775 // 上海科技网络通信有限公司
+IP-ASN,17776 // 中企网络通信技术有限公司
+IP-ASN,17781 // 中国新华社
+IP-ASN,17785 // 中国电信河南省网
+IP-ASN,17799 // 中国电信辽宁省网
+IP-ASN,17816 // 中国联通广东省网
+# IP-ASN,17830 // David Liu aka PotatoNet 【未广播中国大陆IP】
+IP-ASN,17897 // 中国电信黑龙江省网
+IP-ASN,17962 // 深圳市拓威视讯传播有限公司
+IP-ASN,17964 // 北京电信通网络科技有限公司
+IP-ASN,17966 // 中国信息广播网络有限公司
+IP-ASN,17968 // 大庆中基石油电信建设有限公司
+IP-ASN,17969 // 北京宽通网络科技有限公司
+IP-ASN,18011 // 中国教育实验网
+IP-ASN,18118 // 中信网络管理有限公司
+IP-ASN,18239 // 北京首都公共信息平台
+IP-ASN,18240 // 北京 Teletron 电信工程有限公司
+IP-ASN,18241 // 国家电力信息网
+IP-ASN,18242 // 成都信息港有限公司
+IP-ASN,18243 // 上海易思网络科技发展有限公司
+IP-ASN,18244 // 上海国联互联网数据中心有限公司
+IP-ASN,18245 // 北京方正宽带网络技术有限公司
+IP-ASN,18257 // 常州比特姆软件科技有限公司
+IP-ASN,23650 // 中国电信江苏省网
+IP-ASN,23724 // 中国电信IDC网络
+IP-ASN,23771 // 陕西广电网络
+IP-ASN,23839 // 辽河油田电讯公司
+IP-ASN,23840 // 天津先进信息产品有限公司
 IP-ASN,23841 // 6/F, No.3 Huatian Road, New Technology Industry Area
-IP-ASN,23839 // 76 # Oil Street of LiaoHe Oilfield, PanJin, LiaoNing
-IP-ASN,212371 // Huizhou HuiGu CloudTech Co., Ltd.
-IP-ASN,210041 // Licheng MAO
-IP-ASN,209864 // Zhaofeng Li
-IP-ASN,209218 // Yang Qi
-IP-ASN,18245 // CNNIC
-IP-ASN,17897 // asn for Heilongjiang Provincial Net of CT
-IP-ASN,17633 // ASN for Shandong Provincial Net of CT
-IP-ASN,17490 // 3/F,Yi Qing Building,Hua Jing Xin Cheng,Guangzhou
-IP-ASN,152186 // Mintel Holding Limited
-IP-ASN,152157 // Misaka Network Ltd
-IP-ASN,152120 // China Unicom TianJing GaoCun IDC network
-IP-ASN,152092 // Henan Angran Cloud Computing Technology Co. Ltd
-IP-ASN,151823 // China Telecom
-IP-ASN,151640 // Bengbu Qingye Technology
-IP-ASN,151193 // Shandong Deju Information Technology Co Ltd
-IP-ASN,150145 // China Telecom
-IP-ASN,149979 // China Telecom
-IP-ASN,149837 // China Telecom
-IP-ASN,149178 // China Telecom
-IP-ASN,148969 // China Telecom
-IP-ASN,147038 // China Telecom
-IP-ASN,146966 // China Telecom
-IP-ASN,146842 // ChinaDataCom Corporation Limited
-IP-ASN,146817 // Hubei Feixun Network Co., Ltd
-IP-ASN,146771 // CCB Fintech Co., Ltd.
-IP-ASN,146758 // ShangHai Sensetime Technology Development Co., Ltd.
-IP-ASN,146746 // TaiKang Insurance Group CO.,LTD.,Wuhan Operating Center
-IP-ASN,142608 // China Telecom
-IP-ASN,141998 // China Telecom
-IP-ASN,141771 // China Telecom
-IP-ASN,141739 // China Telecom
-IP-ASN,141679 // China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch
-IP-ASN,141025 // Shenyang MAN, Liaoning, China Telecom
-IP-ASN,140903 // CHINA TELECOM
-IP-ASN,140886 // UNICOM Guangxi province network
-IP-ASN,140717 // UNICOM JiangSu Suzhou IDC network
-IP-ASN,140707 // UNICOM Ningxia province network
-IP-ASN,140647 // CHINATELECOM Guizhou province Shengji 5G network
-IP-ASN,140638 // China Telecom
-IP-ASN,140636 // China Telecom
-IP-ASN,140553 // CHINATELECOM XINJIANG province Shengji 5G network
-IP-ASN,140527 // China Telecom
-IP-ASN,140485 // CHINATELECOM ZHEJIANG province HANGZHOU 5GC network
-IP-ASN,140345 // CHINATELECOM Yunnan province Shengji 5G network
-IP-ASN,140330 // CHINATELECOM Fujian province Xiamen 5G network
-IP-ASN,140317 // CHINATELECOM Guangdong province Shaoguan 5G network
-IP-ASN,140278 // CHINATELECOM SiChuan province Mianyang 5G network
-IP-ASN,140276 // CHINATELECOM SiChuan province Luzhou 5G network
-IP-ASN,140265 // CHINATELECOM SiChuan province Chengdu 5G network
-IP-ASN,139887 // ChinaNet Shandong Yantai IDC network
-IP-ASN,139767 // China Telecom Headquarters OA network
-IP-ASN,139743 // Shen Zhen Shi Fang Technology Co., Limited
-IP-ASN,139462 // CHINANET Guizhou Yilong IDC
-IP-ASN,139220 // Sichuan Chuanxn IDC
-IP-ASN,139201 // Jiangxi Jiujiang IDC
-IP-ASN,139183 // Thomson Reuters (Beijing) Technology Development Co. Ltd
-IP-ASN,139182 // ABC Life Insurance Co., Ltd
-IP-ASN,139141 // Yusys Financial Cloud
-IP-ASN,139139 // Shenyang Agricultural University
-IP-ASN,139080 // The Internet Data Center of Sichuan Mobile Communication Company Limited
-IP-ASN,139061 // Societe Generale (China) Limited
-IP-ASN,139019 // Henan Xinxiang MAN
-IP-ASN,139018 // Henan Luoyang IDC
-IP-ASN,139007 // UNICOM InnerMongolia province network
-IP-ASN,138991 // China Telecom
-IP-ASN,138982 // Hubei Jiangxia IDC
-IP-ASN,138570 // China Telecom
-IP-ASN,138371 // CERNET2 regional IX at Ocean University of China
-IP-ASN,138169 // China Telecom
-IP-ASN,137794 // Dahe tianchi (Beijing) network co. LTD
-IP-ASN,137788 // Shanxi Beacon Cloudscape
-IP-ASN,137785 // CACloud Services (Shanghai) Co., Ltd.
-IP-ASN,137784 // CACloud Services (Shanghai) Co., Ltd.
-IP-ASN,137767 // Shanghai General Motor Corporation Limited
-IP-ASN,137764 // Beijing Youkai Technology Co.Ltd
-IP-ASN,137759 // MTS SYSTEM (China) Co.,Ltd
-IP-ASN,137699 // CHINATELECOM Jiangsu Suqian IDC network
-IP-ASN,137698 // Haerbing , Heilongjiang Province, P.R.China.
-IP-ASN,137695 // CHINATELECOM Xinjiang Wulumuqi MAN network
-IP-ASN,137694 // CHINATELECOM Xinjiang Kezhou MAN network
-IP-ASN,137693 // CHINATELECOM Guangxi Nanning IDC networkdescr: Nanning , Guangxi Province, P.R.China.
-IP-ASN,137692 // IOT Guangdong network, Chinatelecom, P.R.China.
-IP-ASN,137690 // Zaozhuang,Shandong Province, P.R.China.
-IP-ASN,137689 // IOT Jiangsu network, Chinatelecom, P.R.China.
-IP-ASN,137686 // Zhengzhou, Henan Province, P.R.China.
-IP-ASN,137539 // China Unicom
-IP-ASN,137266 // CHINATELECOM Hubei province Wuhan 5G network
-IP-ASN,136959 // China Unicom Guangdong IP network
-IP-ASN,136200 // CHINANET Guangdong province Foshan MAN network
-IP-ASN,136199 // CHINANET Guangdong province Yuedong MAN network
-IP-ASN,136194 // Huangshi, Hubei Province, P.R.China.
-IP-ASN,136192 // Xiangyang, Hubei Province, P.R.China.
-IP-ASN,136191 // YICHANG, Hubei Province, P.R.China.
-IP-ASN,136190 // China Telecom DaLi
-IP-ASN,136189 // Opera Software Technology (Beijing) Co., Ltd.
-IP-ASN,136188 // China Telecom Yunnan Diqing MAN
-IP-ASN,136160 // Beijing Shijihulian Yuntong Network Technology Co., Ltd.
-IP-ASN,136146 // Beijing 3389 Network Technology Co., Ltd.
-IP-ASN,135363 // Beijing Dunhuang Heguang Information Technology Co.,Lt.
-IP-ASN,135089 // China Telecom
-IP-ASN,134810 // China Mobile Group JiLin communications corporation
-IP-ASN,134772 // CHINANET Guangdong province Dongguan MAN network
-IP-ASN,134771 // WENZHOU, ZHEJIANG Province, P.R.China.
-IP-ASN,134770 // CHINANET Jiangsu province Suzhou taihu IDC network
-IP-ASN,134769 // ChinaNet Jiangsu Changzhou Liyang IDC network
-IP-ASN,134768 // CHINANET SHAANXI province Cloud Base network
-IP-ASN,134766 // CHINANET Yunnan province IDC2 network
-IP-ASN,134765 // CHINANET Yunnan province IDC1 network
-IP-ASN,134764 // CHINANET Guangdong province network
-IP-ASN,134763 // CHINANET Guangdong province network
-IP-ASN,134762 // CHINANET Liaoning province Dalian MAN network
-IP-ASN,134543 // China Unicom Guangdong IP network
-IP-ASN,134425 // China Telecom
-IP-ASN,134419 // China Telecom Beihai
-IP-ASN,134238 // CHINANET Jiangx province IDC network
-IP-ASN,133952 // Zhengzhou longling technology ltd.
-IP-ASN,133776 // China Telecom Quanzhou
-IP-ASN,133775 // China Telecom Xiamen
-IP-ASN,133475 // New York University ASN
-IP-ASN,133465 // Duke Kunshan University
-IP-ASN,133118 // China Unicom IP network
-IP-ASN,132833 // China Telecom
-IP-ASN,132437 // China Telecom
-IP-ASN,132225 // China Telecom
-IP-ASN,132153 // No.3,Shu-Ma Road
-IP-ASN,132147 // No.3,Shu-Ma Road
-IP-ASN,131577 // Wuhan Unifiber Communication Co., Ltd.
-IP-ASN,131562 // HUNAN CATV Network Group CO.,LTD.
-IP-ASN,131536 // Shanghai Great Wall Broadband Network Service Co., Ltd.
-IP-ASN,131506 // HEILONGJIANG RADIO & TV NETWORK CO.,LTD
-IP-ASN,131497 // Volkswagen (China) Investment Co., LTD
-IP-ASN,131495 // Beijing nine cloud infinite network technology co., LTD
-IP-ASN,131325 // China Telecom KunMing
-IP-ASN,131285 // CHINATELECOM Hubei province Shengji 5G network
-IP-ASN,9806 // Beijing Educational Information Network Service Center Co., Ltd
-IP-ASN,9401 // National Library of China
-IP-ASN,64021 // Network-Transit
-IP-ASN,63719 // Gansu Province Radio and Television Network Co., Ltd.
-IP-ASN,63708 // Guangdong LITONG Network Technology Limited
-IP-ASN,63704 // Guizhou provincial radio and television information Network Inc
-IP-ASN,63697 // China Securities Co., Ltd
-IP-ASN,63696 // China Securities Co., Ltd
-IP-ASN,63690 // China Dragon Telecom Co.,Ltd
-IP-ASN,63663 // Beijing YunHaiHuLian Science and Technology Co., Ltd.
-IP-ASN,63655 // Huawei Technologies Co., Ltd
-IP-ASN,63654 // BEIJING NETEAST TECHNOLOGIES CORPORATION LTD
-IP-ASN,63647 // Beijing WangJu Interworking Information Technology Co. LTD
-IP-ASN,63621 // NINGXIA BROADCAST&TV NETWORK CO.,LTD
-IP-ASN,63620 // ShenZhen HuaBo Technology Develop Co., Ltd.
+IP-ASN,23842 // 深圳市信息网络中心
+IP-ASN,23844 // 北京光环新旺数码
+IP-ASN,23848 // 深圳市平安通讯科技有限公司
+IP-ASN,23851 // 重庆数控宽带网络有限公司
+IP-ASN,23852 // 广州未来科技有限公司
+IP-ASN,23853 // 上海数据解决方案有限公司
+IP-ASN,23910 // 中国电信下一代承载网 (CERNET 2)
+IP-ASN,23911 // 中国电信下一代承载网 (北京 IX)
+IP-ASN,24133 // 北京世纪互联宽带数据中心有限公司
+IP-ASN,24134 // 北京互联通网络科技有限公司
+IP-ASN,24137 // 河南平煤集团
+IP-ASN,24138 // 中国铁通电信公司
+IP-ASN,24139 // 华蜀传媒网络有限公司
+IP-ASN,24141 // 上海地面通信息网络有限公司
+IP-ASN,24143 // 青岛有线电视网络中心
+IP-ASN,24144 // 武汉蓝视云科技有限公司
+IP-ASN,24147 // 北京商务中心区通信科技有限公司
+IP-ASN,24149 // 中国互联网域名系统北京工程研究中心有限公司
+IP-ASN,24150 // 四川有线电视网络有限公司
+IP-ASN,24151 // 中国互联网络信息中心
+IP-ASN,24239 // 中国清华大学TWD2教育和研究网络
+IP-ASN,24302 // 中国清华大学
+IP-ASN,24311 // 中国移动通信集团公司 IPv6 网络
+IP-ASN,24348 // 中国清华大学 (CERNET 2 IX)
+IP-ASN,24349 // 中国北京大学 (CERNET 2 IX)
+IP-ASN,24350 // 中国北京邮电大学 (CERNET 2 IX)
+IP-ASN,24351 // 中国北京航空航天大学 (CERNET 2 IX)
+IP-ASN,24352 // 中国天津大学 (CERNET 2 IX)
+IP-ASN,24353 // 中国西安交通大学 (CERNET 2 IX)
+IP-ASN,24354 // 中国中国兰州大学 (CERNET 2 IX)
+IP-ASN,24355 // 中国电子科技大学 (CERNET 2 IX)
+IP-ASN,24356 // 中国重庆大学 (CERNET 2 IX)
+IP-ASN,24357 // 中国华南理工大学 (CERNET 2 IX)
+IP-ASN,24358 // 中国华中科技大学 (CERNET 2 IX)
+IP-ASN,24359 // 中国中南大学 (CERNET 2 IX)
+IP-ASN,24360 // 中国郑州大学 (CERNET 2 IX)
+IP-ASN,24361 // 中国东南大学 (CERNET 2 IX)
+IP-ASN,24362 // 中国科学技术大学 (CERNET 2 IX)
+IP-ASN,24363 // 中国山东大学 (CERNET 2 IX)
+IP-ASN,24364 // 中国上海交通大学 (CERNET 2 IX)
+IP-ASN,24365 // 中国复旦大学 (CERNET 2 IX)
+IP-ASN,24366 // 中国同济大学 (CERNET 2 IX)
+IP-ASN,24367 // 中国浙江大学 (CERNET 2 IX)
+IP-ASN,24368 // 中国厦门大学 (CERNET 2 IX)
+IP-ASN,24369 // 中国东北大学 (CERNET 2 IX)
+IP-ASN,24370 // 中国大连理工大学 (CERNET 2 IX)
+IP-ASN,24371 // 中国吉林大学 (CERNET 2 IX)
+IP-ASN,24372 // 哈尔滨工业大学 (CERNET 2 IX)
+IP-ASN,24376 // 雅虎中国数据中心
+IP-ASN,24400 // 上海移动通信有限公司
+IP-ASN,24404 // 北京铜牛信息科技股份有限公司
+IP-ASN,24406 // 中国互联网络信息中心
+IP-ASN,24409 // 中国互联网络信息中心
+IP-ASN,24413 // 深圳市日升科技有限公司
+IP-ASN,24416 // 北京三信时代科技有限公司
+IP-ASN,24422 // 华北石油通信有限公司
+IP-ASN,24423 // 福建广电网络集团
+IP-ASN,24424 // 北京谷翔信息技术有限公司
+IP-ASN,24426 // 北京 CE Huatong信息科技有限公司
+IP-ASN,24427 // 上海驰信信息技术有限公司
+IP-ASN,24428 // 北京方正宽带网络技术有限公司
+IP-ASN,24429 // 浙江淘宝网络有限公司
+IP-ASN,24430 // 中国国家邮政局
+IP-ASN,24444 // 山东移动通信有限公司
+IP-ASN,24445 // 河南移动通信有限公司
+IP-ASN,24489 // 跨欧亚信息网络 (TEIN2)
+# IP-ASN,24490 // 跨欧亚信息网络 (TEIN2) 【未广播中国大陆IP】
+IP-ASN,24495 // G-NET综合服务有限公司
+IP-ASN,24547 // 河北移动通信有限公司
+IP-ASN,24575 // 清华大学实验室
+IP-ASN,37936 // 北京市海淀区北四环西路58号理想国际大厦15楼
+IP-ASN,37937 // 中国电子政务信息中心
+IP-ASN,37941 // 中国数码科技有限公司
+IP-ASN,37942 // 中国文化遗产信息咨询中心
+IP-ASN,37943 // 郑州巨特计算机网络技术有限公司
+IP-ASN,37957 // 中国通讯有限公司
+IP-ASN,37963 // 杭州阿里巴巴广告有限公司
+IP-ASN,37965 // 亚太环通商务解决方案
+IP-ASN,37968 // 深圳 QianHai New-Type Internet Exchange Point 有限公司
+IP-ASN,37969 // 杭州云泽网络科技有限公司
+IP-ASN,37970 // 中国华电公司
+IP-ASN,38019 // 天津移动通信有限公司
+IP-ASN,38027 // 信息中心，科学技术部
+IP-ASN,38057 // 戴尔（中国）有限公司
+IP-ASN,38238 // 法国兴业银行（中国）有限公司
+IP-ASN,38255 // 中国教育研究网（CERNET ）
+IP-ASN,38272 // 中国教育研究网（CERNET ）
+IP-ASN,38283 // 中国电信四川电信互联网数据中心
+IP-ASN,38323 // 广州麦克疯广告有限公司
+IP-ASN,38339 // 深圳市虎盟科技有限公司
+IP-ASN,38340 // 北京百度网通科技有限公司
+IP-ASN,38341 // 中国和信信息技术有限公司
+IP-ASN,38342 // 上海维赛特网络系统有限公司
+IP-ASN,38345 // 中国互联网域名系统北京工程研究中心有限公司
+IP-ASN,38346 // 中国航天信息网络有限公司
+IP-ASN,38353 // 资本在线数据服务有限公司
+IP-ASN,38355 // 重庆广播电视宽带IP城域网
+IP-ASN,38357 // 北京数据快讯科技有限公司
+IP-ASN,38358 // 中国科学技术协会信息中心
+IP-ASN,38363 // 上海高速公路信息技术有限公司
+IP-ASN,38364 // 龙泰网络科技有限公司
+IP-ASN,38365 // 北京百度网通科技有限公司
+IP-ASN,38367 // 联合人寿保险股份有限公司
+IP-ASN,38370 // 中国铁路互联网广东分公司
+# IP-ASN,38371 //    【未广播中国大陆IP】
+IP-ASN,38372 // 佛山市瑞江科技有限公司
+IP-ASN,38375 // 北京高华证券股份有限公司
+IP-ASN,38378 // 博世（中国）投资有限公司
+IP-ASN,38379 // 上海劢杰网络数据科技有限公司
+IP-ASN,38380 // 中国南方机车车辆工业公司
+IP-ASN,38381 // 浙江民航信息科技有限公司
+IP-ASN,38439 // 北京烽鸟网络科技有限公司
+# IP-ASN,38564 // 英伟达亚洲互联网网关   【未广播中国大陆IP】
+IP-ASN,38587 // 中国教育网互联网数据中心
+IP-ASN,38834 // 上海英伟达企业网
+# IP-ASN,39753 // Kai Liu
+# IP-ASN,41979 // 杭州 CloudZone 网络科技有限公司   【未广播中国大陆IP】
+IP-ASN,42962 // 石家庄旭鼎科技有限公司
+# IP-ASN,44421 // Yifu Yu   【未广播中国大陆IP】
+IP-ASN,45057 // 中国铁通上海城网
+IP-ASN,45058 // 金桥网通通信有限公司
+IP-ASN,45061 // 上海信息网络有限公司
+IP-ASN,45062 // 广州网易电脑系统有限公司
+IP-ASN,45064 // 北京中关村软件园发展有限公司
+IP-ASN,45069 // 中国铁通山东省网
+IP-ASN,45071 // 李宁（中国）体育用品有限公司
+IP-ASN,45074 // 中国国家统计局数据管理中心
+IP-ASN,45075 // 中国中央广播电视总台
+IP-ASN,45079 // 中国长安服务有限公司
+IP-ASN,45080 // 上海联网通讯科技有限公司
+IP-ASN,45083 // 北京市海讯达通信有限责任公司
+IP-ASN,45084 // 中国北京市朝阳区建国路98号
+IP-ASN,45086 // 上海有孚网络股份有限公司
+IP-ASN,45087 // 中国免税集团
+IP-ASN,45090 // 深圳市腾讯计算机系统有限公司
+IP-ASN,45093 // 北京亿安天下科技股份有限公司 (Cnean IX)
+IP-ASN,45101 // 沃尔玛（中国）投资有限公司
+# IP-ASN,45102 // Alibaba (US) Technology 有限公司
+IP-ASN,45110 // 北京天威鑫通科技股份有限公司
+IP-ASN,45113 // 山西大同煤业集团通信有限公司
+IP-ASN,45275 // 天地互连信息技术有限公司
+IP-ASN,45576 // 中国清华大学
+IP-ASN,45587 // 中国宽带通信（CBCnet）
+# IP-ASN,49195 // 上海 Sunwen Advertising 有限公司   【未广播中国大陆IP】
+# IP-ASN,49575 // Dong Ran Yang   【未广播中国大陆IP】
+# IP-ASN,49904 // Xiaodong Qi   【未广播中国大陆IP】
+IP-ASN,49953 // 宠赞（上海）网络科技有限公司
+# IP-ASN,50922 // SHI Li Li   【未广播中国大陆IP】
+IP-ASN,55439 // 互联网系统联盟 （中国北京）
+IP-ASN,55461 // 北京日升科技有限公司
+IP-ASN,55468 // 中国国际广播电台
+# IP-ASN,55515 // GOIP-AULA 【未广播中国大陆IP】
+IP-ASN,55641 // 北京市昌平区
+IP-ASN,55786 // 肇嘉浜路1065-A
+IP-ASN,55826 // 天津大学 IPv6 Campus Network
+IP-ASN,55956 // 麦格纳汽车技术服务（上海）有限公司
+IP-ASN,55958 // Intel China Ltd.
+IP-ASN,55960 // 北京光环新旺数码
+IP-ASN,55962 // 北京 Kuaishou Technology 有限公司
+IP-ASN,55966 // 邮政储蓄银行
+IP-ASN,55967 // 北京百度网通科技有限公司
+IP-ASN,55971 // 中国社会科学院
+IP-ASN,55973 // APNIC ASN Block
+IP-ASN,55976 // 北京 DxConsole Technology有限公司
+IP-ASN,55977 // 浙江瓦苏广播电视网络有限公司
+IP-ASN,55982 // 长虹IT信息产品有限公司
+IP-ASN,55990 // 华为云服务数据中心
+IP-ASN,55991 // 
+IP-ASN,55992 // 北京奇湖科技有限公司
+IP-ASN,55994 // 上海AnchNet Tec，Inc。
+IP-ASN,55996 // CYPRESS TELECOM（CHINA）LIMITED
+IP-ASN,55998 // CNLink网络科技有限公司
+IP-ASN,56000 // 康宝莱（中国）保健品有限公司
+IP-ASN,56001 // 上海晨毅网络科技有限公司
+IP-ASN,56002 // 北京海洋通信与导航公司
+IP-ASN,56003 // 北京世纪联盟网络科技有限公司
+IP-ASN,56004 // Information Center of 上海 Municipal Education Commission
+IP-ASN,56005 // 郑州法斯特科技有限公司
+IP-ASN,56006 // 上海 Pudong Development Bank 有限公司.
+IP-ASN,56011 // UNICLOUD TECH 有限公司.
+IP-ASN,56012 // LGNET中国
+IP-ASN,56013 // 三星SDS中国
+IP-ASN,56015 // 中国体育彩票科技发展有限公司
+IP-ASN,56019 // 北京舒居佳科技有限公司
+IP-ASN,56040 // 中国移动通信公司
+IP-ASN,56041 // 中国移动通信公司
+IP-ASN,56042 // 中国移动通信公司
+IP-ASN,56044 // 中国移动通信公司
+IP-ASN,56046 // 中国移动通信公司
+IP-ASN,56047 // 中国移动通信公司
+IP-ASN,56048 // 中国移动通信公司
+IP-ASN,56282 // 北京互联网港科技有限公司
+IP-ASN,56292 // 北京 Sanxin Shidai 有限公司
+IP-ASN,58251 // 北京 Kouding Technology 有限公司
+IP-ASN,58336 // Chengde TsingYao 网络科技Service 有限公司
+IP-ASN,58416 // 佛山市四海网络科技有限公司
+IP-ASN,58448 // CONAC（中国组织名称管理中心）
+IP-ASN,58461 // 富春路288号
+IP-ASN,58466 // CHINANET 广东省网络
+IP-ASN,58517 // 中国电信
+IP-ASN,58518 // 中国电信
+IP-ASN,58519 // 云计算公司
+IP-ASN,58520 // NANTON
+IP-ASN,58536 // CONAC（中国组织名称管理中心）
+IP-ASN,58539 // 中国电信 Changsha
+IP-ASN,58540 // 株洲
+IP-ASN,58541 // 湘潭
+IP-ASN,58542 // 岳阳
+IP-ASN,58543 // 广东省
+IP-ASN,58563 // CHINANET 湖北省网络
+IP-ASN,58571 // CHINANET 广东省佛山网
+IP-ASN,58593 // 上海蓝云科技有限公司
+IP-ASN,58772 // CHINANET 福建省 福州 IDC network
+IP-ASN,58777 // CHINATELECOM Cybersecurity Tech
+IP-ASN,58811 // CONAC（中国组织名称管理中心）
+IP-ASN,58828 // 广东 RURAL CREDIT UNION
+IP-ASN,58829 // 森林永恒传播技术有限公司
+IP-ASN,58834 // 广东电缆有限公司
+IP-ASN,58842 // 北京 Sheng Hexuan Culture Communication 有限公司
+IP-ASN,58844 // 广东奥菲数据科技有限公司
+IP-ASN,58850 // 彭博财务信息（北京）有限公司
+IP-ASN,58851 // Priority of Fashion(北京)信息科技有限公司
+IP-ASN,58852 // 贵州 provincial 广电 information Network Inc
+IP-ASN,58854 // 厦门艾雅网络科技有限公司
+IP-ASN,58859 // 深圳 WSUNet Technology 有限公司
+IP-ASN,58862 // 微软（中国）有限公司
+IP-ASN,58863 // hijingshan District, 北京 to reunite the property the second floor
+IP-ASN,58866 // 中国金融认证局
+IP-ASN,58879 // 上海安昌网络安全技术有限公司
+IP-ASN,58962 // 四川世纪立新财务管理咨询有限公司
+IP-ASN,58998 // 北京 Internet Harbor Technology 有限公司
+IP-ASN,59000 // Grande Arche Technologies（上海），有限公司.
+IP-ASN,59003 // 天津 B&T broadband 网络科技有限公司
+IP-ASN,59008 // 北京 flash newsletter cas telecommunication
+IP-ASN,59009 // 青岛旺信电讯有限公司
+IP-ASN,59010 // 联合网络信息服务有限公司
+IP-ASN,59011 // 北京云林网络科技有限公司
+IP-ASN,59012 // 中粮储备集团有限公司
+IP-ASN,59019 // 北京金山云互联科技有限公司
+IP-ASN,59022 // 昆明广播电视网络有限公司
+IP-ASN,59023 // Forest Eternal 通信技术有限公司
+IP-ASN,59025 // 北京 Sankuai Technology 有限公司.
+IP-ASN,59029 // People.Cn 有限公司
+IP-ASN,59033 // 艾森科技（上海）有限公司
+IP-ASN,59034 // 北京希望网络科技有限公司
+IP-ASN,59037 // 国家计算机网络与信息
+IP-ASN,59043 // 广州兰东信息技术有限公司
+IP-ASN,59045 // APNIC ASN Block
+IP-ASN,59048 // 北京云时代科技有限公司
+IP-ASN,59049 // 沃尔玛（中国）投资有限公司
+IP-ASN,59050 // 北京云方舟科技有限公司
+IP-ASN,59056 // 上海圆通科技有限公司
+IP-ASN,59057 // 北京 yong xin chang lian 科技有限公司
+IP-ASN,59065 // 贝宝网络信息服务（上海）有限公司
+IP-ASN,59067 // 微软移动联盟互联网服务有限公司
+IP-ASN,59068 // 上海 Pudong Development Bank 有限公司
+IP-ASN,59070 // 成都 Zhongli Data Technology 有限公司
+IP-ASN,59072 // 深圳 ESIN Technology 有限公司
+IP-ASN,59073 // 中国银行股份有限公司
+IP-ASN,59074 // 泰康保险集团有限公司
+IP-ASN,59077 // 上海UCloud信息技术有限公司
+IP-ASN,59078 // 云能科技公司
+IP-ASN,59080 // 北京 HuaxiaYakue 网络科技有限公司
+IP-ASN,59081 // 上海远思网络信息服务有限公司
+IP-ASN,59083 // 上海宽辉科技有限公司
+IP-ASN,59089 // 18号建筑科技大学
+IP-ASN,59201 // 北京大学
+IP-ASN,59265 // 中国电信中国下一代互联网
+# IP-ASN,60666 // 北京 Chuangzhijie Technology 有限公司【未广播中国大陆IP】
+IP-ASN,63531 // 北京 BAIWU Technology 有限公司
+IP-ASN,63534 // 深圳春秋云集团
+IP-ASN,63535 // 成都万达电子信息技术有限公司
+IP-ASN,63540 // 山东云梳文化有限公司
+IP-ASN,63541 // 北京蓝天科技有限公司
+IP-ASN,63545 // 北京迅捷云技术有限公司
+IP-ASN,63548 // 联诺（北京）有限公司
+IP-ASN,63549 // 辽宁图隆科技有限公司
+IP-ASN,63554 // 九鹏网络有限公司
+IP-ASN,63555 // 北京北龙云海网络数据技术有限公司
+IP-ASN,63561 // 中国电子科技网络安全有限公司
+IP-ASN,63564 // 贵州白山云科技有限公司
+IP-ASN,63565 // 北京 lian guang tong 网络科技有限公司
+IP-ASN,63570 // APNIC ASN Block
+IP-ASN,63571 // APNIC ASN Block
+IP-ASN,63580 // 中国诺华生物医学研究有限公司
+IP-ASN,63581 // 广西广播电视信息网络有限公司
+IP-ASN,63582 // 中国电信研究院
+IP-ASN,63583 // 中国电信研究院
+IP-ASN,63590 // 河北 Broadcasting&TV Network
+IP-ASN,63593 // 广东 HeyTap Technology 有限公司
+IP-ASN,63598 // 河北 Kun Time 网络科技有限公司.
+IP-ASN,63603 // 北京HYCT网络有限公司
+IP-ASN,63612 // 深圳前海鸟云计算有限公司
 IP-ASN,63614 // A4, 5th Floor, Tower C, Triumph Plaza, Unit A, No 143,
-IP-ASN,63607 // Anhui Radio and Television Information Network Co.,Ltd.
-IP-ASN,63590 // Hebei Broadcasting&TV Network
-IP-ASN,63583 // Chinese Academy of Telecommunication Research
-IP-ASN,63571 // Shenzhen cyberlink Century Investment Co., Ltd.
-IP-ASN,63565 // Beijing lian guang tong network technology co., LTD
-IP-ASN,63555 // Beijing Beilong Yunhai Network Data Technology Corporation
-IP-ASN,63540 // Shandong Cloud Comb Culture CO.LTD
-IP-ASN,63539 // Cloud Union (HuBei) Network Technology Co., Ltd
-IP-ASN,63538 // Shanghai Hengyi Network Technology Co.,Ltd
-IP-ASN,63531 // Beijing BAIWU Technology Co., Ltd.
-IP-ASN,59089 // NO.18 Building University of Technology
-IP-ASN,59080 // Beijing Shiwei border Technology Co., Ltd
-IP-ASN,59077 // Shanghai UCloud Information Technology Company Limited
-IP-ASN,59057 // Jishi Media Co ., Ltd.
-IP-ASN,59048 // Bei Jing Cloud Times Technology Co.,Ltd
-IP-ASN,59033 // Esun Technology(Shanghai) Co.,Ltd
-IP-ASN,59025 // Beijing Sankuai Technology Co.,Ltd.
-IP-ASN,59016 // China Broadcast Henan Network Co., Ltd
-IP-ASN,59011 // Beijing Yunlin Network Technology Co.,Ltd.
-IP-ASN,59003 // Tianjin B&T broadband network technology Co., Ltd.
-IP-ASN,58998 // Beijing Internet Harbor Technology Co.,Ltd
-IP-ASN,58859 // Shenzhen WSUNet Technology Co., Ltd.
-IP-ASN,58851 // Priority of Fashion(Beijing)Information Technology Co.,Ltd
-IP-ASN,58520 // Nanton
-IP-ASN,58518 // China Telecom
-IP-ASN,58517 // China Telecom
-IP-ASN,56042 // China Mobile communications corporation
-IP-ASN,55989 // Zhejiang Xuanyun Technology Co., Ltd.
-IP-ASN,55786 // 1065-A Zhaojiabang Road
-IP-ASN,55461 // Beijing Sun Rise Technology CO.,LTD
-IP-ASN,55439 // Internet Systems Consortium, (Beijing, China)
-IP-ASN,4813 // China Telecom(Group)
-IP-ASN,45074 // Data Management Centre National Bureau of Statistics of China
-IP-ASN,45064 // BEIJING ZHONGGUANCUN SOFTWARE PARK DEVELOPMENT CO.,Ltd.
-IP-ASN,45058 // Golden-Bridge Netcom communication Co.,LTD.
-IP-ASN,45057 // CHINA TIETONG SHANGHAI
-IP-ASN,38370 // China TieTong Telecommunications Corporation
-IP-ASN,38364 // RM 1706,Block A,Ocean Express,No.66
-IP-ASN,38363 // Floor 9,Hua Sheng Building No.1 Lane 519 Ao Men Road,Shanghai
-IP-ASN,38357 // BEIJING DATA-express tech CO.,ltd
-IP-ASN,38341 // HEXIE Information technology Co., Ltd.
-IP-ASN,38336 // Beijing Linkever Technology Co.,Ltd
-IP-ASN,38272 // China Education and Research Network (CERNET)
-IP-ASN,38019 // tianjin Mobile Communication Company Limited
-IP-ASN,37936 // 15F,Ideal Plaza No.58 Bei Si Huan Xi Road
-IP-ASN,24575 // DRAGONLAB
-IP-ASN,24495 // gnet Integrated Services Co.
-IP-ASN,24445 // Henan Mobile Communications Co.,Ltd
-IP-ASN,24426 // Beijing CE Huatong Information Technology Co., Ltd.
-IP-ASN,24423 // No. 207 Hualin Road, Fuzhou, Fujian, China
-IP-ASN,24422 // Huizhan street, Renqiu city, Hebei, P. R. CHINA
-IP-ASN,24416 // Beijing Primezone Technologies Inc.
-IP-ASN,24376 // Yahoo China Datacenter
-IP-ASN,24371 // CERNET2 IX at Jilin University
-IP-ASN,24370 // CERNET2 IX at Dalian University of Technology
-IP-ASN,24367 // CERNET2 IX at Zhejiang University
-IP-ASN,24364 // CERNET2 IX at Shanghai Jiaotong University
-IP-ASN,24363 // CERNET2 IX at Shandong University
-IP-ASN,24362 // CERNET2 IX at University of Science and Technology of China
-IP-ASN,24358 // CERNET2 IX at Huazhong University of Science and Technology
-IP-ASN,24357 // CERNET2 IX at South China University of Technology
-IP-ASN,24356 // CERNET2 IX at Chongqing University
-IP-ASN,24355 // CERNET2 IX at University of Electronic Science and Technology of China
-IP-ASN,24353 // CERNET2 IX at Xi'an Jiaotong University
-IP-ASN,24352 // CERNET2 IX at Tianjin University
-IP-ASN,24350 // CERNET2 IX at Beijing University of Posts and Telecommunications
-IP-ASN,24349 // CERNET2 IX at Peking University
-IP-ASN,24150 // 1 TianXianQiao BinHe Road,Chengdu,SiChuan
-IP-ASN,214934 // Chen Qu
-IP-ASN,211843 // Nanjing Tiankai Information Technology Co.Ltd.
-IP-ASN,211051 // Dazhong Technology Network Studio of Tieling County
-IP-ASN,208993 // Wei Xiaofan
-IP-ASN,208830 // ifanr Inc.
-IP-ASN,203691 // Li Ma
-IP-ASN,203236 // Mingyang Shen
-IP-ASN,199406 // Jin Han Shen trading as Yinyun Network Technology Studio
-IP-ASN,18244 // Stateline Internet Data Center Co., Ltd. Shanghai
-IP-ASN,18242 // Chengdu Information Harbor Co., Ltd
-IP-ASN,17968 // Daqing zhongji petroleum telecommunication construction limited cpmpany
-IP-ASN,17776 // China Enterprise ICT Solutions Limited
-IP-ASN,17442 // Internet Service Provider in China
-IP-ASN,151490 // GaonIT
-IP-ASN,151483 // Beijing Chuangzhijie Tech. Co. Ltd.
-IP-ASN,151464 // Shanghai Luogu Network Technology Co., Ltd.
-IP-ASN,151397 // China Telecom
-IP-ASN,151311 // Shenzhen Humeng Technology Co., Ltd
-IP-ASN,151296 // Changzhou Jieyun Network Technology Co. Ltd.
-IP-ASN,150374 // Jiang Men Shi Tian Da Cloud Co. Ltd
-IP-ASN,150166 // The New Development Bank
-IP-ASN,149648 // Fuzhou Lefeng Networks Technology Co., Ltd.
-IP-ASN,149475 // Nanjing Tiankai Information Technology Co.Ltd.
-IP-ASN,147008 // Shenzhen Dianjiang Technology Co Ltd
-IP-ASN,146841 // Tianjin GiantDC Data Technology Co.Ltd
-IP-ASN,146838 // China Broadcasting TV Net
-IP-ASN,146810 // Shanghai Hewlett-Packard Co. Ltd. Dalian Branch
-IP-ASN,146809 // Poly facility (Beijing) Technology Co., Ltd.
-IP-ASN,146792 // Shanghai Shenfu Information Technology Co., Ltd
-IP-ASN,146782 // University Of Chinese Academy Of Social Sciences
-IP-ASN,146772 // Shenzhen Pengcheng communication network Co., Ltd
-IP-ASN,142404 // China Telecom
-IP-ASN,141776 // Baoshuo Network
-IP-ASN,140709 // Beijing Kaopu Cloud technology co. LTD
-IP-ASN,140105 // Shaanxi Mobile Communication Company Limited
-IP-ASN,140083 // China Telecom
-IP-ASN,139726 // Guangdong Yunjie Communication Co., Ltd.
-IP-ASN,139587 // China Telecom Henan Zhengzhou Shujugang IDC network
-IP-ASN,139266 // Guangzhou Tiansui Information Technology Co., Ltd.
-IP-ASN,139189 // Beijing Yu Jia Heng Tong Communications and Information Co., Ltd.
-IP-ASN,139180 // Shandong eshinton Network Technology Co., Ltd.
-IP-ASN,139172 // Hangzhou Woodnn Technology Co., Ltd.
-IP-ASN,139137 // Chinese Academy of Telecommunication Research
-IP-ASN,139122 // BEIJING MUNICIPAL ADMINISTRATION COMMUNICATION CARD CO..LTD
-IP-ASN,139118 // Shanghai Rugu Info&Tech Co.,Ltd.
-IP-ASN,139090 // Wuxi Education Information Management Service Center
-IP-ASN,138949 // Jiangsu Kunshan IDC
-IP-ASN,138407 // The Internet Data Center of Guizhou Mobile Communication Company Limited
-IP-ASN,138393 // CERNET2 regional IX at Guangxi University
-IP-ASN,138378 // CERNET2 regional IX at Yunnan University
-IP-ASN,138369 // CERNET2 regional IX at Shenzhen University
-IP-ASN,138029 // Shen Zhen Hu Lian Xian Feng Technology Co., Limited
-IP-ASN,137882 // Huajuan Enterprise Network
-IP-ASN,137804 // China Internet Exchange
-IP-ASN,137782 // STATE GRID SHANGHAI MUNICIPAL ELECTRIC POWER COMPANY
-IP-ASN,137778 // Nangjing sichongzou kemao Ltd.
-IP-ASN,137751 // Xi'an Qianxi Network Technology Co. Ltd.
-IP-ASN,137749 // NANJING FUTURE NETWORK INDUSTRY INNOVATION Co,.LTD
-IP-ASN,137747 // Beijing Chijun Network Advisory Service Co,Ltd
-IP-ASN,137719 // Qingdao Weidong Big Data Technology Co., Ltd
-IP-ASN,137710 // Net God Information Technology (Beijing) Co., Ltd.
-IP-ASN,137688 // CHINATELECOM Liaoning Benxi MAN
-IP-ASN,137687 // Luoyang, Henan Province, P.R.China.
-IP-ASN,137571 // arebz.com
-IP-ASN,136766 // ROBLOX (SHENZHEN) DIGITAL SCIENCE AND TECHNOLOGY CO., LTD
-IP-ASN,136197 // Xiong'an, Hebei Province, P.R.China.
-IP-ASN,135883 // Nahe (tianjin) Network Technology Co., Ltd.
-IP-ASN,135671 // RBB InfoTech
-IP-ASN,135432 // Visa Information Technology Beijing Co. Ltd.
-IP-ASN,135054 // China Mobile Group Hainan Co., Ltd.
-IP-ASN,135006 // VERI2
-IP-ASN,134413 // KMNIX LLC
-IP-ASN,133846 // IMLONGHAO
-IP-ASN,133555 // DOORPOST Limited
-IP-ASN,132698 // Shenzhen Balian Network Technology Co., Ltd
-IP-ASN,132553 // China University of Petroleum (East China)
-IP-ASN,132510 // IDC ShanXi China Mobile communications corporation
-IP-ASN,132019 // Earth network technology (Shanghai) Co., Ltd
-IP-ASN,131567 // Fnetlink International Co., Ltd.
-IP-ASN,131565 // INNER MONGOLIA BROADCAST&TV NETWORK GROUP CORPORATION
-IP-ASN,131524 // Shanghai pujv Communication Technology co., Ltd.
-IP-ASN,131522 // Beijing Yovole Cloud Computing Technology Company Limited
-IP-ASN,131516 // Jinhua Weian InfoTech Co., Ltd
-IP-ASN,131484 // Ubisoft Shanghai
-IP-ASN,9425 // Future Internet Technology Infrastructure (FITI)
-IP-ASN,63619 // Beijing Sankuai Cloud Computing Co.,Ltd.
-IP-ASN,60666 // Beijing Chuangzhijie Technology Co.,Ltd
-IP-ASN,59265 // China telecom â China Next Generation Internet
-IP-ASN,59022 // Kunming Broadcast&TV Network CO.,LTD
-IP-ASN,58828 // GUANGDONG RURAL CREDIT UNION
-IP-ASN,58336 // Chengde TsingYao Network Technology Service Co., Ltd.
-IP-ASN,58251 // Beijing Kouding Technology Co., Ltd
-IP-ASN,56004 // Information Center of Shanghai Municipal Education Commission
-IP-ASN,55962 // Beijing Kuaishou Technology Co., Ltd.
-IP-ASN,55826 // Tianjin University IPv6 Campus Network
-IP-ASN,55641 // Changping District, Beijing
-IP-ASN,50922 // SHI Li Li
-IP-ASN,49904 // Xiaodong Qi
-IP-ASN,49575 // Dong Ran Yang
-IP-ASN,45576 // Tsinghua University
-IP-ASN,45275 // BII Group Holding Ltd.
-IP-ASN,44446 // Yuan Xue
-IP-ASN,41979 // Hangzhou CloudZone Network Technology Co.,Ltd
-IP-ASN,39753 // Kai Liu
-IP-ASN,38587 // CERNET Internet Data Center
-IP-ASN,38355 // ChongQing Broadcast & TV Broadband IP MAN
-IP-ASN,38323 // Meifeng Advertising Co., Ltd.
-IP-ASN,24372 // CERNET2 IX at Harbin Institute of Technology
-IP-ASN,24368 // CERNET2 IX at Xiamen University
-IP-ASN,24366 // CERNET2 IX at Tongji University
-IP-ASN,24365 // CERNET2 IX at Fudan University
-IP-ASN,24360 // CERNET2 IX at Zhengzhou University
-IP-ASN,24359 // CERNET2 IX at Central South University
-IP-ASN,24354 // CERNET2 IX at Lanzhou University
-IP-ASN,24351 // CERNET2 IX at Beijing University of Aeronautics and Astronautics
-IP-ASN,24302 // CRIS-CERNET
-IP-ASN,24239 // TWD2 Education and Research Network
-IP-ASN,24144 // Wuhan LSHIY Network Technology Co., Ltd.
-IP-ASN,216405 // Zheng Chao
-IP-ASN,216373 // Xin Xu
-IP-ASN,216342 // JIANYU SHAO
-IP-ASN,216305 // Cong Zhang
-IP-ASN,216299 // Yang Liuchang
-IP-ASN,216243 // CaiHui Ning
-IP-ASN,216173 // Guozhen Liu
-IP-ASN,216056 // Jingqiu Xu
-IP-ASN,215969 // Tan Zhang
-IP-ASN,215848 // Litao Luo
-IP-ASN,215832 // Jian Xu
-IP-ASN,215829 // LEI JIAJIE
-IP-ASN,215786 // Peng Wang
-IP-ASN,215507 // KAI BI
-IP-ASN,215502 // Xing Qingyu
-IP-ASN,215105 // Jingqiu Xu
-IP-ASN,215007 // BOZHAN LIANG
-IP-ASN,214963 // Puhe You
-IP-ASN,214921 // Yisong Wang
-IP-ASN,214911 // Li Hang
-IP-ASN,214899 // Ye Liliang
-IP-ASN,214871 // Jiping Yu
-IP-ASN,214843 // Haoyu Yang
-IP-ASN,213069 // PANYUAN HUANG
-IP-ASN,212690 // Enyu Li
-IP-ASN,212623 // Fan Zhong
-IP-ASN,212532 // XIAO YANG WEN RUI
-IP-ASN,212164 // Jiaxian He
-IP-ASN,211992 // Wei Tang
-IP-ASN,211980 // Ding Yu
-IP-ASN,211571 // Xin Zhao
-IP-ASN,211158 // Jun CAO
-IP-ASN,210934 // YAO PEI
-IP-ASN,210903 // Chengde TsingYao Network Technology Service Co., Ltd.
-IP-ASN,210815 // Feng, Zhe
-IP-ASN,210714 // Wang Yongjin
-IP-ASN,210426 // Liang Zhu
-IP-ASN,209661 // SIQI WANG
-IP-ASN,209645 // Jixian Zeng
-IP-ASN,209586 // SUNYOU PAN
-IP-ASN,209574 // Xiao Tan
-IP-ASN,209556 // Benli Zhong
-IP-ASN,209484 // Jinan Xiangyun Tianhai Information Technology Co., Ltd
-IP-ASN,209300 // Wende Tan
-IP-ASN,209261 // Qiao Jiang
-IP-ASN,209083 // Jiahui Qiu
-IP-ASN,208872 // Jing Mi
-IP-ASN,208680 // ZHANG RANRUI
-IP-ASN,208679 // YIKAI-ZHAO
-IP-ASN,208618 // Yangyu Chen
-IP-ASN,208266 // Hanqi Yang
-IP-ASN,207401 // Shanghai Moyu Technology Co.Ltd.
-IP-ASN,207338 // Zhang Zongyu
-IP-ASN,206919 // Xuluo Chen
-IP-ASN,206843 // Jikai Ren
-IP-ASN,206729 // Vincent Yang
-IP-ASN,206315 // Shucheng Li
-IP-ASN,205947 // Ren Xiang
-IP-ASN,205923 // Yeung Yat Wu
-IP-ASN,205825 // XINYU-XIAO
-IP-ASN,205794 // JINZE YANG
-IP-ASN,205634 // Zihan Chen
-IP-ASN,205618 // Yichen Lu
-IP-ASN,205610 // Huanjie Zhu
-IP-ASN,205603 // Xinyu Wei
-IP-ASN,205532 // Zichao Heng
-IP-ASN,205152 // Han Dai
-IP-ASN,204185 // Yuchen Ma
-IP-ASN,203888 // Yu Li
-IP-ASN,203804 // Pengyuan Fan
-IP-ASN,203655 // zhiwensun
-IP-ASN,203083 // Yuxin Zhang
-IP-ASN,202256 // Dongyu Zhang
-IP-ASN,200959 // Yaoxuan Chen
-IP-ASN,200954 // JINGMING SHANG
-IP-ASN,200936 // Chengjie Guo
-IP-ASN,200912 // Xuanchen Zhu
-IP-ASN,200895 // Xiaodong Yang
-IP-ASN,200890 // Jianfeng Ren
-IP-ASN,200853 // Yifan Li
-IP-ASN,200809 // QUN LIN
-IP-ASN,200789 // Wei Teng LIn
-IP-ASN,200782 // Xu Mingyu
-IP-ASN,200728 // YILI
-IP-ASN,200592 // Junyang Liang
-IP-ASN,200558 // ZIPENG DENG
-IP-ASN,200545 // Liu Quanhao
-IP-ASN,200536 // Bo Xu
-IP-ASN,200268 // Haihan Chen
-IP-ASN,200267 // Yiping Zhao
-IP-ASN,200256 // Yue Cao
-IP-ASN,200103 // XUAN ZHU
-IP-ASN,200078 // Gao Yijia
-IP-ASN,200021 // Tianhong Peng
-IP-ASN,199932 // Tianle Shi
-IP-ASN,199832 // QUN LIN
-IP-ASN,199684 // Shangren Lu
-IP-ASN,199436 // BangLong Yang
-IP-ASN,199392 // SHIZHENG NIE
-IP-ASN,199310 // XIN BING XIAN
-IP-ASN,199307 // HE LI
-IP-ASN,199304 // Bingwu Zhang
-IP-ASN,199068 // XiaoYin Shi
-IP-ASN,198516 // Yi Huang
-IP-ASN,198304 // Pinjia Zhao
-IP-ASN,198266 // Yunrui Gu
-IP-ASN,198025 // Yucheng Zhu
-IP-ASN,197856 // Zhou Xiaopeng
-IP-ASN,197626 // XU ZIYAO
-IP-ASN,197433 // XuanMing Liu
-IP-ASN,152697 // Nanning Huifa Technology Co Ltd
-IP-ASN,152631 // Xyhelper Inc
-IP-ASN,152598 // Beijing Gong Gong Fa Technology Co Ltd
-IP-ASN,152118 // Shenzhen Mengsi Computer System Co Ltd
-IP-ASN,151951 // Shenzhen lesuyun Network Technology Co., Ltd
-IP-ASN,151841 // Guangzhou Mengchuang Network Technology Co Ltd
-IP-ASN,151814 // Guo Chuang Xin Xing (Beijing) Technology Co Ltd
-IP-ASN,151785 // Zhou Yang
-IP-ASN,151782 // Zhao Xingxing
-IP-ASN,151674 // Cheng Yijia
-IP-ASN,151673 // Chen Xinyu
-IP-ASN,151494 // Lin Kangyi
-IP-ASN,151493 // Beijing Kouding Technology Co., Ltd
-IP-ASN,151418 // Zhang Junkai
-IP-ASN,151416 // Liu Lang
-IP-ASN,151331 // Yang Banglong
-IP-ASN,151202 // Suzhou Honoka Technology Co Ltd
-IP-ASN,151194 // Zhu Yucheng
-IP-ASN,151187 // Shen Jiale
-IP-ASN,150373 // Zhang Bocheng
-IP-ASN,150323 // Huang Xinnian
-IP-ASN,150184 // Chen Chi
-IP-ASN,150173 // PoloCloud Computing (Hong Kong) Limited
-IP-ASN,150141 // Wang Jiacheng
-IP-ASN,149795 // Zhijie Jin
-IP-ASN,149292 // Shanghai YanFu Technology Co Ltd
-IP-ASN,149163 // Yichang Shuangsen Network Technology Ltd
-IP-ASN,146816 // Guizhou Moutai Winery (Group) Co., Ltd.
-IP-ASN,142642 // Atonal System
-IP-ASN,142586 // Zhuhai Xiyun Cloud Technology Co Ltd
-IP-ASN,142554 // hongmicloud.com
-IP-ASN,142553 // Airs Project Private Network Main
-IP-ASN,142551 // Azurite27 Network
-IP-ASN,142549 // Magnetic Discovery Education and Research Network
-IP-ASN,142438 // Kasumi Networks Inc
-IP-ASN,142418 // TaterLi Education And Research Network
-IP-ASN,142284 // Koala Network
-IP-ASN,142280 // NaiveTomcat Education and Research Experimental Network Backbone
-IP-ASN,142164 // GoldDoge Computer Technologies & Networks Information Center
-IP-ASN,142112 // Star Horizon Tech Inc
-IP-ASN,142048 // vscloud.cc
-IP-ASN,141694 // Otaku Limited
-IP-ASN,141445 // Phoenix Network
-IP-ASN,141429 // Agatha Network
-IP-ASN,141172 // Tianao Chen
-IP-ASN,140915 // Xiang Xuanchen
-IP-ASN,140913 // Hentai Network Lab
-IP-ASN,140863 // CHINATELECOM Jiangxi province Fuzhou 5G network
-IP-ASN,140862 // CHINATELECOM Jiangxi province Jian 5G network
-IP-ASN,140861 // CHINATELECOM Jiangxi province Ganzhou 5G network
-IP-ASN,140860 // CHINATELECOM Jiangxi province Xinyu 5G network
-IP-ASN,140859 // CHINATELECOM Jiangxi province Pingxiang 5G network
-IP-ASN,140858 // CHINATELECOM Jiangxi province Yichun 5G network
-IP-ASN,140857 // CHINATELECOM Jiangxi province yingtan 5G network
-IP-ASN,140856 // CHINATELECOM Jiangxi province Shangrao 5G network
-IP-ASN,140855 // CHINATELECOM Jiangxi province Jingdezhen 5G network
-IP-ASN,140854 // CHINATELECOM Jiangxi province Jiujiang 5G network
-IP-ASN,140853 // CHINATELECOM Jiangxi province Nanchang 5G network
-IP-ASN,140852 // CHINATELECOM Jiangxi province Shengji 5G network
-IP-ASN,140657 // CHINATELECOM Guizhou province Guian 5G network
-IP-ASN,140656 // CHINATELECOM Guizhou province Qianxinan 5G network
-IP-ASN,140655 // CHINATELECOM Guizhou province Liupanshui 5G network
-IP-ASN,140654 // CHINATELECOM Guizhou province Bijie 5G network
-IP-ASN,140653 // CHINATELECOM Guizhou province Tongren 5G network
-IP-ASN,140652 // CHINATELECOM Guizhou province Qiandongnan 5G network
-IP-ASN,140651 // CHINATELECOM Guizhou province Qiannan 5G network
-IP-ASN,140650 // CHINATELECOM Guizhou province Anshun 5G network
-IP-ASN,140649 // CHINATELECOM Guizhou province Zunyi 5G network
-IP-ASN,140648 // CHINATELECOM Guizhou province Guiyang 5G network
-IP-ASN,140538 // CHINATELECOM Hubei province Xiantao 5G network
-IP-ASN,140537 // CHINATELECOM Hubei province Enshi 5G network
-IP-ASN,140536 // CHINATELECOM Hubei province Suizhou 5G network
-IP-ASN,140535 // CHINATELECOM Hubei province Xianning 5G network
-IP-ASN,140534 // CHINATELECOM Hubei province Huanggang 5G network
-IP-ASN,140533 // CHINATELECOM Hubei province Jingzhou 5G network
-IP-ASN,140532 // CHINATELECOM Hubei province Xiaogan 5G network
-IP-ASN,140531 // CHINATELECOM Hubei province Jingmen 5G network
-IP-ASN,140530 // CHINATELECOM Hubei province Ezhou 5G network
-IP-ASN,140529 // CHINATELECOM Hubei province Xiangyang 5G network
-IP-ASN,140528 // CHINATELECOM Hubei province Yichang 5G network
-IP-ASN,140522 // CHINATELECOM GUANGXI province FangChengGang 5G network
-IP-ASN,140521 // CHINATELECOM GUANGXI province HeZhou 5G network
-IP-ASN,140520 // CHINATELECOM GUANGXI province LaiBin 5G network
-IP-ASN,140519 // CHINATELECOM GUANGXI province ChongZuo 5G network
-IP-ASN,140518 // CHINATELECOM GUANGXI province BeiHai 5G network
-IP-ASN,140517 // CHINATELECOM GUANGXI province WuZhou 5G network
-IP-ASN,140516 // CHINATELECOM GUANGXI province QinZhou 5G network
-IP-ASN,140515 // CHINATELECOM GUANGXI province HeChi 5G network
-IP-ASN,140514 // CHINATELECOM GUANGXI province GuiGang 5G network
-IP-ASN,140513 // CHINATELECOM GUANGXI province BaiSe 5G network
-IP-ASN,140512 // CHINATELECOM GUANGXI province YuLin 5G network
-IP-ASN,140511 // CHINATELECOM GUANGXI province GuiLin 5G network
-IP-ASN,140510 // CHINATELECOM GUANGXI province LiuZhou 5G network
-IP-ASN,140509 // CHINATELECOM GUANGXI province NanNing 5G network
-IP-ASN,140508 // CHINATELECOM GUANGXI province Shengji 5G network
-IP-ASN,140498 // RCold Network
-IP-ASN,140497 // CHINATELECOM ZHEJIANG province ZHOUSHAN 5G network
-IP-ASN,140496 // CHINATELECOM ZHEJIANG province LISHUI 5G network
-IP-ASN,140495 // CHINATELECOM ZHEJIANG province QUZHOU 5G network
-IP-ASN,140494 // CHINATELECOM ZHEJIANG province HUZHOU 5G network
-IP-ASN,140493 // CHINATELECOM ZHEJIANG province JIAXING 5G network
-IP-ASN,140492 // CHINATELECOM ZHEJIANG province SHAOXING 5G network
-IP-ASN,140491 // CHINATELECOM ZHEJIANG province TAIZHOU 5G network
-IP-ASN,140490 // CHINATELECOM ZHEJIANG province JINHUA 5G network
-IP-ASN,140489 // CHINATELECOM ZHEJIANG province WENZHOU 5G network
-IP-ASN,140488 // CHINATELECOM ZHEJIANG province NINGBO 5G network
-IP-ASN,140487 // CHINATELECOM ZHEJIANG province HANGZHOU 5G network
-IP-ASN,140486 // CHINATELECOM ZHEJIANG province JINHUA 5GC network
-IP-ASN,140484 // CHINATELECOM ZHEJIANG province Shengji EPCCE network
-IP-ASN,140483 // CHINATELECOM ZHEJIANG province Shengji 5G network
-IP-ASN,140378 // CHINATELECOM Hunan province Loudi 5G network
-IP-ASN,140377 // CHINATELECOM Hunan province Shaoyang 5G network
-IP-ASN,140376 // CHINATELECOM Hunan province Huaihua 5G network
-IP-ASN,140375 // CHINATELECOM Hunan province Xiangxi 5G network
-IP-ASN,140374 // CHINATELECOM Hunan province Zhangjiajie 5G network
-IP-ASN,140373 // CHINATELECOM Hunan province Changde 5G network
-IP-ASN,140372 // CHINATELECOM Hunan province Yiyang 5G network
-IP-ASN,140371 // CHINATELECOM Hunan province Yongzhou 5G network
-IP-ASN,140370 // CHINATELECOM Hunan province Chenzhou 5G network
-IP-ASN,140369 // CHINATELECOM Hunan province Xiangtan 5G network
-IP-ASN,140368 // CHINATELECOM Hunan province Zhuzhou 5G network
-IP-ASN,140367 // CHINATELECOM Hunan province Yueyang 5G network
-IP-ASN,140366 // CHINATELECOM Hunan province Hengyang 5G network
-IP-ASN,140365 // CHINATELECOM Hunan province Changsha 5G network
-IP-ASN,140364 // CHINATELECOM Hunan province 5G Core Network 5G network
-IP-ASN,140361 // CHINATELECOM Yunnan province Zhaotong 5G network
-IP-ASN,140360 // CHINATELECOM Yunnan province Yuxi 5G network
-IP-ASN,140359 // CHINATELECOM Yunnan province Wenshan 5G network
-IP-ASN,140358 // CHINATELECOM Yunnan province Qujing 5G network
-IP-ASN,140357 // CHINATELECOM Yunnan province Puer 5G network
-IP-ASN,140356 // CHINATELECOM Yunnan province Nujiang 5G network
-IP-ASN,140355 // CHINATELECOM Yunnan province Lincang 5G network
-IP-ASN,140354 // CHINATELECOM Yunnan province Lijiang 5G network
-IP-ASN,140353 // CHINATELECOM Yunnan province Honghe 5G network
-IP-ASN,140352 // CHINATELECOM Yunnan province Diqing 5G network
-IP-ASN,140351 // CHINATELECOM Yunnan province Dehong 5G network
-IP-ASN,140350 // CHINATELECOM Yunnan province Dali 5G network
-IP-ASN,140349 // CHINATELECOM Yunnan province Chuxiong 5G network
-IP-ASN,140348 // CHINATELECOM Yunnan province Baoshan 5G network
-IP-ASN,140347 // CHINATELECOM Yunnan province Xishuangbanna 5G network
-IP-ASN,140346 // CHINATELECOM Yunnan province Kunming 5G network
-IP-ASN,140337 // CHINATELECOM Fujian province Nanping 5G network
-IP-ASN,140336 // CHINATELECOM Fujian province Sanming 5G network
-IP-ASN,140335 // CHINATELECOM Fujian province Longyan 5G network
-IP-ASN,140334 // CHINATELECOM Fujian province Zhangzhou 5G network
-IP-ASN,140333 // CHINATELECOM Fujian province Quanzhou 5G network
-IP-ASN,140332 // CHINATELECOM Fujian province Putian 5G network
-IP-ASN,140331 // CHINATELECOM Fujian province NINGDE 5G network
-IP-ASN,140329 // CHINATELECOM Fujian province Fuzhou 5G network
-IP-ASN,140328 // CHINATELECOM Fujian province Shengji 5G network
-IP-ASN,140320 // CHINATELECOM Guangdong province Shanwei 5G network
-IP-ASN,140319 // CHINATELECOM Guangdong province Qingyuan 5G network
-IP-ASN,140318 // CHINATELECOM Guangdong province Heyuan 5G network
-IP-ASN,140316 // CHINATELECOM Guangdong province Chaozhou 5G network
-IP-ASN,140315 // CHINATELECOM Guangdong province Jieyang 5G network
-IP-ASN,140314 // CHINATELECOM Guangdong province Shantou 5G network
-IP-ASN,140313 // CHINATELECOM Guangdong province Zhaoqing 5G network
-IP-ASN,140312 // CHINATELECOM Guangdong province Zhanjiang 5G network
-IP-ASN,140311 // CHINATELECOM Guangdong province Jiangmen 5G network
-IP-ASN,140310 // CHINATELECOM Guangdong province Dongguan 5G network
-IP-ASN,140309 // CHINATELECOM Guangdong province Zhongshan 5G network
-IP-ASN,140308 // CHINATELECOM Guangdong province Zhuhai 5G network
-IP-ASN,140303 // CHINATELECOM Jiangsu province Huaian 5G network
-IP-ASN,140302 // CHINATELECOM Jiangsu province Zhenjiang 5G network
-IP-ASN,140301 // CHINATELECOM Jiangsu province Taizhou 5G network
-IP-ASN,140300 // CHINATELECOM Jiangsu province Suqian 5G network
-IP-ASN,140299 // CHINATELECOM Jiangsu province Nantong 5G network
-IP-ASN,140298 // CHINATELECOM Jiangsu province Yancheng 5G network
-IP-ASN,140297 // CHINATELECOM Jiangsu province Xuzhou 5G network
-IP-ASN,140296 // CHINATELECOM Jiangsu province Wuxi 5G network
-IP-ASN,140295 // CHINATELECOM Jiangsu province Lianyungang 5G network
-IP-ASN,140294 // CHINATELECOM Jiangsu provinceYangzhou 5G network
-IP-ASN,140293 // CHINATELECOM Jiangsu province Changzhou 5G network
-IP-ASN,140291 // CHINATELECOM Jiangsu province Nanjing 5G network
-IP-ASN,140290 // CHINATELECOM Jiangsu province 5G CORE network
-IP-ASN,140261 // CHINATELECOM Anhui province Huangshan 5G network
-IP-ASN,140260 // CHINATELECOM Anhui province Xuancheng 5G network
-IP-ASN,140259 // CHINATELECOM Anhui province Tongling 5G network
-IP-ASN,140258 // CHINATELECOM Anhui province Maanshan 5G network
-IP-ASN,140257 // CHINATELECOM Anhui province Chizhou 5G network
-IP-ASN,140256 // CHINATELECOM Anhui province Liuan 5G network
-IP-ASN,140255 // CHINATELECOM Anhui province Chuzhou 5G network
-IP-ASN,140254 // CHINATELECOM Anhui province Shuzhou 5G network
-IP-ASN,140253 // CHINATELECOM Anhui province Huainan 5G network
-IP-ASN,140252 // CHINATELECOM Anhui province Huaibei 5G network
-IP-ASN,140251 // CHINATELECOM Anhui province Bozhou 5G network
-IP-ASN,140250 // CHINATELECOM Anhui province Fuyang 5G network
-IP-ASN,140249 // CHINATELECOM Anhui province Bengbu 5G network
-IP-ASN,140248 // CHINATELECOM Anhui province Anqing 5G network
-IP-ASN,140247 // CHINATELECOM Anhui province Wuhu 5G network
-IP-ASN,140246 // CHINATELECOM Anhui province Hefei 5G network
-IP-ASN,140245 // CHINATELECOM Anhui province Shengji 5G network
-IP-ASN,140238 // CHINATELECOM Shaanxi province Shangluo 5G network
-IP-ASN,140056 // China Telecom
-IP-ASN,140053 // China Telecom
-IP-ASN,140043 // Guangzhou Jinggong Information Technology Co., Ltd.
-IP-ASN,139859 // TemasekTech.com
-IP-ASN,139796 // JiuYao NET
-IP-ASN,139791 // Langfang Wopai Communications Co Ltd
-IP-ASN,139589 // GTDev Network
-IP-ASN,139328 // Haima Global Network
-IP-ASN,139317 // Ningbo Dahuamao Information Technology Co Ltd
-IP-ASN,139249 // ENMOE LTD.
-IP-ASN,139231 // Zero
-IP-ASN,139216 // Htroy Network Research Limited
-IP-ASN,139161 // Xinjiang Rural Credit Union
-IP-ASN,139112 // Shanghai Qnet Networking Technology Co.,Ltd
-IP-ASN,139100 // BMW Brilliance Automotive Ltd.
-IP-ASN,139073 // Fantasy Sky Internet eXchange
-IP-ASN,138990 // WooMai Network
-IP-ASN,138979 // Guangzhou Shujie Suyuan Culture Communication Co., Ltd.
-IP-ASN,138679 // CHINATELECOM Shaanxi province Yanan 5G network
-IP-ASN,138641 // CHINATELECOM Shaanxi province Yulin 5G network
-IP-ASN,138635 // CHINATELECOM Shaanxi province Ankang 5G network
-IP-ASN,138597 // CHINATELECOM Shaanxi province Hanzhong 5G network
-IP-ASN,138514 // CHINATELECOM Shaanxi province Xianyang 5G network
-IP-ASN,138513 // CHINATELECOM Shaanxi province Weinan 5G network
-IP-ASN,138457 // China Academy of Information and Communications Technology
-IP-ASN,138442 // CERNET2 regional IX at Tibet University
-IP-ASN,138441 // CERNET2 regional IX at Xinjiang University
-IP-ASN,138436 // CHINATELECOM Shaanxi province Baoji 5G network
-IP-ASN,138409 // CHINATELECOM Shaanxi province Tongchuan 5G network
-IP-ASN,138387 // CHINATELECOM Shaanxi province Xi'an 5G network
-IP-ASN,138381 // CERNET2 regional IX at Guizhou University
-IP-ASN,138377 // CERNET2 regional IX at Qinghai Normal University
-IP-ASN,138376 // CERNET2 regional IX at Ningxia University
-IP-ASN,138375 // CERNET2 regional IX at Inner Mongolia University
-IP-ASN,138374 // CERNET2 regional IX at Taiyuan University
-IP-ASN,138351 // Beijing Kouding Technology Co Ltd.
-IP-ASN,138182 // CERNET2 regional IX at Hebei Normal University
-IP-ASN,137835 // Nathaniel Chan Jie Le
-IP-ASN,137799 // China Guangfa Bank
-IP-ASN,137726 // China Petroleum & Chemical Corporation
-IP-ASN,137402 // CHINATELECOM Hubei province Shiyan 5G network
-IP-ASN,137401 // CHINATELECOM Hubei province Huangshi 5G network
-IP-ASN,137256 // CatIO Network
-IP-ASN,136591 // MxxCloud LLC
-IP-ASN,136535 // Yang Mengqi
-IP-ASN,135646 // Luginbash AS
-IP-ASN,135120 // Sin Zhang Ching Industry Sdn. Bhd.
-IP-ASN,134993 // iLemonrain Network
-IP-ASN,134775 // CHINANET Guangdong province Zhusanjiao MAN network
-IP-ASN,134708 // TLY NETWORKS S.A.
-IP-ASN,134488 // CTJ's Global Network
-IP-ASN,134478 // JSMSR
-IP-ASN,134477 // Shaoxing Junruiyunjisuan Co Ltd
-IP-ASN,134169 // CERNEWTECH (Beijing) co.,LTD
-IP-ASN,133518 // CERNET New Technology Co., Ltd
-IP-ASN,133517 // CERNET New Technology Co., Ltd
-IP-ASN,133515 // CERNET New Technology Co., Ltd
-IP-ASN,133513 // CERNET New Technology Co., Ltd
-IP-ASN,133512 // CERNET New Technology Co., Ltd
-IP-ASN,133492 // AIYUN
-IP-ASN,132623 // Tsukeru Networks
-IP-ASN,132536 // China Telecom
-IP-ASN,132479 // Xue Desen
-IP-ASN,131526 // XINJIANG BROADCAST NETWORK CO.,LTD
-IP-ASN,131521 // Haitong Securities Company Limited
+IP-ASN,63615 // 通用（中国）有限公司
+IP-ASN,63617 // 麦肯锡咨询公司上海
+IP-ASN,63619 // 北京 Sankuai 云计算有限公司
+IP-ASN,63620 // 深圳市华博科技发展有限公司
+IP-ASN,63621 // 宁夏广播电视网络有限公司
+IP-ASN,63629 // 北京汽车信息科技有限公司
+IP-ASN,63630 // 广州 Power 通信网络有限公司
+IP-ASN,63631 // 广东云基科技有限公司
+IP-ASN,63634 // APNIC ASN Block
+IP-ASN,63641 // 兆丰华帝信息咨询有限公司
+IP-ASN,63646 // 北京小巨科技有限公司
+IP-ASN,63648 // 北京小巨科技有限公司
+IP-ASN,63654 // 北京 NETEAST TECHNOLOGIES 有限公司
+IP-ASN,63655 // Huawei Technologies 有限公司
+IP-ASN,63663 // 北京 YunHaiHuLian 科学技术有限公司
+IP-ASN,63673 // 深圳市平安通讯科技有限公司
+IP-ASN,63677 // 江苏云永信息技术有限公司
+IP-ASN,63678 // 江苏云永信息技术有限公司
+IP-ASN,63679 // 江苏云联信息技术有限公司
+IP-ASN,63689 // Esun Technology(上海) 有限公司
+IP-ASN,63690 // China Dragon Telecom 有限公司
+IP-ASN,63691 // 北京智慧网络科技有限公司
+IP-ASN,63695 // WeiYi 网络科技有限公司
+IP-ASN,63696 // China Securities 有限公司
+IP-ASN,63697 // China Securities 有限公司
+IP-ASN,63701 // Jishi Media 有限公司
+IP-ASN,63704 // 贵州 provincial 广电 information Network Inc
+IP-ASN,63705 // 南京安来新西同心吉树佑县公司
+IP-ASN,63708 // 广东 LITONG 网络科技Limited
+IP-ASN,63711 // 中国铁通电讯公司
+IP-ASN,63722 // Hodo Telecom 有限公司。
+IP-ASN,63724 // APNIC ASN Block
+IP-ASN,63727 // 华为
+IP-ASN,63835 // 万宝大道293号
+IP-ASN,63838 // 衡阳
+# IP-ASN,64021 // Network-Transit
+# IP-ASN,131134 // APNIC 32位ASN Block
+IP-ASN,131137 // Inspur Software Group 有限公司
 IP-ASN,131171 // Everlife Networks
-IP-ASN,131137 // Inspur Software Group Co., Ltd.
+IP-ASN,131285 // CHINATELECOM 湖北省 Shengji5G网络
+IP-ASN,131325 // 昆明
+# IP-ASN,131326 // 2308 Yinlaige # 22 Jinsui Road【未广播中国大陆IP】
+IP-ASN,131477 // 上海华娟信息技术有限公司
+IP-ASN,131482 // 杭州 Aron Teconology 有限公司
+IP-ASN,131484 // Ubisoft 上海
+IP-ASN,131486 // 北京京东360度电子商务有限公司
+IP-ASN,131495 // 北京 nine cloud infinite 网络科技有限公司
+IP-ASN,131497 // 大众（中国）投资有限公司
+IP-ASN,131503 // 中国航空技术进出口总公司
+IP-ASN,131506 // 黑龙江广播电视网络有限公司
+IP-ASN,131512 // 北京 Xinchi Technology 有限公司
+IP-ASN,131519 // 海信
+IP-ASN,131521 // Haitong Securities 有限公司
+IP-ASN,131522 // 北京 Yovole 云计算Technology 有限公司
+IP-ASN,131524 // 上海普捷通讯科技有限公司
+IP-ASN,131525 // 南京 Tuniu Technology 有限公司.
+IP-ASN,131535 // 北京博盛拓网络科技有限公司
+IP-ASN,131536 // 上海 Great Wall Broadband Network Service 有限公司
+IP-ASN,131541 // 
+IP-ASN,131542 // 
+IP-ASN,131558 // Wal-mart (China) Investment 有限公司
+IP-ASN,131562 // APNIC 32位ASN Block
+IP-ASN,131567 // Fnetlink International 有限公司
+IP-ASN,131574 // 北京 Haiyu Technology 有限公司..
+IP-ASN,131577 // APNIC 32位ASN Block
+IP-ASN,131578 // 北京外国语大学
+IP-ASN,132019 // Earth 网络科技(上海) 有限公司
+IP-ASN,132147 // 蜀马路3号
+IP-ASN,132153 // 蜀马路3号
+IP-ASN,132203 // 科技中医大道腾讯大厦
+IP-ASN,132225 // 中国电信
+IP-ASN,132352 // meshlab.net – MEGATRANS
+IP-ASN,132437 // 安顺路10号
+IP-ASN,132510 // IDC山西中国移动通信公司
+IP-ASN,132525 // 黑龙江移动通信有限公司
+IP-ASN,132553 // 中国石油大学（华东）
+IP-ASN,132623 // Tsukeru Networks
+IP-ASN,132698 // 深圳 Balian 网络科技有限公司
+IP-ASN,132719 // 成都西维数码科技有限公司
+IP-ASN,132833 // 中国电信
+IP-ASN,132886 // 聊城大学
+IP-ASN,133111 // CERNET 内容分发网络（CCDN）
+IP-ASN,133118 // 中国联通IP网络
+IP-ASN,133119 // 中国联通IP网络
+IP-ASN,133194 // 连接集线器科技（上海）有限公司
+IP-ASN,133219 // NewMedia Express Pte Ltd.
+IP-ASN,133365 // CordCloud LTD
+IP-ASN,133465 // 昆山杜克大学
+IP-ASN,133475 // 纽约大学ASN
+IP-ASN,133492 // 张爱云
+IP-ASN,133512 // CERNET 新技术有限公司
+IP-ASN,133513 // CERNET 新技术有限公司
+IP-ASN,133515 // CERNET 新技术有限公司
+IP-ASN,133517 // CERNET 新技术有限公司
+IP-ASN,133518 // CERNET 新技术有限公司
+IP-ASN,133555 // DOORPOST Limited
+IP-ASN,133731 // 鑫源互连（香港）有限公司
+IP-ASN,133774 // 福州
+IP-ASN,133775 // 厦门
+IP-ASN,133776 // 泉州
+IP-ASN,133846 // IMLONGHAO
+IP-ASN,133865 // 北京IQIYI科技有限公司
+IP-ASN,133952 // 郑州龙陵科技有限公司
+IP-ASN,134098 // Licson互联网服务
+IP-ASN,134169 // CERNEWTECH (北京) 有限公司
+IP-ASN,134238 // CHINANET 江城省IDC网络
+# IP-ASN,134413 // KMNIX LLC
+IP-ASN,134417 // 南京
+IP-ASN,134418 // 陕西省
+IP-ASN,134419 // 北海
+IP-ASN,134420 // 重庆电信
+IP-ASN,134425 // CHINANET 安徽省合肥市祁门路IDC网络
+IP-ASN,134477 // 绍兴 Junruiyunjisuan 有限公司
+# IP-ASN,134478 // JSMSR 【未广播中国大陆IP】
+IP-ASN,134488 // CTJ's Global Network
+IP-ASN,134542 // 中国联通IP网络
+IP-ASN,134543 // 中国联通广东IP网络
+IP-ASN,134578 // UNION FU WAH DIGITAL TECHNOLOGY LIMITED
+IP-ASN,134602 // shuiM数据交换中心
+IP-ASN,134708 // TLY NETWORKS S.A.
+IP-ASN,134755 // CHINANET 四川省成都市MAN网络
+IP-ASN,134756 // CHINANET 江苏省南京市IDC网络
+IP-ASN,134760 // CHINANET 河北省石家庄市IDC网络
+IP-ASN,134761 // CHINANET 四川省成都市MAN网络
+IP-ASN,134762 // CHINANET 四川省成都市MAN网络
+IP-ASN,134763 // CHINANET 广东省网络
+IP-ASN,134764 // CHINANET 广东省网络
+IP-ASN,134765 // CHINANET 四川省成都市MAN网络
+IP-ASN,134766 // CHINANET 四川省成都市MAN网络
+IP-ASN,134768 // CHINANET 四川省成都市MAN网络
+IP-ASN,134769 // CHINANET 江苏省常州市IDC网络
+IP-ASN,134770 // CHINANET 江苏省苏州市太湖IDC网络
+IP-ASN,134771 // CHINANET 四川省成都市MAN网络
+IP-ASN,134772 // CHINANET 广东省东莞市MAN网络
+IP-ASN,134773 // CHINANET 广东省广州市MAN网络
+IP-ASN,134774 // CHINANET 广东省深圳市MAN网络
+IP-ASN,134775 // CHINANET 广东省珠三角MAN网络
+IP-ASN,134810 // 中国移动集团吉林通信公司
+IP-ASN,134981 // 优步公司
+IP-ASN,134993 // iLemonrain Network
+IP-ASN,135006 // VERI2
+IP-ASN,135028 // Malindex网络
+IP-ASN,135054 // 中国移动集团海南有限公司
+IP-ASN,135061 // 中国联通广东IP网络
+IP-ASN,135089 // 中国电信
+IP-ASN,135120 // Sin Zhang Ching Industry Sdn. Bhd.
+IP-ASN,135357 // 深圳凯瑟恒科技信息有限公司
+IP-ASN,135363 // 北京敦煌和光信息技术有限公司
+IP-ASN,135364 // 四川 Suike 信息科技有限公司
+IP-ASN,135365 // 上海优祖信息技术有限公司
+IP-ASN,135629 // 宁夏西云数据科技有限公司
+IP-ASN,135646 // Luginbash AS
+IP-ASN,135663 // 深圳 rainbow Computer Network 有限公司
+IP-ASN,135671 // RBB InfoTech
+IP-ASN,135883 // Nahe (天津) 网络科技有限公司
+IP-ASN,136146 // 北京 3389 网络科技有限公司
+IP-ASN,136160 // 北京 Shijihulian Yuntong 网络科技有限公司
+IP-ASN,136173 // Quanzhou Yuntun 网络科技有限公司
+IP-ASN,136180 // 北京 Tiantexin Tech. 有限公司
+IP-ASN,136188 // 迪庆
+IP-ASN,136189 // Opera软件技术（北京）有限公司
+IP-ASN,136190 // 大理
+IP-ASN,136191 // YICHANG, 湖北省, P.R.China.
+IP-ASN,136192 // Xiangyang, 湖北省, P.R.China.
+IP-ASN,136193 // Jingzhou, 湖北省, P.R.China.
+IP-ASN,136194 // 黄石, 湖北省, P.R.China.
+IP-ASN,136195 // 中国电信 Dehong
+IP-ASN,136197 // 文山
+IP-ASN,136198 // CHINANET 广东省 Yuexi MAN网络
+IP-ASN,136199 // CHINANET 广东省 Yuedong MAN网络
+IP-ASN,136200 // CHINANET 广东省佛山市MAN网络
+IP-ASN,136237 // 双宇通讯科技有限公司
+IP-ASN,136250 // 中山市 QiYi HuDong WangLuoKeJi Ltd
+IP-ASN,136390 // 深圳市奥特科技有限公司
+IP-ASN,136535 // Yang Mengqi
+IP-ASN,136545 // 蓝色数据中心
+IP-ASN,136559 // TYPCN全球网络
+IP-ASN,136574 // 哲业网络
+IP-ASN,136591 // MxxCloud LLC
+IP-ASN,136600 // 北京丰鸟网络科技有限公司
+IP-ASN,136758 // 深圳市世纪一号有限公司
+IP-ASN,136766 // ROBLOX (深圳) DIGITAL 科学技术有限公司
+IP-ASN,136782 // 麒麟网络
+IP-ASN,136958 // 中国联通广东IP网络
+IP-ASN,136959 // 中国联通广东IP网络
+IP-ASN,137218 // 快运信息技术有限公司
+IP-ASN,137256 // CatIO网络
+IP-ASN,137266 // CHINATELECOM 湖北省武汉5G网络
+IP-ASN,137401 // CHINATELECOM 湖北省黄石5G网络
+IP-ASN,137402 // CHINATELECOM 湖北省 Shiyan5G网络
+IP-ASN,137410 // 巴卡网络
+IP-ASN,137509 // 江门市天达网络有限公司
+IP-ASN,137539 // 中国联通
+IP-ASN,137547 // 郑州绿林科信息技术有限公司
+IP-ASN,137571 // arebz.com
+IP-ASN,137686 // 中国河南省郑州
+IP-ASN,137687 // 芜湖
+IP-ASN,137688 // CHINATELECOM Liaoning Benxi MAN
+IP-ASN,137689 // 淮南
+IP-ASN,137690 // 马鞍山
+IP-ASN,137691 // 中国黑龙江省
+IP-ASN,137692 // 铜陵
+IP-ASN,137693 // 安庆
+IP-ASN,137694 // CHINATELECOM 新疆克州MAN网络
+IP-ASN,137695 // CHINATELECOM 新疆乌鲁木齐MAN网络
+IP-ASN,137697 // CHINATELECOM 江苏扬州IDC网络
+IP-ASN,137698 // 中国黑龙江省哈尔滨
+IP-ASN,137699 // CHINATELECOM 江苏宿迁IDC网络
+IP-ASN,137702 // 池州
+IP-ASN,137710 // APNIC ASN Block
+IP-ASN,137711 // 上海 GongQi 网络科技有限公司
+IP-ASN,137715 // GTJA证券
+IP-ASN,137718 // 北京 Volcano Engine Technology 有限公司
+IP-ASN,137719 // 青岛 Weidong大数据Technology 有限公司
+IP-ASN,137726 // 中国石油化工股份有限公司
+IP-ASN,137735 // APNIC ASN Block
+IP-ASN,137745 // 
+IP-ASN,137746 // 
+IP-ASN,137747 // 北京 Chijun Network Advisory Service 有限公司
+IP-ASN,137751 // 西安 Qianxi 网络科技有限公司
+IP-ASN,137753 // 北京 Jingdong Shangke信息科技有限公司
+IP-ASN,137758 // 中国工商银行股份有限公司
+IP-ASN,137759 // APNIC ASN Block
+IP-ASN,137761 // APNIC ASN Block
+IP-ASN,137762 // Guosen youyun software system 有限公司
+IP-ASN,137764 // 北京卓越科技有限公司
+IP-ASN,137767 // 上海 General Motor 有限公司
+IP-ASN,137782 // STATE GRID 上海 MUNICIPAL ELECTRIC POWER COMPANY
+IP-ASN,137784 // CACloud Services (上海) 有限公司
+IP-ASN,137785 // APNIC ASN Block
+IP-ASN,137787 // 北京 Jingdong Shangke信息科技有限公司
+IP-ASN,137788 // Shanxi Beacon Cloudscape
+IP-ASN,137791 // 广州 enjoyVC 通讯技术有限公司
+IP-ASN,137794 // Dahe tianchi (北京) network 有限公司
+IP-ASN,137798 // 5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,
+IP-ASN,137799 // 中国广发银行
+IP-ASN,137801 // AIPO Cloud (贵州) Technology 有限公司
+IP-ASN,137804 // China Internet Exchange
+IP-ASN,137805 // 北京京金融科技控股有限公司
+IP-ASN,137806 // WMGS咨询（深圳）有限公司
+# IP-ASN,137813 // LeanCloud
+IP-ASN,137835 // Nathaniel Chan Jie Le
+IP-ASN,137882 // 华娟企业网
+IP-ASN,137897 // ELIX网络
+# IP-ASN,137936 // Nyatwork
+# IP-ASN,137946 // 厦门优田科技有限公司
+IP-ASN,138029 // 深圳市胡联先锋科技有限公司
+# IP-ASN,138166 // 刘璐瑶
+IP-ASN,138169 // 中国电信
+IP-ASN,138182 // 河北师范大学 (CERNET 2 regional IX)
+# IP-ASN,138211 // MoeQing网络服务
+# IP-ASN,138333 // Hingcloud
+IP-ASN,138369 // 深圳大学 (CERNET 2 regional IX)
+IP-ASN,138370 // 南昌大学 (CERNET 2 regional IX)
+IP-ASN,138371 // 中国海洋大学 (CERNET 2 regional IX)
+IP-ASN,138373 // 福州大学 (CERNET 2 regional IX)
+IP-ASN,138374 // 太原大学 (CERNET 2 regional IX)
+IP-ASN,138375 // 内蒙古大学 (CERNET 2 regional IX)
+IP-ASN,138376 // 宁夏大学 (CERNET 2 regional IX)
+IP-ASN,138377 // 青海师范大学 (CERNET 2 regional IX)
+IP-ASN,138378 // 云南大学 (CERNET 2 regional IX)
+IP-ASN,138381 // 贵州大学 (CERNET 2 regional IX)
+IP-ASN,138387 // CHINATELECOM Shaanxi省 西安5G网络
+IP-ASN,138393 // 广西大学 (CERNET 2 regional IX)
+# IP-ASN,138405 // Lee Kinshing
+IP-ASN,138407 // 贵州移动通信有限公司互联网数据中心
+IP-ASN,138409 // CHINATELECOM Shaanxi省 Tongchuan5G网络
+IP-ASN,138421 // 中国联通
+IP-ASN,138436 // CHINATELECOM Shaanxi省 Baoji5G网络
+IP-ASN,138438 // 广西师范大学 (CERNET 2 regional IX)
+IP-ASN,138440 // 海南师范大学 (CERNET 2 regional IX)
+IP-ASN,138441 // 新疆大学 (CERNET 2 regional IX)
+IP-ASN,138442 // 西藏大学 (CERNET 2 regional IX)
+IP-ASN,138513 // CHINATELECOM Shaanxi省 Weinan5G网络
+IP-ASN,138514 // CHINATELECOM Shaanxi省 Xianyang5G网络
+IP-ASN,138517 // Poema Network
+IP-ASN,138538 // 宁波南边拓罗新溪吉树有限公司
+# IP-ASN,138542 // 云梦有限公司
+IP-ASN,138545 // Zero Cirrus 云计算(上海) 有限公司
+IP-ASN,138570 // 中国电信
+IP-ASN,138597 // CHINATELECOM Shaanxi省 Hanzhong5G网络
+IP-ASN,138635 // CHINATELECOM Shaanxi省 Ankang5G网络
+IP-ASN,138641 // CHINATELECOM Shaanxi省 Yulin5G网络
+# IP-ASN,138667 // 小狼连接
+IP-ASN,138679 // CHINATELECOM Shaanxi省 Yanan5G网络
+IP-ASN,138914 // 深圳华洋科技有限公司
+IP-ASN,138949 // 江苏 Kunshan IDC
+IP-ASN,138950 // 江苏 Wuxi International IDC network
+# IP-ASN,138979 // 广州 Shujie Suyuan Culture Communication 有限公司
+IP-ASN,138982 // 湖北 江西a IDC
+IP-ASN,138990 // WooMai Network
+IP-ASN,138991 // 中国电信
+IP-ASN,139007 // UNICOM 内蒙古省网络
+IP-ASN,139018 // 河南 Luoyang IDC
+IP-ASN,139019 // 河南 Xinxiang MAN
+IP-ASN,139023 // 武汉LSHIY网络科技有限公司
+# IP-ASN,139057 // Baishan Cloud
+IP-ASN,139061 // Societe Generale (China) Limited
+IP-ASN,139073 // Fantasy Sky Internet eXchange
+IP-ASN,139080 // The Internet Data Center of 四川移动通信有限公司
+IP-ASN,139090 // Wuxi Education Information Management Service Center
+IP-ASN,139091 // 上海 MBN tele通讯技术有限公司
+IP-ASN,139099 // 浙江 Geely Holding Group
+IP-ASN,139100 // BMW Brilliance Automotive Ltd.
+# IP-ASN,139108 // Beckman Coulter Commercial Enterprise(China)有限公司.
+IP-ASN,139110 // 联想移动通信Technology (北京) Ltd
+IP-ASN,139112 // 上海 Qnet Networking Technology 有限公司
+IP-ASN,139113 // 上海 Felizlink 通讯技术有限公司
+IP-ASN,139118 // 上海 Rugu Info&Tech 有限公司.
+IP-ASN,139122 // 北京 MUNICIPAL ADMINISTRATION COMMUNICATION CARD 有限公司
+IP-ASN,139133 // 广州 Digital Government Operation Center
+IP-ASN,139136 // 浙江省 NEW-TYPE INTERNET EXCHANGE POINT 有限公司
+IP-ASN,139138 // Gopay信息科技有限公司
+IP-ASN,139139 // Shenyang Agricultural大学
+IP-ASN,139141 // Yusys Financial Cloud
+IP-ASN,139148 // 中国银联有限公司
+IP-ASN,139154 // 大数据Center Of Shandong省
+# IP-ASN,139157 // Business-intelligence of Oriental Nations 有限公司
+IP-ASN,139161 // 新疆 Rural Credit Union
+IP-ASN,139172 // 杭州 Woodnn Technology 有限公司
+IP-ASN,139177 // New Oriental Education & Technology Group Ltd.
+IP-ASN,139178 // Rural Credit Banks Funds Clearing Center
+IP-ASN,139179 // China Pacific Insurance (Group) 有限公司.
+IP-ASN,139180 // Shandong eshinton 网络科技有限公司
+IP-ASN,139182 // ABC Life Insurance 有限公司
+IP-ASN,139183 // Thomson Reuters (北京) 技术开发有限公司
+IP-ASN,139188 // 中国招商银行有限公司
+IP-ASN,139189 // 北京 Yu Jia Heng Tong Communications and Information 有限公司
+IP-ASN,139201 // 江西 Jiujiang IDC
+IP-ASN,139203 // 贵州 GuiAn IDC
+IP-ASN,139216 // Htroy Network Research Limited
+IP-ASN,139220 // 四川 Chuanxn IDC
+IP-ASN,139231 // Zero
+# IP-ASN,139247 // PPPWAW Network
+# IP-ASN,139248 // LSC.MOE
+IP-ASN,139249 // ENMOE LTD.
+IP-ASN,139266 // 广州 Tiansui信息科技有限公司
+IP-ASN,139316 // 湖北省黄冈市 IDC
+IP-ASN,139317 // Ningbo Dahuamao信息科技有限公司
+IP-ASN,139328 // Haima Global Network
+IP-ASN,139462 // CHINANET 贵州 Yilong IDC
+IP-ASN,139587 // CHINATELECOM 河南省郑州市数据港IDC网络
+IP-ASN,139589 // GTDev Network
+IP-ASN,139618 // 珠海 Shi Fu Yuan Le Yu Technology Limited
+IP-ASN,139635 // 湖北 Yunwutong 网络科技有限公司
+IP-ASN,139721 // 合肥
+IP-ASN,139726 // 广东 Yunjie Communication 有限公司
+IP-ASN,139734 // XINGCHEN DATA HK 有限公司
+IP-ASN,139742 // Peddie Institute 有限公司
+IP-ASN,139743 // 深圳Shi Fang Technology 有限公司
+IP-ASN,139767 // 中国电信 Headquarters OA network
+IP-ASN,139774 // CERNET Center
+IP-ASN,139796 // JiuYao NET
+IP-ASN,139799 // 北京 Dajia Internet信息科技有限公司
+IP-ASN,139833 // Evsio0n Network Inc.
+IP-ASN,139866 // Ankang Puchuang 网络科技有限公司
+IP-ASN,139874 // Wu'an Chihong 网络科技有限公司
+IP-ASN,139887 // CHINANET Shandong Yantai IDC network
+IP-ASN,139888 // No.16 Hengcha Rd, Zhuhui, Hengyang, 湖南
+IP-ASN,139908 // Karamay Hzon 网络科技Development 有限公司
+IP-ASN,140043 // 广州 Jinggong信息科技有限公司
+IP-ASN,140053 // 中国电信
+IP-ASN,140056 // 中国电信
+IP-ASN,140061 // 青海电信
+IP-ASN,140083 // 中国电信
+IP-ASN,140105 // Shaanxi 移动通信有限公司
+IP-ASN,140219 // TENVM TECHNOLOGY LIMITED
+IP-ASN,140238 // CHINATELECOM Shaanxi省 Shangluo5G网络
+IP-ASN,140245 // CHINATELECOM 安徽省 Shengji5G网络
+IP-ASN,140246 // CHINATELECOM 安徽省 合肥5G网络
+IP-ASN,140247 // CHINATELECOM 安徽省 Wuhu5G网络
+IP-ASN,140248 // CHINATELECOM 安徽省 Anqing5G网络
+IP-ASN,140249 // CHINATELECOM 安徽省 Bengbu5G网络
+IP-ASN,140250 // CHINATELECOM 安徽省 Fuyang5G网络
+IP-ASN,140251 // CHINATELECOM 安徽省 Bozhou5G网络
+IP-ASN,140252 // CHINATELECOM 安徽省 Huaibei5G网络
+IP-ASN,140253 // CHINATELECOM 安徽省 Huainan5G网络
+IP-ASN,140254 // CHINATELECOM 安徽省 Shuzhou5G网络
+IP-ASN,140255 // CHINATELECOM 安徽省 Chuzhou5G网络
+IP-ASN,140256 // CHINATELECOM 安徽省 Liuan5G网络
+IP-ASN,140257 // CHINATELECOM 安徽省 Chizhou5G网络
+IP-ASN,140258 // CHINATELECOM 安徽省 Maanshan5G网络
+IP-ASN,140259 // CHINATELECOM 安徽省 Tongling5G网络
+IP-ASN,140260 // CHINATELECOM 安徽省 Xuancheng5G网络
+IP-ASN,140261 // CHINATELECOM 安徽省 Huangshan5G网络
+IP-ASN,140265 // CHINATELECOM 四川省 成都5G网络
+IP-ASN,140276 // CHINATELECOM 四川省 Luzhou 5G网络
+IP-ASN,140278 // CHINATELECOM 四川省 Mianyang 5G网络
+IP-ASN,140279 // CHINATELECOM 四川省 Nanchong 5G网络
+IP-ASN,140290 // CHINATELECOM 江苏省 5G CORE network
+IP-ASN,140291 // CHINATELECOM 江苏省 Nanjing5G网络
+IP-ASN,140292 // CHINATELECOM 江苏省 Suzhou5G网络
+IP-ASN,140293 // CHINATELECOM 江苏省 C杭州5G网络
+IP-ASN,140294 // CHINATELECOM 江苏省Yangzhou5G网络
+IP-ASN,140295 // CHINATELECOM 江苏省 Lianyungang5G网络
+IP-ASN,140296 // CHINATELECOM 江苏省 Wuxi5G网络
+IP-ASN,140297 // CHINATELECOM 江苏省 Xuzhou5G网络
+IP-ASN,140298 // CHINATELECOM 江苏省 Yancheng5G网络
+IP-ASN,140299 // CHINATELECOM 江苏省 Nantong5G网络
+IP-ASN,140300 // CHINATELECOM 江苏省 Suqian5G网络
+IP-ASN,140301 // CHINATELECOM 江苏省 Taizhou5G网络
+IP-ASN,140302 // CHINATELECOM 江苏省 Zhenjiang5G网络
+IP-ASN,140303 // CHINATELECOM 江苏省 Huaian5G网络
+IP-ASN,140308 // CHINATELECOM 广东省 Zhuhai5G网络
+IP-ASN,140309 // CHINATELECOM 广东省 Zhongshan5G网络
+IP-ASN,140310 // CHINATELECOM 广东省 Dongguan5G网络
+IP-ASN,140311 // CHINATELECOM 广东省 Jiangmen5G网络
+IP-ASN,140312 // CHINATELECOM 广东省 Zhanjiang5G网络
+IP-ASN,140313 // CHINATELECOM 广东省 Zhaoqing5G网络
+IP-ASN,140314 // CHINATELECOM 广东省 Shantou5G网络
+IP-ASN,140315 // CHINATELECOM 广东省 Jieyang5G网络
+IP-ASN,140316 // CHINATELECOM 广东省 Chaozhou5G网络
+IP-ASN,140317 // CHINATELECOM 广东省 Shaoguan5G网络
+IP-ASN,140318 // CHINATELECOM 广东省 Heyuan5G网络
+IP-ASN,140319 // CHINATELECOM 广东省 Qingyuan5G网络
+IP-ASN,140320 // CHINATELECOM 广东省 Shanwei5G网络
+IP-ASN,140328 // CHINATELECOM 福建省 Shengji5G网络
+IP-ASN,140329 // CHINATELECOM 福建省 福州5G网络
+IP-ASN,140330 // CHINATELECOM 福建省 Xiamen5G网络
+IP-ASN,140331 // CHINATELECOM 福建省 NINGDE5G网络
+IP-ASN,140332 // CHINATELECOM 福建省 Putian5G网络
+IP-ASN,140333 // CHINATELECOM 福建省 Quanzhou5G网络
+IP-ASN,140334 // CHINATELECOM 福建省 Zhangzhou5G网络
+IP-ASN,140335 // CHINATELECOM 福建省 Longyan5G网络
+IP-ASN,140336 // CHINATELECOM 福建省 Sanming5G网络
+IP-ASN,140337 // CHINATELECOM 福建省 Nanping5G网络
+IP-ASN,140345 // CHINATELECOM 云南省 Shengji5G网络
+IP-ASN,140346 // CHINATELECOM 云南省 Kunming5G网络
+IP-ASN,140347 // CHINATELECOM 云南省 Xishuangbanna5G网络
+IP-ASN,140348 // CHINATELECOM 云南省 Baoshan5G网络
+IP-ASN,140349 // CHINATELECOM 云南省 Chuxiong5G网络
+IP-ASN,140350 // CHINATELECOM 云南省 Dali5G网络
+IP-ASN,140351 // CHINATELECOM 云南省 Dehong5G网络
+IP-ASN,140352 // CHINATELECOM 云南省 Diqing5G网络
+IP-ASN,140353 // CHINATELECOM 云南省 Honghe5G网络
+IP-ASN,140354 // CHINATELECOM 云南省 Lijiang5G网络
+IP-ASN,140355 // CHINATELECOM 云南省 Lincang5G网络
+IP-ASN,140356 // CHINATELECOM 云南省 Nujiang5G网络
+IP-ASN,140357 // CHINATELECOM 云南省 Puer5G网络
+IP-ASN,140358 // CHINATELECOM 云南省 Qujing5G网络
+IP-ASN,140359 // CHINATELECOM 云南省 Wenshan5G网络
+IP-ASN,140360 // CHINATELECOM 云南省 Yuxi5G网络
+IP-ASN,140361 // CHINATELECOM 云南省 Zhaotong5G网络
+IP-ASN,140364 // CHINATELECOM 湖南省 5G Core Network5G网络
+IP-ASN,140365 // CHINATELECOM 湖南省 Changsha5G网络
+IP-ASN,140366 // CHINATELECOM 湖南省 Hengyang5G网络
+IP-ASN,140367 // CHINATELECOM 湖南省 Yueyang5G网络
+IP-ASN,140368 // CHINATELECOM 湖南省 Zhuzhou5G网络
+IP-ASN,140369 // CHINATELECOM 湖南省 Xiangtan5G网络
+IP-ASN,140370 // CHINATELECOM 湖南省 Chenzhou5G网络
+IP-ASN,140371 // CHINATELECOM 湖南省 Yongzhou5G网络
+IP-ASN,140372 // CHINATELECOM 湖南省 Yiyang5G网络
+IP-ASN,140373 // CHINATELECOM 湖南省 Changde5G网络
+IP-ASN,140374 // CHINATELECOM 湖南省 Zhangjiajie5G网络
+IP-ASN,140375 // CHINATELECOM 湖南省 Xiangxi5G网络
+IP-ASN,140376 // CHINATELECOM 湖南省 Huaihua5G网络
+IP-ASN,140377 // CHINATELECOM 湖南省 Shaoyang5G网络
+IP-ASN,140378 // CHINATELECOM 湖南省 Loudi5G网络
+IP-ASN,140483 // CHINATELECOM 浙江省 Shengji5G网络
+IP-ASN,140484 // CHINATELECOM 浙江省 Shengji EPCCE network
+IP-ASN,140485 // CHINATELECOM 浙江省 杭州 5GC network
+IP-ASN,140486 // CHINATELECOM 浙江省 JINHUA 5GC network
+IP-ASN,140487 // CHINATELECOM 浙江省 杭州5G网络
+IP-ASN,140488 // CHINATELECOM 浙江省 NINGBO5G网络
+IP-ASN,140489 // CHINATELECOM 浙江省 WENZHOU5G网络
+IP-ASN,140490 // CHINATELECOM 浙江省 JINHUA5G网络
+IP-ASN,140491 // CHINATELECOM 浙江省 TAIZHOU5G网络
+IP-ASN,140492 // CHINATELECOM 浙江省 绍兴5G网络
+IP-ASN,140493 // CHINATELECOM 浙江省 JIAXING5G网络
+IP-ASN,140494 // CHINATELECOM 浙江省 HUZHOU5G网络
+IP-ASN,140495 // CHINATELECOM 浙江省 QUZHOU5G网络
+IP-ASN,140496 // CHINATELECOM 浙江省 LISHUI5G网络
+IP-ASN,140497 // CHINATELECOM 浙江省 ZHOUSHAN5G网络
+IP-ASN,140498 // RCold Network
+IP-ASN,140506 // ZR Global Network
+IP-ASN,140508 // CHINATELECOM 广西省 Shengji5G网络
+IP-ASN,140509 // CHINATELECOM 广西省 NanNing5G网络
+IP-ASN,140510 // CHINATELECOM 广西省 LiuZhou5G网络
+IP-ASN,140511 // CHINATELECOM 广西省 GuiLin5G网络
+IP-ASN,140512 // CHINATELECOM 广西省 YuLin5G网络
+IP-ASN,140513 // CHINATELECOM 广西省 BaiSe5G网络
+IP-ASN,140514 // CHINATELECOM 广西省 GuiGang5G网络
+IP-ASN,140515 // CHINATELECOM 广西省 HeChi5G网络
+IP-ASN,140516 // CHINATELECOM 广西省 QinZhou5G网络
+IP-ASN,140517 // CHINATELECOM 广西省 WuZhou5G网络
+IP-ASN,140518 // CHINATELECOM 广西省 BeiHai5G网络
+IP-ASN,140519 // CHINATELECOM 广西省 ChongZuo5G网络
+IP-ASN,140520 // CHINATELECOM 广西省 LaiBin5G网络
+IP-ASN,140521 // CHINATELECOM 广西省 HeZhou5G网络
+IP-ASN,140522 // CHINATELECOM 广西省 FangChengGang5G网络
+IP-ASN,140527 // 中国电信
+IP-ASN,140528 // CHINATELECOM 湖北省 宜昌5G网络
+IP-ASN,140529 // CHINATELECOM 湖北省 Xiangyang5G网络
+IP-ASN,140530 // CHINATELECOM 湖北省 Ezhou5G网络
+IP-ASN,140531 // CHINATELECOM 湖北省 Jingmen5G网络
+IP-ASN,140532 // CHINATELECOM 湖北省 Xiaogan5G网络
+IP-ASN,140533 // CHINATELECOM 湖北省 Jingzhou5G网络
+IP-ASN,140534 // CHINATELECOM 湖北省 Huanggang5G网络
+IP-ASN,140535 // CHINATELECOM 湖北省 Xianning5G网络
+IP-ASN,140536 // CHINATELECOM 湖北省 Suizhou5G网络
+IP-ASN,140537 // CHINATELECOM 湖北省 Enshi5G网络
+IP-ASN,140538 // CHINATELECOM 湖北省 Xiantao5G网络
+IP-ASN,140553 // CHINATELECOM 新疆省 Shengji5G网络
+IP-ASN,140596 // 深圳 TUTENG NETWORK 有限公司
+IP-ASN,140633 // BILIBILI HK LIMITED
+IP-ASN,140636 // 中国电信
+IP-ASN,140638 // 中国电信
+IP-ASN,140647 // CHINATELECOM 贵州省 Shengji5G网络
+IP-ASN,140648 // CHINATELECOM 贵州省 Guiyang5G网络
+IP-ASN,140649 // CHINATELECOM 贵州省 Zunyi5G网络
+IP-ASN,140650 // CHINATELECOM 贵州省 Anshun5G网络
+IP-ASN,140651 // CHINATELECOM 贵州省 Qiannan5G网络
+IP-ASN,140652 // CHINATELECOM 贵州省 Qiandongnan5G网络
+IP-ASN,140653 // CHINATELECOM 贵州省 Tongren5G网络
+IP-ASN,140654 // CHINATELECOM 贵州省 Bijie5G网络
+IP-ASN,140655 // CHINATELECOM 贵州省 Liupanshui5G网络
+IP-ASN,140656 // CHINATELECOM 贵州省 Qianxinan5G网络
+IP-ASN,140657 // CHINATELECOM 贵州省 Guian5G网络
+IP-ASN,140707 // UNICOM 宁夏省 network
+# IP-ASN,140709 // 北京 Kaopu Cloud technology 有限公司【未广播中国大陆IP】
+IP-ASN,140716 // UNICOM 江苏 WuXi IDC network
+IP-ASN,140717 // UNICOM 江苏 Suzhou IDC network
+IP-ASN,140720 // UNICOM 江苏省南通市IDC网络
+IP-ASN,140726 // UNICOM 安徽省 network
+# IP-ASN,140731 // TOHU Public Internet
+IP-ASN,140852 // CHINATELECOM 江西省 Shengji5G网络
+IP-ASN,140853 // CHINATELECOM 江西省 南昌5G网络
+IP-ASN,140854 // CHINATELECOM 江西省 Jiujiang5G网络
+IP-ASN,140855 // CHINATELECOM 江西省 Jingdezhen5G网络
+IP-ASN,140856 // CHINATELECOM 江西省 Shangrao5G网络
+IP-ASN,140857 // CHINATELECOM 江西省 yingtan5G网络
+IP-ASN,140858 // CHINATELECOM 江西省 Yichun5G网络
+IP-ASN,140859 // CHINATELECOM 江西省 Pingxiang5G网络
+IP-ASN,140860 // CHINATELECOM 江西省 Xinyu5G网络
+IP-ASN,140861 // CHINATELECOM 江西省 Ganzhou5G网络
+IP-ASN,140862 // CHINATELECOM 江西省 Jian5G网络
+IP-ASN,140863 // CHINATELECOM 江西省 福州5G网络
+IP-ASN,140886 // UNICOM 广西省 network
+IP-ASN,140895 // 中国移动集团安徽 communications corporation
+IP-ASN,140903 // 中国电信
+# IP-ASN,140913 // Hentai Network Lab
+IP-ASN,140936 // SUNNET Global Network
+IP-ASN,140979 // China Unicom 上海 FuTe IDC network
+IP-ASN,141025 // Shenyang MAN, Liaoning, 中国电信
+IP-ASN,141157 // 广西 Telecom Nanning Wuxiang Yuanyang IDC
+IP-ASN,141425 // 中国移动集团广东 communications corporation
+IP-ASN,141429 // Agatha Network
+IP-ASN,141445 // Phoenix Network
+IP-ASN,141679 // 中国电信 北京 天津 河北大数据Industry Park Branch
+IP-ASN,141694 // Otaku Limited
+IP-ASN,141739 // 中国电信
+IP-ASN,141771 // 中国电信
+IP-ASN,141776 // Baoshuo Network
+IP-ASN,141998 // 中国电信
+IP-ASN,142048 // vscloud.cc
+IP-ASN,142111 // 浙江 Aiyun 网络科技有限公司
+IP-ASN,142112 // Star Horizon Tech Inc
+IP-ASN,142164 // GoldDoge Computer Technologies & Networks Information Center
+IP-ASN,142280 // NaiveTomcat Education and Research Experimental Network Backbone
+IP-ASN,142284 // Koala Network
+IP-ASN,142404 // 中国电信
+IP-ASN,142418 // TaterLi Education And Research Network
+IP-ASN,142438 // Kasumi Networks Inc
+IP-ASN,142549 // Magnetic Discovery Education and Research Network
+IP-ASN,142551 // Azurite27 Network
+IP-ASN,142553 // Airs Project Private Network Main
+IP-ASN,142554 // hongmicloud.com
+# IP-ASN,142582 // NNET-BACKBONE
+# IP-ASN,142586 // Dotnet Ltd
+# IP-ASN,142588 // Lichun Tang Trading as 400Host
+IP-ASN,142608 // 中国电信
+IP-ASN,142611 // 上海 Tujuan信息科技有限公司
+# IP-ASN,142634 // Wut Exchange RS
+IP-ASN,142642 // Atonal System
+IP-ASN,142650 // 
+IP-ASN,142651 // 
+IP-ASN,142652 // 
+IP-ASN,142653 // 
+IP-ASN,142654 // 
+IP-ASN,142655 // 
+IP-ASN,142656 // 
+IP-ASN,142657 // 
+IP-ASN,142658 // 
+IP-ASN,142659 // 
+IP-ASN,142660 // 
+IP-ASN,142661 // 
+IP-ASN,142662 // 
+IP-ASN,142663 // 
+IP-ASN,142664 // 
+IP-ASN,142665 // 
+IP-ASN,142666 // 
+IP-ASN,142667 // 
+IP-ASN,142668 // 
+IP-ASN,142669 // 
+IP-ASN,142670 // 
+IP-ASN,142671 // 
+IP-ASN,142672 // 
+IP-ASN,142673 // 
+IP-ASN,142674 // 
+IP-ASN,142675 // 
+IP-ASN,142676 // 
+IP-ASN,142677 // 
+IP-ASN,142678 // 
+IP-ASN,142679 // 
+IP-ASN,142680 // 
+IP-ASN,142681 // 
+IP-ASN,142682 // 
+IP-ASN,142683 // 
+IP-ASN,142684 // 
+IP-ASN,142685 // 
+IP-ASN,142686 // 
+IP-ASN,142687 // 
+IP-ASN,142688 // 
+IP-ASN,142689 // 
+IP-ASN,142690 // 
+IP-ASN,142691 // 
+IP-ASN,142692 // 
+IP-ASN,142693 // 
+IP-ASN,142694 // 
+IP-ASN,142695 // 
+IP-ASN,142696 // 
+IP-ASN,142697 // 
+IP-ASN,142698 // 
+IP-ASN,142699 // 
+IP-ASN,142700 // 
+IP-ASN,142701 // 
+IP-ASN,142702 // 
+IP-ASN,142703 // 
+IP-ASN,142704 // 
+IP-ASN,142705 // 
+IP-ASN,142706 // 
+IP-ASN,142707 // 
+IP-ASN,142708 // 
+IP-ASN,142709 // 
+IP-ASN,142710 // 
+IP-ASN,142711 // 
+IP-ASN,142712 // 
+IP-ASN,142713 // 
+IP-ASN,142714 // 
+IP-ASN,142715 // 
+IP-ASN,142716 // 
+IP-ASN,142717 // 
+IP-ASN,142718 // 
+IP-ASN,142719 // 
+IP-ASN,142720 // 
+IP-ASN,142721 // 
+IP-ASN,142722 // 
+IP-ASN,142723 // 
+IP-ASN,142724 // 
+IP-ASN,142725 // 
+IP-ASN,142726 // 
+IP-ASN,142727 // 
+IP-ASN,142728 // 
+IP-ASN,142729 // 
+IP-ASN,142730 // 
+IP-ASN,142731 // 
+IP-ASN,142732 // 
+IP-ASN,142733 // 
+IP-ASN,142734 // 
+IP-ASN,142735 // 
+IP-ASN,142736 // 
+IP-ASN,142737 // 
+IP-ASN,142738 // 
+IP-ASN,142739 // 
+IP-ASN,142740 // 
+IP-ASN,142741 // 
+IP-ASN,142742 // 
+IP-ASN,142743 // 
+IP-ASN,142744 // 
+IP-ASN,142745 // 
+IP-ASN,142746 // 
+IP-ASN,142747 // 
+IP-ASN,142748 // 
+IP-ASN,142749 // 
+IP-ASN,142750 // 
+IP-ASN,142751 // 
+IP-ASN,142752 // 
+IP-ASN,142753 // 
+IP-ASN,142754 // 
+IP-ASN,142755 // 
+IP-ASN,142756 // 
+IP-ASN,142757 // 
+IP-ASN,142758 // 
+IP-ASN,142759 // 
+IP-ASN,142760 // 
+IP-ASN,142761 // 
+IP-ASN,142762 // 
+IP-ASN,142763 // 
+IP-ASN,142764 // 
+IP-ASN,142765 // 
+IP-ASN,142766 // 
+IP-ASN,142767 // 
+IP-ASN,142768 // 
+IP-ASN,142769 // 
+IP-ASN,142770 // 
+IP-ASN,142771 // 
+IP-ASN,142772 // 
+IP-ASN,142773 // 
+IP-ASN,142774 // 
+IP-ASN,142775 // 
+IP-ASN,142776 // 
+IP-ASN,142777 // 
+IP-ASN,142778 // 
+IP-ASN,142779 // 
+IP-ASN,142780 // 
+IP-ASN,142781 // 
+IP-ASN,142782 // 
+IP-ASN,142783 // 
+IP-ASN,142784 // 
+IP-ASN,142785 // 
+IP-ASN,142786 // 
+IP-ASN,142787 // 
+IP-ASN,142788 // 
+IP-ASN,142789 // 
+IP-ASN,142790 // 
+IP-ASN,142791 // 
+IP-ASN,142792 // 
+IP-ASN,142793 // 
+IP-ASN,142794 // 
+IP-ASN,142795 // 
+IP-ASN,142796 // 
+IP-ASN,142797 // 
+IP-ASN,142798 // 
+IP-ASN,142799 // 
+IP-ASN,142800 // 
+IP-ASN,142801 // 
+IP-ASN,142802 // 
+IP-ASN,142803 // 
+IP-ASN,142804 // 
+IP-ASN,142805 // 
+IP-ASN,142806 // 
+IP-ASN,142807 // 
+IP-ASN,142808 // 
+IP-ASN,142809 // 
+IP-ASN,142810 // 
+IP-ASN,142811 // 
+IP-ASN,142812 // 
+IP-ASN,142813 // 
+IP-ASN,142814 // 
+IP-ASN,142815 // 
+IP-ASN,142816 // 
+IP-ASN,142817 // 
+IP-ASN,142818 // 
+IP-ASN,142819 // 
+IP-ASN,142820 // 
+IP-ASN,142821 // 
+IP-ASN,142822 // 
+IP-ASN,142823 // 
+IP-ASN,142824 // 
+IP-ASN,142825 // 
+IP-ASN,142826 // 
+IP-ASN,142827 // 
+IP-ASN,142828 // 
+IP-ASN,142829 // 
+IP-ASN,142830 // 
+IP-ASN,142831 // 
+IP-ASN,142832 // 
+IP-ASN,142833 // 
+IP-ASN,142834 // 
+IP-ASN,142835 // 
+IP-ASN,142836 // 
+IP-ASN,142837 // 
+IP-ASN,142838 // 
+IP-ASN,142839 // 
+IP-ASN,142840 // 
+IP-ASN,142841 // 
+IP-ASN,142842 // 
+IP-ASN,142843 // 
+IP-ASN,142844 // 
+IP-ASN,142845 // 
+IP-ASN,142846 // 
+IP-ASN,142847 // 
+IP-ASN,142848 // 
+IP-ASN,142849 // 
+IP-ASN,142850 // 
+IP-ASN,142851 // 
+IP-ASN,142852 // 
+IP-ASN,142853 // 
+IP-ASN,142854 // 
+IP-ASN,142855 // 
+IP-ASN,142856 // 
+IP-ASN,142857 // 
+IP-ASN,142858 // 
+IP-ASN,142859 // 
+IP-ASN,142860 // 
+IP-ASN,142861 // 
+IP-ASN,142862 // 
+IP-ASN,142863 // 
+IP-ASN,142864 // 
+IP-ASN,142865 // 
+IP-ASN,142866 // 
+IP-ASN,142867 // 
+IP-ASN,142868 // 
+IP-ASN,142869 // 
+IP-ASN,142870 // 
+IP-ASN,142871 // 
+IP-ASN,142872 // 
+IP-ASN,142873 // 
+IP-ASN,142874 // 
+IP-ASN,142875 // 
+IP-ASN,142876 // 
+IP-ASN,142877 // 
+IP-ASN,142878 // 
+IP-ASN,142879 // 
+IP-ASN,142880 // 
+IP-ASN,142881 // 
+IP-ASN,142882 // 
+IP-ASN,142883 // 
+IP-ASN,142884 // 
+IP-ASN,142885 // 
+IP-ASN,142886 // 
+IP-ASN,142887 // 
+IP-ASN,142888 // 
+IP-ASN,142889 // 
+IP-ASN,142890 // 
+IP-ASN,142891 // 
+IP-ASN,142892 // 
+IP-ASN,142893 // 
+IP-ASN,142894 // 
+IP-ASN,142895 // 
+IP-ASN,142896 // 
+IP-ASN,142897 // 
+IP-ASN,142898 // 
+IP-ASN,142899 // 
+IP-ASN,142900 // 
+IP-ASN,142901 // 
+IP-ASN,142902 // 
+IP-ASN,142903 // 
+IP-ASN,142904 // 
+IP-ASN,142905 // 
+IP-ASN,142906 // 
+IP-ASN,142907 // 
+IP-ASN,142908 // 
+IP-ASN,142909 // 
+IP-ASN,142910 // 
+IP-ASN,142911 // 
+IP-ASN,142912 // 
+IP-ASN,142913 // 
+IP-ASN,142914 // 
+IP-ASN,142915 // 
+IP-ASN,142916 // 
+IP-ASN,142917 // 
+IP-ASN,142918 // 
+IP-ASN,142919 // 
+IP-ASN,142920 // 
+IP-ASN,142921 // 
+IP-ASN,142922 // 
+IP-ASN,142923 // 
+IP-ASN,142924 // 
+IP-ASN,142925 // 
+IP-ASN,142926 // 
+IP-ASN,142927 // 
+IP-ASN,142928 // 
+IP-ASN,142929 // 
+IP-ASN,142930 // 
+IP-ASN,142931 // 
+IP-ASN,142932 // 
+IP-ASN,142933 // 
+IP-ASN,142934 // 
+IP-ASN,142935 // 
+IP-ASN,142936 // 
+IP-ASN,142937 // 
+IP-ASN,142938 // 
+IP-ASN,142939 // 
+IP-ASN,142940 // 
+IP-ASN,142941 // 
+IP-ASN,142942 // 
+IP-ASN,142943 // 
+IP-ASN,142944 // 
+IP-ASN,142945 // 
+IP-ASN,142946 // 
+IP-ASN,142947 // 
+IP-ASN,142948 // 
+IP-ASN,142949 // 
+IP-ASN,142950 // 
+IP-ASN,142951 // 
+IP-ASN,142952 // 
+IP-ASN,142953 // 
+IP-ASN,142954 // 
+IP-ASN,142955 // 
+IP-ASN,142956 // 
+IP-ASN,142957 // 
+IP-ASN,142958 // 
+IP-ASN,142959 // 
+IP-ASN,142960 // 
+IP-ASN,142961 // 
+IP-ASN,142962 // 
+IP-ASN,142963 // 
+IP-ASN,142964 // 
+IP-ASN,142965 // 
+IP-ASN,142966 // 
+IP-ASN,142967 // 
+IP-ASN,142968 // 
+IP-ASN,142969 // 
+IP-ASN,142970 // 
+IP-ASN,142971 // 
+IP-ASN,142972 // 
+IP-ASN,142973 // 
+IP-ASN,142974 // 
+IP-ASN,142975 // 
+IP-ASN,142976 // 
+IP-ASN,142977 // 
+IP-ASN,142978 // 
+IP-ASN,142979 // 
+IP-ASN,142980 // 
+IP-ASN,142981 // 
+IP-ASN,142982 // 
+IP-ASN,142983 // 
+IP-ASN,142984 // 
+IP-ASN,142985 // 
+IP-ASN,142986 // 
+IP-ASN,142987 // 
+IP-ASN,142988 // 
+IP-ASN,142989 // 
+IP-ASN,142990 // 
+IP-ASN,142991 // 
+IP-ASN,142992 // 
+IP-ASN,142993 // 
+IP-ASN,142994 // 
+IP-ASN,142995 // 
+IP-ASN,142996 // 
+IP-ASN,142997 // 
+IP-ASN,142998 // 
+IP-ASN,142999 // 
+IP-ASN,143000 // 
+IP-ASN,143001 // 
+IP-ASN,143002 // 
+IP-ASN,143003 // 
+IP-ASN,143004 // 
+IP-ASN,143005 // 
+IP-ASN,143006 // 
+IP-ASN,143007 // 
+IP-ASN,143008 // 
+IP-ASN,143009 // 
+IP-ASN,143010 // 
+IP-ASN,143011 // 
+IP-ASN,143012 // 
+IP-ASN,143013 // 
+IP-ASN,143014 // 
+IP-ASN,143015 // 
+IP-ASN,143016 // 
+IP-ASN,143017 // 
+IP-ASN,143018 // 
+IP-ASN,143019 // 
+IP-ASN,143020 // 
+IP-ASN,143021 // 
+IP-ASN,143022 // 
+IP-ASN,143023 // 
+IP-ASN,143024 // 
+IP-ASN,143025 // 
+IP-ASN,143026 // 
+IP-ASN,143027 // 
+IP-ASN,143028 // 
+IP-ASN,143029 // 
+IP-ASN,143030 // 
+IP-ASN,143031 // 
+IP-ASN,143032 // 
+IP-ASN,143033 // 
+IP-ASN,143034 // 
+IP-ASN,143035 // 
+IP-ASN,143036 // 
+IP-ASN,143037 // 
+IP-ASN,143038 // 
+IP-ASN,143039 // 
+IP-ASN,143040 // 
+IP-ASN,143041 // 
+IP-ASN,143042 // 
+IP-ASN,143043 // 
+IP-ASN,143044 // 
+IP-ASN,143045 // 
+IP-ASN,143046 // 
+IP-ASN,143047 // 
+IP-ASN,143048 // 
+IP-ASN,143049 // 
+IP-ASN,143050 // 
+IP-ASN,143051 // 
+IP-ASN,143052 // 
+IP-ASN,143053 // 
+IP-ASN,143054 // 
+IP-ASN,143055 // 
+IP-ASN,143056 // 
+IP-ASN,143057 // 
+IP-ASN,143058 // 
+IP-ASN,143059 // 
+IP-ASN,143060 // 
+IP-ASN,143061 // 
+IP-ASN,143062 // 
+IP-ASN,143063 // 
+IP-ASN,143064 // 
+IP-ASN,143065 // 
+IP-ASN,143066 // 
+IP-ASN,143067 // 
+IP-ASN,143068 // 
+IP-ASN,143069 // 
+IP-ASN,143070 // 
+IP-ASN,143071 // 
+IP-ASN,143072 // 
+IP-ASN,143073 // 
+IP-ASN,143074 // 
+IP-ASN,143075 // 
+IP-ASN,143076 // 
+IP-ASN,143077 // 
+IP-ASN,143078 // 
+IP-ASN,143079 // 
+IP-ASN,143080 // 
+IP-ASN,143081 // 
+IP-ASN,143082 // 
+IP-ASN,143083 // 
+IP-ASN,143084 // 
+IP-ASN,143085 // 
+IP-ASN,143086 // 
+IP-ASN,143087 // 
+IP-ASN,143088 // 
+IP-ASN,143089 // 
+IP-ASN,143090 // 
+IP-ASN,143091 // 
+IP-ASN,143092 // 
+IP-ASN,143093 // 
+IP-ASN,143094 // 
+IP-ASN,143095 // 
+IP-ASN,143096 // 
+IP-ASN,143097 // 
+IP-ASN,143098 // 
+IP-ASN,143099 // 
+IP-ASN,143100 // 
+IP-ASN,143101 // 
+IP-ASN,143102 // 
+IP-ASN,143103 // 
+IP-ASN,143104 // 
+IP-ASN,143105 // 
+IP-ASN,143106 // 
+IP-ASN,143107 // 
+IP-ASN,143108 // 
+IP-ASN,143109 // 
+IP-ASN,143110 // 
+IP-ASN,143111 // 
+IP-ASN,143112 // 
+IP-ASN,143113 // 
+IP-ASN,143114 // 
+IP-ASN,143115 // 
+IP-ASN,143116 // 
+IP-ASN,143117 // 
+IP-ASN,143118 // 
+IP-ASN,143119 // 
+IP-ASN,143120 // 
+IP-ASN,143121 // 
+IP-ASN,143122 // 
+IP-ASN,143123 // 
+IP-ASN,143124 // 
+IP-ASN,143125 // 
+IP-ASN,143126 // 
+IP-ASN,143127 // 
+IP-ASN,143128 // 
+IP-ASN,143129 // 
+IP-ASN,143130 // 
+IP-ASN,143131 // 
+IP-ASN,143132 // 
+IP-ASN,143133 // 
+IP-ASN,143134 // 
+IP-ASN,143135 // 
+IP-ASN,143136 // 
+IP-ASN,143137 // 
+IP-ASN,143138 // 
+IP-ASN,143139 // 
+IP-ASN,143140 // 
+IP-ASN,143141 // 
+IP-ASN,143142 // 
+IP-ASN,143143 // 
+IP-ASN,143144 // 
+IP-ASN,143145 // 
+IP-ASN,143146 // 
+IP-ASN,143147 // 
+IP-ASN,143148 // 
+IP-ASN,143149 // 
+IP-ASN,143150 // 
+IP-ASN,143151 // 
+IP-ASN,143152 // 
+IP-ASN,143153 // 
+IP-ASN,143154 // 
+IP-ASN,143155 // 
+IP-ASN,143156 // 
+IP-ASN,143157 // 
+IP-ASN,143158 // 
+IP-ASN,143159 // 
+IP-ASN,143160 // 
+IP-ASN,143161 // 
+IP-ASN,143162 // 
+IP-ASN,143163 // 
+IP-ASN,143164 // 
+IP-ASN,143165 // 
+IP-ASN,143166 // 
+IP-ASN,143167 // 
+IP-ASN,143168 // 
+IP-ASN,143169 // 
+IP-ASN,143170 // 
+IP-ASN,143171 // 
+IP-ASN,143172 // 
+IP-ASN,143173 // 
+IP-ASN,143174 // 
+IP-ASN,143175 // 
+IP-ASN,143176 // 
+IP-ASN,143177 // 
+IP-ASN,143178 // 
+IP-ASN,143179 // 
+IP-ASN,143180 // 
+IP-ASN,143181 // 
+IP-ASN,143182 // 
+IP-ASN,143183 // 
+IP-ASN,143184 // 
+IP-ASN,143185 // 
+IP-ASN,143186 // 
+IP-ASN,143187 // 
+IP-ASN,143188 // 
+IP-ASN,143189 // 
+IP-ASN,143190 // 
+IP-ASN,143191 // 
+IP-ASN,143192 // 
+IP-ASN,143193 // 
+IP-ASN,143194 // 
+IP-ASN,143195 // 
+IP-ASN,143196 // 
+IP-ASN,143197 // 
+IP-ASN,143198 // 
+IP-ASN,143199 // 
+IP-ASN,143200 // 
+IP-ASN,143201 // 
+IP-ASN,143202 // 
+IP-ASN,143203 // 
+IP-ASN,143204 // 
+IP-ASN,143205 // 
+IP-ASN,143206 // 
+IP-ASN,143207 // 
+IP-ASN,143208 // 
+IP-ASN,143209 // 
+IP-ASN,143210 // 
+IP-ASN,143211 // 
+IP-ASN,143212 // 
+IP-ASN,143213 // 
+IP-ASN,143214 // 
+IP-ASN,143215 // 
+IP-ASN,143216 // 
+IP-ASN,143217 // 
+IP-ASN,143218 // 
+IP-ASN,143219 // 
+IP-ASN,143220 // 
+IP-ASN,143221 // 
+IP-ASN,143222 // 
+IP-ASN,143223 // 
+IP-ASN,143224 // 
+IP-ASN,143225 // 
+IP-ASN,143226 // 
+IP-ASN,143227 // 
+IP-ASN,143228 // 
+IP-ASN,143229 // 
+IP-ASN,143230 // 
+IP-ASN,143231 // 
+IP-ASN,143232 // 
+IP-ASN,143233 // 
+IP-ASN,143234 // 
+IP-ASN,143235 // 
+IP-ASN,143236 // 
+IP-ASN,143237 // 
+IP-ASN,143238 // 
+IP-ASN,143239 // 
+IP-ASN,143240 // 
+IP-ASN,143241 // 
+IP-ASN,143242 // 
+IP-ASN,143243 // 
+IP-ASN,143244 // 
+IP-ASN,143245 // 
+IP-ASN,143246 // 
+IP-ASN,143247 // 
+IP-ASN,143248 // 
+IP-ASN,143249 // 
+IP-ASN,143250 // 
+IP-ASN,143251 // 
+IP-ASN,143252 // 
+IP-ASN,143253 // 
+IP-ASN,143254 // 
+IP-ASN,143255 // 
+IP-ASN,143256 // 
+IP-ASN,143257 // 
+IP-ASN,143258 // 
+IP-ASN,143259 // 
+IP-ASN,143260 // 
+IP-ASN,143261 // 
+IP-ASN,143262 // 
+IP-ASN,143263 // 
+IP-ASN,143264 // 
+IP-ASN,143265 // 
+IP-ASN,143266 // 
+IP-ASN,143267 // 
+IP-ASN,143268 // 
+IP-ASN,143269 // 
+IP-ASN,143270 // 
+IP-ASN,143271 // 
+IP-ASN,143272 // 
+IP-ASN,143273 // 
+IP-ASN,143274 // 
+IP-ASN,143275 // 
+IP-ASN,143276 // 
+IP-ASN,143277 // 
+IP-ASN,143278 // 
+IP-ASN,143279 // 
+IP-ASN,143280 // 
+IP-ASN,143281 // 
+IP-ASN,143282 // 
+IP-ASN,143283 // 
+IP-ASN,143284 // 
+IP-ASN,143285 // 
+IP-ASN,143286 // 
+IP-ASN,143287 // 
+IP-ASN,143288 // 
+IP-ASN,143289 // 
+IP-ASN,143290 // 
+IP-ASN,143291 // 
+IP-ASN,143292 // 
+IP-ASN,143293 // 
+IP-ASN,143294 // 
+IP-ASN,143295 // 
+IP-ASN,143296 // 
+IP-ASN,143297 // 
+IP-ASN,143298 // 
+IP-ASN,143299 // 
+IP-ASN,143300 // 
+IP-ASN,143301 // 
+IP-ASN,143302 // 
+IP-ASN,143303 // 
+IP-ASN,143304 // 
+IP-ASN,143305 // 
+IP-ASN,143306 // 
+IP-ASN,143307 // 
+IP-ASN,143308 // 
+IP-ASN,143309 // 
+IP-ASN,143310 // 
+IP-ASN,143311 // 
+IP-ASN,143312 // 
+IP-ASN,143313 // 
+IP-ASN,143314 // 
+IP-ASN,143315 // 
+IP-ASN,143316 // 
+IP-ASN,143317 // 
+IP-ASN,143318 // 
+IP-ASN,143319 // 
+IP-ASN,143320 // 
+IP-ASN,143321 // 
+IP-ASN,143322 // 
+IP-ASN,143323 // 
+IP-ASN,143324 // 
+IP-ASN,143325 // 
+IP-ASN,143326 // 
+IP-ASN,143327 // 
+IP-ASN,143328 // 
+IP-ASN,143329 // 
+IP-ASN,143330 // 
+IP-ASN,143331 // 
+IP-ASN,143332 // 
+IP-ASN,143333 // 
+IP-ASN,143334 // 
+IP-ASN,143335 // 
+IP-ASN,143336 // 
+IP-ASN,143337 // 
+IP-ASN,143338 // 
+IP-ASN,143339 // 
+IP-ASN,143340 // 
+IP-ASN,143341 // 
+IP-ASN,143342 // 
+IP-ASN,143343 // 
+IP-ASN,143344 // 
+IP-ASN,143345 // 
+IP-ASN,143346 // 
+IP-ASN,143347 // 
+IP-ASN,143348 // 
+IP-ASN,143349 // 
+IP-ASN,143350 // 
+IP-ASN,143351 // 
+IP-ASN,143352 // 
+IP-ASN,143353 // 
+IP-ASN,143354 // 
+IP-ASN,143355 // 
+IP-ASN,143356 // 
+IP-ASN,143357 // 
+IP-ASN,143358 // 
+IP-ASN,143359 // 
+IP-ASN,143360 // 
+IP-ASN,143361 // 
+IP-ASN,143362 // 
+IP-ASN,143363 // 
+IP-ASN,143364 // 
+IP-ASN,143365 // 
+IP-ASN,143366 // 
+IP-ASN,143367 // 
+IP-ASN,143368 // 
+IP-ASN,143369 // 
+IP-ASN,143370 // 
+IP-ASN,143371 // 
+IP-ASN,143372 // 
+IP-ASN,143373 // 
+IP-ASN,143374 // 
+IP-ASN,143375 // 
+IP-ASN,143376 // 
+IP-ASN,143377 // 
+IP-ASN,143378 // 
+IP-ASN,143379 // 
+IP-ASN,143380 // 
+IP-ASN,143381 // 
+IP-ASN,143382 // 
+IP-ASN,143383 // 
+IP-ASN,143384 // 
+IP-ASN,143385 // 
+IP-ASN,143386 // 
+IP-ASN,143387 // 
+IP-ASN,143388 // 
+IP-ASN,143389 // 
+IP-ASN,143390 // 
+IP-ASN,143391 // 
+IP-ASN,143392 // 
+IP-ASN,143393 // 
+IP-ASN,143394 // 
+IP-ASN,143395 // 
+IP-ASN,143396 // 
+IP-ASN,143397 // 
+IP-ASN,143398 // 
+IP-ASN,143399 // 
+IP-ASN,143400 // 
+IP-ASN,143401 // 
+IP-ASN,143402 // 
+IP-ASN,143403 // 
+IP-ASN,143404 // 
+IP-ASN,143405 // 
+IP-ASN,143406 // 
+IP-ASN,143407 // 
+IP-ASN,143408 // 
+IP-ASN,143409 // 
+IP-ASN,143410 // 
+IP-ASN,143411 // 
+IP-ASN,143412 // 
+IP-ASN,143413 // 
+IP-ASN,143414 // 
+IP-ASN,143415 // 
+IP-ASN,143416 // 
+IP-ASN,143417 // 
+IP-ASN,143418 // 
+IP-ASN,143419 // 
+IP-ASN,143420 // 
+IP-ASN,143421 // 
+IP-ASN,143422 // 
+IP-ASN,143423 // 
+IP-ASN,143424 // 
+IP-ASN,143425 // 
+IP-ASN,143426 // 
+IP-ASN,143427 // 
+IP-ASN,143428 // 
+IP-ASN,143429 // 
+IP-ASN,143430 // 
+IP-ASN,143431 // 
+IP-ASN,143432 // 
+IP-ASN,143433 // 
+IP-ASN,143434 // 
+IP-ASN,143435 // 
+IP-ASN,143436 // 
+IP-ASN,143437 // 
+IP-ASN,143438 // 
+IP-ASN,143439 // 
+IP-ASN,143440 // 
+IP-ASN,143441 // 
+IP-ASN,143442 // 
+IP-ASN,143443 // 
+IP-ASN,143444 // 
+IP-ASN,143445 // 
+IP-ASN,143446 // 
+IP-ASN,143447 // 
+IP-ASN,143448 // 
+IP-ASN,143449 // 
+IP-ASN,143450 // 
+IP-ASN,143451 // 
+IP-ASN,143452 // 
+IP-ASN,143453 // 
+IP-ASN,143454 // 
+IP-ASN,143455 // 
+IP-ASN,143456 // 
+IP-ASN,143457 // 
+IP-ASN,143458 // 
+IP-ASN,143459 // 
+IP-ASN,143460 // 
+IP-ASN,143461 // 
+IP-ASN,143462 // 
+IP-ASN,143463 // 
+IP-ASN,143464 // 
+IP-ASN,143465 // 
+IP-ASN,143466 // 
+IP-ASN,143467 // 
+IP-ASN,143468 // 
+IP-ASN,143469 // 
+IP-ASN,143470 // 
+IP-ASN,143471 // 
+IP-ASN,143472 // 
+IP-ASN,143473 // 
+IP-ASN,143474 // 
+IP-ASN,143475 // 
+IP-ASN,143476 // 
+IP-ASN,143477 // 
+IP-ASN,143478 // 
+IP-ASN,143479 // 
+IP-ASN,143480 // 
+IP-ASN,143481 // 
+IP-ASN,143482 // 
+IP-ASN,143483 // 
+IP-ASN,143484 // 
+IP-ASN,143485 // 
+IP-ASN,143486 // 
+IP-ASN,143487 // 
+IP-ASN,143488 // 
+IP-ASN,143489 // 
+IP-ASN,143490 // 
+IP-ASN,143491 // 
+IP-ASN,143492 // 
+IP-ASN,143493 // 
+IP-ASN,143494 // 
+IP-ASN,143495 // 
+IP-ASN,143496 // 
+IP-ASN,143497 // 
+IP-ASN,143498 // 
+IP-ASN,143499 // 
+IP-ASN,143500 // 
+IP-ASN,143501 // 
+IP-ASN,143502 // 
+IP-ASN,143503 // 
+IP-ASN,143504 // 
+IP-ASN,143505 // 
+IP-ASN,143506 // 
+IP-ASN,143507 // 
+IP-ASN,143508 // 
+IP-ASN,143509 // 
+IP-ASN,143510 // 
+IP-ASN,143511 // 
+IP-ASN,143512 // 
+IP-ASN,143513 // 
+IP-ASN,143514 // 
+IP-ASN,143515 // 
+IP-ASN,143516 // 
+IP-ASN,143517 // 
+IP-ASN,143518 // 
+IP-ASN,143519 // 
+IP-ASN,143520 // 
+IP-ASN,143521 // 
+IP-ASN,143522 // 
+IP-ASN,143523 // 
+IP-ASN,143524 // 
+IP-ASN,143525 // 
+IP-ASN,143526 // 
+IP-ASN,143527 // 
+IP-ASN,143528 // 
+IP-ASN,143529 // 
+IP-ASN,143530 // 
+IP-ASN,143531 // 
+IP-ASN,143532 // 
+IP-ASN,143533 // 
+IP-ASN,143534 // 
+IP-ASN,143535 // 
+IP-ASN,143536 // 
+IP-ASN,143537 // 
+IP-ASN,143538 // 
+IP-ASN,143539 // 
+IP-ASN,143540 // 
+IP-ASN,143541 // 
+IP-ASN,143542 // 
+IP-ASN,143543 // 
+IP-ASN,143544 // 
+IP-ASN,143545 // 
+IP-ASN,143546 // 
+IP-ASN,143547 // 
+IP-ASN,143548 // 
+IP-ASN,143549 // 
+IP-ASN,143550 // 
+IP-ASN,143551 // 
+IP-ASN,143552 // 
+IP-ASN,143553 // 
+IP-ASN,143554 // 
+IP-ASN,143555 // 
+IP-ASN,143556 // 
+IP-ASN,143557 // 
+IP-ASN,143558 // 
+IP-ASN,143559 // 
+IP-ASN,143560 // 
+IP-ASN,143561 // 
+IP-ASN,143562 // 
+IP-ASN,143563 // 
+IP-ASN,143564 // 
+IP-ASN,143565 // 
+IP-ASN,143566 // 
+IP-ASN,143567 // 
+IP-ASN,143568 // 
+IP-ASN,143569 // 
+IP-ASN,143570 // 
+IP-ASN,143571 // 
+IP-ASN,143572 // 
+IP-ASN,143573 // 
+IP-ASN,143574 // 
+IP-ASN,143575 // 
+IP-ASN,143576 // 
+IP-ASN,143577 // 
+IP-ASN,143578 // 
+IP-ASN,143579 // 
+IP-ASN,143580 // 
+IP-ASN,143581 // 
+IP-ASN,143582 // 
+IP-ASN,143583 // 
+IP-ASN,143584 // 
+IP-ASN,143585 // 
+IP-ASN,143586 // 
+IP-ASN,143587 // 
+IP-ASN,143588 // 
+IP-ASN,143589 // 
+IP-ASN,143590 // 
+IP-ASN,143591 // 
+IP-ASN,143592 // 
+IP-ASN,143593 // 
+IP-ASN,143594 // 
+IP-ASN,143595 // 
+IP-ASN,143596 // 
+IP-ASN,143597 // 
+IP-ASN,143598 // 
+IP-ASN,143599 // 
+IP-ASN,143600 // 
+IP-ASN,143601 // 
+IP-ASN,143602 // 
+IP-ASN,143603 // 
+IP-ASN,143604 // 
+IP-ASN,143605 // 
+IP-ASN,143606 // 
+IP-ASN,143607 // 
+IP-ASN,143608 // 
+IP-ASN,143609 // 
+IP-ASN,143610 // 
+IP-ASN,143611 // 
+IP-ASN,143612 // 
+IP-ASN,143613 // 
+IP-ASN,143614 // 
+IP-ASN,143615 // 
+IP-ASN,143616 // 
+IP-ASN,143617 // 
+IP-ASN,143618 // 
+IP-ASN,143619 // 
+IP-ASN,143620 // 
+IP-ASN,143621 // 
+IP-ASN,143622 // 
+IP-ASN,143623 // 
+IP-ASN,143624 // 
+IP-ASN,143625 // 
+IP-ASN,143626 // 
+IP-ASN,143627 // 
+IP-ASN,143628 // 
+IP-ASN,143629 // 
+IP-ASN,143630 // 
+IP-ASN,143631 // 
+IP-ASN,143632 // 
+IP-ASN,143633 // 
+IP-ASN,143634 // 
+IP-ASN,143635 // 
+IP-ASN,143636 // 
+IP-ASN,143637 // 
+IP-ASN,143638 // 
+IP-ASN,143639 // 
+IP-ASN,143640 // 
+IP-ASN,143641 // 
+IP-ASN,143642 // 
+IP-ASN,143643 // 
+IP-ASN,143644 // 
+IP-ASN,143645 // 
+IP-ASN,143646 // 
+IP-ASN,143647 // 
+IP-ASN,143648 // 
+IP-ASN,143649 // 
+IP-ASN,143650 // 
+IP-ASN,143651 // 
+IP-ASN,143652 // 
+IP-ASN,143653 // 
+IP-ASN,143654 // 
+IP-ASN,143655 // 
+IP-ASN,143656 // 
+IP-ASN,143657 // 
+IP-ASN,143658 // 
+IP-ASN,143659 // 
+IP-ASN,143660 // 
+IP-ASN,143661 // 
+IP-ASN,143662 // 
+IP-ASN,143663 // 
+IP-ASN,143664 // 
+IP-ASN,143665 // 
+IP-ASN,143666 // 
+IP-ASN,143667 // 
+IP-ASN,143668 // 
+IP-ASN,143669 // 
+IP-ASN,143670 // 
+IP-ASN,143671 // 
+IP-ASN,143672 // 
+IP-ASN,143673 // 
+IP-ASN,143674 // 
+IP-ASN,143675 // 
+IP-ASN,143676 // 
+IP-ASN,143677 // 
+IP-ASN,143678 // 
+IP-ASN,143679 // 
+IP-ASN,143680 // 
+IP-ASN,143681 // 
+IP-ASN,143682 // 
+IP-ASN,143683 // 
+IP-ASN,143684 // 
+IP-ASN,143685 // 
+IP-ASN,143686 // 
+IP-ASN,143687 // 
+IP-ASN,143688 // 
+IP-ASN,143689 // 
+IP-ASN,143690 // 
+IP-ASN,143691 // 
+IP-ASN,143692 // 
+IP-ASN,143693 // 
+IP-ASN,143694 // 
+IP-ASN,143695 // 
+IP-ASN,143696 // 
+IP-ASN,143697 // 
+IP-ASN,143698 // 
+IP-ASN,143699 // 
+IP-ASN,143700 // 
+IP-ASN,143701 // 
+IP-ASN,143702 // 
+IP-ASN,143703 // 
+IP-ASN,143704 // 
+IP-ASN,143705 // 
+IP-ASN,143706 // 
+IP-ASN,143707 // 
+IP-ASN,143708 // 
+IP-ASN,143709 // 
+IP-ASN,143710 // 
+IP-ASN,143711 // 
+IP-ASN,143712 // 
+IP-ASN,143713 // 
+IP-ASN,143714 // 
+IP-ASN,143715 // 
+IP-ASN,143716 // 
+IP-ASN,143717 // 
+IP-ASN,143718 // 
+IP-ASN,143719 // 
+IP-ASN,143720 // 
+IP-ASN,143721 // 
+IP-ASN,143722 // 
+IP-ASN,143723 // 
+IP-ASN,143724 // 
+IP-ASN,143725 // 
+IP-ASN,143726 // 
+IP-ASN,143727 // 
+IP-ASN,143728 // 
+IP-ASN,143729 // 
+IP-ASN,143730 // 
+IP-ASN,143731 // 
+IP-ASN,143732 // 
+IP-ASN,143733 // 
+IP-ASN,143734 // 
+IP-ASN,143735 // 
+IP-ASN,143736 // 
+IP-ASN,143737 // 
+IP-ASN,143738 // 
+IP-ASN,143739 // 
+IP-ASN,143740 // 
+IP-ASN,143741 // 
+IP-ASN,143742 // 
+IP-ASN,143743 // 
+IP-ASN,143744 // 
+IP-ASN,143745 // 
+IP-ASN,143746 // 
+IP-ASN,143747 // 
+IP-ASN,143748 // 
+IP-ASN,143749 // 
+IP-ASN,143750 // 
+IP-ASN,143751 // 
+IP-ASN,143752 // 
+IP-ASN,143753 // 
+IP-ASN,143754 // 
+IP-ASN,143755 // 
+IP-ASN,143756 // 
+IP-ASN,143757 // 
+IP-ASN,143758 // 
+IP-ASN,143759 // 
+IP-ASN,143760 // 
+IP-ASN,143761 // 
+IP-ASN,143762 // 
+IP-ASN,143763 // 
+IP-ASN,143764 // 
+IP-ASN,143765 // 
+IP-ASN,143766 // 
+IP-ASN,143767 // 
+IP-ASN,143768 // 
+IP-ASN,143769 // 
+IP-ASN,143770 // 
+IP-ASN,143771 // 
+IP-ASN,143772 // 
+IP-ASN,143773 // 
+IP-ASN,143774 // 
+IP-ASN,143775 // 
+IP-ASN,143776 // 
+IP-ASN,143777 // 
+IP-ASN,143778 // 
+IP-ASN,143779 // 
+IP-ASN,143780 // 
+IP-ASN,143781 // 
+IP-ASN,143782 // 
+IP-ASN,143783 // 
+IP-ASN,143784 // 
+IP-ASN,143785 // 
+IP-ASN,143786 // 
+IP-ASN,143787 // 
+IP-ASN,143788 // 
+IP-ASN,143789 // 
+IP-ASN,143790 // 
+IP-ASN,143791 // 
+IP-ASN,143792 // 
+IP-ASN,143793 // 
+IP-ASN,143794 // 
+IP-ASN,143795 // 
+IP-ASN,143796 // 
+IP-ASN,143797 // 
+IP-ASN,143798 // 
+IP-ASN,143799 // 
+IP-ASN,143800 // 
+IP-ASN,143801 // 
+IP-ASN,143802 // 
+IP-ASN,143803 // 
+IP-ASN,143804 // 
+IP-ASN,143805 // 
+IP-ASN,143806 // 
+IP-ASN,143807 // 
+IP-ASN,143808 // 
+IP-ASN,143809 // 
+IP-ASN,143810 // 
+IP-ASN,143811 // 
+IP-ASN,143812 // 
+IP-ASN,143813 // 
+IP-ASN,143814 // 
+IP-ASN,143815 // 
+IP-ASN,143816 // 
+IP-ASN,143817 // 
+IP-ASN,143818 // 
+IP-ASN,143819 // 
+IP-ASN,143820 // 
+IP-ASN,143821 // 
+IP-ASN,143822 // 
+IP-ASN,143823 // 
+IP-ASN,143824 // 
+IP-ASN,143825 // 
+IP-ASN,143826 // 
+IP-ASN,143827 // 
+IP-ASN,143828 // 
+IP-ASN,143829 // 
+IP-ASN,143830 // 
+IP-ASN,143831 // 
+IP-ASN,143832 // 
+IP-ASN,143833 // 
+IP-ASN,143834 // 
+IP-ASN,143835 // 
+IP-ASN,143836 // 
+IP-ASN,143837 // 
+IP-ASN,143838 // 
+IP-ASN,143839 // 
+IP-ASN,143840 // 
+IP-ASN,143841 // 
+IP-ASN,143842 // 
+IP-ASN,143843 // 
+IP-ASN,143844 // 
+IP-ASN,143845 // 
+IP-ASN,143846 // 
+IP-ASN,143847 // 
+IP-ASN,143848 // 
+IP-ASN,143849 // 
+IP-ASN,143850 // 
+IP-ASN,143851 // 
+IP-ASN,143852 // 
+IP-ASN,143853 // 
+IP-ASN,143854 // 
+IP-ASN,143855 // 
+IP-ASN,143856 // 
+IP-ASN,143857 // 
+IP-ASN,143858 // 
+IP-ASN,143859 // 
+IP-ASN,143860 // 
+IP-ASN,143861 // 
+IP-ASN,143862 // 
+IP-ASN,143863 // 
+IP-ASN,143864 // 
+IP-ASN,143865 // 
+IP-ASN,143866 // 
+IP-ASN,143867 // 
+IP-ASN,143868 // 
+IP-ASN,143869 // 
+IP-ASN,143870 // 
+IP-ASN,143871 // 
+IP-ASN,143872 // 
+IP-ASN,143873 // 
+IP-ASN,143874 // 
+IP-ASN,143875 // 
+IP-ASN,143876 // 
+IP-ASN,143877 // 
+IP-ASN,143878 // 
+IP-ASN,143879 // 
+IP-ASN,143880 // 
+IP-ASN,143881 // 
+IP-ASN,143882 // 
+IP-ASN,143883 // 
+IP-ASN,143884 // 
+IP-ASN,143885 // 
+IP-ASN,143886 // 
+IP-ASN,143887 // 
+IP-ASN,143888 // 
+IP-ASN,143889 // 
+IP-ASN,143890 // 
+IP-ASN,143891 // 
+IP-ASN,143892 // 
+IP-ASN,143893 // 
+IP-ASN,143894 // 
+IP-ASN,143895 // 
+IP-ASN,143896 // 
+IP-ASN,143897 // 
+IP-ASN,143898 // 
+IP-ASN,143899 // 
+IP-ASN,143900 // 
+IP-ASN,143901 // 
+IP-ASN,143902 // 
+IP-ASN,143903 // 
+IP-ASN,143904 // 
+IP-ASN,143905 // 
+IP-ASN,143906 // 
+IP-ASN,143907 // 
+IP-ASN,143908 // 
+IP-ASN,143909 // 
+IP-ASN,143910 // 
+IP-ASN,143911 // 
+IP-ASN,143912 // 
+IP-ASN,143913 // 
+IP-ASN,143914 // 
+IP-ASN,143915 // 
+IP-ASN,143916 // 
+IP-ASN,143917 // 
+IP-ASN,143918 // 
+IP-ASN,143919 // 
+IP-ASN,143920 // 
+IP-ASN,143921 // 
+IP-ASN,143922 // 
+IP-ASN,143923 // 
+IP-ASN,143924 // 
+IP-ASN,143925 // 
+IP-ASN,143926 // 
+IP-ASN,143927 // 
+IP-ASN,143928 // 
+IP-ASN,143929 // 
+IP-ASN,143930 // 
+IP-ASN,143931 // 
+IP-ASN,143932 // 
+IP-ASN,143933 // 
+IP-ASN,143934 // 
+IP-ASN,143935 // 
+IP-ASN,143936 // 
+IP-ASN,143937 // 
+IP-ASN,143938 // 
+IP-ASN,143939 // 
+IP-ASN,143940 // 
+IP-ASN,143941 // 
+IP-ASN,143942 // 
+IP-ASN,143943 // 
+IP-ASN,143944 // 
+IP-ASN,143945 // 
+IP-ASN,143946 // 
+IP-ASN,143947 // 
+IP-ASN,143948 // 
+IP-ASN,143949 // 
+IP-ASN,143950 // 
+IP-ASN,143951 // 
+IP-ASN,143952 // 
+IP-ASN,143953 // 
+IP-ASN,143954 // 
+IP-ASN,143955 // 
+IP-ASN,143956 // 
+IP-ASN,143957 // 
+IP-ASN,143958 // 
+IP-ASN,143959 // 
+IP-ASN,143960 // 
+IP-ASN,143961 // 
+IP-ASN,143962 // 
+IP-ASN,143963 // 
+IP-ASN,143964 // 
+IP-ASN,143965 // 
+IP-ASN,143966 // 
+IP-ASN,143967 // 
+IP-ASN,143968 // 
+IP-ASN,143969 // 
+IP-ASN,143970 // 
+IP-ASN,143971 // 
+IP-ASN,143972 // 
+IP-ASN,143973 // 
+IP-ASN,143974 // 
+IP-ASN,143975 // 
+IP-ASN,143976 // 
+IP-ASN,143977 // 
+IP-ASN,143978 // 
+IP-ASN,143979 // 
+IP-ASN,143980 // 
+IP-ASN,143981 // 
+IP-ASN,143982 // 
+IP-ASN,143983 // 
+IP-ASN,143984 // 
+IP-ASN,143985 // 
+IP-ASN,143986 // 
+IP-ASN,143987 // 
+IP-ASN,143988 // 
+IP-ASN,143989 // 
+IP-ASN,143990 // 
+IP-ASN,143991 // 
+IP-ASN,143992 // 
+IP-ASN,143993 // 
+IP-ASN,143994 // 
+IP-ASN,143995 // 
+IP-ASN,143996 // 
+IP-ASN,143997 // 
+IP-ASN,143998 // 
+IP-ASN,143999 // 
+IP-ASN,144000 // 
+IP-ASN,144001 // 
+IP-ASN,144002 // 
+IP-ASN,144003 // 
+IP-ASN,144004 // 
+IP-ASN,144005 // 
+IP-ASN,144006 // 
+IP-ASN,144007 // 
+IP-ASN,144008 // 
+IP-ASN,144009 // 
+IP-ASN,144010 // 
+IP-ASN,144011 // 
+IP-ASN,144012 // 
+IP-ASN,144013 // 
+IP-ASN,144014 // 
+IP-ASN,144015 // 
+IP-ASN,144016 // 
+IP-ASN,144017 // 
+IP-ASN,144018 // 
+IP-ASN,144019 // 
+IP-ASN,144020 // 
+IP-ASN,144021 // 
+IP-ASN,144022 // 
+IP-ASN,144023 // 
+IP-ASN,144024 // 
+IP-ASN,144025 // 
+IP-ASN,144026 // 
+IP-ASN,144027 // 
+IP-ASN,144028 // 
+IP-ASN,144029 // 
+IP-ASN,144030 // 
+IP-ASN,144031 // 
+IP-ASN,144032 // 
+IP-ASN,144033 // 
+IP-ASN,144034 // 
+IP-ASN,144035 // 
+IP-ASN,144036 // 
+IP-ASN,144037 // 
+IP-ASN,144038 // 
+IP-ASN,144039 // 
+IP-ASN,144040 // 
+IP-ASN,144041 // 
+IP-ASN,144042 // 
+IP-ASN,144043 // 
+IP-ASN,144044 // 
+IP-ASN,144045 // 
+IP-ASN,144046 // 
+IP-ASN,144047 // 
+IP-ASN,144048 // 
+IP-ASN,144049 // 
+IP-ASN,144050 // 
+IP-ASN,144051 // 
+IP-ASN,144052 // 
+IP-ASN,144053 // 
+IP-ASN,144054 // 
+IP-ASN,144055 // 
+IP-ASN,144056 // 
+IP-ASN,144057 // 
+IP-ASN,144058 // 
+IP-ASN,144059 // 
+IP-ASN,144060 // 
+IP-ASN,144061 // 
+IP-ASN,144062 // 
+IP-ASN,144063 // 
+IP-ASN,144064 // 
+IP-ASN,144065 // 
+IP-ASN,144066 // 
+IP-ASN,144067 // 
+IP-ASN,144068 // 
+IP-ASN,144069 // 
+IP-ASN,144070 // 
+IP-ASN,144071 // 
+IP-ASN,144072 // 
+IP-ASN,144073 // 
+IP-ASN,144074 // 
+IP-ASN,144075 // 
+IP-ASN,144076 // 
+IP-ASN,144077 // 
+IP-ASN,144078 // 
+IP-ASN,144079 // 
+IP-ASN,144080 // 
+IP-ASN,144081 // 
+IP-ASN,144082 // 
+IP-ASN,144083 // 
+IP-ASN,144084 // 
+IP-ASN,144085 // 
+IP-ASN,144086 // 
+IP-ASN,144087 // 
+IP-ASN,144088 // 
+IP-ASN,144089 // 
+IP-ASN,144090 // 
+IP-ASN,144091 // 
+IP-ASN,144092 // 
+IP-ASN,144093 // 
+IP-ASN,144094 // 
+IP-ASN,144095 // 
+IP-ASN,144096 // 
+IP-ASN,144097 // 
+IP-ASN,144098 // 
+IP-ASN,144099 // 
+IP-ASN,144100 // 
+IP-ASN,144101 // 
+IP-ASN,144102 // 
+IP-ASN,144103 // 
+IP-ASN,144104 // 
+IP-ASN,144105 // 
+IP-ASN,144106 // 
+IP-ASN,144107 // 
+IP-ASN,144108 // 
+IP-ASN,144109 // 
+IP-ASN,144110 // 
+IP-ASN,144111 // 
+IP-ASN,144112 // 
+IP-ASN,144113 // 
+IP-ASN,144114 // 
+IP-ASN,144115 // 
+IP-ASN,144116 // 
+IP-ASN,144117 // 
+IP-ASN,144118 // 
+IP-ASN,144119 // 
+IP-ASN,144120 // 
+IP-ASN,144121 // 
+IP-ASN,144122 // 
+IP-ASN,144123 // 
+IP-ASN,144124 // 
+IP-ASN,144125 // 
+IP-ASN,144126 // 
+IP-ASN,144127 // 
+IP-ASN,144128 // 
+IP-ASN,144129 // 
+IP-ASN,144130 // 
+IP-ASN,144131 // 
+IP-ASN,144132 // 
+IP-ASN,144133 // 
+IP-ASN,144134 // 
+IP-ASN,144135 // 
+IP-ASN,144136 // 
+IP-ASN,144137 // 
+IP-ASN,144138 // 
+IP-ASN,144139 // 
+IP-ASN,144140 // 
+IP-ASN,144141 // 
+IP-ASN,144142 // 
+IP-ASN,144143 // 
+IP-ASN,144144 // 
+IP-ASN,144145 // 
+IP-ASN,144146 // 
+IP-ASN,144147 // 
+IP-ASN,144148 // 
+IP-ASN,144149 // 
+IP-ASN,144150 // 
+IP-ASN,144151 // 
+IP-ASN,144152 // 
+IP-ASN,144153 // 
+IP-ASN,144154 // 
+IP-ASN,144155 // 
+IP-ASN,144156 // 
+IP-ASN,144157 // 
+IP-ASN,144158 // 
+IP-ASN,144159 // 
+IP-ASN,144160 // 
+IP-ASN,144161 // 
+IP-ASN,144162 // 
+IP-ASN,144163 // 
+IP-ASN,144164 // 
+IP-ASN,144165 // 
+IP-ASN,144166 // 
+IP-ASN,144167 // 
+IP-ASN,144168 // 
+IP-ASN,144169 // 
+IP-ASN,144170 // 
+IP-ASN,144171 // 
+IP-ASN,144172 // 
+IP-ASN,144173 // 
+IP-ASN,144174 // 
+IP-ASN,144175 // 
+IP-ASN,144176 // 
+IP-ASN,144177 // 
+IP-ASN,144178 // 
+IP-ASN,144179 // 
+IP-ASN,144180 // 
+IP-ASN,144181 // 
+IP-ASN,144182 // 
+IP-ASN,144183 // 
+IP-ASN,144184 // 
+IP-ASN,144185 // 
+IP-ASN,144186 // 
+IP-ASN,144187 // 
+IP-ASN,144188 // 
+IP-ASN,144189 // 
+IP-ASN,144190 // 
+IP-ASN,144191 // 
+IP-ASN,144192 // 
+IP-ASN,144193 // 
+IP-ASN,144194 // 
+IP-ASN,144195 // 
+IP-ASN,144196 // 
+IP-ASN,144197 // 
+IP-ASN,144198 // 
+IP-ASN,144199 // 
+IP-ASN,144200 // 
+IP-ASN,144201 // 
+IP-ASN,144202 // 
+IP-ASN,144203 // 
+IP-ASN,144204 // 
+IP-ASN,144205 // 
+IP-ASN,144206 // 
+IP-ASN,144207 // 
+IP-ASN,144208 // 
+IP-ASN,144209 // 
+IP-ASN,144210 // 
+IP-ASN,144211 // 
+IP-ASN,144212 // 
+IP-ASN,144213 // 
+IP-ASN,144214 // 
+IP-ASN,144215 // 
+IP-ASN,144216 // 
+IP-ASN,144217 // 
+IP-ASN,144218 // 
+IP-ASN,144219 // 
+IP-ASN,144220 // 
+IP-ASN,144221 // 
+IP-ASN,144222 // 
+IP-ASN,144223 // 
+IP-ASN,144224 // 
+IP-ASN,144225 // 
+IP-ASN,144226 // 
+IP-ASN,144227 // 
+IP-ASN,144228 // 
+IP-ASN,144229 // 
+IP-ASN,144230 // 
+IP-ASN,144231 // 
+IP-ASN,144232 // 
+IP-ASN,144233 // 
+IP-ASN,144234 // 
+IP-ASN,144235 // 
+IP-ASN,144236 // 
+IP-ASN,144237 // 
+IP-ASN,144238 // 
+IP-ASN,144239 // 
+IP-ASN,144240 // 
+IP-ASN,144241 // 
+IP-ASN,144242 // 
+IP-ASN,144243 // 
+IP-ASN,144244 // 
+IP-ASN,144245 // 
+IP-ASN,144246 // 
+IP-ASN,144247 // 
+IP-ASN,144248 // 
+IP-ASN,144249 // 
+IP-ASN,144250 // 
+IP-ASN,144251 // 
+IP-ASN,144252 // 
+IP-ASN,144253 // 
+IP-ASN,144254 // 
+IP-ASN,144255 // 
+IP-ASN,144256 // 
+IP-ASN,144257 // 
+IP-ASN,144258 // 
+IP-ASN,144259 // 
+IP-ASN,144260 // 
+IP-ASN,144261 // 
+IP-ASN,144262 // 
+IP-ASN,144263 // 
+IP-ASN,144264 // 
+IP-ASN,144265 // 
+IP-ASN,144266 // 
+IP-ASN,144267 // 
+IP-ASN,144268 // 
+IP-ASN,144269 // 
+IP-ASN,144270 // 
+IP-ASN,144271 // 
+IP-ASN,144272 // 
+IP-ASN,144273 // 
+IP-ASN,144274 // 
+IP-ASN,144275 // 
+IP-ASN,144276 // 
+IP-ASN,144277 // 
+IP-ASN,144278 // 
+IP-ASN,144279 // 
+IP-ASN,144280 // 
+IP-ASN,144281 // 
+IP-ASN,144282 // 
+IP-ASN,144283 // 
+IP-ASN,144284 // 
+IP-ASN,144285 // 
+IP-ASN,144286 // 
+IP-ASN,144287 // 
+IP-ASN,144288 // 
+IP-ASN,144289 // 
+IP-ASN,144290 // 
+IP-ASN,144291 // 
+IP-ASN,144292 // 
+IP-ASN,144293 // 
+IP-ASN,144294 // 
+IP-ASN,144295 // 
+IP-ASN,144296 // 
+IP-ASN,144297 // 
+IP-ASN,144298 // 
+IP-ASN,144299 // 
+IP-ASN,144300 // 
+IP-ASN,144301 // 
+IP-ASN,144302 // 
+IP-ASN,144303 // 
+IP-ASN,144304 // 
+IP-ASN,144305 // 
+IP-ASN,144306 // 
+IP-ASN,144307 // 
+IP-ASN,144308 // 
+IP-ASN,144309 // 
+IP-ASN,144310 // 
+IP-ASN,144311 // 
+IP-ASN,144312 // 
+IP-ASN,144313 // 
+IP-ASN,144314 // 
+IP-ASN,144315 // 
+IP-ASN,144316 // 
+IP-ASN,144317 // 
+IP-ASN,144318 // 
+IP-ASN,144319 // 
+IP-ASN,144320 // 
+IP-ASN,144321 // 
+IP-ASN,144322 // 
+IP-ASN,144323 // 
+IP-ASN,144324 // 
+IP-ASN,144325 // 
+IP-ASN,144326 // 
+IP-ASN,144327 // 
+IP-ASN,144328 // 
+IP-ASN,144329 // 
+IP-ASN,144330 // 
+IP-ASN,144331 // 
+IP-ASN,144332 // 
+IP-ASN,144333 // 
+IP-ASN,144334 // 
+IP-ASN,144335 // 
+IP-ASN,144336 // 
+IP-ASN,144337 // 
+IP-ASN,144338 // 
+IP-ASN,144339 // 
+IP-ASN,144340 // 
+IP-ASN,144341 // 
+IP-ASN,144342 // 
+IP-ASN,144343 // 
+IP-ASN,144344 // 
+IP-ASN,144345 // 
+IP-ASN,144346 // 
+IP-ASN,144347 // 
+IP-ASN,144348 // 
+IP-ASN,144349 // 
+IP-ASN,144350 // 
+IP-ASN,144351 // 
+IP-ASN,144352 // 
+IP-ASN,144353 // 
+IP-ASN,144354 // 
+IP-ASN,144355 // 
+IP-ASN,144356 // 
+IP-ASN,144357 // 
+IP-ASN,144358 // 
+IP-ASN,144359 // 
+IP-ASN,144360 // 
+IP-ASN,144361 // 
+IP-ASN,144362 // 
+IP-ASN,144363 // 
+IP-ASN,144364 // 
+IP-ASN,144365 // 
+IP-ASN,144366 // 
+IP-ASN,144367 // 
+IP-ASN,144368 // 
+IP-ASN,144369 // 
+IP-ASN,144370 // 
+IP-ASN,144371 // 
+IP-ASN,144372 // 
+IP-ASN,144373 // 
+IP-ASN,144374 // 
+IP-ASN,144375 // 
+IP-ASN,144376 // 
+IP-ASN,144377 // 
+IP-ASN,144378 // 
+IP-ASN,144379 // 
+IP-ASN,144380 // 
+IP-ASN,144381 // 
+IP-ASN,144382 // 
+IP-ASN,144383 // 
+IP-ASN,144384 // 
+IP-ASN,144385 // 
+IP-ASN,144386 // 
+IP-ASN,144387 // 
+IP-ASN,144388 // 
+IP-ASN,144389 // 
+IP-ASN,144390 // 
+IP-ASN,144391 // 
+IP-ASN,144392 // 
+IP-ASN,144393 // 
+IP-ASN,144394 // 
+IP-ASN,144395 // 
+IP-ASN,144396 // 
+IP-ASN,144397 // 
+IP-ASN,144398 // 
+IP-ASN,144399 // 
+IP-ASN,144400 // 
+IP-ASN,144401 // 
+IP-ASN,144402 // 
+IP-ASN,144403 // 
+IP-ASN,144404 // 
+IP-ASN,144405 // 
+IP-ASN,144406 // 
+IP-ASN,144407 // 
+IP-ASN,144408 // 
+IP-ASN,144409 // 
+IP-ASN,144410 // 
+IP-ASN,144411 // 
+IP-ASN,144412 // 
+IP-ASN,144413 // 
+IP-ASN,144414 // 
+IP-ASN,144415 // 
+IP-ASN,144416 // 
+IP-ASN,144417 // 
+IP-ASN,144418 // 
+IP-ASN,144419 // 
+IP-ASN,144420 // 
+IP-ASN,144421 // 
+IP-ASN,144422 // 
+IP-ASN,144423 // 
+IP-ASN,144424 // 
+IP-ASN,144425 // 
+IP-ASN,144426 // 
+IP-ASN,144427 // 
+IP-ASN,144428 // 
+IP-ASN,144429 // 
+IP-ASN,144430 // 
+IP-ASN,144431 // 
+IP-ASN,144432 // 
+IP-ASN,144433 // 
+IP-ASN,144434 // 
+IP-ASN,144435 // 
+IP-ASN,144436 // 
+IP-ASN,144437 // 
+IP-ASN,144438 // 
+IP-ASN,144439 // 
+IP-ASN,144440 // 
+IP-ASN,144441 // 
+IP-ASN,144442 // 
+IP-ASN,144443 // 
+IP-ASN,144444 // 
+IP-ASN,144445 // 
+IP-ASN,144446 // 
+IP-ASN,144447 // 
+IP-ASN,144448 // 
+IP-ASN,144449 // 
+IP-ASN,144450 // 
+IP-ASN,144451 // 
+IP-ASN,144452 // 
+IP-ASN,144453 // 
+IP-ASN,144454 // 
+IP-ASN,144455 // 
+IP-ASN,144456 // 
+IP-ASN,144457 // 
+IP-ASN,144458 // 
+IP-ASN,144459 // 
+IP-ASN,144460 // 
+IP-ASN,144461 // 
+IP-ASN,144462 // 
+IP-ASN,144463 // 
+IP-ASN,144464 // 
+IP-ASN,144465 // 
+IP-ASN,144466 // 
+IP-ASN,144467 // 
+IP-ASN,144468 // 
+IP-ASN,144469 // 
+IP-ASN,144470 // 
+IP-ASN,144471 // 
+IP-ASN,144472 // 
+IP-ASN,144473 // 
+IP-ASN,144474 // 
+IP-ASN,144475 // 
+IP-ASN,144476 // 
+IP-ASN,144477 // 
+IP-ASN,144478 // 
+IP-ASN,144479 // 
+IP-ASN,144480 // 
+IP-ASN,144481 // 
+IP-ASN,144482 // 
+IP-ASN,144483 // 
+IP-ASN,144484 // 
+IP-ASN,144485 // 
+IP-ASN,144486 // 
+IP-ASN,144487 // 
+IP-ASN,144488 // 
+IP-ASN,144489 // 
+IP-ASN,144490 // 
+IP-ASN,144491 // 
+IP-ASN,144492 // 
+IP-ASN,144493 // 
+IP-ASN,144494 // 
+IP-ASN,144495 // 
+IP-ASN,144496 // 
+IP-ASN,144497 // 
+IP-ASN,144498 // 
+IP-ASN,144499 // 
+IP-ASN,144500 // 
+IP-ASN,144501 // 
+IP-ASN,144502 // 
+IP-ASN,144503 // 
+IP-ASN,144504 // 
+IP-ASN,144505 // 
+IP-ASN,144506 // 
+IP-ASN,144507 // 
+IP-ASN,144508 // 
+IP-ASN,144509 // 
+IP-ASN,144510 // 
+IP-ASN,144511 // 
+IP-ASN,144512 // 
+IP-ASN,144513 // 
+IP-ASN,144514 // 
+IP-ASN,144515 // 
+IP-ASN,144516 // 
+IP-ASN,144517 // 
+IP-ASN,144518 // 
+IP-ASN,144519 // 
+IP-ASN,144520 // 
+IP-ASN,144521 // 
+IP-ASN,144522 // 
+IP-ASN,144523 // 
+IP-ASN,144524 // 
+IP-ASN,144525 // 
+IP-ASN,144526 // 
+IP-ASN,144527 // 
+IP-ASN,144528 // 
+IP-ASN,144529 // 
+IP-ASN,144530 // 
+IP-ASN,144531 // 
+IP-ASN,144532 // 
+IP-ASN,144533 // 
+IP-ASN,144534 // 
+IP-ASN,144535 // 
+IP-ASN,144536 // 
+IP-ASN,144537 // 
+IP-ASN,144538 // 
+IP-ASN,144539 // 
+IP-ASN,144540 // 
+IP-ASN,144541 // 
+IP-ASN,144542 // 
+IP-ASN,144543 // 
+IP-ASN,144544 // 
+IP-ASN,144545 // 
+IP-ASN,144546 // 
+IP-ASN,144547 // 
+IP-ASN,144548 // 
+IP-ASN,144549 // 
+IP-ASN,144550 // 
+IP-ASN,144551 // 
+IP-ASN,144552 // 
+IP-ASN,144553 // 
+IP-ASN,144554 // 
+IP-ASN,144555 // 
+IP-ASN,144556 // 
+IP-ASN,144557 // 
+IP-ASN,144558 // 
+IP-ASN,144559 // 
+IP-ASN,144560 // 
+IP-ASN,144561 // 
+IP-ASN,144562 // 
+IP-ASN,144563 // 
+IP-ASN,144564 // 
+IP-ASN,144565 // 
+IP-ASN,144566 // 
+IP-ASN,144567 // 
+IP-ASN,144568 // 
+IP-ASN,144569 // 
+IP-ASN,144570 // 
+IP-ASN,144571 // 
+IP-ASN,144572 // 
+IP-ASN,144573 // 
+IP-ASN,144574 // 
+IP-ASN,144575 // 
+IP-ASN,144576 // 
+IP-ASN,144577 // 
+IP-ASN,144578 // 
+IP-ASN,144579 // 
+IP-ASN,144580 // 
+IP-ASN,144581 // 
+IP-ASN,144582 // 
+IP-ASN,144583 // 
+IP-ASN,144584 // 
+IP-ASN,144585 // 
+IP-ASN,144586 // 
+IP-ASN,144587 // 
+IP-ASN,144588 // 
+IP-ASN,144589 // 
+IP-ASN,144590 // 
+IP-ASN,144591 // 
+IP-ASN,144592 // 
+IP-ASN,144593 // 
+IP-ASN,144594 // 
+IP-ASN,144595 // 
+IP-ASN,144596 // 
+IP-ASN,144597 // 
+IP-ASN,144598 // 
+IP-ASN,144599 // 
+IP-ASN,144600 // 
+IP-ASN,144601 // 
+IP-ASN,144602 // 
+IP-ASN,144603 // 
+IP-ASN,144604 // 
+IP-ASN,144605 // 
+IP-ASN,144606 // 
+IP-ASN,144607 // 
+IP-ASN,144608 // 
+IP-ASN,144609 // 
+IP-ASN,144610 // 
+IP-ASN,144611 // 
+IP-ASN,144612 // 
+IP-ASN,144613 // 
+IP-ASN,144614 // 
+IP-ASN,144615 // 
+IP-ASN,144616 // 
+IP-ASN,144617 // 
+IP-ASN,144618 // 
+IP-ASN,144619 // 
+IP-ASN,144620 // 
+IP-ASN,144621 // 
+IP-ASN,144622 // 
+IP-ASN,144623 // 
+IP-ASN,144624 // 
+IP-ASN,144625 // 
+IP-ASN,144626 // 
+IP-ASN,144627 // 
+IP-ASN,144628 // 
+IP-ASN,144629 // 
+IP-ASN,144630 // 
+IP-ASN,144631 // 
+IP-ASN,144632 // 
+IP-ASN,144633 // 
+IP-ASN,144634 // 
+IP-ASN,144635 // 
+IP-ASN,144636 // 
+IP-ASN,144637 // 
+IP-ASN,144638 // 
+IP-ASN,144639 // 
+IP-ASN,144640 // 
+IP-ASN,144641 // 
+IP-ASN,144642 // 
+IP-ASN,144643 // 
+IP-ASN,144644 // 
+IP-ASN,144645 // 
+IP-ASN,144646 // 
+IP-ASN,144647 // 
+IP-ASN,144648 // 
+IP-ASN,144649 // 
+IP-ASN,144650 // 
+IP-ASN,144651 // 
+IP-ASN,144652 // 
+IP-ASN,144653 // 
+IP-ASN,144654 // 
+IP-ASN,144655 // 
+IP-ASN,144656 // 
+IP-ASN,144657 // 
+IP-ASN,144658 // 
+IP-ASN,144659 // 
+IP-ASN,144660 // 
+IP-ASN,144661 // 
+IP-ASN,144662 // 
+IP-ASN,144663 // 
+IP-ASN,144664 // 
+IP-ASN,144665 // 
+IP-ASN,144666 // 
+IP-ASN,144667 // 
+IP-ASN,144668 // 
+IP-ASN,144669 // 
+IP-ASN,144670 // 
+IP-ASN,144671 // 
+IP-ASN,144672 // 
+IP-ASN,144673 // 
+IP-ASN,144674 // 
+IP-ASN,144675 // 
+IP-ASN,144676 // 
+IP-ASN,144677 // 
+IP-ASN,144678 // 
+IP-ASN,144679 // 
+IP-ASN,144680 // 
+IP-ASN,144681 // 
+IP-ASN,144682 // 
+IP-ASN,144683 // 
+IP-ASN,144684 // 
+IP-ASN,144685 // 
+IP-ASN,144686 // 
+IP-ASN,144687 // 
+IP-ASN,144688 // 
+IP-ASN,144689 // 
+IP-ASN,144690 // 
+IP-ASN,144691 // 
+IP-ASN,144692 // 
+IP-ASN,144693 // 
+IP-ASN,144694 // 
+IP-ASN,144695 // 
+IP-ASN,144696 // 
+IP-ASN,144697 // 
+IP-ASN,144698 // 
+IP-ASN,144699 // 
+IP-ASN,144700 // 
+IP-ASN,144701 // 
+IP-ASN,144702 // 
+IP-ASN,144703 // 
+IP-ASN,144704 // 
+IP-ASN,144705 // 
+IP-ASN,144706 // 
+IP-ASN,144707 // 
+IP-ASN,144708 // 
+IP-ASN,144709 // 
+IP-ASN,144710 // 
+IP-ASN,144711 // 
+IP-ASN,144712 // 
+IP-ASN,144713 // 
+IP-ASN,144714 // 
+IP-ASN,144715 // 
+IP-ASN,144716 // 
+IP-ASN,144717 // 
+IP-ASN,144718 // 
+IP-ASN,144719 // 
+IP-ASN,144720 // 
+IP-ASN,144721 // 
+IP-ASN,144722 // 
+IP-ASN,144723 // 
+IP-ASN,144724 // 
+IP-ASN,144725 // 
+IP-ASN,144726 // 
+IP-ASN,144727 // 
+IP-ASN,144728 // 
+IP-ASN,144729 // 
+IP-ASN,144730 // 
+IP-ASN,144731 // 
+IP-ASN,144732 // 
+IP-ASN,144733 // 
+IP-ASN,144734 // 
+IP-ASN,144735 // 
+IP-ASN,144736 // 
+IP-ASN,144737 // 
+IP-ASN,144738 // 
+IP-ASN,144739 // 
+IP-ASN,144740 // 
+IP-ASN,144741 // 
+IP-ASN,144742 // 
+IP-ASN,144743 // 
+IP-ASN,144744 // 
+IP-ASN,144745 // 
+IP-ASN,144746 // 
+IP-ASN,144747 // 
+IP-ASN,144748 // 
+IP-ASN,144749 // 
+IP-ASN,144750 // 
+IP-ASN,144751 // 
+IP-ASN,144752 // 
+IP-ASN,144753 // 
+IP-ASN,144754 // 
+IP-ASN,144755 // 
+IP-ASN,144756 // 
+IP-ASN,144757 // 
+IP-ASN,144758 // 
+IP-ASN,144759 // 
+IP-ASN,144760 // 
+IP-ASN,144761 // 
+IP-ASN,144762 // 
+IP-ASN,144763 // 
+IP-ASN,144764 // 
+IP-ASN,144765 // 
+IP-ASN,144766 // 
+IP-ASN,144767 // 
+IP-ASN,144768 // 
+IP-ASN,144769 // 
+IP-ASN,144770 // 
+IP-ASN,144771 // 
+IP-ASN,144772 // 
+IP-ASN,144773 // 
+IP-ASN,144774 // 
+IP-ASN,144775 // 
+IP-ASN,144776 // 
+IP-ASN,144777 // 
+IP-ASN,144778 // 
+IP-ASN,144779 // 
+IP-ASN,144780 // 
+IP-ASN,144781 // 
+IP-ASN,144782 // 
+IP-ASN,144783 // 
+IP-ASN,144784 // 
+IP-ASN,144785 // 
+IP-ASN,144786 // 
+IP-ASN,144787 // 
+IP-ASN,144788 // 
+IP-ASN,144789 // 
+IP-ASN,144790 // 
+IP-ASN,144791 // 
+IP-ASN,144792 // 
+IP-ASN,144793 // 
+IP-ASN,144794 // 
+IP-ASN,144795 // 
+IP-ASN,144796 // 
+IP-ASN,144797 // 
+IP-ASN,144798 // 
+IP-ASN,144799 // 
+IP-ASN,144800 // 
+IP-ASN,144801 // 
+IP-ASN,144802 // 
+IP-ASN,144803 // 
+IP-ASN,144804 // 
+IP-ASN,144805 // 
+IP-ASN,144806 // 
+IP-ASN,144807 // 
+IP-ASN,144808 // 
+IP-ASN,144809 // 
+IP-ASN,144810 // 
+IP-ASN,144811 // 
+IP-ASN,144812 // 
+IP-ASN,144813 // 
+IP-ASN,144814 // 
+IP-ASN,144815 // 
+IP-ASN,144816 // 
+IP-ASN,144817 // 
+IP-ASN,144818 // 
+IP-ASN,144819 // 
+IP-ASN,144820 // 
+IP-ASN,144821 // 
+IP-ASN,144822 // 
+IP-ASN,144823 // 
+IP-ASN,144824 // 
+IP-ASN,144825 // 
+IP-ASN,144826 // 
+IP-ASN,144827 // 
+IP-ASN,144828 // 
+IP-ASN,144829 // 
+IP-ASN,144830 // 
+IP-ASN,144831 // 
+IP-ASN,144832 // 
+IP-ASN,144833 // 
+IP-ASN,144834 // 
+IP-ASN,144835 // 
+IP-ASN,144836 // 
+IP-ASN,144837 // 
+IP-ASN,144838 // 
+IP-ASN,144839 // 
+IP-ASN,144840 // 
+IP-ASN,144841 // 
+IP-ASN,144842 // 
+IP-ASN,144843 // 
+IP-ASN,144844 // 
+IP-ASN,144845 // 
+IP-ASN,144846 // 
+IP-ASN,144847 // 
+IP-ASN,144848 // 
+IP-ASN,144849 // 
+IP-ASN,144850 // 
+IP-ASN,144851 // 
+IP-ASN,144852 // 
+IP-ASN,144853 // 
+IP-ASN,144854 // 
+IP-ASN,144855 // 
+IP-ASN,144856 // 
+IP-ASN,144857 // 
+IP-ASN,144858 // 
+IP-ASN,144859 // 
+IP-ASN,144860 // 
+IP-ASN,144861 // 
+IP-ASN,144862 // 
+IP-ASN,144863 // 
+IP-ASN,144864 // 
+IP-ASN,144865 // 
+IP-ASN,144866 // 
+IP-ASN,144867 // 
+IP-ASN,144868 // 
+IP-ASN,144869 // 
+IP-ASN,144870 // 
+IP-ASN,144871 // 
+IP-ASN,144872 // 
+IP-ASN,144873 // 
+IP-ASN,144874 // 
+IP-ASN,144875 // 
+IP-ASN,144876 // 
+IP-ASN,144877 // 
+IP-ASN,144878 // 
+IP-ASN,144879 // 
+IP-ASN,144880 // 
+IP-ASN,144881 // 
+IP-ASN,144882 // 
+IP-ASN,144883 // 
+IP-ASN,144884 // 
+IP-ASN,144885 // 
+IP-ASN,144886 // 
+IP-ASN,144887 // 
+IP-ASN,144888 // 
+IP-ASN,144889 // 
+IP-ASN,144890 // 
+IP-ASN,144891 // 
+IP-ASN,144892 // 
+IP-ASN,144893 // 
+IP-ASN,144894 // 
+IP-ASN,144895 // 
+IP-ASN,144896 // 
+IP-ASN,144897 // 
+IP-ASN,144898 // 
+IP-ASN,144899 // 
+IP-ASN,144900 // 
+IP-ASN,144901 // 
+IP-ASN,144902 // 
+IP-ASN,144903 // 
+IP-ASN,144904 // 
+IP-ASN,144905 // 
+IP-ASN,144906 // 
+IP-ASN,144907 // 
+IP-ASN,144908 // 
+IP-ASN,144909 // 
+IP-ASN,144910 // 
+IP-ASN,144911 // 
+IP-ASN,144912 // 
+IP-ASN,144913 // 
+IP-ASN,144914 // 
+IP-ASN,144915 // 
+IP-ASN,144916 // 
+IP-ASN,144917 // 
+IP-ASN,144918 // 
+IP-ASN,144919 // 
+IP-ASN,144920 // 
+IP-ASN,144921 // 
+IP-ASN,144922 // 
+IP-ASN,144923 // 
+IP-ASN,144924 // 
+IP-ASN,144925 // 
+IP-ASN,144926 // 
+IP-ASN,144927 // 
+IP-ASN,144928 // 
+IP-ASN,144929 // 
+IP-ASN,144930 // 
+IP-ASN,144931 // 
+IP-ASN,144932 // 
+IP-ASN,144933 // 
+IP-ASN,144934 // 
+IP-ASN,144935 // 
+IP-ASN,144936 // 
+IP-ASN,144937 // 
+IP-ASN,144938 // 
+IP-ASN,144939 // 
+IP-ASN,144940 // 
+IP-ASN,144941 // 
+IP-ASN,144942 // 
+IP-ASN,144943 // 
+IP-ASN,144944 // 
+IP-ASN,144945 // 
+IP-ASN,144946 // 
+IP-ASN,144947 // 
+IP-ASN,144948 // 
+IP-ASN,144949 // 
+IP-ASN,144950 // 
+IP-ASN,144951 // 
+IP-ASN,144952 // 
+IP-ASN,144953 // 
+IP-ASN,144954 // 
+IP-ASN,144955 // 
+IP-ASN,144956 // 
+IP-ASN,144957 // 
+IP-ASN,144958 // 
+IP-ASN,144959 // 
+IP-ASN,144960 // 
+IP-ASN,144961 // 
+IP-ASN,144962 // 
+IP-ASN,144963 // 
+IP-ASN,144964 // 
+IP-ASN,144965 // 
+IP-ASN,144966 // 
+IP-ASN,144967 // 
+IP-ASN,144968 // 
+IP-ASN,144969 // 
+IP-ASN,144970 // 
+IP-ASN,144971 // 
+IP-ASN,144972 // 
+IP-ASN,144973 // 
+IP-ASN,144974 // 
+IP-ASN,144975 // 
+IP-ASN,144976 // 
+IP-ASN,144977 // 
+IP-ASN,144978 // 
+IP-ASN,144979 // 
+IP-ASN,144980 // 
+IP-ASN,144981 // 
+IP-ASN,144982 // 
+IP-ASN,144983 // 
+IP-ASN,144984 // 
+IP-ASN,144985 // 
+IP-ASN,144986 // 
+IP-ASN,144987 // 
+IP-ASN,144988 // 
+IP-ASN,144989 // 
+IP-ASN,144990 // 
+IP-ASN,144991 // 
+IP-ASN,144992 // 
+IP-ASN,144993 // 
+IP-ASN,144994 // 
+IP-ASN,144995 // 
+IP-ASN,144996 // 
+IP-ASN,144997 // 
+IP-ASN,144998 // 
+IP-ASN,144999 // 
+IP-ASN,145000 // 
+IP-ASN,145001 // 
+IP-ASN,145002 // 
+IP-ASN,145003 // 
+IP-ASN,145004 // 
+IP-ASN,145005 // 
+IP-ASN,145006 // 
+IP-ASN,145007 // 
+IP-ASN,145008 // 
+IP-ASN,145009 // 
+IP-ASN,145010 // 
+IP-ASN,145011 // 
+IP-ASN,145012 // 
+IP-ASN,145013 // 
+IP-ASN,145014 // 
+IP-ASN,145015 // 
+IP-ASN,145016 // 
+IP-ASN,145017 // 
+IP-ASN,145018 // 
+IP-ASN,145019 // 
+IP-ASN,145020 // 
+IP-ASN,145021 // 
+IP-ASN,145022 // 
+IP-ASN,145023 // 
+IP-ASN,145024 // 
+IP-ASN,145025 // 
+IP-ASN,145026 // 
+IP-ASN,145027 // 
+IP-ASN,145028 // 
+IP-ASN,145029 // 
+IP-ASN,145030 // 
+IP-ASN,145031 // 
+IP-ASN,145032 // 
+IP-ASN,145033 // 
+IP-ASN,145034 // 
+IP-ASN,145035 // 
+IP-ASN,145036 // 
+IP-ASN,145037 // 
+IP-ASN,145038 // 
+IP-ASN,145039 // 
+IP-ASN,145040 // 
+IP-ASN,145041 // 
+IP-ASN,145042 // 
+IP-ASN,145043 // 
+IP-ASN,145044 // 
+IP-ASN,145045 // 
+IP-ASN,145046 // 
+IP-ASN,145047 // 
+IP-ASN,145048 // 
+IP-ASN,145049 // 
+IP-ASN,145050 // 
+IP-ASN,145051 // 
+IP-ASN,145052 // 
+IP-ASN,145053 // 
+IP-ASN,145054 // 
+IP-ASN,145055 // 
+IP-ASN,145056 // 
+IP-ASN,145057 // 
+IP-ASN,145058 // 
+IP-ASN,145059 // 
+IP-ASN,145060 // 
+IP-ASN,145061 // 
+IP-ASN,145062 // 
+IP-ASN,145063 // 
+IP-ASN,145064 // 
+IP-ASN,145065 // 
+IP-ASN,145066 // 
+IP-ASN,145067 // 
+IP-ASN,145068 // 
+IP-ASN,145069 // 
+IP-ASN,145070 // 
+IP-ASN,145071 // 
+IP-ASN,145072 // 
+IP-ASN,145073 // 
+IP-ASN,145074 // 
+IP-ASN,145075 // 
+IP-ASN,145076 // 
+IP-ASN,145077 // 
+IP-ASN,145078 // 
+IP-ASN,145079 // 
+IP-ASN,145080 // 
+IP-ASN,145081 // 
+IP-ASN,145082 // 
+IP-ASN,145083 // 
+IP-ASN,145084 // 
+IP-ASN,145085 // 
+IP-ASN,145086 // 
+IP-ASN,145087 // 
+IP-ASN,145088 // 
+IP-ASN,145089 // 
+IP-ASN,145090 // 
+IP-ASN,145091 // 
+IP-ASN,145092 // 
+IP-ASN,145093 // 
+IP-ASN,145094 // 
+IP-ASN,145095 // 
+IP-ASN,145096 // 
+IP-ASN,145097 // 
+IP-ASN,145098 // 
+IP-ASN,145099 // 
+IP-ASN,145100 // 
+IP-ASN,145101 // 
+IP-ASN,145102 // 
+IP-ASN,145103 // 
+IP-ASN,145104 // 
+IP-ASN,145105 // 
+IP-ASN,145106 // 
+IP-ASN,145107 // 
+IP-ASN,145108 // 
+IP-ASN,145109 // 
+IP-ASN,145110 // 
+IP-ASN,145111 // 
+IP-ASN,145112 // 
+IP-ASN,145113 // 
+IP-ASN,145114 // 
+IP-ASN,145115 // 
+IP-ASN,145116 // 
+IP-ASN,145117 // 
+IP-ASN,145118 // 
+IP-ASN,145119 // 
+IP-ASN,145120 // 
+IP-ASN,145121 // 
+IP-ASN,145122 // 
+IP-ASN,145123 // 
+IP-ASN,145124 // 
+IP-ASN,145125 // 
+IP-ASN,145126 // 
+IP-ASN,145127 // 
+IP-ASN,145128 // 
+IP-ASN,145129 // 
+IP-ASN,145130 // 
+IP-ASN,145131 // 
+IP-ASN,145132 // 
+IP-ASN,145133 // 
+IP-ASN,145134 // 
+IP-ASN,145135 // 
+IP-ASN,145136 // 
+IP-ASN,145137 // 
+IP-ASN,145138 // 
+IP-ASN,145139 // 
+IP-ASN,145140 // 
+IP-ASN,145141 // 
+IP-ASN,145142 // 
+IP-ASN,145143 // 
+IP-ASN,145144 // 
+IP-ASN,145145 // 
+IP-ASN,145146 // 
+IP-ASN,145147 // 
+IP-ASN,145148 // 
+IP-ASN,145149 // 
+IP-ASN,145150 // 
+IP-ASN,145151 // 
+IP-ASN,145152 // 
+IP-ASN,145153 // 
+IP-ASN,145154 // 
+IP-ASN,145155 // 
+IP-ASN,145156 // 
+IP-ASN,145157 // 
+IP-ASN,145158 // 
+IP-ASN,145159 // 
+IP-ASN,145160 // 
+IP-ASN,145161 // 
+IP-ASN,145162 // 
+IP-ASN,145163 // 
+IP-ASN,145164 // 
+IP-ASN,145165 // 
+IP-ASN,145166 // 
+IP-ASN,145167 // 
+IP-ASN,145168 // 
+IP-ASN,145169 // 
+IP-ASN,145170 // 
+IP-ASN,145171 // 
+IP-ASN,145172 // 
+IP-ASN,145173 // 
+IP-ASN,145174 // 
+IP-ASN,145175 // 
+IP-ASN,145176 // 
+IP-ASN,145177 // 
+IP-ASN,145178 // 
+IP-ASN,145179 // 
+IP-ASN,145180 // 
+IP-ASN,145181 // 
+IP-ASN,145182 // 
+IP-ASN,145183 // 
+IP-ASN,145184 // 
+IP-ASN,145185 // 
+IP-ASN,145186 // 
+IP-ASN,145187 // 
+IP-ASN,145188 // 
+IP-ASN,145189 // 
+IP-ASN,145190 // 
+IP-ASN,145191 // 
+IP-ASN,145192 // 
+IP-ASN,145193 // 
+IP-ASN,145194 // 
+IP-ASN,145195 // 
+IP-ASN,145196 // 
+IP-ASN,145197 // 
+IP-ASN,145198 // 
+IP-ASN,145199 // 
+IP-ASN,145200 // 
+IP-ASN,145201 // 
+IP-ASN,145202 // 
+IP-ASN,145203 // 
+IP-ASN,145204 // 
+IP-ASN,145205 // 
+IP-ASN,145206 // 
+IP-ASN,145207 // 
+IP-ASN,145208 // 
+IP-ASN,145209 // 
+IP-ASN,145210 // 
+IP-ASN,145211 // 
+IP-ASN,145212 // 
+IP-ASN,145213 // 
+IP-ASN,145214 // 
+IP-ASN,145215 // 
+IP-ASN,145216 // 
+IP-ASN,145217 // 
+IP-ASN,145218 // 
+IP-ASN,145219 // 
+IP-ASN,145220 // 
+IP-ASN,145221 // 
+IP-ASN,145222 // 
+IP-ASN,145223 // 
+IP-ASN,145224 // 
+IP-ASN,145225 // 
+IP-ASN,145226 // 
+IP-ASN,145227 // 
+IP-ASN,145228 // 
+IP-ASN,145229 // 
+IP-ASN,145230 // 
+IP-ASN,145231 // 
+IP-ASN,145232 // 
+IP-ASN,145233 // 
+IP-ASN,145234 // 
+IP-ASN,145235 // 
+IP-ASN,145236 // 
+IP-ASN,145237 // 
+IP-ASN,145238 // 
+IP-ASN,145239 // 
+IP-ASN,145240 // 
+IP-ASN,145241 // 
+IP-ASN,145242 // 
+IP-ASN,145243 // 
+IP-ASN,145244 // 
+IP-ASN,145245 // 
+IP-ASN,145246 // 
+IP-ASN,145247 // 
+IP-ASN,145248 // 
+IP-ASN,145249 // 
+IP-ASN,145250 // 
+IP-ASN,145251 // 
+IP-ASN,145252 // 
+IP-ASN,145253 // 
+IP-ASN,145254 // 
+IP-ASN,145255 // 
+IP-ASN,145256 // 
+IP-ASN,145257 // 
+IP-ASN,145258 // 
+IP-ASN,145259 // 
+IP-ASN,145260 // 
+IP-ASN,145261 // 
+IP-ASN,145262 // 
+IP-ASN,145263 // 
+IP-ASN,145264 // 
+IP-ASN,145265 // 
+IP-ASN,145266 // 
+IP-ASN,145267 // 
+IP-ASN,145268 // 
+IP-ASN,145269 // 
+IP-ASN,145270 // 
+IP-ASN,145271 // 
+IP-ASN,145272 // 
+IP-ASN,145273 // 
+IP-ASN,145274 // 
+IP-ASN,145275 // 
+IP-ASN,145276 // 
+IP-ASN,145277 // 
+IP-ASN,145278 // 
+IP-ASN,145279 // 
+IP-ASN,145280 // 
+IP-ASN,145281 // 
+IP-ASN,145282 // 
+IP-ASN,145283 // 
+IP-ASN,145284 // 
+IP-ASN,145285 // 
+IP-ASN,145286 // 
+IP-ASN,145287 // 
+IP-ASN,145288 // 
+IP-ASN,145289 // 
+IP-ASN,145290 // 
+IP-ASN,145291 // 
+IP-ASN,145292 // 
+IP-ASN,145293 // 
+IP-ASN,145294 // 
+IP-ASN,145295 // 
+IP-ASN,145296 // 
+IP-ASN,145297 // 
+IP-ASN,145298 // 
+IP-ASN,145299 // 
+IP-ASN,145300 // 
+IP-ASN,145301 // 
+IP-ASN,145302 // 
+IP-ASN,145303 // 
+IP-ASN,145304 // 
+IP-ASN,145305 // 
+IP-ASN,145306 // 
+IP-ASN,145307 // 
+IP-ASN,145308 // 
+IP-ASN,145309 // 
+IP-ASN,145310 // 
+IP-ASN,145311 // 
+IP-ASN,145312 // 
+IP-ASN,145313 // 
+IP-ASN,145314 // 
+IP-ASN,145315 // 
+IP-ASN,145316 // 
+IP-ASN,145317 // 
+IP-ASN,145318 // 
+IP-ASN,145319 // 
+IP-ASN,145320 // 
+IP-ASN,145321 // 
+IP-ASN,145322 // 
+IP-ASN,145323 // 
+IP-ASN,145324 // 
+IP-ASN,145325 // 
+IP-ASN,145326 // 
+IP-ASN,145327 // 
+IP-ASN,145328 // 
+IP-ASN,145329 // 
+IP-ASN,145330 // 
+IP-ASN,145331 // 
+IP-ASN,145332 // 
+IP-ASN,145333 // 
+IP-ASN,145334 // 
+IP-ASN,145335 // 
+IP-ASN,145336 // 
+IP-ASN,145337 // 
+IP-ASN,145338 // 
+IP-ASN,145339 // 
+IP-ASN,145340 // 
+IP-ASN,145341 // 
+IP-ASN,145342 // 
+IP-ASN,145343 // 
+IP-ASN,145344 // 
+IP-ASN,145345 // 
+IP-ASN,145346 // 
+IP-ASN,145347 // 
+IP-ASN,145348 // 
+IP-ASN,145349 // 
+IP-ASN,145350 // 
+IP-ASN,145351 // 
+IP-ASN,145352 // 
+IP-ASN,145353 // 
+IP-ASN,145354 // 
+IP-ASN,145355 // 
+IP-ASN,145356 // 
+IP-ASN,145357 // 
+IP-ASN,145358 // 
+IP-ASN,145359 // 
+IP-ASN,145360 // 
+IP-ASN,145361 // 
+IP-ASN,145362 // 
+IP-ASN,145363 // 
+IP-ASN,145364 // 
+IP-ASN,145365 // 
+IP-ASN,145366 // 
+IP-ASN,145367 // 
+IP-ASN,145368 // 
+IP-ASN,145369 // 
+IP-ASN,145370 // 
+IP-ASN,145371 // 
+IP-ASN,145372 // 
+IP-ASN,145373 // 
+IP-ASN,145374 // 
+IP-ASN,145375 // 
+IP-ASN,145376 // 
+IP-ASN,145377 // 
+IP-ASN,145378 // 
+IP-ASN,145379 // 
+IP-ASN,145380 // 
+IP-ASN,145381 // 
+IP-ASN,145382 // 
+IP-ASN,145383 // 
+IP-ASN,145384 // 
+IP-ASN,145385 // 
+IP-ASN,145386 // 
+IP-ASN,145387 // 
+IP-ASN,145388 // 
+IP-ASN,145389 // 
+IP-ASN,145390 // 
+IP-ASN,145391 // 
+IP-ASN,145392 // 
+IP-ASN,145393 // 
+IP-ASN,145394 // 
+IP-ASN,145395 // 
+IP-ASN,145396 // 
+IP-ASN,145397 // 
+IP-ASN,145398 // 
+IP-ASN,145399 // 
+IP-ASN,145400 // 
+IP-ASN,145401 // 
+IP-ASN,145402 // 
+IP-ASN,145403 // 
+IP-ASN,145404 // 
+IP-ASN,145405 // 
+IP-ASN,145406 // 
+IP-ASN,145407 // 
+IP-ASN,145408 // 
+IP-ASN,145409 // 
+IP-ASN,145410 // 
+IP-ASN,145411 // 
+IP-ASN,145412 // 
+IP-ASN,145413 // 
+IP-ASN,145414 // 
+IP-ASN,145415 // 
+IP-ASN,145416 // 
+IP-ASN,145417 // 
+IP-ASN,145418 // 
+IP-ASN,145419 // 
+IP-ASN,145420 // 
+IP-ASN,145421 // 
+IP-ASN,145422 // 
+IP-ASN,145423 // 
+IP-ASN,145424 // 
+IP-ASN,145425 // 
+IP-ASN,145426 // 
+IP-ASN,145427 // 
+IP-ASN,145428 // 
+IP-ASN,145429 // 
+IP-ASN,145430 // 
+IP-ASN,145431 // 
+IP-ASN,145432 // 
+IP-ASN,145433 // 
+IP-ASN,145434 // 
+IP-ASN,145435 // 
+IP-ASN,145436 // 
+IP-ASN,145437 // 
+IP-ASN,145438 // 
+IP-ASN,145439 // 
+IP-ASN,145440 // 
+IP-ASN,145441 // 
+IP-ASN,145442 // 
+IP-ASN,145443 // 
+IP-ASN,145444 // 
+IP-ASN,145445 // 
+IP-ASN,145446 // 
+IP-ASN,145447 // 
+IP-ASN,145448 // 
+IP-ASN,145449 // 
+IP-ASN,145450 // 
+IP-ASN,145451 // 
+IP-ASN,145452 // 
+IP-ASN,145453 // 
+IP-ASN,145454 // 
+IP-ASN,145455 // 
+IP-ASN,145456 // 
+IP-ASN,145457 // 
+IP-ASN,145458 // 
+IP-ASN,145459 // 
+IP-ASN,145460 // 
+IP-ASN,145461 // 
+IP-ASN,145462 // 
+IP-ASN,145463 // 
+IP-ASN,145464 // 
+IP-ASN,145465 // 
+IP-ASN,145466 // 
+IP-ASN,145467 // 
+IP-ASN,145468 // 
+IP-ASN,145469 // 
+IP-ASN,145470 // 
+IP-ASN,145471 // 
+IP-ASN,145472 // 
+IP-ASN,145473 // 
+IP-ASN,145474 // 
+IP-ASN,145475 // 
+IP-ASN,145476 // 
+IP-ASN,145477 // 
+IP-ASN,145478 // 
+IP-ASN,145479 // 
+IP-ASN,145480 // 
+IP-ASN,145481 // 
+IP-ASN,145482 // 
+IP-ASN,145483 // 
+IP-ASN,145484 // 
+IP-ASN,145485 // 
+IP-ASN,145486 // 
+IP-ASN,145487 // 
+IP-ASN,145488 // 
+IP-ASN,145489 // 
+IP-ASN,145490 // 
+IP-ASN,145491 // 
+IP-ASN,145492 // 
+IP-ASN,145493 // 
+IP-ASN,145494 // 
+IP-ASN,145495 // 
+IP-ASN,145496 // 
+IP-ASN,145497 // 
+IP-ASN,145498 // 
+IP-ASN,145499 // 
+IP-ASN,145500 // 
+IP-ASN,145501 // 
+IP-ASN,145502 // 
+IP-ASN,145503 // 
+IP-ASN,145504 // 
+IP-ASN,145505 // 
+IP-ASN,145506 // 
+IP-ASN,145507 // 
+IP-ASN,145508 // 
+IP-ASN,145509 // 
+IP-ASN,145510 // 
+IP-ASN,145511 // 
+IP-ASN,145512 // 
+IP-ASN,145513 // 
+IP-ASN,145514 // 
+IP-ASN,145515 // 
+IP-ASN,145516 // 
+IP-ASN,145517 // 
+IP-ASN,145518 // 
+IP-ASN,145519 // 
+IP-ASN,145520 // 
+IP-ASN,145521 // 
+IP-ASN,145522 // 
+IP-ASN,145523 // 
+IP-ASN,145524 // 
+IP-ASN,145525 // 
+IP-ASN,145526 // 
+IP-ASN,145527 // 
+IP-ASN,145528 // 
+IP-ASN,145529 // 
+IP-ASN,145530 // 
+IP-ASN,145531 // 
+IP-ASN,145532 // 
+IP-ASN,145533 // 
+IP-ASN,145534 // 
+IP-ASN,145535 // 
+IP-ASN,145536 // 
+IP-ASN,145537 // 
+IP-ASN,145538 // 
+IP-ASN,145539 // 
+IP-ASN,145540 // 
+IP-ASN,145541 // 
+IP-ASN,145542 // 
+IP-ASN,145543 // 
+IP-ASN,145544 // 
+IP-ASN,145545 // 
+IP-ASN,145546 // 
+IP-ASN,145547 // 
+IP-ASN,145548 // 
+IP-ASN,145549 // 
+IP-ASN,145550 // 
+IP-ASN,145551 // 
+IP-ASN,145552 // 
+IP-ASN,145553 // 
+IP-ASN,145554 // 
+IP-ASN,145555 // 
+IP-ASN,145556 // 
+IP-ASN,145557 // 
+IP-ASN,145558 // 
+IP-ASN,145559 // 
+IP-ASN,145560 // 
+IP-ASN,145561 // 
+IP-ASN,145562 // 
+IP-ASN,145563 // 
+IP-ASN,145564 // 
+IP-ASN,145565 // 
+IP-ASN,145566 // 
+IP-ASN,145567 // 
+IP-ASN,145568 // 
+IP-ASN,145569 // 
+IP-ASN,145570 // 
+IP-ASN,145571 // 
+IP-ASN,145572 // 
+IP-ASN,145573 // 
+IP-ASN,145574 // 
+IP-ASN,145575 // 
+IP-ASN,145576 // 
+IP-ASN,145577 // 
+IP-ASN,145578 // 
+IP-ASN,145579 // 
+IP-ASN,145580 // 
+IP-ASN,145581 // 
+IP-ASN,145582 // 
+IP-ASN,145583 // 
+IP-ASN,145584 // 
+IP-ASN,145585 // 
+IP-ASN,145586 // 
+IP-ASN,145587 // 
+IP-ASN,145588 // 
+IP-ASN,145589 // 
+IP-ASN,145590 // 
+IP-ASN,145591 // 
+IP-ASN,145592 // 
+IP-ASN,145593 // 
+IP-ASN,145594 // 
+IP-ASN,145595 // 
+IP-ASN,145596 // 
+IP-ASN,145597 // 
+IP-ASN,145598 // 
+IP-ASN,145599 // 
+IP-ASN,145600 // 
+IP-ASN,145601 // 
+IP-ASN,145602 // 
+IP-ASN,145603 // 
+IP-ASN,145604 // 
+IP-ASN,145605 // 
+IP-ASN,145606 // 
+IP-ASN,145607 // 
+IP-ASN,145608 // 
+IP-ASN,145609 // 
+IP-ASN,145610 // 
+IP-ASN,145611 // 
+IP-ASN,145612 // 
+IP-ASN,145613 // 
+IP-ASN,145614 // 
+IP-ASN,145615 // 
+IP-ASN,145616 // 
+IP-ASN,145617 // 
+IP-ASN,145618 // 
+IP-ASN,145619 // 
+IP-ASN,145620 // 
+IP-ASN,145621 // 
+IP-ASN,145622 // 
+IP-ASN,145623 // 
+IP-ASN,145624 // 
+IP-ASN,145625 // 
+IP-ASN,145626 // 
+IP-ASN,145627 // 
+IP-ASN,145628 // 
+IP-ASN,145629 // 
+IP-ASN,145630 // 
+IP-ASN,145631 // 
+IP-ASN,145632 // 
+IP-ASN,145633 // 
+IP-ASN,145634 // 
+IP-ASN,145635 // 
+IP-ASN,145636 // 
+IP-ASN,145637 // 
+IP-ASN,145638 // 
+IP-ASN,145639 // 
+IP-ASN,145640 // 
+IP-ASN,145641 // 
+IP-ASN,145642 // 
+IP-ASN,145643 // 
+IP-ASN,145644 // 
+IP-ASN,145645 // 
+IP-ASN,145646 // 
+IP-ASN,145647 // 
+IP-ASN,145648 // 
+IP-ASN,145649 // 
+IP-ASN,145650 // 
+IP-ASN,145651 // 
+IP-ASN,145652 // 
+IP-ASN,145653 // 
+IP-ASN,145654 // 
+IP-ASN,145655 // 
+IP-ASN,145656 // 
+IP-ASN,145657 // 
+IP-ASN,145658 // 
+IP-ASN,145659 // 
+IP-ASN,145660 // 
+IP-ASN,145661 // 
+IP-ASN,145662 // 
+IP-ASN,145663 // 
+IP-ASN,145664 // 
+IP-ASN,145665 // 
+IP-ASN,145666 // 
+IP-ASN,145667 // 
+IP-ASN,145668 // 
+IP-ASN,145669 // 
+IP-ASN,145670 // 
+IP-ASN,145671 // 
+IP-ASN,145672 // 
+IP-ASN,145673 // 
+IP-ASN,145674 // 
+IP-ASN,145675 // 
+IP-ASN,145676 // 
+IP-ASN,145677 // 
+IP-ASN,145678 // 
+IP-ASN,145679 // 
+IP-ASN,145680 // 
+IP-ASN,145681 // 
+IP-ASN,145682 // 
+IP-ASN,145683 // 
+IP-ASN,145684 // 
+IP-ASN,145685 // 
+IP-ASN,145686 // 
+IP-ASN,145687 // 
+IP-ASN,145688 // 
+IP-ASN,145689 // 
+IP-ASN,145690 // 
+IP-ASN,145691 // 
+IP-ASN,145692 // 
+IP-ASN,145693 // 
+IP-ASN,145694 // 
+IP-ASN,145695 // 
+IP-ASN,145696 // 
+IP-ASN,145697 // 
+IP-ASN,145698 // 
+IP-ASN,145699 // 
+IP-ASN,145700 // 
+IP-ASN,145701 // 
+IP-ASN,145702 // 
+IP-ASN,145703 // 
+IP-ASN,145704 // 
+IP-ASN,145705 // 
+IP-ASN,145706 // 
+IP-ASN,145707 // 
+IP-ASN,145708 // 
+IP-ASN,145709 // 
+IP-ASN,145710 // 
+IP-ASN,145711 // 
+IP-ASN,145712 // 
+IP-ASN,145713 // 
+IP-ASN,145714 // 
+IP-ASN,145715 // 
+IP-ASN,145716 // 
+IP-ASN,145717 // 
+IP-ASN,145718 // 
+IP-ASN,145719 // 
+IP-ASN,145720 // 
+IP-ASN,145721 // 
+IP-ASN,145722 // 
+IP-ASN,145723 // 
+IP-ASN,145724 // 
+IP-ASN,145725 // 
+IP-ASN,145726 // 
+IP-ASN,145727 // 
+IP-ASN,145728 // 
+IP-ASN,145729 // 
+IP-ASN,145730 // 
+IP-ASN,145731 // 
+IP-ASN,145732 // 
+IP-ASN,145733 // 
+IP-ASN,145734 // 
+IP-ASN,145735 // 
+IP-ASN,145736 // 
+IP-ASN,145737 // 
+IP-ASN,145738 // 
+IP-ASN,145739 // 
+IP-ASN,145740 // 
+IP-ASN,145741 // 
+IP-ASN,145742 // 
+IP-ASN,145743 // 
+IP-ASN,145744 // 
+IP-ASN,145745 // 
+IP-ASN,145746 // 
+IP-ASN,145747 // 
+IP-ASN,145748 // 
+IP-ASN,145749 // 
+IP-ASN,145750 // 
+IP-ASN,145751 // 
+IP-ASN,145752 // 
+IP-ASN,145753 // 
+IP-ASN,145754 // 
+IP-ASN,145755 // 
+IP-ASN,145756 // 
+IP-ASN,145757 // 
+IP-ASN,145758 // 
+IP-ASN,145759 // 
+IP-ASN,145760 // 
+IP-ASN,145761 // 
+IP-ASN,145762 // 
+IP-ASN,145763 // 
+IP-ASN,145764 // 
+IP-ASN,145765 // 
+IP-ASN,145766 // 
+IP-ASN,145767 // 
+IP-ASN,145768 // 
+IP-ASN,145769 // 
+IP-ASN,145770 // 
+IP-ASN,145771 // 
+IP-ASN,145772 // 
+IP-ASN,145773 // 
+IP-ASN,145774 // 
+IP-ASN,145775 // 
+IP-ASN,145776 // 
+IP-ASN,145777 // 
+IP-ASN,145778 // 
+IP-ASN,145779 // 
+IP-ASN,145780 // 
+IP-ASN,145781 // 
+IP-ASN,145782 // 
+IP-ASN,145783 // 
+IP-ASN,145784 // 
+IP-ASN,145785 // 
+IP-ASN,145786 // 
+IP-ASN,145787 // 
+IP-ASN,145788 // 
+IP-ASN,145789 // 
+IP-ASN,145790 // 
+IP-ASN,145791 // 
+IP-ASN,145792 // 
+IP-ASN,145793 // 
+IP-ASN,145794 // 
+IP-ASN,145795 // 
+IP-ASN,145796 // 
+IP-ASN,145797 // 
+IP-ASN,145798 // 
+IP-ASN,145799 // 
+IP-ASN,145800 // 
+IP-ASN,145801 // 
+IP-ASN,145802 // 
+IP-ASN,145803 // 
+IP-ASN,145804 // 
+IP-ASN,145805 // 
+IP-ASN,145806 // 
+IP-ASN,145807 // 
+IP-ASN,145808 // 
+IP-ASN,145809 // 
+IP-ASN,145810 // 
+IP-ASN,145811 // 
+IP-ASN,145812 // 
+IP-ASN,145813 // 
+IP-ASN,145814 // 
+IP-ASN,145815 // 
+IP-ASN,145816 // 
+IP-ASN,145817 // 
+IP-ASN,145818 // 
+IP-ASN,145819 // 
+IP-ASN,145820 // 
+IP-ASN,145821 // 
+IP-ASN,145822 // 
+IP-ASN,145823 // 
+IP-ASN,145824 // 
+IP-ASN,145825 // 
+IP-ASN,145826 // 
+IP-ASN,145827 // 
+IP-ASN,145828 // 
+IP-ASN,145829 // 
+IP-ASN,145830 // 
+IP-ASN,145831 // 
+IP-ASN,145832 // 
+IP-ASN,145833 // 
+IP-ASN,145834 // 
+IP-ASN,145835 // 
+IP-ASN,145836 // 
+IP-ASN,145837 // 
+IP-ASN,145838 // 
+IP-ASN,145839 // 
+IP-ASN,145840 // 
+IP-ASN,145841 // 
+IP-ASN,145842 // 
+IP-ASN,145843 // 
+IP-ASN,145844 // 
+IP-ASN,145845 // 
+IP-ASN,145846 // 
+IP-ASN,145847 // 
+IP-ASN,145848 // 
+IP-ASN,145849 // 
+IP-ASN,145850 // 
+IP-ASN,145851 // 
+IP-ASN,145852 // 
+IP-ASN,145853 // 
+IP-ASN,145854 // 
+IP-ASN,145855 // 
+IP-ASN,145856 // 
+IP-ASN,145857 // 
+IP-ASN,145858 // 
+IP-ASN,145859 // 
+IP-ASN,145860 // 
+IP-ASN,145861 // 
+IP-ASN,145862 // 
+IP-ASN,145863 // 
+IP-ASN,145864 // 
+IP-ASN,145865 // 
+IP-ASN,145866 // 
+IP-ASN,145867 // 
+IP-ASN,145868 // 
+IP-ASN,145869 // 
+IP-ASN,145870 // 
+IP-ASN,145871 // 
+IP-ASN,145872 // 
+IP-ASN,145873 // 
+IP-ASN,145874 // 
+IP-ASN,145875 // 
+IP-ASN,145876 // 
+IP-ASN,145877 // 
+IP-ASN,145878 // 
+IP-ASN,145879 // 
+IP-ASN,145880 // 
+IP-ASN,145881 // 
+IP-ASN,145882 // 
+IP-ASN,145883 // 
+IP-ASN,145884 // 
+IP-ASN,145885 // 
+IP-ASN,145886 // 
+IP-ASN,145887 // 
+IP-ASN,145888 // 
+IP-ASN,145889 // 
+IP-ASN,145890 // 
+IP-ASN,145891 // 
+IP-ASN,145892 // 
+IP-ASN,145893 // 
+IP-ASN,145894 // 
+IP-ASN,145895 // 
+IP-ASN,145896 // 
+IP-ASN,145897 // 
+IP-ASN,145898 // 
+IP-ASN,145899 // 
+IP-ASN,145900 // 
+IP-ASN,145901 // 
+IP-ASN,145902 // 
+IP-ASN,145903 // 
+IP-ASN,145904 // 
+IP-ASN,145905 // 
+IP-ASN,145906 // 
+IP-ASN,145907 // 
+IP-ASN,145908 // 
+IP-ASN,145909 // 
+IP-ASN,145910 // 
+IP-ASN,145911 // 
+IP-ASN,145912 // 
+IP-ASN,145913 // 
+IP-ASN,145914 // 
+IP-ASN,145915 // 
+IP-ASN,145916 // 
+IP-ASN,145917 // 
+IP-ASN,145918 // 
+IP-ASN,145919 // 
+IP-ASN,145920 // 
+IP-ASN,145921 // 
+IP-ASN,145922 // 
+IP-ASN,145923 // 
+IP-ASN,145924 // 
+IP-ASN,145925 // 
+IP-ASN,145926 // 
+IP-ASN,145927 // 
+IP-ASN,145928 // 
+IP-ASN,145929 // 
+IP-ASN,145930 // 
+IP-ASN,145931 // 
+IP-ASN,145932 // 
+IP-ASN,145933 // 
+IP-ASN,145934 // 
+IP-ASN,145935 // 
+IP-ASN,145936 // 
+IP-ASN,145937 // 
+IP-ASN,145938 // 
+IP-ASN,145939 // 
+IP-ASN,145940 // 
+IP-ASN,145941 // 
+IP-ASN,145942 // 
+IP-ASN,145943 // 
+IP-ASN,145944 // 
+IP-ASN,145945 // 
+IP-ASN,145946 // 
+IP-ASN,145947 // 
+IP-ASN,145948 // 
+IP-ASN,145949 // 
+IP-ASN,145950 // 
+IP-ASN,145951 // 
+IP-ASN,145952 // 
+IP-ASN,145953 // 
+IP-ASN,145954 // 
+IP-ASN,145955 // 
+IP-ASN,145956 // 
+IP-ASN,145957 // 
+IP-ASN,145958 // 
+IP-ASN,145959 // 
+IP-ASN,145960 // 
+IP-ASN,145961 // 
+IP-ASN,145962 // 
+IP-ASN,145963 // 
+IP-ASN,145964 // 
+IP-ASN,145965 // 
+IP-ASN,145966 // 
+IP-ASN,145967 // 
+IP-ASN,145968 // 
+IP-ASN,145969 // 
+IP-ASN,145970 // 
+IP-ASN,145971 // 
+IP-ASN,145972 // 
+IP-ASN,145973 // 
+IP-ASN,145974 // 
+IP-ASN,145975 // 
+IP-ASN,145976 // 
+IP-ASN,145977 // 
+IP-ASN,145978 // 
+IP-ASN,145979 // 
+IP-ASN,145980 // 
+IP-ASN,145981 // 
+IP-ASN,145982 // 
+IP-ASN,145983 // 
+IP-ASN,145984 // 
+IP-ASN,145985 // 
+IP-ASN,145986 // 
+IP-ASN,145987 // 
+IP-ASN,145988 // 
+IP-ASN,145989 // 
+IP-ASN,145990 // 
+IP-ASN,145991 // 
+IP-ASN,145992 // 
+IP-ASN,145993 // 
+IP-ASN,145994 // 
+IP-ASN,145995 // 
+IP-ASN,145996 // 
+IP-ASN,145997 // 
+IP-ASN,145998 // 
+IP-ASN,145999 // 
+IP-ASN,146000 // 
+IP-ASN,146001 // 
+IP-ASN,146002 // 
+IP-ASN,146003 // 
+IP-ASN,146004 // 
+IP-ASN,146005 // 
+IP-ASN,146006 // 
+IP-ASN,146007 // 
+IP-ASN,146008 // 
+IP-ASN,146009 // 
+IP-ASN,146010 // 
+IP-ASN,146011 // 
+IP-ASN,146012 // 
+IP-ASN,146013 // 
+IP-ASN,146014 // 
+IP-ASN,146015 // 
+IP-ASN,146016 // 
+IP-ASN,146017 // 
+IP-ASN,146018 // 
+IP-ASN,146019 // 
+IP-ASN,146020 // 
+IP-ASN,146021 // 
+IP-ASN,146022 // 
+IP-ASN,146023 // 
+IP-ASN,146024 // 
+IP-ASN,146025 // 
+IP-ASN,146026 // 
+IP-ASN,146027 // 
+IP-ASN,146028 // 
+IP-ASN,146029 // 
+IP-ASN,146030 // 
+IP-ASN,146031 // 
+IP-ASN,146032 // 
+IP-ASN,146033 // 
+IP-ASN,146034 // 
+IP-ASN,146035 // 
+IP-ASN,146036 // 
+IP-ASN,146037 // 
+IP-ASN,146038 // 
+IP-ASN,146039 // 
+IP-ASN,146040 // 
+IP-ASN,146041 // 
+IP-ASN,146042 // 
+IP-ASN,146043 // 
+IP-ASN,146044 // 
+IP-ASN,146045 // 
+IP-ASN,146046 // 
+IP-ASN,146047 // 
+IP-ASN,146048 // 
+IP-ASN,146049 // 
+IP-ASN,146050 // 
+IP-ASN,146051 // 
+IP-ASN,146052 // 
+IP-ASN,146053 // 
+IP-ASN,146054 // 
+IP-ASN,146055 // 
+IP-ASN,146056 // 
+IP-ASN,146057 // 
+IP-ASN,146058 // 
+IP-ASN,146059 // 
+IP-ASN,146060 // 
+IP-ASN,146061 // 
+IP-ASN,146062 // 
+IP-ASN,146063 // 
+IP-ASN,146064 // 
+IP-ASN,146065 // 
+IP-ASN,146066 // 
+IP-ASN,146067 // 
+IP-ASN,146068 // 
+IP-ASN,146069 // 
+IP-ASN,146070 // 
+IP-ASN,146071 // 
+IP-ASN,146072 // 
+IP-ASN,146073 // 
+IP-ASN,146074 // 
+IP-ASN,146075 // 
+IP-ASN,146076 // 
+IP-ASN,146077 // 
+IP-ASN,146078 // 
+IP-ASN,146079 // 
+IP-ASN,146080 // 
+IP-ASN,146081 // 
+IP-ASN,146082 // 
+IP-ASN,146083 // 
+IP-ASN,146084 // 
+IP-ASN,146085 // 
+IP-ASN,146086 // 
+IP-ASN,146087 // 
+IP-ASN,146088 // 
+IP-ASN,146089 // 
+IP-ASN,146090 // 
+IP-ASN,146091 // 
+IP-ASN,146092 // 
+IP-ASN,146093 // 
+IP-ASN,146094 // 
+IP-ASN,146095 // 
+IP-ASN,146096 // 
+IP-ASN,146097 // 
+IP-ASN,146098 // 
+IP-ASN,146099 // 
+IP-ASN,146100 // 
+IP-ASN,146101 // 
+IP-ASN,146102 // 
+IP-ASN,146103 // 
+IP-ASN,146104 // 
+IP-ASN,146105 // 
+IP-ASN,146106 // 
+IP-ASN,146107 // 
+IP-ASN,146108 // 
+IP-ASN,146109 // 
+IP-ASN,146110 // 
+IP-ASN,146111 // 
+IP-ASN,146112 // 
+IP-ASN,146113 // 
+IP-ASN,146114 // 
+IP-ASN,146115 // 
+IP-ASN,146116 // 
+IP-ASN,146117 // 
+IP-ASN,146118 // 
+IP-ASN,146119 // 
+IP-ASN,146120 // 
+IP-ASN,146121 // 
+IP-ASN,146122 // 
+IP-ASN,146123 // 
+IP-ASN,146124 // 
+IP-ASN,146125 // 
+IP-ASN,146126 // 
+IP-ASN,146127 // 
+IP-ASN,146128 // 
+IP-ASN,146129 // 
+IP-ASN,146130 // 
+IP-ASN,146131 // 
+IP-ASN,146132 // 
+IP-ASN,146133 // 
+IP-ASN,146134 // 
+IP-ASN,146135 // 
+IP-ASN,146136 // 
+IP-ASN,146137 // 
+IP-ASN,146138 // 
+IP-ASN,146139 // 
+IP-ASN,146140 // 
+IP-ASN,146141 // 
+IP-ASN,146142 // 
+IP-ASN,146143 // 
+IP-ASN,146144 // 
+IP-ASN,146145 // 
+IP-ASN,146146 // 
+IP-ASN,146147 // 
+IP-ASN,146148 // 
+IP-ASN,146149 // 
+IP-ASN,146150 // 
+IP-ASN,146151 // 
+IP-ASN,146152 // 
+IP-ASN,146153 // 
+IP-ASN,146154 // 
+IP-ASN,146155 // 
+IP-ASN,146156 // 
+IP-ASN,146157 // 
+IP-ASN,146158 // 
+IP-ASN,146159 // 
+IP-ASN,146160 // 
+IP-ASN,146161 // 
+IP-ASN,146162 // 
+IP-ASN,146163 // 
+IP-ASN,146164 // 
+IP-ASN,146165 // 
+IP-ASN,146166 // 
+IP-ASN,146167 // 
+IP-ASN,146168 // 
+IP-ASN,146169 // 
+IP-ASN,146170 // 
+IP-ASN,146171 // 
+IP-ASN,146172 // 
+IP-ASN,146173 // 
+IP-ASN,146174 // 
+IP-ASN,146175 // 
+IP-ASN,146176 // 
+IP-ASN,146177 // 
+IP-ASN,146178 // 
+IP-ASN,146179 // 
+IP-ASN,146180 // 
+IP-ASN,146181 // 
+IP-ASN,146182 // 
+IP-ASN,146183 // 
+IP-ASN,146184 // 
+IP-ASN,146185 // 
+IP-ASN,146186 // 
+IP-ASN,146187 // 
+IP-ASN,146188 // 
+IP-ASN,146189 // 
+IP-ASN,146190 // 
+IP-ASN,146191 // 
+IP-ASN,146192 // 
+IP-ASN,146193 // 
+IP-ASN,146194 // 
+IP-ASN,146195 // 
+IP-ASN,146196 // 
+IP-ASN,146197 // 
+IP-ASN,146198 // 
+IP-ASN,146199 // 
+IP-ASN,146200 // 
+IP-ASN,146201 // 
+IP-ASN,146202 // 
+IP-ASN,146203 // 
+IP-ASN,146204 // 
+IP-ASN,146205 // 
+IP-ASN,146206 // 
+IP-ASN,146207 // 
+IP-ASN,146208 // 
+IP-ASN,146209 // 
+IP-ASN,146210 // 
+IP-ASN,146211 // 
+IP-ASN,146212 // 
+IP-ASN,146213 // 
+IP-ASN,146214 // 
+IP-ASN,146215 // 
+IP-ASN,146216 // 
+IP-ASN,146217 // 
+IP-ASN,146218 // 
+IP-ASN,146219 // 
+IP-ASN,146220 // 
+IP-ASN,146221 // 
+IP-ASN,146222 // 
+IP-ASN,146223 // 
+IP-ASN,146224 // 
+IP-ASN,146225 // 
+IP-ASN,146226 // 
+IP-ASN,146227 // 
+IP-ASN,146228 // 
+IP-ASN,146229 // 
+IP-ASN,146230 // 
+IP-ASN,146231 // 
+IP-ASN,146232 // 
+IP-ASN,146233 // 
+IP-ASN,146234 // 
+IP-ASN,146235 // 
+IP-ASN,146236 // 
+IP-ASN,146237 // 
+IP-ASN,146238 // 
+IP-ASN,146239 // 
+IP-ASN,146240 // 
+IP-ASN,146241 // 
+IP-ASN,146242 // 
+IP-ASN,146243 // 
+IP-ASN,146244 // 
+IP-ASN,146245 // 
+IP-ASN,146246 // 
+IP-ASN,146247 // 
+IP-ASN,146248 // 
+IP-ASN,146249 // 
+IP-ASN,146250 // 
+IP-ASN,146251 // 
+IP-ASN,146252 // 
+IP-ASN,146253 // 
+IP-ASN,146254 // 
+IP-ASN,146255 // 
+IP-ASN,146256 // 
+IP-ASN,146257 // 
+IP-ASN,146258 // 
+IP-ASN,146259 // 
+IP-ASN,146260 // 
+IP-ASN,146261 // 
+IP-ASN,146262 // 
+IP-ASN,146263 // 
+IP-ASN,146264 // 
+IP-ASN,146265 // 
+IP-ASN,146266 // 
+IP-ASN,146267 // 
+IP-ASN,146268 // 
+IP-ASN,146269 // 
+IP-ASN,146270 // 
+IP-ASN,146271 // 
+IP-ASN,146272 // 
+IP-ASN,146273 // 
+IP-ASN,146274 // 
+IP-ASN,146275 // 
+IP-ASN,146276 // 
+IP-ASN,146277 // 
+IP-ASN,146278 // 
+IP-ASN,146279 // 
+IP-ASN,146280 // 
+IP-ASN,146281 // 
+IP-ASN,146282 // 
+IP-ASN,146283 // 
+IP-ASN,146284 // 
+IP-ASN,146285 // 
+IP-ASN,146286 // 
+IP-ASN,146287 // 
+IP-ASN,146288 // 
+IP-ASN,146289 // 
+IP-ASN,146290 // 
+IP-ASN,146291 // 
+IP-ASN,146292 // 
+IP-ASN,146293 // 
+IP-ASN,146294 // 
+IP-ASN,146295 // 
+IP-ASN,146296 // 
+IP-ASN,146297 // 
+IP-ASN,146298 // 
+IP-ASN,146299 // 
+IP-ASN,146300 // 
+IP-ASN,146301 // 
+IP-ASN,146302 // 
+IP-ASN,146303 // 
+IP-ASN,146304 // 
+IP-ASN,146305 // 
+IP-ASN,146306 // 
+IP-ASN,146307 // 
+IP-ASN,146308 // 
+IP-ASN,146309 // 
+IP-ASN,146310 // 
+IP-ASN,146311 // 
+IP-ASN,146312 // 
+IP-ASN,146313 // 
+IP-ASN,146314 // 
+IP-ASN,146315 // 
+IP-ASN,146316 // 
+IP-ASN,146317 // 
+IP-ASN,146318 // 
+IP-ASN,146319 // 
+IP-ASN,146320 // 
+IP-ASN,146321 // 
+IP-ASN,146322 // 
+IP-ASN,146323 // 
+IP-ASN,146324 // 
+IP-ASN,146325 // 
+IP-ASN,146326 // 
+IP-ASN,146327 // 
+IP-ASN,146328 // 
+IP-ASN,146329 // 
+IP-ASN,146330 // 
+IP-ASN,146331 // 
+IP-ASN,146332 // 
+IP-ASN,146333 // 
+IP-ASN,146334 // 
+IP-ASN,146335 // 
+IP-ASN,146336 // 
+IP-ASN,146337 // 
+IP-ASN,146338 // 
+IP-ASN,146339 // 
+IP-ASN,146340 // 
+IP-ASN,146341 // 
+IP-ASN,146342 // 
+IP-ASN,146343 // 
+IP-ASN,146344 // 
+IP-ASN,146345 // 
+IP-ASN,146346 // 
+IP-ASN,146347 // 
+IP-ASN,146348 // 
+IP-ASN,146349 // 
+IP-ASN,146350 // 
+IP-ASN,146351 // 
+IP-ASN,146352 // 
+IP-ASN,146353 // 
+IP-ASN,146354 // 
+IP-ASN,146355 // 
+IP-ASN,146356 // 
+IP-ASN,146357 // 
+IP-ASN,146358 // 
+IP-ASN,146359 // 
+IP-ASN,146360 // 
+IP-ASN,146361 // 
+IP-ASN,146362 // 
+IP-ASN,146363 // 
+IP-ASN,146364 // 
+IP-ASN,146365 // 
+IP-ASN,146366 // 
+IP-ASN,146367 // 
+IP-ASN,146368 // 
+IP-ASN,146369 // 
+IP-ASN,146370 // 
+IP-ASN,146371 // 
+IP-ASN,146372 // 
+IP-ASN,146373 // 
+IP-ASN,146374 // 
+IP-ASN,146375 // 
+IP-ASN,146376 // 
+IP-ASN,146377 // 
+IP-ASN,146378 // 
+IP-ASN,146379 // 
+IP-ASN,146380 // 
+IP-ASN,146381 // 
+IP-ASN,146382 // 
+IP-ASN,146383 // 
+IP-ASN,146384 // 
+IP-ASN,146385 // 
+IP-ASN,146386 // 
+IP-ASN,146387 // 
+IP-ASN,146388 // 
+IP-ASN,146389 // 
+IP-ASN,146390 // 
+IP-ASN,146391 // 
+IP-ASN,146392 // 
+IP-ASN,146393 // 
+IP-ASN,146394 // 
+IP-ASN,146395 // 
+IP-ASN,146396 // 
+IP-ASN,146397 // 
+IP-ASN,146398 // 
+IP-ASN,146399 // 
+IP-ASN,146400 // 
+IP-ASN,146401 // 
+IP-ASN,146402 // 
+IP-ASN,146403 // 
+IP-ASN,146404 // 
+IP-ASN,146405 // 
+IP-ASN,146406 // 
+IP-ASN,146407 // 
+IP-ASN,146408 // 
+IP-ASN,146409 // 
+IP-ASN,146410 // 
+IP-ASN,146411 // 
+IP-ASN,146412 // 
+IP-ASN,146413 // 
+IP-ASN,146414 // 
+IP-ASN,146415 // 
+IP-ASN,146416 // 
+IP-ASN,146417 // 
+IP-ASN,146418 // 
+IP-ASN,146419 // 
+IP-ASN,146420 // 
+IP-ASN,146421 // 
+IP-ASN,146422 // 
+IP-ASN,146423 // 
+IP-ASN,146424 // 
+IP-ASN,146425 // 
+IP-ASN,146426 // 
+IP-ASN,146427 // 
+IP-ASN,146428 // 
+IP-ASN,146429 // 
+IP-ASN,146430 // 
+IP-ASN,146431 // 
+IP-ASN,146432 // 
+IP-ASN,146433 // 
+IP-ASN,146434 // 
+IP-ASN,146435 // 
+IP-ASN,146436 // 
+IP-ASN,146437 // 
+IP-ASN,146438 // 
+IP-ASN,146439 // 
+IP-ASN,146440 // 
+IP-ASN,146441 // 
+IP-ASN,146442 // 
+IP-ASN,146443 // 
+IP-ASN,146444 // 
+IP-ASN,146445 // 
+IP-ASN,146446 // 
+IP-ASN,146447 // 
+IP-ASN,146448 // 
+IP-ASN,146449 // 
+IP-ASN,146450 // 
+IP-ASN,146451 // 
+IP-ASN,146452 // 
+IP-ASN,146453 // 
+IP-ASN,146454 // 
+IP-ASN,146455 // 
+IP-ASN,146456 // 
+IP-ASN,146457 // 
+IP-ASN,146458 // 
+IP-ASN,146459 // 
+IP-ASN,146460 // 
+IP-ASN,146461 // 
+IP-ASN,146462 // 
+IP-ASN,146463 // 
+IP-ASN,146464 // 
+IP-ASN,146465 // 
+IP-ASN,146466 // 
+IP-ASN,146467 // 
+IP-ASN,146468 // 
+IP-ASN,146469 // 
+IP-ASN,146470 // 
+IP-ASN,146471 // 
+IP-ASN,146472 // 
+IP-ASN,146473 // 
+IP-ASN,146474 // 
+IP-ASN,146475 // 
+IP-ASN,146476 // 
+IP-ASN,146477 // 
+IP-ASN,146478 // 
+IP-ASN,146479 // 
+IP-ASN,146480 // 
+IP-ASN,146481 // 
+IP-ASN,146482 // 
+IP-ASN,146483 // 
+IP-ASN,146484 // 
+IP-ASN,146485 // 
+IP-ASN,146486 // 
+IP-ASN,146487 // 
+IP-ASN,146488 // 
+IP-ASN,146489 // 
+IP-ASN,146490 // 
+IP-ASN,146491 // 
+IP-ASN,146492 // 
+IP-ASN,146493 // 
+IP-ASN,146494 // 
+IP-ASN,146495 // 
+IP-ASN,146496 // 
+IP-ASN,146497 // 
+IP-ASN,146498 // 
+IP-ASN,146499 // 
+IP-ASN,146500 // 
+IP-ASN,146501 // 
+IP-ASN,146502 // 
+IP-ASN,146503 // 
+IP-ASN,146504 // 
+IP-ASN,146505 // 
+IP-ASN,146506 // 
+IP-ASN,146507 // 
+IP-ASN,146508 // 
+IP-ASN,146509 // 
+IP-ASN,146510 // 
+IP-ASN,146511 // 
+IP-ASN,146512 // 
+IP-ASN,146513 // 
+IP-ASN,146514 // 
+IP-ASN,146515 // 
+IP-ASN,146516 // 
+IP-ASN,146517 // 
+IP-ASN,146518 // 
+IP-ASN,146519 // 
+IP-ASN,146520 // 
+IP-ASN,146521 // 
+IP-ASN,146522 // 
+IP-ASN,146523 // 
+IP-ASN,146524 // 
+IP-ASN,146525 // 
+IP-ASN,146526 // 
+IP-ASN,146527 // 
+IP-ASN,146528 // 
+IP-ASN,146529 // 
+IP-ASN,146530 // 
+IP-ASN,146531 // 
+IP-ASN,146532 // 
+IP-ASN,146533 // 
+IP-ASN,146534 // 
+IP-ASN,146535 // 
+IP-ASN,146536 // 
+IP-ASN,146537 // 
+IP-ASN,146538 // 
+IP-ASN,146539 // 
+IP-ASN,146540 // 
+IP-ASN,146541 // 
+IP-ASN,146542 // 
+IP-ASN,146543 // 
+IP-ASN,146544 // 
+IP-ASN,146545 // 
+IP-ASN,146546 // 
+IP-ASN,146547 // 
+IP-ASN,146548 // 
+IP-ASN,146549 // 
+IP-ASN,146550 // 
+IP-ASN,146551 // 
+IP-ASN,146552 // 
+IP-ASN,146553 // 
+IP-ASN,146554 // 
+IP-ASN,146555 // 
+IP-ASN,146556 // 
+IP-ASN,146557 // 
+IP-ASN,146558 // 
+IP-ASN,146559 // 
+IP-ASN,146560 // 
+IP-ASN,146561 // 
+IP-ASN,146562 // 
+IP-ASN,146563 // 
+IP-ASN,146564 // 
+IP-ASN,146565 // 
+IP-ASN,146566 // 
+IP-ASN,146567 // 
+IP-ASN,146568 // 
+IP-ASN,146569 // 
+IP-ASN,146570 // 
+IP-ASN,146571 // 
+IP-ASN,146572 // 
+IP-ASN,146573 // 
+IP-ASN,146574 // 
+IP-ASN,146575 // 
+IP-ASN,146576 // 
+IP-ASN,146577 // 
+IP-ASN,146578 // 
+IP-ASN,146579 // 
+IP-ASN,146580 // 
+IP-ASN,146581 // 
+IP-ASN,146582 // 
+IP-ASN,146583 // 
+IP-ASN,146584 // 
+IP-ASN,146585 // 
+IP-ASN,146586 // 
+IP-ASN,146587 // 
+IP-ASN,146588 // 
+IP-ASN,146589 // 
+IP-ASN,146590 // 
+IP-ASN,146591 // 
+IP-ASN,146592 // 
+IP-ASN,146593 // 
+IP-ASN,146594 // 
+IP-ASN,146595 // 
+IP-ASN,146596 // 
+IP-ASN,146597 // 
+IP-ASN,146598 // 
+IP-ASN,146599 // 
+IP-ASN,146600 // 
+IP-ASN,146601 // 
+IP-ASN,146602 // 
+IP-ASN,146603 // 
+IP-ASN,146604 // 
+IP-ASN,146605 // 
+IP-ASN,146606 // 
+IP-ASN,146607 // 
+IP-ASN,146608 // 
+IP-ASN,146609 // 
+IP-ASN,146610 // 
+IP-ASN,146611 // 
+IP-ASN,146612 // 
+IP-ASN,146613 // 
+IP-ASN,146614 // 
+IP-ASN,146615 // 
+IP-ASN,146616 // 
+IP-ASN,146617 // 
+IP-ASN,146618 // 
+IP-ASN,146619 // 
+IP-ASN,146620 // 
+IP-ASN,146621 // 
+IP-ASN,146622 // 
+IP-ASN,146623 // 
+IP-ASN,146624 // 
+IP-ASN,146625 // 
+IP-ASN,146626 // 
+IP-ASN,146627 // 
+IP-ASN,146628 // 
+IP-ASN,146629 // 
+IP-ASN,146630 // 
+IP-ASN,146631 // 
+IP-ASN,146632 // 
+IP-ASN,146633 // 
+IP-ASN,146634 // 
+IP-ASN,146635 // 
+IP-ASN,146636 // 
+IP-ASN,146637 // 
+IP-ASN,146638 // 
+IP-ASN,146639 // 
+IP-ASN,146640 // 
+IP-ASN,146641 // 
+IP-ASN,146642 // 
+IP-ASN,146643 // 
+IP-ASN,146644 // 
+IP-ASN,146645 // 
+IP-ASN,146646 // 
+IP-ASN,146647 // 
+IP-ASN,146648 // 
+IP-ASN,146649 // 
+IP-ASN,146650 // 
+IP-ASN,146651 // 
+IP-ASN,146652 // 
+IP-ASN,146653 // 
+IP-ASN,146654 // 
+IP-ASN,146655 // 
+IP-ASN,146656 // 
+IP-ASN,146657 // 
+IP-ASN,146658 // 
+IP-ASN,146659 // 
+IP-ASN,146660 // 
+IP-ASN,146661 // 
+IP-ASN,146662 // 
+IP-ASN,146663 // 
+IP-ASN,146664 // 
+IP-ASN,146665 // 
+IP-ASN,146666 // 
+IP-ASN,146667 // 
+IP-ASN,146668 // 
+IP-ASN,146669 // 
+IP-ASN,146670 // 
+IP-ASN,146671 // 
+IP-ASN,146672 // 
+IP-ASN,146673 // 
+IP-ASN,146674 // 
+IP-ASN,146675 // 
+IP-ASN,146676 // 
+IP-ASN,146677 // 
+IP-ASN,146678 // 
+IP-ASN,146679 // 
+IP-ASN,146680 // 
+IP-ASN,146681 // 
+IP-ASN,146682 // 
+IP-ASN,146683 // 
+IP-ASN,146684 // 
+IP-ASN,146685 // 
+IP-ASN,146686 // 
+IP-ASN,146687 // 
+IP-ASN,146688 // 
+IP-ASN,146689 // 
+IP-ASN,146690 // 
+IP-ASN,146691 // 
+IP-ASN,146692 // 
+IP-ASN,146693 // 
+IP-ASN,146694 // 
+IP-ASN,146695 // 
+IP-ASN,146696 // 
+IP-ASN,146697 // 
+IP-ASN,146698 // 
+IP-ASN,146699 // 
+IP-ASN,146700 // 
+IP-ASN,146701 // 
+IP-ASN,146702 // 
+IP-ASN,146703 // 
+IP-ASN,146704 // 
+IP-ASN,146705 // 
+IP-ASN,146706 // 
+IP-ASN,146707 // 
+IP-ASN,146708 // 
+IP-ASN,146709 // 
+IP-ASN,146710 // 
+IP-ASN,146711 // 
+IP-ASN,146712 // 
+IP-ASN,146713 // 
+IP-ASN,146714 // 
+IP-ASN,146715 // 
+IP-ASN,146716 // 
+IP-ASN,146717 // 
+IP-ASN,146718 // 
+IP-ASN,146719 // 
+IP-ASN,146720 // 
+IP-ASN,146721 // 
+IP-ASN,146722 // 
+IP-ASN,146723 // 
+IP-ASN,146724 // 
+IP-ASN,146725 // 
+IP-ASN,146726 // 
+IP-ASN,146727 // 
+IP-ASN,146728 // 
+IP-ASN,146729 // 
+IP-ASN,146730 // 
+IP-ASN,146731 // 
+IP-ASN,146732 // 
+IP-ASN,146733 // 
+IP-ASN,146734 // 
+IP-ASN,146735 // 
+IP-ASN,146736 // 
+IP-ASN,146737 // 
+IP-ASN,146738 // 
+IP-ASN,146739 // 
+IP-ASN,146740 // 
+IP-ASN,146741 // 
+IP-ASN,146742 // 
+IP-ASN,146743 // 
+IP-ASN,146744 // 
+IP-ASN,146745 // 
+IP-ASN,146746 // TaiKang Insurance Group 有限公司.,武汉 Operating Center
+IP-ASN,146753 // kgzxnet
+IP-ASN,146758 // 上海 Sensetime 技术开发有限公司
+IP-ASN,146771 // CCB Fintech 有限公司
+IP-ASN,146772 // 深圳 Pengcheng communication network 有限公司
+IP-ASN,146774 // Hardcore Communication Co.
+IP-ASN,146792 // 上海 Shenfu信息科技有限公司
+IP-ASN,146809 // Poly facility (北京) Technology 有限公司
+IP-ASN,146812 // Deutsche Bank (China) 有限公司 上海 Branch
+IP-ASN,146814 // Hong Kong大学 of Science and Technology, Dongchung Town,
+IP-ASN,146817 // 湖北 Feixun Network 有限公司
+IP-ASN,146822 // 深圳市 Zhongyun Shujujishu Youxiangongsi
+IP-ASN,146824 // GOLD SEA COMMUNICATIONS 有限公司
+IP-ASN,146827 // 北京 XunTong Communication Service 有限公司
+IP-ASN,146834 // 四川 XunYou Network Technologe 有限公司
+IP-ASN,146842 // ChinaDataCom 有限公司
+IP-ASN,146845 // 上海 Longjing信息科技有限公司
+IP-ASN,146966 // 中国电信
+IP-ASN,147008 // 深圳 Dianjiang Technology 有限公司
+IP-ASN,147038 // 中国电信
+IP-ASN,148969 // 中国电信
+IP-ASN,148981 // 中国电信
+IP-ASN,149056 // 哈尔滨 Liangyue 网络科技有限公司
+IP-ASN,149057 // 深圳 Moerin Technology 有限公司
+IP-ASN,149163 // 宜昌 Shuangsen 网络科技Ltd
+IP-ASN,149178 // 中国电信
+IP-ASN,149292 // 上海 YanFu Technology 有限公司
+IP-ASN,149475 // 南京天开信息技术有限公司
+IP-ASN,149506 // YousaFan LTD
+IP-ASN,149513 // 91440300MA5DH1CC86
+IP-ASN,149648 // 福州 Lefeng Networks Technology 有限公司
+IP-ASN,149790 // Octopus 云计算(上海) 有限公司
+IP-ASN,149793 // Xin Yang Bai Xing Network Tecnology 有限公司
+IP-ASN,149795 // XiaoJin233 Network
+IP-ASN,149837 // 中国电信
+IP-ASN,149979 // 中国电信
+# IP-ASN,150141 // Wang Jiacheng
+IP-ASN,150145 // 中国电信
+# IP-ASN,150166 // The New Development Bank
+IP-ASN,150173 // Polo云计算(Hong Kong) Limited
+# IP-ASN,150184 // Chen Chi
+# IP-ASN,150323 // Huang Xinnian
+# IP-ASN,150373 // Zhang Bocheng
+# IP-ASN,150374 // Jiang Men Shi Tian Da Cloud 有限公司 【未广播中国大陆IP】
+# IP-ASN,150400 // 深圳 Qiaolian 网络科技有限公司 【未广播中国大陆IP】
+# IP-ASN,150775 // 深圳 Zhian Network 有限公司
+# IP-ASN,151187 // Shen Jiale
+# IP-ASN,151192 // Shangren Lu
+# IP-ASN,151193 // Shandong Deju信息科技有限公司
+# IP-ASN,151194 // Zhu Yucheng
+# IP-ASN,151202 // Suzhou Honoka Technology 有限公司
+# IP-ASN,151311 // 深圳 Humeng Technology 有限公司
+# IP-ASN,151313 // Pacific Insurance Technology 有限公司
+# IP-ASN,151331 // Yang Banglong
+IP-ASN,151397 // 中国电信
+# IP-ASN,151416 // Liu Lang
+# IP-ASN,151418 // Zhang Junkai
+IP-ASN,151464 // 上海 Luogu 网络科技有限公司
+IP-ASN,151493 // 北京 Kouding Technology 有限公司
+# IP-ASN,151494 // Lin Kangyi
+IP-ASN,151640 // Bengbu Qingye Technology
+# IP-ASN,151673 // Chen Xinyu
+IP-ASN,151674 // Cheng Yijia
+# IP-ASN,151782 // Zhao Xingxing
+# IP-ASN,151785 // Zhou Yang
+IP-ASN,151814 // Guo Chuang Xin Xing (北京) Technology 有限公司
+IP-ASN,151823 // 中国电信
+IP-ASN,152092 // 河南 Angran 云计算Technology 有限公司
+# IP-ASN,197433 // XuanMing Liu
+# IP-ASN,197626 // XU ZIYAO
+# IP-ASN,197856 // Zhou Xiaopeng
+# IP-ASN,197866 // Jinqiang Zhang
+# IP-ASN,198025 // Yucheng Zhu
+# IP-ASN,198266 // Yunrui Gu
+# IP-ASN,198304 // Pinjia Zhao
+# IP-ASN,198527 // Haolin Li
+# IP-ASN,198764 // Rui Li
+# IP-ASN,199068 // XiaoYin Shi
+# IP-ASN,199307 // HE LI
+# IP-ASN,199310 // XIN BING XIAN
+# IP-ASN,199392 // SHIZHENG NIE
+# IP-ASN,199406 // Jin Han Shen trading as Yinyun 网络科技Studio
+# IP-ASN,199436 // BangLong Yang
+# IP-ASN,199684 // Shangren Lu
+# IP-ASN,199691 // Zhile Gong
+# IP-ASN,199832 // QUN LIN
+# IP-ASN,199932 // Tianle Shi
+# IP-ASN,200021 // Tianhong Peng
+# IP-ASN,200078 // Gao Yijia
+# IP-ASN,200103 // XUAN ZHU
+# IP-ASN,200256 // Yue Cao
+# IP-ASN,200257 // ZHIYUAN XIANG
+# IP-ASN,200267 // Yiping Zhao
+# IP-ASN,200268 // Haihan Chen
+# IP-ASN,200536 // Bo Xu
+# IP-ASN,200545 // Liu Quanhao
+# IP-ASN,200558 // ZIPENG DENG
+# IP-ASN,200592 // Junyang Liang
+# IP-ASN,200728 // YILI
+# IP-ASN,200782 // Xu Mingyu
+# IP-ASN,200789 // Wei Teng LIn
+# IP-ASN,200809 // QUN LIN
+# IP-ASN,200853 // Yifan Li
+# IP-ASN,200890 // Jianfeng Ren
+# IP-ASN,200895 // Xiaodong Yang
+# IP-ASN,200907 // Bai Shijie
+# IP-ASN,200912 // Xuanchen Zhu
+# IP-ASN,200936 // Chengjie Guo
+# IP-ASN,200949 // Qian Liu
+# IP-ASN,200954 // JINGMING SHANG
+# IP-ASN,200959 // Yaoxuan Chen
+# IP-ASN,202256 // Dongyu Zhang
+# IP-ASN,203083 // Yuxin Zhang
+# IP-ASN,203236 // Mingyang Shen
+# IP-ASN,203655 // zhiwensun
+# IP-ASN,203664 // LAN XING trading as "Haikou Meilan Lanxing Electronic Technology Trading House"
+# IP-ASN,203804 // Pengyuan Fan
+# IP-ASN,203888 // Yu Li
+# IP-ASN,203899 // Jingyuan Wang
+# IP-ASN,204185 // Yuchen Ma
+# IP-ASN,204214 // CHEN ZAO RONG
+# IP-ASN,205152 // Han Dai
+# IP-ASN,205532 // Zichao Heng
+# IP-ASN,205603 // Xinyu Wei
+# IP-ASN,205610 // Huanjie Zhu
+# IP-ASN,205618 // Yichen Lu
+# IP-ASN,205634 // Zihan Chen
+# IP-ASN,205651 // Hao Qiao
+IP-ASN,205794 // JINZE YANG
+# IP-ASN,205825 // XINYU-XIAO
+# IP-ASN,205923 // Yeung Yat Wu
+# IP-ASN,205947 // Ren Xiang
+# IP-ASN,206315 // Shucheng Li
+# IP-ASN,206628 // Tianyu-Zhu
+IP-ASN,206729 // Vincent Yang
+# IP-ASN,206843 // Jikai Ren
+# IP-ASN,206919 // Xuluo Chen
+# IP-ASN,207338 // Zhang Zongyu
+# IP-ASN,207401 // 上海 Moyu Technology 有限公司 【未广播中国大陆IP】
+# IP-ASN,208191 // MINGWEI LI
+# IP-ASN,208266 // Hanqi Yang
+# IP-ASN,208577 // Chaohui Liu
+# IP-ASN,208618 // Yangyu Chen
+IP-ASN,208679 // YIKAI-ZHAO
+# IP-ASN,208680 // ZHANG RANRUI
+# IP-ASN,208698 // Huang Zhijie
+# IP-ASN,208830 // ifanr Inc.
+# IP-ASN,208872 // Jing Mi
+# IP-ASN,208993 // Wei Xiaofan
+# IP-ASN,209083 // Jiahui Qiu
+# IP-ASN,209100 // 成渝，王
+# IP-ASN,209101 // Huanzhong (北京) Data 网络科技有限公司 【未广播中国大陆IP】
+# IP-ASN,209218 // Yang Qi
+# IP-ASN,209261 // Qiao Jiang
+# IP-ASN,209294 // Fan Zhang
+# IP-ASN,209300 // Wende Tan
+# IP-ASN,209306 // Jin Shaohai
+# IP-ASN,209484 // Jinan Xiangyun Tianhai信息科技有限公司 【未广播中国大陆IP】
+# IP-ASN,209556 // Benli Zhong
+# IP-ASN,209574 // Xiao Tan
+# IP-ASN,209586 // SUNYOU PAN
+# IP-ASN,209645 // Jixian Zeng
+# IP-ASN,209650 // Wu Zhiyuan
+# IP-ASN,209661 // SIQI WANG
+# IP-ASN,209686 // Xingyu Guo
+# IP-ASN,209864 // Zhaofeng Li
+IP-ASN,210041 // Licheng MAO
+# IP-ASN,210320 // Zihan Sun 【未广播中国大陆IP】
+IP-ASN,210426 // Liang Zhu 【未广播中国大陆IP】
+IP-ASN,210714 // Wang Yongjin 【未广播中国大陆IP】
+# IP-ASN,210815 // Feng, Zhe 【未广播中国大陆IP】
+# IP-ASN,210872 // Cui, Jiacheng 【未广播中国大陆IP】
+IP-ASN,210903 // 承德青曜网络技术服务有限公司
+IP-ASN,210934 // YAO PEI 【未广播中国大陆IP】
+# IP-ASN,211051 // Dazhong Technology Network Studio of Tieling County 【未广播中国大陆IP】
+# IP-ASN,211293 // Xie Jinshao 【未广播中国大陆IP】
+IP-ASN,211481 // JINGQUAN LI
+IP-ASN,211571 // Xin Zhao
+IP-ASN,211843 // 南京天开信息技术有限公司
+# IP-ASN,211980 // Ding Yu 【未广播中国大陆IP】
+# IP-ASN,211992 // Wei Tang
+# IP-ASN,212164 // Jiaxian He 【未广播中国大陆IP】
+IP-ASN,212237 // Changgong Zhang
+# IP-ASN,212292 // SKYWTH.COM LTD 【未广播中国大陆IP】
+# IP-ASN,212371 // Huizhou HuiGu CloudTech 有限公司 【未广播中国大陆IP】
+# IP-ASN,212532 // XIAO YANG WEN RUI 【未广播中国大陆IP】
+# IP-ASN,212623 // Fan Zhong 【未广播中国大陆IP】
+# IP-ASN,212690 // Enyu Li 【未广播中国大陆IP】
+# IP-ASN,212793 // Xiwei Ye 【未广播中国大陆IP】
+# IP-ASN,213069 // PANYUAN HUANG
+# IP-ASN,213115 // Aoi kato 【未广播中国大陆IP】
+# IP-ASN,215906 // Lili Fan 【未广播中国大陆IP】
+# IP-ASN,215969 // Tan Zhang 【未广播中国大陆IP】
+# IP-ASN,216056 // Jingqiu Xu 【未广播中国大陆IP】
+# IP-ASN,216173 // Guozhen Liu 【未广播中国大陆IP】
+# IP-ASN,216243 // CaiHui Ning 【未广播中国大陆IP】
+# IP-ASN,216299 // Yang Liuchang 【未广播中国大陆IP】
+# IP-ASN,216305 // Cong Zhang 【未广播中国大陆IP】
+# IP-ASN,216342 // JIANYU SHAO 【未广播中国大陆IP】
+# IP-ASN,216373 // Xin Xu 【未广播中国大陆IP】
+# IP-ASN,216405 // Zheng Chao 【未广播中国大陆IP】
