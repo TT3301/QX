@@ -48,7 +48,7 @@ jobs:
           curl -o rewrite/Maps.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Maps.snippet
           curl -o rewrite/Location.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet
           curl -o rewrite/TestFlightAccount.js https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
-          curl -o rewrite/boxjs.rewrite.quanx.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
+          curl -o rewrite/boxjs.rewrite.quanx.conf https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
 
       - name: Check for changes
         id: changes
