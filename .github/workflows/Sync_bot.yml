@@ -26,10 +26,9 @@ jobs:
         run: curl -o general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
       - name: Fetch the latest task files
-        run: curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
-
-      - name: Fetch the latest net-lsp-x.js
-        run: curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
+        run: |
+          curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
+          curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
 
       - name: Fetch the latest rewrite files
         run: |
@@ -53,10 +52,13 @@ jobs:
           curl -o rewrite/boxjs.rewrite.quanx.conf https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
           curl -o rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
 
+      - name: Fetch the latest rule files
+        run: curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+
       - name: Check for changes
         id: changes
         run: |
-          git add general/ task/ rewrite/
+          git add general/ task/ rewrite/ rule/
           if git diff --cached --quiet; then
             echo "No changes detected"
             echo "::set-output name=changed::false"
@@ -70,7 +72,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m '机器人同步: Update general, task, and rewrite files'
+          git commit -m '机器人同步: Update general, task, rewrite, and rule files'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
