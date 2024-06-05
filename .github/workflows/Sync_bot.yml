@@ -50,11 +50,12 @@ jobs:
           curl -o rewrite/Location.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet
           curl -o rewrite/TestFlightAccount.js https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
           curl -o rewrite/boxjs.rewrite.quanx.conf https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
+          curl -o rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
 
       - name: Check for changes
         id: changes
         run: |
-          git add general/resource-parser.js task/check.js task/net-lsp-x.js rewrite/
+          git add general/ task/ rewrite/
           if git diff --cached --quiet; then
             echo "No changes detected"
             echo "::set-output name=changed::false"
@@ -68,7 +69,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m '机器人同步: Update resource-parser.js, check.js, net-lsp-x.js, and rewrite files'
+          git commit -m '机器人同步: Update general, task, and rewrite files'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
