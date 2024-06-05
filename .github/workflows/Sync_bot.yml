@@ -40,9 +40,10 @@ jobs:
           curl -o rewrite/PSExpress.js https://raw.githubusercontent.com/Yu9191/Rewrite/main/PSExpress.js
           curl -o rewrite/DualSubs.Netflix.snippet https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.snippet
           curl -o rewrite/DualSubs.Spotify.snippet https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet
-          curl -o rewrite/DualSubs.Universal.snippet https://github.com/DualSubs/Universal/raw/main/modules/DualSubs.Universal.snippet
+          curl -o rewrite/DualSubs.Universal.snippet https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet
           curl -o rewrite/youtube.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
           curl -o rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
+          curl -o rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf
           curl -o rewrite/TV.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/TV.snippet
           curl -o rewrite/Siri.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet
           curl -o rewrite/Maps.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Maps.snippet
