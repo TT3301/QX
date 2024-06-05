@@ -1,4 +1,4 @@
-name: Sync resource-parser.js, check.js, and net-lsp-x.js
+name: 自动抓取Sync机器人
 
 on:
   schedule:
