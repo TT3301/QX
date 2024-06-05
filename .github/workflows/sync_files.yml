@@ -1,4 +1,4 @@
-name: Sync resource-parser.js and check.js
+name: Sync resource-parser.js, check.js, and net-lsp-x.js
 
 on:
   schedule:
@@ -23,12 +23,15 @@ jobs:
       - name: Fetch the latest check.js
         run: curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
 
+      - name: Fetch the latest net-lsp-x.js
+        run: curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add general/resource-parser.js task/check.js
-          git commit -m 'Update resource-parser.js and check.js'
+          git add general/resource-parser.js task/check.js task/net-lsp-x.js
+          git commit -m 'Update resource-parser.js, check.js, and net-lsp-x.js'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
