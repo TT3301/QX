@@ -22,19 +22,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch the latest resource-parser.js
+      - name: Fetch the latest general files
         run: curl -o general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
-      - name: Fetch the latest check.js
+      - name: Fetch the latest task files
         run: curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
 
       - name: Fetch the latest net-lsp-x.js
         run: curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
 
+      - name: Fetch the latest rewrite files
+        run: |
+          curl -o rewrite/amap.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet
+          curl -o rewrite/xiaohongshu.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
+          curl -o rewrite/Spotify.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/UnlockVip/Spotify.conf
+          curl -o rewrite/TikTok-TW.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf
+          curl -o rewrite/PSExpress.js https://raw.githubusercontent.com/Yu9191/Rewrite/main/PSExpress.js
+          curl -o rewrite/DualSubs.Netflix.snippet https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.snippet
+          curl -o rewrite/DualSubs.Spotify.snippet https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet
+          curl -o rewrite/DualSubs.Universal.snippet https://github.com/DualSubs/Universal/raw/main/modules/DualSubs.Universal.snippet
+          curl -o rewrite/youtube.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
+          curl -o rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
+          curl -o rewrite/TV.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/TV.snippet
+          curl -o rewrite/Siri.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet
+          curl -o rewrite/Maps.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Maps.snippet
+          curl -o rewrite/Location.snippet https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet
+          curl -o rewrite/TestFlightAccount.js https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
+          curl -o rewrite/boxjs.rewrite.quanx.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
+
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet; then
+          git add general/resource-parser.js task/check.js task/net-lsp-x.js rewrite/
+          if git diff --cached --quiet; then
             echo "No changes detected"
             echo "::set-output name=changed::false"
           else
@@ -47,8 +67,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add general/resource-parser.js task/check.js task/net-lsp-x.js
-          git commit -m 'Update resource-parser.js, check.js, and net-lsp-x.js'
+          git commit -m 'Update resource-parser.js, check.js, net-lsp-x.js, and rewrite files'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
