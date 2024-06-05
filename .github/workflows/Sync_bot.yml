@@ -34,6 +34,7 @@ jobs:
       - name: Fetch the latest rewrite files
         run: |
           curl -o rewrite/amap.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet
+          curl -o rewrite/xmly.js https://raw.githubusercontent.com/WeiGiegie/666/main/xmck.js
           curl -o rewrite/xiaohongshu.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
           curl -o rewrite/Spotify.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/UnlockVip/Spotify.conf
           curl -o rewrite/TikTok-TW.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf
