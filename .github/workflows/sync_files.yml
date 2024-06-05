@@ -31,7 +31,19 @@ jobs:
       - name: Fetch the latest net-lsp-x.js
         run: curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
 
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes detected"
+            echo "::set-output name=changed::false"
+          else
+            echo "Changes detected"
+            echo "::set-output name=changed::true"
+          fi
+
       - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
