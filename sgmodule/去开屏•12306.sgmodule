@@ -1,0 +1,10 @@
+#!name=去开屏 ▶ 12306
+#!desc=去开屏广告
+#!icon= https://raw.githubusercontent.com/TT3301/QX/main/icon/12306.png
+#!category=💎Private
+
+[Script]
+12306.js = requires-body=1,script-path=./Scripts/12306.js,type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
+
+[MITM]
+hostname = %APPEND% ad.12306.cn

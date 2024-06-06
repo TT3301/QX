@@ -1,0 +1,15 @@
+#!name=签到 ▶ 建行生活
+#!desc=连续签到优惠卷
+#!openUrl=https://github.com/FoKit/Scripts
+#!author=Fokit
+#!homepage=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+#!icon= https://raw.githubusercontent.com/TT3301/QX/main/icon/CCB.png
+#!category=💎Private
+
+[MITM]
+hostname = %APPEND% yunbusiness.ccb.com
+
+[Script]
+获取CK数据 = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+
+定时任务 = type=cron,cronexp=15 07 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0

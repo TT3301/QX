@@ -1,0 +1,12 @@
+#!name=查询余量 ▶ 中国广电•10099
+#!desc=查询余额，流量
+#!homepage=https://github.com/wuhuhuuuu/study/tree/main/Scripts/ChinaBroadnet
+#!category=💎Private
+
+[Script]
+ChinaBroadnet.cookie = type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
+
+ChinaBroadnet = type=cron,cronexp=12 03 * * *,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js,wake-system=1,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% wx.10099.com.cn
