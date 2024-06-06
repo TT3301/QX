@@ -61,7 +61,7 @@ jobs:
           curl -o sgmodule/Location.sgmodule https://raw.githubusercontent.com/VirgilClyne/iRingo/main/sgmodule/Location.sgmodule
           curl -o sgmodule/Siri.macOS.sgmodule https://raw.githubusercontent.com/VirgilClyne/iRingo/main/sgmodule/Siri.macOS.sgmodule
           curl -o sgmodule/Maps.sgmodule https://raw.githubusercontent.com/VirgilClyne/iRingo/main/sgmodule/Maps.sgmodule
-          curl -o sgmodule/去广告&画中画 ▶ Youtube.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Enhance.sgmodule
+          curl -o sgmodule/Youtube.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Enhance.sgmodule
           curl -o sgmodule/DualSubs.Netflix.sgmodule https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.sgmodule
           curl -o sgmodule/DualSubs.Universal.sgmodule https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.sgmodule
 
