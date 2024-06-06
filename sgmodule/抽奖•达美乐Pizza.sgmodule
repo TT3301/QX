@@ -1,0 +1,11 @@
+#!name=抽奖 ▶ 达美乐Pizza
+#!desc=游戏抽奖
+#!category=💎Private
+
+[Script]
+达乐美披萨获取token = http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,requires-body=true, timeout=10
+
+达乐美披萨 = type=cron,cronexp="30 07 * * *",timeout=300,script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% game.dominos.com.cn
