@@ -2,7 +2,7 @@ name: 自动抓取Sync机器人
 
 on:
   schedule:
-    # 每天 UTC 时间0点0分运行一次
+    # 每天 UTC 时间3点0分运行一次
     - cron: '0 3 * * *'
   workflow_dispatch:
     # 手动触发
@@ -52,6 +52,9 @@ jobs:
           curl -o rewrite/boxjs.rewrite.quanx.conf https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
           curl -o rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
           curl -o rewrite/dlm.js https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
+          curl -o rewrite/12306.js https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
+          curl -o rewrite/jhsh_checkIn.js https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+          curl -o rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
 
       - name: Fetch the latest rule files
         run: curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
@@ -65,10 +68,13 @@ jobs:
           curl -o sgmodule/DualSubs.Netflix.sgmodule https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.sgmodule
           curl -o sgmodule/DualSubs.Universal.sgmodule https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.sgmodule
 
+      - name: Fetch the latest http_backend files
+        run: curl -o http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js
+
       - name: Check for changes
         id: changes
         run: |
-          git add general/ task/ rewrite/ rule/ sgmodule/
+          git add general/ task/ rewrite/ rule/ sgmodule/ http_backend/
           if git diff --cached --quiet; then
             echo "No changes detected"
             echo "::set-output name=changed::false"
@@ -82,7 +88,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m '机器人同步: Update general, task, rewrite, rule, and sgmodule files'
+          git commit -m '机器人同步: Update general, task, rewrite, rule, sgmodule, and http_backend files'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
