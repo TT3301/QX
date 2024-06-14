@@ -2,7 +2,7 @@ name: 自动抓取Sync机器人
 
 on:
   schedule:
-    # 每天 UTC 时间0点0分运行一次
+    # 每天 UTC 时间3点0分运行一次
     - cron: '0 3 * * *'
   workflow_dispatch:
     # 手动触发
@@ -68,10 +68,13 @@ jobs:
           curl -o sgmodule/DualSubs.Netflix.sgmodule https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.sgmodule
           curl -o sgmodule/DualSubs.Universal.sgmodule https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.sgmodule
 
+      - name: Fetch the latest http_backend files
+        run: curl -o http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js
+
       - name: Check for changes
         id: changes
         run: |
-          git add general/ task/ rewrite/ rule/ sgmodule/
+          git add general/ task/ rewrite/ rule/ sgmodule/ http_backend/
           if git diff --cached --quiet; then
             echo "No changes detected"
             echo "::set-output name=changed::false"
@@ -85,7 +88,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m '机器人同步: Update general, task, rewrite, rule, and sgmodule files'
+          git commit -m '机器人同步: Update general, task, rewrite, rule, sgmodule, and http_backend files'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
