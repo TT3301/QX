@@ -1,0 +1,13 @@
+{
+    "name": "TT's QX Gallery🈴集",
+    "description": "个人收集自用！",
+    "task": [
+        "15 07 * * * https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jhsh.js, tag=建行生活•签到, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/CCB.png, enabled=true",
+        "15 03 * * * https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js, tag=中国广电•10099, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/10019.png, enabled=true",
+        "32 10 * * * https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, tag=达乐美Pizza, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/DominoPizza.png, enabled=false",
+        "event-interaction https://raw.githubusercontent.com/TT3301/QX/main/task/switch-check-google.js, tag=Google送中IP查询, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/Google_02.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/TT3301/QX/main/task/net-lsp-x.js, tag=查询•节点•入口和落地 𝕏, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_03.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/TT3301/QX/main/task/Net_Speed.js, tag=检测•节点速度, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_01.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/TT3301/QX/main/task/streaming-ui-check.js, tag=检测•流媒体解锁, img-url=https://raw.githubusercontent.com/TT3301/QX/main/icon/Speedtest_02.png, enabled=true"
+    ]
+}
