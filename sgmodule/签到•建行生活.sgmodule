@@ -4,7 +4,7 @@
 #!author=Fokit
 #!homepage=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
 #!icon= https://raw.githubusercontent.com/TT3301/QX/main/icon/CCB.png
-#!category=💎Private
+#!category=💎Local_Module
 
 [MITM]
 hostname = %APPEND% yunbusiness.ccb.com

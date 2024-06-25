@@ -1,6 +1,6 @@
 #!name=抽奖 ▶ 达美乐Pizza
 #!desc=游戏抽奖
-#!category=💎Private
+#!category=💎Local_Module
 
 [Script]
 达乐美披萨获取token = http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dlm.js,requires-body=true, timeout=10

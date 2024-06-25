@@ -1,6 +1,6 @@
 #!name=破解 ▶ PSExpress
 #!desc=PSExpress付费订阅
-#!category=💎Private
+#!category=💎Local_Module
 
 [Script]
 PSExpress = type=http-response, pattern=https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/PSExpress.js, requires-body=true, max-size=-1, timeout=60

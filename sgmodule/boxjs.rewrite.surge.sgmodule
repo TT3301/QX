@@ -1,7 +1,7 @@
 #!name=本地部署 ▶ BoxJs
 #!desc=http://boxjs.com
 #!homepage=https://docs.boxjs.app/
-#!category=💎Private
+#!category=💎Local_Module
 
 [General]
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
