@@ -4,7 +4,7 @@
 #!author=Semporia
 #!homepage=https://github.com/Semporia/TikTok-Unlock
 #!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
-#!category=💎Private
+#!category=💎Local_Module
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) TW 307

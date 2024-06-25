@@ -1,7 +1,7 @@
 #!name=脚本转换 ▶ Script Hub
 #!desc=https://script.hub
 #!author=@小白脸 @xream @keywos @ckyb
-#!category=💎Private
+#!category=💎Local_Module
 
 [General]
 force-http-engine-hosts = %APPEND% script.hub, *.script.hub
