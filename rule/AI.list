@@ -1,11 +1,14 @@
 # ChatGPT
 DOMAIN, cdn.auth0.com
 DOMAIN, ab.chatgpt.com
+DOMAIN, ios.chat.openai.com
 DOMAIN, chat.openai.com
+DOMAIN, browser-intake-datadoghq.com
 DOMAIN-SUFFIX, ai.com
 DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, chatgpt.com
 DOMAIN-SUFFIX, oaistatic.com
+DOMAIN-SUFFIX, sentry.io
 DOMAIN-KEYWORD, openai
 
 # Claude.ai
