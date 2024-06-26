@@ -36,3 +36,16 @@ DOMAIN, aida.googleapis.com
 DOMAIN, aistudio.google.com
 DOMAIN, alkalimakersuite-pa.clients6.google.com
 DOMAIN, makersuite.google.com
+
+# Stripe
+DOMAIN, api.stripe.com
+DOMAIN, m.stripe.com
+DOMAIN, q.stripe.com
+DOMAIN, app.link.com
+DOMAIN, api.company-target.com
+DOMAIN-SUFFIX, stripe.com
+DOMAIN-SUFFIX, stripecdn.com
+DOMAIN-SUFFIX, link.com
+DOMAIN-SUFFIX, stripe.network
+DOMAIN-SUFFIX, zi-scripts.com
+DOMAIN-SUFFIX, hcaptcha.com
