@@ -2,6 +2,8 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/DouYin/DouYin.list
 
+USER-AGENT, Aweme*
+USER-AGENT, aweme*
 DOMAIN, lf3-static.bytednsdoc.com
 DOMAIN, v5-dy-o-abtest.zjcdn.com
 DOMAIN, tosv.byted.org
@@ -27,6 +29,6 @@ IP-CIDR, 112.123.39.23/32
 # 地区检测
 IP-CIDR, 120.52.0.0/16
 IP-CIDR, 220.194.0.0/16
-USER-AGENT, Aweme*
-USER-AGENT, DiDi*
+
+
 
