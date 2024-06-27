@@ -3,11 +3,11 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/DouYin/DouYin.list
 
 USER-AGENT, Aweme*
-USER-AGENT, Douyin*
 USER-AGENT, KCG-PD*
 DOMAIN, lf3-static.bytednsdoc.com
 DOMAIN, v5-dy-o-abtest.zjcdn.com
 DOMAIN, tosv.byted.org
+DOMAIN-SUFFIX, douyin.com
 DOMAIN-SUFFIX, amemv.com
 DOMAIN-SUFFIX, douyincdn.com
 DOMAIN-SUFFIX, douyinpic.com
@@ -23,15 +23,8 @@ DOMAIN-SUFFIX, smtcdns.com
 DOMAIN-SUFFIX, volcsiriusbd.com
 DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, zijieapi.com
+DOMAIN-SUFFIX, toutiao.com
 IP-CIDR, 220.195.132.0/24
-IP-CIDR, 123.129.0.0/16
-IP-CIDR, 123.129.228.0/24
-IP-CIDR, 101.71.80.0/24
-IP-CIDR, 103.248.154.13/32
-IP-CIDR, 112.123.39.23/32
-# 地区检测
-IP-CIDR, 120.52.0.0/16
-IP-CIDR, 220.194.0.0/16
 
 
 
