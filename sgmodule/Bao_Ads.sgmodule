@@ -6,55 +6,59 @@
 
 [Rule]
 # == 去开屏•中国联通app
-DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
+DOMAIN-SUFFIX, m1.ad.10010.com, REJECT
 # == 去广告•爱奇艺
-DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
 # == 去广告•京东
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts),REJECT
-URL-REGEX,^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4},REJECT
+URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT
+URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT
 # == 去广告•优酷
 DOMAIN, iyes.youku.com,REJECT
-URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
+URL-REGEX, ^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/, REJECT-TINYGIF
 # == 去广告•交管12123
-URL-REGEX,^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$,REJECT
+URL-REGEX,^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT
 # == 去广告•云闪付
-URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
+URL-REGEX, ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long, REJECT
 # == 去开屏•建行生活
-URL-REGEX,^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9),REJECT
+URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT
+URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT
 
 [URL Rewrite]
-# == 去广告•建设银行
-^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png - reject
-
+# == 去开屏•中信银行 ▶ imcs.citicbank.com
+^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} - REJECT
+# == 去开屏•发现精彩 ▶ static.95508.com
+^https:\/\/static\.95508\.com\/mmg\/images\/ads\/.*\.(jpg|png) - REJECT
 # == 去广告•云闪付 ▶ wallet.95516.com
-^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
-
+^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - REJECT
 # == 去广告•交管12123 ▶ gab.122.gov.cn 
-^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
-
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - REJECT
 # == 去广告•拼多多 ▶ api.pinduoduo.com, api.yangkeduo.com
-^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - REJECT
 
 [Map Local]
+# == 去开屏•缤纷生活 ▶ mlife.jf365.boc.cn
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+# == 去开屏•东方航空 ▶ app.ceair.com
+^https?:\/\/app\.ceair\.com\/customize\/security\/update data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+# == 去广告•米家 ▶ home.mi.com
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+# == 去开屏•牛听听(需卸载重装) ▶ gateway.benewtech.cn
+^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
 # == 中国移动 ▶ client.app.coc.10086.cn
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
 # == 去开屏•掌上生活 (需卸载重装) ▶ mbasecc.bas.cmbchina.com
-^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
 # == 去开屏•浦大喜奔
-^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(4038|0571|M511|V-008|g549|b0628) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
+^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(4038|0571|M511|V-008|g549|b0628) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
 # == 去广告•飞猪 ▶ acs.m.taobao.com
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
 
 [Script]
-
+# == 去开屏•12306 ▶ %APPEND% ad.12306.cn
+12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/12306.js, requires-body=true
 # == 解锁•极简汇率 ▶ xremit.xcurrency.com, explorer.tratao.com
-jijianhuilv = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js, requires-body=true, max-size=-1, timeout=60
-
-# == 跳过微信中转页面,解除被封链接 ▶ weixin110.qq.com, security.wechat.com
-wechat110 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js, requires-body=true, max-size=-1, timeout=60
+jijianhuilv = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jijianhuilv.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, weixin110.qq.com, security.wechat.com, acs.m.taobao.com, wallet.95516.com
+hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn
