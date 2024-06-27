@@ -20,6 +20,8 @@ DOMAIN-SUFFIX, snssdk.com
 DOMAIN-SUFFIX, toutiao.com
 DOMAIN-SUFFIX, smtcdns.com
 DOMAIN-SUFFIX, volcsiriusbd.com
+DOMAIN-SUFFIX, bytegecko.com
+DOMAIN-SUFFIX, zijieapi.com
 IP-CIDR, 220.195.132.0/24
 IP-CIDR, 123.129.0.0/16
 IP-CIDR, 123.129.228.0/24
