@@ -4,6 +4,7 @@
 
 USER-AGENT, Aweme*
 USER-AGENT, Douyin*
+USER-AGENT, okhttp*
 DOMAIN, lf3-static.bytednsdoc.com
 DOMAIN, v5-dy-o-abtest.zjcdn.com
 DOMAIN, tosv.byted.org
