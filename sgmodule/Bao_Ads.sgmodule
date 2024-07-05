@@ -68,7 +68,7 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 获取Token•华住 = type=http-request, pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$, script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
 
 # == 获取Token•达乐美🍕 ▶ game.dominos.com.cn
-获取Token•达乐美🍕 = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dlm.js, timeout=10
+获取Token•达乐美🍕 = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone, script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, requires-body=true, timeout=10
 
 
 [MITM]
