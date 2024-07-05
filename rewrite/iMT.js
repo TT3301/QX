@@ -93,6 +93,7 @@ let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
 let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;17.4;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
+const Item_ID_Count = 10941; //对应下面的获取门店指定端口库存查询
 
 if ($.isNode()) {
   MT_PROVINCE = process.env.MT_PROVINCE ? process.env.MT_PROVINCE : MT_PROVINCE;
@@ -367,7 +368,7 @@ function getSessionId() {
 function getShopInfo() {
   console.log(`获取[${MT_PROVINCE + MT_CITY + MT_DISTRICT}]门店库存:\n`);
   let opt = {
-    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/10941/${zeroDate}`,
+    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/${Item_ID_Count }/${zeroDate}`,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     }
