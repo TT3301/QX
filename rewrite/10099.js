@@ -1,11 +1,7 @@
-/*
-------------------------------------------------------------------------------------------
-搬动自作者库：https://github.com/wuhuhuuuu/study/tree/main/Scripts/ChinaBroadnet
-------------------------------------------------------------------------------------------
-*/
-
-const $ = new Env('10099')
-$.KEY_sign = '10099'
+const $ = new Env('wuhuhu.ChinaBroadnet')
+$.KEY_url = '@wuhuhu.ChinaBroadnet.url'
+$.KEY_access = '@wuhuhu.ChinaBroadnet.access'
+$.KEY_body = '@wuhuhu.ChinaBroadnet.body'
 
 !(async () => {
   await login()
@@ -16,7 +12,19 @@ $.KEY_sign = '10099'
 
 function login() {
   return new Promise((resolve) => {
-    const opts = JSON.parse($.getdata($.KEY_sign))
+    const url = $.getdata($.KEY_url)
+    const access = $.getdata($.KEY_access)
+    const body = $.getdata($.KEY_body)
+    const opts = {}
+    const data = {
+      "data": body
+    }
+    opts.url = url
+    opts.headers = {
+        'access': access,
+        'content-type': 'application/json'
+        }
+    opts.body = JSON.stringify(data)
     $.post(opts, (err, resp, data) => {
       try {
         $.Info = JSON.parse(data)
