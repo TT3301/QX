@@ -32,6 +32,8 @@ jobs:
 
       - name: Fetch the latest rewrite files
         run: |
+          curl -o rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
+          curl -o rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js
           curl -o rewrite/amap.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet
           curl -o rewrite/xmly.js https://raw.githubusercontent.com/WeiGiegie/666/main/xmck.js
           curl -o rewrite/xiaohongshu.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
