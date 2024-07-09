@@ -72,7 +72,7 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 // 定时任务•达乐美🍕 = type=cron, cronexp=31 10 * * *, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/dlm.js, timeout=300
 
 # == 获取Token•顺丰快递 ▶ mcs-mimp-web.sf-express.com ▶ 打开小程序，进入我的页面，点击优惠券页面获取token
-获取token•顺丰快递小程序 = type=http-request, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=10
+获取token•顺丰快递小程序 = type=http-request, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, timeout=10
 
 # == 查询余额•中国广电10099 ▶ wx.10099.com.cn  ▶ 登录微信小程序自动获取
 获取cookie•中国广电 = type=http-request, pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/10099Get_Cookie.js, ,requires-body=1, max-size=0
