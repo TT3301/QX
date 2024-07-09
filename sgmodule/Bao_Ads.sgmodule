@@ -37,22 +37,22 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 [Map Local]
 # == 去开屏•缤纷生活 ▶ mlife.jf365.boc.cn
-^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data-type=text data="{}"
 # == 去开屏•东方航空 ▶ app.ceair.com
-^https?:\/\/app\.ceair\.com\/customize\/security\/update data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
-^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https?:\/\/app\.ceair\.com\/customize\/security\/update data-type=text data="{}"
+^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data-type=text data="{}"
 # == 去广告•米家 ▶ home.mi.com
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data-type=text data="{}"
 # == 去开屏•牛听听(需卸载重装) ▶ gateway.benewtech.cn
-^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage data-type=text data="{}"
 # == 中国移动 ▶ client.app.coc.10086.cn
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data-type=text data="{}"
 # == 去开屏•掌上生活 (需卸载重装) ▶ mbasecc.bas.cmbchina.com
-^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}"
 # == 去开屏•浦大喜奔
-^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(4038|0571|M511|V-008|g549|b0628) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(4038|0571|M511|V-008|g549|b0628) data-type=text data="{}"
 # == 去广告•飞猪 ▶ acs.m.taobao.com
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="https://raw.githubusercontent.com/TT3301/QX/main/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
 
 [Script]
 # == 去开屏•12306 ▶ %APPEND% ad.12306.cn
