@@ -28,6 +28,7 @@ jobs:
       - name: Fetch the latest task files
         run: |
           curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
+          curl -o task/Sub-info.js https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js
           curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
 
       - name: Fetch the latest rewrite files
