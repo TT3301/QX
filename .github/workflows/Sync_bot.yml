@@ -61,7 +61,9 @@ jobs:
           curl -o rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 
       - name: Fetch the latest rule files
-        run: curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+        run: |
+          curl -o rule/Emby.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
+          curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
       - name: Fetch the latest sgmodule files
         run: |
