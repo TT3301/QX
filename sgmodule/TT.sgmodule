@@ -6,7 +6,7 @@
 
 [Rule]
 # == 去广告•工商银行
-DOMAIN-, image.mybank.icbc.com.cn, REJECT
+DOMAIN, image.mybank.icbc.com.cn, REJECT
 DOMAIN-SUFFIX, mall.icbc.com.cn, REJECT
 # == 去开屏•中国联通app
 DOMAIN-SUFFIX, m1.ad.10010.com, REJECT
