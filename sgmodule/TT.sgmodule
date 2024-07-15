@@ -77,7 +77,7 @@ Token•达乐美🍕 = type=http-request, pattern=^https:\/\/game\.dominos\.com
 Token•顺丰快递小程序 = type=http-response, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, timeout=10
 
 # == 获取Cookie•中国广电10099 ▶ wx.10099.com.cn  ▶ 登录微信小程序自动获取
-Cookie•中国广电 = type=http-request, pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/10099Get_Cookie.js, ,requires-body=1, max-size=0
+Cookie•中国广电 = type=http-request, pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/10099Get_Cookie.js, requires-body=1, max-size=0
 
 # == 获取Cookie•建生生活 ▶ yunbusiness.ccb.com
 Cookie•建行生活 = type=http-request, pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jhsh_checkIn.js, requires-body=1, max-size=0
