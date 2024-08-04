@@ -72,7 +72,7 @@ Cookie•中国广电 = type=http-request, pattern=https://wx.10099.com.cn/conta
 # == 获取Cookie•建生生活 ▶ yunbusiness.ccb.com
 Cookie•建行生活 = type=http-request, pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jhsh_checkIn.js, requires-body=1, max-size=0
 # == 获取Cookie•高德打车 ▶ 
-Cookie•高德打车 = type=http-response, pattern=^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js/_end_/ampDache.js?type=qx-script&target=surge-script&wrap_response=true, requires-body=true, max-size=-1, timeout=60
+Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com
