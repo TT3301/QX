@@ -27,4 +27,5 @@ DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, ttwebview.com
 DOMAIN-SUFFIX, bytetcc.com
-IP-ASN, 9808
+IP-ASN, 17621 // 中国联通上海城网
+IP-ASN, 9808 // 广东移动通信有限公司
