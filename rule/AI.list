@@ -50,3 +50,6 @@ DOMAIN-SUFFIX, link.com
 DOMAIN-SUFFIX, stripe.network
 DOMAIN-SUFFIX, zi-scripts.com
 DOMAIN-SUFFIX, hcaptcha.com
+
+# thePorndb
+DOMAIN-SUFFIX, theporndb.net
