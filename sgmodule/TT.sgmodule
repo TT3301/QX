@@ -77,7 +77,7 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 解锁•Xmind旧版 = type=http-response, pattern=^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/Xmind.js, requires-body=true, max-size=-1, timeout=60
 
 # == 获取Cookie•奶茶多合一 ▶ webapi2.qmai.cn,webapi.qmai.cn,qmwebapi.qmai.cn
-Cookie•奶茶多合一 = type=http-request,pattern=^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp),requires-body=1,max-size=0,binary-body-mode=0,script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js,script-update-interval=0
+Cookie•奶茶多合一 = type=http-response,pattern=^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js,script-update-interval=0
 Cookie•奶茶多合一 = type=http-request,pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign),requires-body=1,max-size=0,binary-body-mode=0,script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js,script-update-interval=0
 
 [MITM]
