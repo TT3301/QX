@@ -57,22 +57,31 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 [Script]
 # == 去开屏•12306 ▶ %APPEND% ad.12306.cn
 去开屏•12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/12306.js, requires-body=true
+
 # == 解锁•极简汇率 ▶ xremit.xcurrency.com, explorer.tratao.com
 解锁•极简汇率 = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jijianhuilv.js, requires-body=true, max-size=-1, timeout=60
+
 # == 获取Token•茅台 ▶ app.moutai519.com.cn
 Token•茅台 = type=http-request, pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/iMT.js, requires-body=0, max-size=0
+
 # == 获取Token•华住app ▶ hweb-personalcenter.huazhu.com
 Token•华住 = type=http-request, pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$, script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
+
 # == 获取Token•达乐美🍕 ▶ game.dominos.com.cn
 Token•达乐美🍕 = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone, script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, requires-body=true, timeout=10
+
 # == 获取Token•顺丰快递 ▶ mcs-mimp-web.sf-express.com ▶ 打开小程序，进入我的页面，点击优惠券页面获取token
-Token•顺丰快递小程序 = type=http-response, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, timeout=10
+Token•顺丰快递小程序 = type=http-response, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/sfsy.js, timeout=10
+
 # == 获取Cookie•中国广电10099 ▶ wx.10099.com.cn  ▶ 登录微信小程序自动获取
 Cookie•中国广电 = type=http-request, pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/10099Get_Cookie.js, requires-body=1, max-size=0
+
 # == 获取Cookie•建生生活 ▶ yunbusiness.ccb.com
 Cookie•建行生活 = type=http-request, pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jhsh_checkIn.js, requires-body=1, max-size=0
+
 # == 获取Cookie•高德打车 ▶ *.amap.com
 Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, requires-body=true, max-size=-1, timeout=60
+
 # == 解锁•Xmind旧版 ▶ *xmind.*
 解锁•Xmind旧版 = type=http-response, pattern=^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/Xmind.js, requires-body=true, max-size=-1, timeout=60
 
