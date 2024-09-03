@@ -39,8 +39,6 @@ jobs:
           curl -o rewrite/xmly.js https://raw.githubusercontent.com/WeiGiegie/666/main/xmck.js
           curl -o rewrite/xiaohongshu.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
           curl -o rewrite/Spotify.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/UnlockVip/Spotify.conf
-          curl -o rewrite/TikTok-TW.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf
-          curl -o rewrite/PSExpress.js https://raw.githubusercontent.com/Yu9191/Rewrite/main/PSExpress.js
           curl -o rewrite/DualSubs.Netflix.snippet https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.snippet
           curl -o rewrite/DualSubs.Spotify.snippet https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet
           curl -o rewrite/DualSubs.Universal.snippet https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet
@@ -59,6 +57,7 @@ jobs:
           curl -o rewrite/jhsh_checkIn.js https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
           curl -o rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
           curl -o rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+          curl -o rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js
 
       - name: Fetch the latest rule files
         run: |
