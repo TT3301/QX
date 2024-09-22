@@ -39,7 +39,7 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 [Map Local]
 # == 去开屏•缤纷生活 ▶ mlife.jf365.boc.cn
-^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data-type=text data="{}"
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/layout\.do\?txnId=2MUI009100 data-type=text data="{}"
 # == 去开屏•东方航空 ▶ app.ceair.com
 ^https?:\/\/app\.ceair\.com\/customize\/security\/update data-type=text data="{}"
 ^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data-type=text data="{}"
