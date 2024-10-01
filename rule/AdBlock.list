@@ -1,3 +1,5 @@
+# 联通
+DOMAIN-SUFFIX, m1.ad.10010.com,REJECT
 # 字节跳动广告
 URL-REGEX,^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/,REJECT
 DOMAIN,mon.zijieapi.com,REJECT
