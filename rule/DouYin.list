@@ -28,7 +28,7 @@ DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, ttwebview.com
 DOMAIN-SUFFIX, bytetcc.com
 IP-ASN, 17621,no-resolve // 中国联通上海城网
-IP-ASN, 133118,no-resolve // 中国联通IP网络
-IP-ASN, 133119,no-resolve // 中国联通IP网络
-IP-ASN, 4837,no-resolve // 中国联通骨干网
-IP-ASN, 9808,no-resolve // 广东移动通信有限公司
+#IP-ASN, 133118,no-resolve // 中国联通IP网络
+#IP-ASN, 133119,no-resolve // 中国联通IP网络
+#IP-ASN, 4837,no-resolve // 中国联通骨干网
+#IP-ASN, 9808,no-resolve // 广东移动通信有限公司
