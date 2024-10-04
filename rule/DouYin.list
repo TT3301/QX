@@ -2,6 +2,8 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/DouYin/DouYin.list
 
 USER-AGENT, Aweme*
+USER-AGENT, KCG-PD/*
+DOMAIN-SUFFIX, douyinvod.com
 DOMAIN-KEYWORD, trace/v3
 
 #IP-ASN, 17621,no-resolve // 中国联通上海城网
