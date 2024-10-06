@@ -26,6 +26,8 @@ URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A
 URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT
 
 [URL Rewrite]
+# == 更改百度网盘UA
+http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.com
 # == 重定向 HTTP to HTTPS
 ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
@@ -95,4 +97,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
+hostname = %APPEND% *.baidupcs.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
