@@ -35,7 +35,8 @@ http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.
 # == 去开屏•中信银行 ▶ imcs.citicbank.com
 ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} - REJECT
 # == 去开屏•发现精彩 ▶ static.95508.com
-^https:\/\/static\.95508\.com\/mmg\/images\/ads$ - reject
+^https:\/\/static\.95508\.com\/mmg\/images\/ads\/.*$ - reject
+^https:\/\/static\.95508\.com\/mmg\/ciop\/sysabbr\/cmep\/images\/apppopupads\/.*$ - reject
 # == 去广告•云闪付 ▶ wallet.95516.com
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - REJECT
 # == 去广告•交管12123 ▶ gab.122.gov.cn 
