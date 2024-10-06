@@ -33,6 +33,8 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 # == 去开屏•中信银行 ▶ imcs.citicbank.com
 ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} - REJECT
+# == 去开屏•发现精彩 ▶ static.95508.com
+^https:\/\/static\.95508\.com\/mmg\/images\/ads\/.*\.(jpg|png)$ - reject
 # == 去广告•云闪付 ▶ wallet.95516.com
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - REJECT
 # == 去广告•交管12123 ▶ gab.122.gov.cn 
@@ -52,13 +54,13 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data-type=text data="{}"
 # == 去开屏•掌上生活 (需卸载重装) ▶ mbasecc.bas.cmbchina.com
 ^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}"
-# == 去开屏•浦大喜奔
+# == 去开屏•浦大喜奔 ▶ image.spdbccc.com
 ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(4038|0571|M511|V-008|g549|b0628) data-type=text data="{}"
 # == 去广告•飞猪 ▶ acs.m.taobao.com
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
 
 [Script]
-# == 去开屏•12306 ▶ %APPEND% ad.12306.cn
+# == 去开屏•12306 ▶ ad.12306.cn
 去开屏•12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/12306.js, requires-body=true
 
 # == 解锁•极简汇率 ▶ xremit.xcurrency.com, explorer.tratao.com
@@ -93,4 +95,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
+hostname = %APPEND% client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
