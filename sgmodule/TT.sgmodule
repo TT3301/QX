@@ -45,6 +45,15 @@ http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.
 ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - REJECT
 
 [Map Local]
+# == 去广告•快递100 ▶ p.kuaidi100.com
+^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do\ data-type=text data="{}" status-code=200
+^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal/ data-type=text data="{}" status-code=200
+# == 去开屏•下厨房 ▶ api.xiachufang.com
+^https:\/\/api\.xiachufang\.com\/v2\/ad\/ data-type=text data="{}"
+# == 禁止•百度输入法收集用户数据 ▶ mime.baidu.com
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data-type=text data="{}" status-code=200
+^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data-type=text data="{}" status-code=200
+^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data-type=text data="{}" status-code=200
 # == 去开屏•缤纷生活 ▶ mlife.jf365.boc.cn
 ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/layout\.do\?txnId=2MUI009100 data-type=text data="{}"
 # == 去开屏•东方航空 ▶ app.ceair.com
@@ -97,4 +106,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% *.baidupcs.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
+hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, *.baidupcs.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, gab.122.gov.cn, api.pinduoduo.com, api.yangkeduo.com, acs.m.taobao.com, wallet.95516.com, home.mi.com, static.95508.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn
