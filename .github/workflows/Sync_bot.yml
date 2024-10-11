@@ -72,6 +72,8 @@ jobs:
           curl -o sgmodule/Youtube.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Enhance.sgmodule
           curl -o sgmodule/DualSubs.Netflix.sgmodule https://raw.githubusercontent.com/DualSubs/Netflix/main/modules/DualSubs.Netflix.sgmodule
           curl -o sgmodule/DualSubs.Universal.sgmodule https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.sgmodule
+          curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
+          
 
       - name: Fetch the latest http_backend files
         run: curl -o http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js
