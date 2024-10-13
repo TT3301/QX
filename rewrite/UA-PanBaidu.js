@@ -4,7 +4,7 @@
 ^http:\/\/(.*?)\.baidupcs\.com url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
 
 [mitm] 
-hostname = *.pornhub.com
+hostname = *.baidupcs.com
 
 ***********************************/
 
