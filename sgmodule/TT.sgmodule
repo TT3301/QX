@@ -27,8 +27,6 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 
 [URL Rewrite]
-# == 更改百度网盘UA
-http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.com
 # == 重定向 HTTP to HTTPS
 ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
@@ -43,6 +41,10 @@ http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.
 ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - REJECT
 # == 去开屏•动卡空间
 ^https:\/\/ump\.szcdn\.creditcard\.ecitic\.com\/ump\/img\/(\d{14,18})\.(png|jpg)$ - REJECT
+
+[Header Rewrite]
+# == 更改百度网盘UA
+http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.com
 
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
