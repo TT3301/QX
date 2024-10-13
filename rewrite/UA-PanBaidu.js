@@ -12,4 +12,5 @@ hostname = *.baidupcs.com
 let headers = $request.headers; // 不需要 JSON.parse
 console.log("原User-Agent: " + headers["User-Agent"]);
 headers["User-Agent"] = "pan.baidu.com";
+console.log("新User-Agent: " + headers["User-Agent"]);
 $done({ headers }); // 这里传递的键名应该是 headers，而不是 Header
