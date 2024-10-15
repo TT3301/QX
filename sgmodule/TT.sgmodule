@@ -21,10 +21,8 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 # URL-REGEX, xxxxxx, REJECT
 
 [URL Rewrite]
-# == 重定向 HTTP to HTTPS
-^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
+# == 重定向 HTTP to HTTPS ▶ www.jd.com
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
-^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
 # == 去广告•交管12123 ▶ gab.122.gov.cn
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
 # == 去广告•云闪付 ▶ wallet.95516.com
