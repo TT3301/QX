@@ -40,7 +40,7 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 [Header Rewrite]
 # == 更改百度网盘UA
-http-request ^http:\/\/(.*?)\.baidupcs\.com header-replace User-Agent pan.baidu.com
+http-request ^http:\/\/(.*?)\.baidupcs\.com.*$ header-replace User-Agent pan.baidu.com
 
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
