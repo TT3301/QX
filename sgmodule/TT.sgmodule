@@ -39,8 +39,8 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 
 [Header Rewrite]
-# == 更改百度网盘UA
-http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
+# == 更改百度网盘UA ▶ *.baidupcs.com
+# http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
 
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
@@ -104,4 +104,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, *.baidupcs.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, yunbusiness.ccb.com, image1.ccb.com
+hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, yunbusiness.ccb.com, image1.ccb.com
