@@ -1,7 +1,7 @@
 /***********************************
 
 [rewrite_local]
-^http:\/\/(.*?)\.baidupcs\.com url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
+^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
 
 [mitm] 
 hostname = *.baidupcs.com
