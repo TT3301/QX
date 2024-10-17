@@ -40,7 +40,7 @@ URL-REGEX,^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/act
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do.*$ data-type=text data="{}" status-code=200
-^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal\?.*$ data-type=text data="{}" status-code=200
+^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal.*$ data-type=text data="{}" status-code=200
 # == 去开屏•下厨房 ▶ api.xiachufang.com
 ^https:\/\/api\.xiachufang\.com\/v2\/ad\/ data-type=text data="{}"
 # == 禁止•百度输入法收集用户数据 ▶ mime.baidu.com
