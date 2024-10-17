@@ -38,10 +38,6 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4} - reject
 
 
-[Header Rewrite]
-# == 更改百度网盘UA ▶ *.baidupcs.com
-http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
-
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do\ data-type=text data="{}" status-code=200
