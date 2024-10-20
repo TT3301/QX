@@ -152,6 +152,7 @@ DOMAIN-SUFFIX,igexin.com,REJECT
 # 友盟
 DOMAIN,cnlogs.umeng.com,REJECT
 DOMAIN,ucc.umeng.com,REJECT
+DOMAIN,ulogs.umengcloud.com,REJECT
 DOMAIN,ulogs.umeng.com,REJECT
 DOMAIN,deeplink.umeng.com,REJECT
 DOMAIN,aspect-upush.umeng.com,REJECT
