@@ -4,6 +4,10 @@ DOMAIN, ab.chatgpt.com
 DOMAIN, ios.chat.openai.com
 DOMAIN, chat.openai.com
 DOMAIN, browser-intake-datadoghq.com
+DOMAIN, openaiapi-site.azureedge.net
+DOMAIN, openaicom.imgix.net
+DOMAIN, openaicomproductionae4b.blob.core.windows.net
+DOMAIN, production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX, ai.com
 DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, chatgpt.com
