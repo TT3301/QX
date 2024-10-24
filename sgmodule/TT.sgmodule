@@ -4,6 +4,7 @@
 #!homepage=
 #!category=🌟🆃🆃收藏合集
 
+
 [Rule]
 # == 去广告•米家
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
@@ -14,28 +15,34 @@ DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
 # == 去广告•优酷
 DOMAIN, iyes.youku.com, REJECT
 # == 去广告•云闪付
-DOMAIN, ads.cup.com.cn:443, REJECT
-DOMAIN, switch.cup.com.cn, REJECT
-DOMAIN, tysdk.95516.com, REJECT
-
-# == 去开屏•建行生活 ▶ yunbusiness.ccb.com, image1.ccb.com
+DOMAIN, ads.95516.com, REJECT, extended-matching,pre-matching
+DOMAIN, switch.cup.com.cn, REJECT, extended-matching,pre-matching
+DOMAIN, tysdk.95516.com, REJECT, extended-matching,pre-matching
+# == 去广告•交管12123
+URL-REGEX, ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT
+# == 去开屏•中信银行
+URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT
+# == 去广告•京东 
+URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT
+URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT
+# == 去开屏•建行生活
 URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT
 URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT
+
 
 [URL Rewrite]
 # == 重定向 HTTP to HTTPS ▶ www.jd.com
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
-# == 去广告•交管12123 ▶ gab.122.gov.cn
-^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
-# == 去开屏•中信银行 ▶ imcs.citicbank.com
-^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} - reject
-# == 去广告•京东 ▶ api.m.jd.com, m.360buyimg.com
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
-^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4} - reject
+
 
 [Header Rewrite]
 # == 更改百度网盘UA ▶ *.baidupcs.com
 # http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
+
+
+[Body Rewrite]
+# http-response-jq ^https:\/\/resource\.moutai519\.com\.cn\/mt-resource\/static-union\/.*\.json$ '.popupList[0] |= (.lifeCycle = "exit" | .delay = 1)'
+
 
 [Map Local]
 # == 去广告•快递100 ▶ p.kuaidi100.com
@@ -100,4 +107,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, imcs.citicbank.com, mlife.jf365.boc.cn, ad.12306.cn, mobile.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, yunbusiness.ccb.com, image1.ccb.com
+hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, xremit.xcurrency.com, explorer.tratao.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, ad.12306.cn, mobile.12306.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com
