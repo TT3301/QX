@@ -64,8 +64,9 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
 
 [Script]
-# == 去开屏•12306 ▶ ad.12306.cn
+# == 去广告•12306 ▶ ad.12306.cn, mobile.12306.cn
 去开屏•12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/12306.js, requires-body=true
+移除APP内广告 = type=http-response, pattern=^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/12306_remove_ads.js
 
 # == 解锁•极简汇率 ▶ xremit.xcurrency.com, explorer.tratao.com
 解锁•极简汇率 = type=http-response, pattern=^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jijianhuilv.js, requires-body=true, max-size=-1, timeout=60
