@@ -1,5 +1,5 @@
 # 联通
-DOMAIN-SUFFIX, m1.ad.10010.com,REJECT
+DOMAIN-SUFFIX, m1.ad.10010.com,REJECT,pre-matching
 # 字节跳动广告
 DOMAIN,mon.zijieapi.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
