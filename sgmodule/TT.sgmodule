@@ -7,28 +7,28 @@
 
 [Rule]
 # == 去广告•米家
-DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
+DOMAIN, sdkconfig.ad.xiaomi.com, REJECT,pre-matching
 # == 去开屏•中国联通app
-DOMAIN-SUFFIX, m1.ad.10010.com, REJECT
+DOMAIN-SUFFIX, m1.ad.10010.com, REJECT,pre-matching
 # == 去广告•爱奇艺
-DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT,pre-matching
 # == 去广告•优酷
-DOMAIN, iyes.youku.com, REJECT
+DOMAIN, iyes.youku.com, REJECT,pre-matching
 # == 去广告•云闪付
 DOMAIN, ads.95516.com, REJECT, extended-matching,pre-matching
 DOMAIN, switch.cup.com.cn, REJECT, extended-matching,pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching,pre-matching
-URL-REGEX, ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1, REJECT
+URL-REGEX, ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1, REJECT,pre-matching
 # == 去广告•交管12123
-URL-REGEX, ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT
+URL-REGEX, ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT,pre-matching
 # == 去开屏•中信银行
-URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT
+URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT,pre-matching
 # == 去广告•京东 
-URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT
-URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT
+URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT,pre-matching
+URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT,pre-matching
 # == 去开屏•建行生活
-URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT
-URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT
+URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT,pre-matching
+URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT,pre-matching
 
 
 [URL Rewrite]
