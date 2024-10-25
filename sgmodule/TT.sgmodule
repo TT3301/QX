@@ -18,17 +18,17 @@ DOMAIN, iyes.youku.com, REJECT,pre-matching
 DOMAIN, ads.95516.com, REJECT, extended-matching,pre-matching
 DOMAIN, switch.cup.com.cn, REJECT, extended-matching,pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching,pre-matching
-URL-REGEX, ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1, REJECT,pre-matching
-# == 去广告•交管12123
-URL-REGEX, ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT,pre-matching
-# == 去开屏•中信银行
-URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT,pre-matching
-# == 去广告•京东 
+URL-REGEX, ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1, REJECT
+# == 去广告•交管12123 ▶ gab.122.gov.cn
+URL-REGEX, ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$, REJECT
+# == 去开屏•中信银行 ▶ 
+URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT
+# == 去广告•京东 ▶ 
 URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT,pre-matching
-URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT,pre-matching
-# == 去开屏•建行生活
-URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT,pre-matching
-URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT,pre-matching
+URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT
+# == 去开屏•建行生活 ▶ 
+URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT
+URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png, REJECT
 
 
 [URL Rewrite]
@@ -101,4 +101,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com
+hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, yunbusiness.ccb.com, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com, gab.122.gov.cn
