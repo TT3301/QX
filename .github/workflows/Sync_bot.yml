@@ -35,11 +35,8 @@ jobs:
         run: |
           curl -o rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
           curl -o rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js
-          curl -o rewrite/xiaohongshu.snippet https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
-          curl -o rewrite/Spotify.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/UnlockVip/Spotify.conf
           curl -o rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
           curl -o rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf
-          curl -o rewrite/boxjs.rewrite.quanx.conf https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
           curl -o rewrite/dlm.js https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
           curl -o rewrite/jhsh_checkIn.js https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
           curl -o rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
@@ -54,6 +51,7 @@ jobs:
       - name: Fetch the latest sgmodule files
         run: |
           curl -o sgmodule/Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/Location.sgmodule
+          curl -o sgmodule/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule
           curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
           
 
