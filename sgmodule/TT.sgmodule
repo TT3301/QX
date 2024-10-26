@@ -43,13 +43,9 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 
 [Body Rewrite]
 # http-response-jq ^https:\/\/resource\.moutai519\.com\.cn\/mt-resource\/static-union\/.*\.json$ '.popupList[0] |= (.lifeCycle = "exit" | .delay = 1)'
-# == 去广告•下厨房 ▶ api.xiachufang.com
-http-response-jq ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ '.content.tab_name = ["关注", "推荐"]'
 
 
 [Map Local]
-# == 去开屏•下厨房 ▶ api.xiachufang.com
-^https:\/\/api\.xiachufang\.com\/v2\/ad\/ data-type=text data="{}"
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do.*$ data-type=text data="{}" status-code=200
 ^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal.*$ data-type=text data="{}" status-code=200
@@ -103,4 +99,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, api.xiachufang.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, wallet.95516.com
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, wallet.95516.com
