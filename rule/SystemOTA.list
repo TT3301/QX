@@ -5,6 +5,6 @@
 
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,swcdn.apple.com,REJECT
-DOMAIN,swdist.apple.co,REJECT
-DOMAIN,swscan.apple.co,REJECT
+DOMAIN,swdist.apple.com,REJECT
+DOMAIN,swscan.apple.com,REJECT
 DOMAIN,mesu.apple.com,REJECT
