@@ -26,7 +26,7 @@ URL-REGEX, ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1, REJECT
 # == 去开屏•中信银行 ▶ imcs.citicbank.com
 URL-REGEX, ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4}, REJECT
 # == 去广告•京东 ▶ api.m.jd.com, m.360buyimg.com
-URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT,pre-matching
+URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts), REJECT
 URL-REGEX, ^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4}, REJECT
 # == 去开屏•建行生活 ▶ yunbusiness.ccb.com, image1.ccb.com
 URL-REGEX, ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9), REJECT
