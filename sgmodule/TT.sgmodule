@@ -6,10 +6,12 @@
 
 
 [Rule]
-# == 微信小程序通用规则
+# == 微信小程序•通用规则
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
+# 微信小程序•EMS ▶ ump.ems.com.cn
+URL-REGEX, ^https:\/\/ump\.ems\.com\.cn\/mailAd$, REJECT
 # == 去广告•米家
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT,pre-matching
 # == 去开屏•中国联通app
@@ -112,4 +114,4 @@ Cookie•奶茶多合一 = type=http-response, pattern=^https:\/\/(webapi|webapi
 Cookie•奶茶多合一 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, wallet.95516.com, webapi.qmai.cn, 3pp.starbucks.com.cn, dock.tenchii.com, afd.baidu.com
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, webapi2.qmai.cn, webapi.qmai.cn, qmwebapi.qmai.cn, yunbusiness.ccb.com, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, m.360buyimg.com, wallet.95516.com, webapi.qmai.cn, 3pp.starbucks.com.cn, dock.tenchii.com, afd.baidu.com, ump.ems.com.cn
