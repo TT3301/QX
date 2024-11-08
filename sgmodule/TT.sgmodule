@@ -11,7 +11,7 @@ DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
 # 微信小程序•EMS ▶ ump.ems.com.cn
-URL-REGEX, ^https:\/\/ump\.ems\.com\.cn\/mailAd$, REJECT
+URL-REGEX, ^https:\/\/ump\.ems\.com\.cn\/mailAd.*$, REJECT
 # == 去广告•米家
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT,pre-matching
 # == 去开屏•中国联通app
