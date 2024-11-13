@@ -15,6 +15,10 @@ DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, sentry.io
 DOMAIN-KEYWORD, openai
 
+# Apple Intelligence
+DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN-SUFFIX, apple-relay.apple.com
+
 # Claude.ai
 DOMAIN-SUFFIX, claude.ai
 DOMAIN-SUFFIX, claude.site
