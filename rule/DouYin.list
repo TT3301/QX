@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 # > 抖音ip定位
 DOMAIN-SUFFIX,open-douyin.com
+DOMAIN,lf9-webcast-cdn-tos-ncdn.bytegecko.com
 
 # DOMAIN-SUFFIX,gecko*.zijieapi.com
 # DOMAIN,sso.douyin.com
