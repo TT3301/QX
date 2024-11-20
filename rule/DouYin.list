@@ -5,6 +5,7 @@ USER-AGENT, Aweme*
 USER-AGENT, KCG-PD/* // 抖音定位判断API
 # DOMAIN-SUFFIX, douyinvod.com
 # DOMAIN-KEYWORD, trace/v3
+DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
 # IP-ASN, 133118,no-resolve // 中国联通IP网络
 # IP-ASN, 133119,no-resolve // 中国联通IP网络
