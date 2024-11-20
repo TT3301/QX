@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,-core-c-hl
 DOMAIN-KEYWORD,-normal-lf
 DOMAIN-KEYWORD,-normal-c-lf
 DOMAIN-KEYWORD,-core-c-lf
+# DOMAIN-SUFFIX,zijieapi.com
 
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
 # IP-ASN, 133118,no-resolve // 中国联通IP网络
