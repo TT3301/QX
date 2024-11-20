@@ -3,22 +3,18 @@
 
 # USER-AGENT, Aweme*
 USER-AGENT, KCG-PD/* // 抖音定位判断API
+DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 # DOMAIN-KEYWORD, trace/v3
 # DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 # > 抖音ip定位
-# DOMAIN,www.douyin.com
-# DOMAIN-KEYWORD,-core-c-hl
-# DOMAIN-KEYWORD,-core-c-lf
-# DOMAIN-KEYWORD,-normal-c-hl
-# DOMAIN-KEYWORD,-normal-c-lf
-# DOMAIN-KEYWORD,-normal-hl
-# DOMAIN-KEYWORD,-normal-lf
-# DOMAIN-KEYWORD,core-c-lq
-# DOMAIN-KEYWORD,core-lq
-# DOMAIN-KEYWORD,normal-c-lq
-# DOMAIN-KEYWORD,normal-lq
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,awemeughun.com
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,bytetcc.com
 
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
 # IP-ASN, 133118,no-resolve // 中国联通IP网络
