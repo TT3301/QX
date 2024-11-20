@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 # > 抖音ip定位
 DOMAIN-SUFFIX,open-douyin.com
-DOMAIN,natdetection.onethingpcs.com:8899
+DOMAIN,natdetection.onethingpcs.com
 DOMAIN,sd-gl.xinqiucc.com
 
 # DOMAIN-SUFFIX,gecko*.zijieapi.com
