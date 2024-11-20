@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 DOMAIN-SUFFIX,open-douyin.com
 DOMAIN,natdetection.onethingpcs.com
 DOMAIN,sd-gl.xinqiucc.com
+DOMAIN-SUFFIX,zijieapi.com
 
 # DOMAIN-SUFFIX,gecko*.zijieapi.com
 # DOMAIN,sso.douyin.com
