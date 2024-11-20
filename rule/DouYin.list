@@ -8,13 +8,7 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 # DOMAIN-SUFFIX,amemv.com
 
 # > 抖音ip定位
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-SUFFIX,awemeughun.com
-DOMAIN-SUFFIX,ecombdapi.com
-DOMAIN-SUFFIX,bytegecko.com
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,bytetcc.com
+
 
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
 # IP-ASN, 133118,no-resolve // 中国联通IP网络
