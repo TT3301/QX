@@ -8,6 +8,12 @@ USER-AGENT, KCG-PD/* // 抖音定位判断API
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 # > 抖音ip定位
+DOMAIN-KEYWORD,core-c-lq
+DOMAIN-KEYWORD,core-lq
+DOMAIN-KEYWORD,normal-c-lq
+DOMAIN-KEYWORD,normal-lq
+DOMAIN-KEYWORD,search-quic-lq
+DOMAIN-KEYWORD,search-lq
 # DOMAIN-SUFFIX,gecko*.zijieapi.com
 # DOMAIN,sso.douyin.com
 # DOMAIN,www.douyin.com
