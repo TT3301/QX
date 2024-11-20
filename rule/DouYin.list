@@ -7,14 +7,14 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 # DOMAIN-KEYWORD, trace/v3
 
 # > 抖音ip定位
-#DOMAIN-KEYWORD,-normal-hl
-#DOMAIN-KEYWORD,-normal-c-hl
-#DOMAIN-KEYWORD,-core-c-hl
-#DOMAIN-KEYWORD,-normal-lf
-#DOMAIN-KEYWORD,-normal-c-lf
-#DOMAIN-KEYWORD,-core-c-lf
-#DOMAIN-SUFFIX,zijieapi.com
-#DOMAIN-SUFFIX,amemv.com
+DOMAIN-KEYWORD,-normal-hl
+DOMAIN-KEYWORD,-normal-c-hl
+DOMAIN-KEYWORD,-core-c-hl
+DOMAIN-KEYWORD,-normal-lf
+DOMAIN-KEYWORD,-normal-c-lf
+DOMAIN-KEYWORD,-core-c-lf
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,amemv.com
 
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
 # IP-ASN, 133118,no-resolve // 中国联通IP网络
