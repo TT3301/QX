@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 # > 抖音ip定位
-DOMAIN,lf-webcast-gr-sourcecdn.bytegecko.com
+DOMAIN,bytegecko.com
 DOMAIN-SUFFIX,gecko*.zijieapi.com
 DOMAIN,sso.douyin.com
 DOMAIN,www.douyin.com
