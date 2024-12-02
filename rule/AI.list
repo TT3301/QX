@@ -35,6 +35,7 @@ DOMAIN, copilot-proxy.githubusercontent.com
 DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
 DOMAIN, www.bing.com
+DOMAIN, in.appcenter.ms
 
 # Gemini
 DOMAIN, bard.google.com
