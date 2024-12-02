@@ -1,3 +1,7 @@
+# 国家反诈中心
+DOMAIN-SUFFIX,gjfzpt.cn
+DOMAIN-SUFFIX,110.cqqgsafe.com,REJECT
+
 # 去开屏广告
 # 联通
 DOMAIN-SUFFIX, m1.ad.10010.com
