@@ -17,6 +17,7 @@ DOMAIN-KEYWORD, openai
 
 # Apple Intelligence
 DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN, apple-relay.cloudflare.com
 DOMAIN-SUFFIX, apple-relay.apple.com
 
 # Claude.ai
