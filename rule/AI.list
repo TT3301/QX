@@ -48,6 +48,7 @@ DOMAIN, aida.googleapis.com
 DOMAIN, aistudio.google.com
 DOMAIN, alkalimakersuite-pa.clients6.google.com
 DOMAIN, makersuite.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
 
 # Stripe
 DOMAIN, api.stripe.com
