@@ -106,10 +106,7 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 # == 解锁•Xmind旧版 ▶ *xmind.*
 解锁•Xmind旧版 = type=http-response, pattern=^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/Xmind.js, requires-body=true, max-size=-1, timeout=60
 
-# == 获取Cookie•建生生活 ▶ yunbusiness.ccb.com
-# Cookie•建行生活 = type=http-request, pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/jhsh_checkIn.js, requires-body=1, max-size=0
-
 
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, yunbusiness.ccb.com, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, image1.ccb.com, gab.122.gov.cn, imcs.citicbank.com, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn
