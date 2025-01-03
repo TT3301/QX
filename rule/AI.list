@@ -38,6 +38,7 @@ DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
 DOMAIN, www.bing.com
 DOMAIN, in.appcenter.ms
+DOMAIN-SUFFIX, bing.com
 
 # Gemini
 DOMAIN, bard.google.com
