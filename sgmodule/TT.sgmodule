@@ -40,6 +40,7 @@ URL-REGEX, ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/ac
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 # == 乐刻健身首页广告 ▶ lens.leoao.com
 ^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.leoao\.guide\.api\.BffApi\/homePageTopFloor - reject
+^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.bff\.ClientFrontFacade\/getPopupAggregations - reject
 
 [Header Rewrite]
 # == 更改百度网盘UA ▶ *.baidupcs.com
