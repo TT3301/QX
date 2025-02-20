@@ -1,6 +1,9 @@
 # vercel部署
 DOMAIN, gpt.haohao.one
 
+# Grok3
+# DOMAIN-SUFFIX, x.ai
+
 # ChatGPT
 DOMAIN, cdn.auth0.com
 DOMAIN, ab.chatgpt.com
@@ -35,9 +38,6 @@ IP-CIDR6, 2607:6bc0::/48, no-resolve
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,perplexity.com
-
-# Grok3
-DOMAIN-SUFFIX, x.ai
 
 # Copilot
 DOMAIN, api.githubcopilot.com
