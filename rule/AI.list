@@ -32,7 +32,9 @@ IP-CIDR, 160.79.104.0/23, no-resolve
 IP-CIDR6, 2607:6bc0::/48, no-resolve
 
 # Perplexity
-DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
 
 # Grok3
 DOMAIN-SUFFIX, x.ai
@@ -47,15 +49,14 @@ DOMAIN, in.appcenter.ms
 DOMAIN-SUFFIX, bing.com
 
 # Gemini
-DOMAIN, bard.google.com
-DOMAIN, gemini.google.com
-DOMAIN, generativelanguage.googleapis.com
-DOMAIN, ai.google.dev
-DOMAIN, aida.googleapis.com
-DOMAIN, aistudio.google.com
-DOMAIN, alkalimakersuite-pa.clients6.google.com
-DOMAIN, makersuite.google.com
-DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,aida.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
 
 # Stripe
 DOMAIN, api.stripe.com
@@ -70,8 +71,14 @@ DOMAIN-SUFFIX, stripe.network
 DOMAIN-SUFFIX, zi-scripts.com
 DOMAIN-SUFFIX, hcaptcha.com
 
-# thePorndb
-DOMAIN-SUFFIX, theporndb.net
+# Meta AI
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+
+# Mistral AI
+DOMAIN,chat.mistral.ai
+DOMAIN,console.mistral.ai
+DOMAIN-SUFFIX,mistral.ai
 
 # talkatone
 DOMAIN-SUFFIX,mobilefuse.com
