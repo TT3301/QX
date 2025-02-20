@@ -34,6 +34,9 @@ IP-CIDR6, 2607:6bc0::/48, no-resolve
 # Perplexity
 DOMAIN-SUFFIX, perplexity.ai
 
+# Grok3
+DOMAIN-SUFFIX, x.ai
+
 # Copilot
 DOMAIN, api.githubcopilot.com
 DOMAIN, copilot-proxy.githubusercontent.com
