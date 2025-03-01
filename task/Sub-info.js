@@ -1,11 +1,15 @@
 /*
-Surge配置参考注释,感谢@congcong.
+ * 由@mieqq编写
+ * 原脚本地址：https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
+ * 由@Rabbit-Spec修改
+ * 更新日期：2022.08.24
+ * 版本：1.5
 
 示例↓↓↓ 
 ----------------------------------------
 
 [Script]
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=AmyInfo&icon=bonjour&color=#007aff
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=Nexitally&icon=externaldrive.fill.badge.icloud&color=#007aff
 
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=600
@@ -26,8 +30,6 @@ Sub_info = script-name=Sub_info,update-interval=600
 
 可选参数"color=xxx" 当使用 icon 字段时，可传入 color 字段控制图标颜色，字段内容为颜色的 HEX 编码。如：color=#007aff
 ----------------------------------------
-
-有些服务端不支持head访问，可以添加参数&method=get
 */
 
 let args = getArgs();
