@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,110.cqqgsafe.com,REJECT
 # 联通
 DOMAIN-SUFFIX, m1.ad.10010.com,REJECT
 # 字节跳动广告
+DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,mon.zijieapi.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
