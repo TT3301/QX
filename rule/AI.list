@@ -20,6 +20,8 @@ DOMAIN-SUFFIX, chatgpt.com
 DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, sentry.io
 DOMAIN-KEYWORD, openai
+DOMAIN, api-iam.intercom.io
+DOMAIN, js.intercomcdn.com
 
 # Apple Intelligence
 DOMAIN-SUFFIX, guzzoni.apple.com
