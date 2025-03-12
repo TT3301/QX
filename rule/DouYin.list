@@ -1,8 +1,9 @@
 # NAME: DouYin
 # REPO: https://raw.githubusercontent.com/As-Lucky/Lucky/refs/heads/main/fanqie.sgmodule
 
-USER-AGENT, Aweme*
-USER-AGENT, KCG-PD/* // 抖音定位判断API
+USER-AGENT,Aweme*
+USER-AGENT,KCG-PD/* // 抖音定位判断API
+USER-AGENT,ttplayer* // 抖音定位判断API
 DOMAIN-SUFFIX,zijieapi.com // 抖音定位判断API
 DOMAIN-SUFFIX,vcloud.ks-live.com // 抖音定位判断API
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
