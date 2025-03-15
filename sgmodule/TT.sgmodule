@@ -110,4 +110,4 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, image1.ccb.com, imcs.citicbank.com, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, client.app.coc.10086.cn, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, image1.ccb.com, imcs.citicbank.com, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, , yunbusiness.ccb.com
