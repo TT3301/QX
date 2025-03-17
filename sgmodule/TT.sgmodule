@@ -36,10 +36,11 @@ URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryM
 ^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.leoao\.guide\.api\.BffApi\/homePageTopFloor - reject
 
 [Header Rewrite]
+# == Sub-Store改UA ▶ substore.haohao.one
+http-request ^https:\/\/substore\.haohao\.one\/.*$ header-replace User-Agent "Surge iOS/3367"
 # == 更改百度网盘UA ▶ *.baidupcs.com
 http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-add User-Agent pan.baidu.com
 http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
-
 
 [Body Rewrite]
 # http-response-jq ^https:\/\/resource\.moutai519\.com\.cn\/mt-resource\/static-union\/.*\.json$ '.popupList[0] |= (.lifeCycle = "exit" | .delay = 1)'
@@ -96,4 +97,4 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com, substore.haohao.one, *.baidupcs.com
