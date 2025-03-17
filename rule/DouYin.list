@@ -3,14 +3,13 @@
 
 USER-AGENT,Aweme*
 USER-AGENT,KCG-PD/* // 抖音定位判断API
+DOMAIN-KEYWORD,zijieapi.com
 USER-AGENT,ttplayer* // 抖音定位判断API
-DOMAIN-SUFFIX,zijieapi.com // 抖音定位判断API
 DOMAIN-SUFFIX,vcloud.ks-live.com // 抖音定位判断API
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
-# DOMAIN-KEYWORD, trace/v3
 
 
-# > 抖音ip定位
+# > 抖音评论ip定位
 DOMAIN-KEYWORD,core-c-lq
 DOMAIN-KEYWORD,core-lq
 DOMAIN-KEYWORD,normal-c-lq
