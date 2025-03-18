@@ -4,6 +4,7 @@
 USER-AGENT,Aweme*
 USER-AGENT,KCG-PD/* // 抖音定位判断API
 DOMAIN-KEYWORD,zijieapi
+DOMAIN,api.amemv.com
 USER-AGENT,ttplayer* // 抖音定位判断API
 DOMAIN-SUFFIX,vcloud.ks-live.com // 抖音定位判断API
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
