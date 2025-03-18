@@ -10,18 +10,9 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 
 # > 抖音评论ip定位
-DOMAIN-KEYWORD,core-c-lq
-DOMAIN-KEYWORD,core-lq
-DOMAIN-KEYWORD,normal-c-lq
-DOMAIN-KEYWORD,normal-lq
 DOMAIN-KEYWORD,search-quic-lq
-DOMAIN-KEYWORD,search-lq
-DOMAIN-KEYWORD,-normal-hl
-DOMAIN-KEYWORD,-normal-c-hl
-DOMAIN-KEYWORD,-core-c-hl
-DOMAIN-KEYWORD,-normal-lf
-DOMAIN-KEYWORD,-normal-c-lf
-DOMAIN-KEYWORD,-core-c-lf
+DOMAIN-KEYWORD,-search-
+DOMAIN-KEYWORD,-core-
 DOMAIN-KEYWORD,-normal-
 
 # IP-ASN, 17621,no-resolve // 中国联通上海城网
