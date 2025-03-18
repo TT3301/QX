@@ -10,7 +10,7 @@
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT,extended-matching,pre-matching
-# 微信小程序•EMS ▶ ump.ems.com.cn
+# == 微信小程序•EMS ▶ ump.ems.com.cn
 URL-REGEX, ^https:\/\/ump\.ems\.com\.cn\/mailAd.*$, REJECT
 # == 去广告•米家
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT,pre-matching
@@ -50,7 +50,7 @@ http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent 
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do.*$ data-type=text data="{}" status-code=200
 ^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal.*$ data-type=text data="{}" status-code=200
-# 去开屏•百度地图 ▶ afd.baidu.com
+# == 去开屏•百度地图 ▶ afd.baidu.com
 ^https:\/\/afd\.baidu\.com\/afd\/entry\?action=(update|query) data-type=text data="{}" status-code=200
 # == 禁止•百度输入法收集用户数据 ▶ mime.baidu.com
 ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data-type=text data="{}" status-code=200
