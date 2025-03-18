@@ -50,7 +50,9 @@ jobs:
 
       - name: Fetch the latest sgmodule files
         run: |
-          curl -o sgmodule/Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/Location.sgmodule
+          curl -o sgmodule/iRingo.Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.sgmodule
+          curl -o sgmodule/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
+          curl -o sgmodule/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule
           curl -o sgmodule/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule
           curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
           curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
