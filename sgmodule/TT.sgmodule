@@ -43,13 +43,13 @@ http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-add User-Agent pan.
 http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent pan.baidu.com
 
 [Body Rewrite]
+# == 去开屏&弹窗•乐刻 ▶ lens.leoao.com
+http-response-jq ^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.A.*$ ".data = []"
+http-response-jq ^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.bff\.ClientFrontFacade\/getPopupAggregations ".data = {}"
+
 # http-response-jq ^https:\/\/resource\.moutai519\.com\.cn\/mt-resource\/static-union\/.*\.json$ '.popupList[0] |= (.lifeCycle = "exit" | .delay = 1)'
 
 [Map Local]
-# == 去开屏&弹窗•乐刻 ▶ lens.leoao.com
-^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.A.*$ data-type=text data="{}" status-code=200
-^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.bff\.ClientFrontFacade\/getPopupAggregations data-type=text data="{}" status-code=200
-
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do.*$ data-type=text data="{}" status-code=200
 ^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal.*$ data-type=text data="{}" status-code=200
@@ -100,4 +100,4 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com, substore.haohao.one, *.baidupcs.com
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com, substore.haohao.one, *.baidupcs.com, lens.leoao.com
