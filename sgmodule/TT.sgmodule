@@ -45,8 +45,11 @@ http-request ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ header-replace User-Agent 
 [Body Rewrite]
 # http-response-jq ^https:\/\/resource\.moutai519\.com\.cn\/mt-resource\/static-union\/.*\.json$ '.popupList[0] |= (.lifeCycle = "exit" | .delay = 1)'
 
-
 [Map Local]
+# == 去开屏&弹窗•乐刻 ▶ lens.leoao.com
+^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.A.*$ data-type=text data="{}" status-code=200
+^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.bff\.ClientFrontFacade\/getPopupAggregations data-type=text data="{}" status-code=200
+
 # == 去广告•快递100 ▶ p.kuaidi100.com
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mainapi\.do.*$ data-type=text data="{}" status-code=200
 ^https:\/\/p\.kuaidi100\.com\/advertisement\/ad\/multi\/terminal.*$ data-type=text data="{}" status-code=200
