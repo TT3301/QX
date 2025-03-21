@@ -1,6 +1,6 @@
 # SSID:TT-PacMan
 IP-CIDR, 192.168.7.0/24
-# 当一个使用域名的请求遇到 IP-CIDR 规则时，Surge 需要进行 DNS查询才能确定是否应该执行规则。启用该选项后将会使域名请求跳过该规则。
+# 当一个使用域名的请求遇到 IP-CIDR 规则时，Surge 需要进行 DNS查询才能确定是否应该执行规则。启用no-resolve后将会使域名请求跳过该规则。
 
 # Tailscale
 IP-CIDR, 100.64.0.0/10, no-resolve
@@ -9,13 +9,13 @@ IP-CIDR, 100.64.0.0/10, no-resolve
 IP-CIDR, 192.168.168.0/24, no-resolve
 
 # 抖音定位判断API
+USER-AGENT,Aweme*
 USER-AGENT,KCG-PD/*
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
-# > 抖音评论ip定位
-DOMAIN-KEYWORD,-if
-DOMAIN-KEYWORD,-search-
-DOMAIN-KEYWORD,-core-
-DOMAIN-KEYWORD,-normal-
+# DOMAIN-KEYWORD,-if
+# DOMAIN-KEYWORD,-search-
+# DOMAIN-KEYWORD,-core-
+# DOMAIN-KEYWORD,-normal-
 
 DOMAIN, ipdata.co
 #简单解释下中间的 IP 怎么来的，192.168.3.0 是根据我的网关来的（一般就是你路由器地址），我的网关地址是 192.168.3.1，那就填 192.168.3.0。 24 是子网掩码，如果你的子网掩码是 255.255.255.0（简单来说就是你网络的设备 IP 地址只有最后一位是变的），那就是 3x8 = 24。如果子网掩码是 255.255.0.0，那就是 2x8 = 16。
