@@ -10,6 +10,7 @@ IP-CIDR, 192.168.168.0/24, no-resolve
 
 # 抖音定位判断API
 USER-AGENT,KCG-PD/*
+DOMAIN-KEYWORD,zijieapi
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 DOMAIN, ipdata.co
