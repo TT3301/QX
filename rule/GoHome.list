@@ -10,8 +10,12 @@ IP-CIDR, 192.168.168.0/24, no-resolve
 
 # 抖音定位判断API
 USER-AGENT,KCG-PD/*
-DOMAIN,api.amemv.com
 DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
+# > 抖音评论ip定位
+DOMAIN-KEYWORD,-if
+DOMAIN-KEYWORD,-search-
+DOMAIN-KEYWORD,-core-
+DOMAIN-KEYWORD,-normal-
 
 DOMAIN, ipdata.co
 #简单解释下中间的 IP 怎么来的，192.168.3.0 是根据我的网关来的（一般就是你路由器地址），我的网关地址是 192.168.3.1，那就填 192.168.3.0。 24 是子网掩码，如果你的子网掩码是 255.255.255.0（简单来说就是你网络的设备 IP 地址只有最后一位是变的），那就是 3x8 = 24。如果子网掩码是 255.255.0.0，那就是 2x8 = 16。
