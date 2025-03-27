@@ -9,13 +9,13 @@ IP-CIDR, 100.64.0.0/10, no-resolve
 IP-CIDR, 192.168.168.0/24, no-resolve
 
 # 抖音定位判断API
-USER-AGENT,KCG-PD/*
-DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
-DOMAIN-KEYWORD,zijieapi
-DOMAIN-KEYWORD,-if
-DOMAIN-KEYWORD,-search-
-DOMAIN-KEYWORD,-core-
-DOMAIN-KEYWORD,-normal-
+# USER-AGENT,KCG-PD/*
+# DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
+# DOMAIN-KEYWORD,zijieapi
+# DOMAIN-KEYWORD,-if
+# DOMAIN-KEYWORD,-search-
+# DOMAIN-KEYWORD,-core-
+# DOMAIN-KEYWORD,-normal-
 
 # 查询 IP 回家节点
 DOMAIN, ipdata.co
