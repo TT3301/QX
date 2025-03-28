@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
 
 
 # > 抖音评论ip定位
-DOMAIN-KEYWORD,-if
-DOMAIN-KEYWORD,-search-
+DOMAIN-KEYWORD,-if-
 DOMAIN-KEYWORD,-core-
 DOMAIN-KEYWORD,-normal-
