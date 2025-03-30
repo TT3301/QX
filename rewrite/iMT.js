@@ -93,7 +93,7 @@ let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
 let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;17.4;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
-const Item_ID_Count = 10941; //对应下面的获取门店指定端口库存查询
+const Item_ID_Count = 11318; //对应下面的获取门店指定端口库存查询
 
 if ($.isNode()) {
   MT_PROVINCE = process.env.MT_PROVINCE ? process.env.MT_PROVINCE : MT_PROVINCE;
