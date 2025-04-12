@@ -1,11 +1,13 @@
 # 国家反诈中心
-DOMAIN-SUFFIX,gjfzpt.cn
-DOMAIN-SUFFIX,110.cqqgsafe.com,REJECT
-
-# 去开屏广告
+host-suffix,gjfzpt.cn,reject
+host-suffix,110.cqqgsafe.com,reject
 # 联通
-DOMAIN-SUFFIX, m1.ad.10010.com
-# 建设银行
-DOMAIN-KEYWORD, adv.ccb.com
+host-suffix, m1.ad.10010.com,reject
 # 云闪付
-DOMAIN, ads.95516.com
+DOMAIN, ads.95516.com,reject
+
+
+# 直连规则
+host, alist.haohao.one, direct
+
+
