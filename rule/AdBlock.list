@@ -1,10 +1,15 @@
+# 防止 DNS 污染解析成0.0.0.0,拒绝应用循环请求
+IP-CIDR,0.0.0.0/32,REJECT,no-resolve
+
 # 微信热更新
 # DOMAIN, dl.wechat.com, REJECT
 # DOMAIN, dldir1.qq.com, REJECT
 # DOMAIN, dldir1v6.qq.com, REJECT
+
 # 国家反诈中心
 DOMAIN-SUFFIX,gjfzpt.cn,REJECT
 DOMAIN-SUFFIX,110.cqqgsafe.com,REJECT
+
 # 联通
 DOMAIN-SUFFIX, m1.ad.10010.com,REJECT
 # 字节跳动广告

@@ -34,6 +34,8 @@ URL-REGEX, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryM
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 # == 乐刻健身首页广告 ▶ lens.leoao.com
 ^https:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.leoao\.guide\.api\.BffApi\/homePageTopFloor - reject
+# == 去广告•交管12123 ▶ gab.122.gov.cn
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
 
 [Header Rewrite]
 # == Sub-Store改UA ▶ substore.haohao.one
@@ -98,4 +100,4 @@ Cookie•高德打车 = type=http-response, pattern=^https?:\/\/(m5(|-zb)|dache)
 解锁•Xmind旧版 = type=http-response, pattern=^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+), script-path=https://raw.githubusercontent.com/TT3301/QX/main/rewrite/Xmind.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com, substore.haohao.one, *.baidupcs.com
+hostname = %APPEND% p.kuaidi100.com, mime.baidu.com, mbasecc.bas.cmbchina.com, image.spdbccc.com, acs.m.taobao.com, home.mi.com, app.ceair.com, mlife.jf365.boc.cn, app.moutai519.com.cn, hweb-personalcenter.huazhu.com, game.dominos.com.cn, mcs-mimp-web.sf-express.com, wx.10099.com.cn, *.amap.com, *xmind.*, api.m.jd.com, wallet.95516.com, 3pp.starbucks.com.cn, dock.tenchii.com, webapi.qmai.cn, afd.baidu.com, ump.ems.com.cn, yunbusiness.ccb.com, lens.leoao.com, substore.haohao.one, *.baidupcs.com, gab.122.gov.cn
