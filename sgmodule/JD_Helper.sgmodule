@@ -1,0 +1,13 @@
+#!category=🌐 Remote_Module
+#!name=京东助手
+#!desc=京东助手 点击详情页面触发佣金返利和历史价格
+#!arguments=JD_UNION_ID:null,JD_POSITION_ID:null,JTT_APPID:null,JTT_APPKEY:null,ENGINE:auto,TIMEOUT:120,MMMCK_SCRIPT:慢慢买CK,DISABLE_NOTICE:true,THEME_TIME:7-19
+#!arguments-desc=[参数设置]\nJD_UNION_ID: 填写京东联盟ID\n   ├ 获取方式：登录京东联盟官网https://union.jd.com/index\n   └ 参考格式：12345678\nJD_POSITION_ID: 填写推广位ID\n   ├ 获取方式：在京东联盟后台创建推广位\n   └ 参考格式：1234567890\nJTT_APPID: 填写京推推AppID\n   ├ 获取方式：登录京推推官网https://www.jingtuitui.com/user/login\n   └ 参考格式：1234567890123456\nJTT_APPKEY: 填写京推推AppKey\n   ├ 获取方式：登录京推推官网\n   └ 参考格式：b123456ce90123456lk890126789012\nENGINE: 脚本执行引擎\n   ├ auto：自动选择（默认值）\n   ├ jsc：JavaScriptCore 引擎\n   └ webview：WebView 引擎\nTIMEOUT: 脚本超时（单位：秒）\n   ├ 120：脚本超时（默认值）\n   └ 可自定义\nMMMCK_SCRIPT: 慢慢买 CK 脚本启停\n   ├ 慢慢买CK：启用（默认值）\n   └ 填入"#"：获取后注释停用\nDISABLE_NOTICE: 是否启用转链及通知功能\n   ├ true：启用转链与通知功能（默认）\n   └ false：禁用转链与通知，仅显示比价图表\nTHEME_TIME: 自定义暗黑模式时间范围\n   ├ 格式：起始小时-结束小时（默认 7~19为明亮模式）\n   └ 示例：6-22 表示每天 22:00~6:00 为暗黑模式时间段
+
+[Script]
+京东助手 = type=http-response,pattern=^https:\/\/in\.m\.jd\.com\/product\/.+?\.html,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price1.js,argument=jd_union_id={{{JD_UNION_ID}}}&jd_position_id={{{JD_POSITION_ID}}}&jtt_appid={{{JTT_APPID}}}&jtt_appkey={{{JTT_APPKEY}}}&engine={{{ENGINE}}}&timeout={{{TIMEOUT}}}&disable_notice={{{DISABLE_NOTICE}}}&theme_time={{{THEME_TIME}}}
+
+{{{MMMCK_SCRIPT}}} = type=http-request,pattern=^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com/baoliao\/center\/menu,requires-body=1,max-size=0,binary-body-mode=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price1.js
+
+[MITM]
+hostname = %APPEND% in.m.jd.com, lite-in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com
