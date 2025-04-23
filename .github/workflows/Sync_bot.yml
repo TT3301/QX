@@ -96,7 +96,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m '机器人同步: Update Finish【👌】'
+          git commit -m '同步机器人: Update Finish【👌】'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
