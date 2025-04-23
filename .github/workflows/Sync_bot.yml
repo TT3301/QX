@@ -62,7 +62,14 @@ jobs:
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换参数内容
           # 使用 for 循环处理每个文件，sed 命令进行文本替换
           for file in sgmodule/*.sgmodule; do
-            LC_ALL=C sed -i 's/#!category=.*/#!category=🌐 Remote_Module/' "$file"
+            # 检查文件是否存在且不为空，避免处理空文件
+            if [ -s "$file" ]; then
+              echo "处理文件: $file"
+              # 使用更宽松的匹配模式，兼容特殊字符和不同格式
+              LC_ALL=C sed -i '/^#!category[ =]/ s/.*/#!category=🌐 Remote_Module/' "$file"
+            else
+              echo "文件 $file 为空或不存在，跳过处理"
+            fi
           done
 
       - name: 获取最新的 HTTP 后端文件
