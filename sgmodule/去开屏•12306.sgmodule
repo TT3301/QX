@@ -1,7 +1,7 @@
 #!name=去开屏 ▶ 12306
 #!desc=去开屏广告
 #!icon= https://raw.githubusercontent.com/TT3301/QX/main/icon/12306.png
-#!category=💎Local_Module
+#!category=🌐 Remote_Module
 
 [Script]
 #分别对应两个JS脚本

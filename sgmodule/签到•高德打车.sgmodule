@@ -1,6 +1,6 @@
 #!name=签到 ▶ 高德打车
 #!desc=ampDache
-#!category=💎Local_Module
+#!category=🌐 Remote_Module
 
 [Script]
 ampDache = type=http-response, pattern=^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js/_end_/ampDache.js?type=qx-script&target=surge-script&wrap_response=true, requires-body=true, max-size=-1, timeout=60
