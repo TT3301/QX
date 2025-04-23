@@ -22,16 +22,14 @@ jobs:
       - name: 检出代码仓库
         uses: actions/checkout@v3
 
-      - name: 获取QX解析器
-        run: curl -o general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-
-      - name: 获取 Task 脚本
+      - name: QX解析器 & Task脚本
         run: |
+          curl -o general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
           curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
           curl -o task/Sub-info.js https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js
           curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
 
-      - name: 获取 Rewrite 重写
+      - name: 同步 Rewrite 重写
         run: |
           curl -o rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
           curl -o rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js
@@ -43,12 +41,12 @@ jobs:
           curl -o rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
           curl -o rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js
 
-      - name: 获取 Rule 规则
+      - name: 同步 Rule 规则
         run: |
           curl -o rule/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
           curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
-      - name: 获取 sgmodule 文件
+      - name: 同步 sgmodule 文件
         run: |
           # 下载各个 sgmodule 文件到 sgmodule 目录，针对特定文件设置自定义 User-Agent
           # 使用 -L 参数跟随重定向，确保下载最新发布版本的文件
@@ -78,7 +76,7 @@ jobs:
             fi
           done
 
-      - name: 获取最新的 HTTP 后端文件
+      - name:  QX HTTP 后端文件
         run: curl -o http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js
 
       - name: 检查文件是否有变更
