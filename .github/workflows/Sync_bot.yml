@@ -60,7 +60,7 @@ jobs:
           curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
           
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换参数内容
-          # 使用 for 循环处理每个文件，sed 命令进行文本替换
+          # 使用 for 循环处理每个文件，sed 命令进行文本替换，增强匹配特殊字符
           for file in sgmodule/*.sgmodule; do
             # 检查文件是否存在且不为空，避免处理空文件
             if [ -s "$file" ]; then
@@ -81,10 +81,10 @@ jobs:
           git add general/ task/ rewrite/ rule/ sgmodule/ http_backend/
           if git diff --cached --quiet; then
             echo "未检测到文件变更"
-            echo "::set-output name=changed::false"
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "检测到文件变更"
-            echo "::set-output name=changed::true"
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: 提交并推送变更
