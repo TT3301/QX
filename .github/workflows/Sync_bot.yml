@@ -58,15 +58,21 @@ jobs:
           curl -o sgmodule/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule
           curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
           curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
+          curl -o sgmodule/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule
           
-          # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换参数内容
-          # 使用 for 循环处理每个文件，sed 命令进行文本替换，增强匹配特殊字符
+          # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
           for file in sgmodule/*.sgmodule; do
             # 检查文件是否存在且不为空，避免处理空文件
             if [ -s "$file" ]; then
               echo "处理文件: $file"
-              # 使用更宽松的匹配模式，兼容特殊字符和不同格式
-              LC_ALL=C sed -i '/^#!category[ =]/ s/.*/#!category=🌐 Remote_Module/' "$file"
+              # 检查文件是否包含 #!category 参数
+              if grep -q "^#!category" "$file"; then
+                # 如果存在，则替换现有内容
+                LC_ALL=C sed -i '/^#!category[ =]/ s/.*/#!category=🌐 Remote_Module/' "$file"
+              else
+                # 如果不存在，则在文件第一行插入 #!category 参数
+                LC_ALL=C sed -i '1i #!category=🌐 Remote_Module' "$file"
+              fi
             else
               echo "文件 $file 为空或不存在，跳过处理"
             fi
