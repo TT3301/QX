@@ -4,7 +4,7 @@
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://NSRingo.github.io/guide/GeoServices/location
 #!icon = https://images.macrumors.com/article-new/2019/07/ios_location_services-250x250.jpg
-#!category =  iRingo
+#!category=🌐 Remote_Module
 #!arguments = GeoCountryCode:US
 #!arguments-desc = GeoCountryCode: [地区检测] 地理国家或地区代码
 

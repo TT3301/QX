@@ -4,7 +4,7 @@
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://NSRingo.github.io/guide/GeoServices/maps
 #!icon = https://developer.apple.com/assets/elements/icons/maps/maps-128x128.png
-#!category =  iRingo
+#!category=🌐 Remote_Module
 #!date = 2024-12-10 16:10:46
 #!version = 4.2.2
 #!arguments = GeoManifest.Dynamic.Config.CountryCode:"CN",UrlInfoSet.Dispatcher:"AutoNavi",UrlInfoSet.Directions:"AutoNavi",UrlInfoSet.RAP:"Apple",UrlInfoSet.LocationShift:"AUTO",TileSet.Satellite:"HYBRID",TileSet.Flyover:"XX",TileSet.Munin:"XX",LogLevel:"WARN"
