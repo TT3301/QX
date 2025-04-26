@@ -36,7 +36,7 @@ jobs:
           curl -o rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
           curl -o rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf
           curl -o rewrite/dlm.js https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
-          curl -o rewrite/jhsh_checkIn.js https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+          curl -o rewrite/BilibiliDailyBonus.js https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
           curl -o rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
           curl -o rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
           curl -o rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js
