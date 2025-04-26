@@ -1,5 +1,5 @@
 # SSID:TT-PacMan
-IP-CIDR, 192.168.88.0/24
+IP-CIDR, 192.168.88.0/24, no-resolve
 # 当一个使用域名的请求遇到 IP-CIDR 规则时，Surge 需要进行 DNS查询才能确定是否应该执行规则。启用no-resolve后将会使域名请求跳过该规则。
 
 # Tailscale
@@ -7,15 +7,6 @@ IP-CIDR, 100.64.0.0/10, no-resolve
 
 # ZeroTier
 IP-CIDR, 192.168.168.0/24, no-resolve
-
-# 抖音定位判断API
-# USER-AGENT,KCG-PD/*
-# DOMAIN-SUFFIX,toutiaoapi.com // 头条ip定位api
-# DOMAIN-KEYWORD,zijieapi
-# DOMAIN-KEYWORD,-if
-# DOMAIN-KEYWORD,-search-
-# DOMAIN-KEYWORD,-core-
-# DOMAIN-KEYWORD,-normal-
 
 # 查询 IP 回家节点
 DOMAIN, ipdata.co
