@@ -35,8 +35,8 @@ DOMAIN-SUFFIX, observeit.net
 DOMAIN-SUFFIX, events.statsigapi.net
 DOMAIN-SUFFIX, featuregates.org
 DOMAIN-KEYWORD, openai
-IP-CIDR, 64.23.132.171/32
-IP-CIDR, 24.199.123.28/32
+IP-CIDR, 64.23.132.171/32, no-resolve
+IP-CIDR, 24.199.123.28/32, no-resolve
 IP-ASN, 20473
 
 # Apple Intelligence
@@ -110,7 +110,7 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,tktn.at
-IP-CIDR,50.117.27.0/24
-IP-CIDR,69.46.75.0/24
-IP-CIDR,205.164.56.0/24
-IP-CIDR,63.251.124.0/24
+IP-CIDR,50.117.27.0/24, no-resolve
+IP-CIDR,69.46.75.0/24, no-resolve
+IP-CIDR,205.164.56.0/24, no-resolve
+IP-CIDR,63.251.124.0/24, no-resolve
