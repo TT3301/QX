@@ -43,7 +43,7 @@ jobs:
 
       - name: 同步 Rule 规则
         run: |
-          curl -o rule/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
+          curl -o rule/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
           curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 
       - name: 同步 sgmodule 文件
@@ -55,8 +55,10 @@ jobs:
           curl -L -H "User-Agent: Surge iOS/3367" -o sgmodule/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule
           curl -o sgmodule/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule
           curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
-          curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
+          curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
           curl -o sgmodule/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule
+          curl -o sgmodule/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule
+          curl -o sgmodule/WeChat110.sgmodule hhttps://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
           
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
           for file in sgmodule/*.sgmodule; do
