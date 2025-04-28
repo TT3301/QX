@@ -58,7 +58,7 @@ jobs:
           curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
           curl -o sgmodule/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule
           curl -o sgmodule/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule
-          curl -o sgmodule/WeChat110.sgmodule hhttps://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
+          curl -o sgmodule/WeChat110.sgmodule https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
           
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
           for file in sgmodule/*.sgmodule; do
