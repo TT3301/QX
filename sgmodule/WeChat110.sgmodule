@@ -1,0 +1,10 @@
+#!category=🌐 Remote_Module
+#!name=解除微信链接限制
+#!desc=跳过中间界面，支付宝链接、被封禁链接进行通知弹窗跳转，在微信中用快照显示被封禁的链接（可选），在微信中进行强制重定向（可选），iOS / macOS、微信 / WeChat 、群聊 / 扫码均可使用，可选项可在脚本 2、3 行更改，也可在 BoxJs 中更改，对于 4.11.0（2010）以后版本也可直接使用 argument 参数（实例见下方注释）。
+
+[MITM]
+hostname = %APPEND% security.wechat.com, weixin110.qq.com
+
+[Script]
+解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+// 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js,argument=useCache=true&forceRedirect=false
