@@ -1,14 +1,12 @@
 /***********************************
-
 [rewrite_local]
 ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
 ^https?:\/\/raw\.githubusercontent\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
+^https?:\/\/gist\.githubusercontent\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
 
 [mitm]
-hostname = *.baidupcs.com, raw.githubusercontent.com
-
+hostname = *.baidupcs.com, raw.githubusercontent.com, gist.githubusercontent.com
 ***********************************/
-
 
 
 // 获取请求头
@@ -27,8 +25,8 @@ if (host.includes("baidupcs.com")) {
     console.log("原User-Agent: " + headers["User-Agent"]);
     headers["User-Agent"] = "pan.baidu.com";
     console.log("新User-Agent: " + headers["User-Agent"]);
-} else if (host === "raw.githubusercontent.com") {
-    // 对于 raw.githubusercontent.com 域名，修改 Accept-Language
+} else if (host === "raw.githubusercontent.com" || host === "gist.githubusercontent.com") {
+    // 对于 raw.githubusercontent.com 和 gist.githubusercontent.com 域名，修改 Accept-Language
     console.log("原Accept-Language: " + (headers["Accept-Language"] || "未设置"));
     headers["Accept-Language"] = "en-US";
     console.log("新Accept-Language: " + headers["Accept-Language"]);
