@@ -1,12 +1,12 @@
 /***********************************
 [rewrite_local]
 ^https?:\/\/([^\/]*)\.baidupcs\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
-^https?:\/\/raw\.githubusercontent\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
-^https?:\/\/gist\.githubusercontent\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
+^https?:\/\/(raw|gist)\.githubusercontent\.com\/.*$ url script-request-header https://raw.githubusercontent.com/TT3301/QX/refs/heads/main/rewrite/UA-PanBaidu.js
 
 [mitm]
 hostname = *.baidupcs.com, raw.githubusercontent.com, gist.githubusercontent.com
 ***********************************/
+
 
 
 // 获取请求头
