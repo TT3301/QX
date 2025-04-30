@@ -1,7 +1,7 @@
 # vercel部署
 DOMAIN, gpt.haohao.one
 
-# ChatGPT
+# ChatGPT & Claude
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,notebooklm.google
@@ -43,14 +43,6 @@ DOMAIN-SUFFIX, guzzoni.apple.com
 DOMAIN, apple-relay.cloudflare.com
 DOMAIN-SUFFIX, apple-relay.apple.com
 DOMAIN, configuration.apple.com
-
-# Claude.ai
-DOMAIN-SUFFIX, claude.ai
-DOMAIN-SUFFIX, claude.site
-DOMAIN-SUFFIX, anthropic.com
-DOMAIN-SUFFIX, claudeusercontent.com
-IP-CIDR, 160.79.104.0/23, no-resolve
-IP-CIDR6, 2607:6bc0::/48, no-resolve
 
 # Perplexity
 DOMAIN-SUFFIX,pplx.ai
