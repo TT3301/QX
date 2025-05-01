@@ -44,7 +44,8 @@ jobs:
       - name: 同步 Rule 规则
         run: |
           curl -o rule/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
-          curl -o rule/ASN.China.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+          curl -o rule/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf
+          curl -o rule/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf
 
       - name: 同步 sgmodule 文件
         run: |
