@@ -328,7 +328,7 @@ async function getDirectRequestInfo({ PROXIES = [] } = {}) {
   const { CN_IP, CN_INFO } = await getDirectInfo(undefined, $.lodash_get(arg, 'DOMESTIC_IPv4'))
   const { POLICY } = await getRequestInfo(
     new RegExp(
-      `cip\\.cc|for${keyb}\\.${keya}${bay}\\.cn|rmb\\.${keyc}${keyd}\\.com\\.cn|api-v3\\.${keya}${bay}\\.cn|ipservice\\.ws\\.126\\.net|api\\.bilibili\\.com|api\\.live\\.bilibili\\.com|myip\\.ipip\\.net|ip\\.ip233\\.cn|ua${keye}\\.wo${keyf}x\\.cn|ip\\.im|ips\\.market\\.alicloudapi\\.com|api\\.ip\\.plus|appc\\.${keyg}${keyh}\\.com|webapi\\.designkit\\.com|dashi\\.163\\.com`
+      `cip\\.cc|for${keyb}\\.${keya}${bay}\\.cn|rmb\\.${keyc}${keyd}\\.com\\.cn|api-v3\\.${keya}${bay}\\.cn|ipservice\\.ws\\.126\\.net|api\\.bilibili\\.com|api\\.live\\.bilibili\\.com|myip\\.ipip\\.net|ip\\.ip233\\.cn|ua${keye}\\.wo${keyf}x\\.cn|ip\\.im|ips\\.market\\.alicloudapi\\.com|api\\.ip\\.plus|appc\\.${keyg}${keyh}\\.com|qifu-api\\.baidubce\\.com|dashi\\.163\\.com`
     ),
     PROXIES
   )
@@ -452,10 +452,10 @@ async function getDirectInfo(ip, provider) {
     } catch (e) {
       $.logErr(`${msg} 发生错误: ${e.message || e}`)
     }
-  } else if (!ip && provider == 'designkit') {
+  } else if (!ip && provider == 'baidu') {
     try {
       const res = await http({
-        url: `https://webapi.designkit.com/common/ip_location`,
+        url: `https://qifu-api.baidubce.com/ip/local/geo/v1/district`,
         headers: {
           'User-Agent':
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.14',
@@ -465,15 +465,13 @@ async function getDirectInfo(ip, provider) {
       try {
         body = JSON.parse(body)
       } catch (e) {}
-      let data = $.lodash_get(body, 'data')
-      const ip = Object.keys(data)?.[0]
-      data = data[ip]
-      const countryCode = data?.nation_code
-      isCN = countryCode === 'CN'
+      const data = body?.data
+      const ip = body?.ip
+      isCN = data?.country === '中国'
       CN_IP = ip
       CN_INFO = [
-        ['位置:', getflag(countryCode), data?.province, data?.city].filter(i => i).join(' '),
-        ['运营商:', data?.isp].filter(i => i).join(' '),
+        ['位置:', isCN ? getflag('CN') : '', data?.prov, data?.city, data?.district].filter(i => i).join(' '),
+        ['运营商:', data?.isp || data?.owner].filter(i => i).join(' '),
       ]
         .filter(i => i)
         .join('\n')
